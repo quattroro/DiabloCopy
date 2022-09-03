@@ -1,0 +1,2028 @@
+fileFormatVersion: 2
+guid: 222c02798e94b3c49a215ee36f0949a8
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 8400245096471353317
+    second: Warrior Heavy Armor Axe_Idle_0
+  - first:
+      213: -7260737483197843337
+    second: Warrior Heavy Armor Axe_Idle_1
+  - first:
+      213: 7059497600249740037
+    second: Warrior Heavy Armor Axe_Idle_2
+  - first:
+      213: 1022497372435052990
+    second: Warrior Heavy Armor Axe_Idle_3
+  - first:
+      213: 3126455948849830612
+    second: Warrior Heavy Armor Axe_Idle_4
+  - first:
+      213: 343079117846883735
+    second: Warrior Heavy Armor Axe_Idle_5
+  - first:
+      213: -1338701701494029328
+    second: Warrior Heavy Armor Axe_Idle_6
+  - first:
+      213: -8629806029691547449
+    second: Warrior Heavy Armor Axe_Idle_7
+  - first:
+      213: 3882898044814524842
+    second: Warrior Heavy Armor Axe_Idle_8
+  - first:
+      213: -3126503480942157946
+    second: Warrior Heavy Armor Axe_Idle_9
+  - first:
+      213: -650079289957788708
+    second: Warrior Heavy Armor Axe_Idle_10
+  - first:
+      213: -8066358076365900797
+    second: Warrior Heavy Armor Axe_Idle_11
+  - first:
+      213: 5893028943134057063
+    second: Warrior Heavy Armor Axe_Idle_12
+  - first:
+      213: 2415075403351723975
+    second: Warrior Heavy Armor Axe_Idle_13
+  - first:
+      213: -51197729330144182
+    second: Warrior Heavy Armor Axe_Idle_14
+  - first:
+      213: -7149842255233159969
+    second: Warrior Heavy Armor Axe_Idle_15
+  - first:
+      213: 1931449019724348834
+    second: Warrior Heavy Armor Axe_Idle_16
+  - first:
+      213: -2207366673119554605
+    second: Warrior Heavy Armor Axe_Idle_17
+  - first:
+      213: 2410470348353126909
+    second: Warrior Heavy Armor Axe_Idle_18
+  - first:
+      213: 1878405209425822343
+    second: Warrior Heavy Armor Axe_Idle_19
+  - first:
+      213: 7427483522246621363
+    second: Warrior Heavy Armor Axe_Idle_20
+  - first:
+      213: -1220905147182092863
+    second: Warrior Heavy Armor Axe_Idle_21
+  - first:
+      213: -6516325318584147509
+    second: Warrior Heavy Armor Axe_Idle_22
+  - first:
+      213: -3395889745242441989
+    second: Warrior Heavy Armor Axe_Idle_23
+  - first:
+      213: 1922944508736992826
+    second: Warrior Heavy Armor Axe_Idle_24
+  - first:
+      213: 5946540303326942243
+    second: Warrior Heavy Armor Axe_Idle_25
+  - first:
+      213: -3528795874711359278
+    second: Warrior Heavy Armor Axe_Idle_26
+  - first:
+      213: -5294424807706898834
+    second: Warrior Heavy Armor Axe_Idle_27
+  - first:
+      213: 5268036251797322677
+    second: Warrior Heavy Armor Axe_Idle_28
+  - first:
+      213: 3338142896751062997
+    second: Warrior Heavy Armor Axe_Idle_29
+  - first:
+      213: -8093900925493373290
+    second: Warrior Heavy Armor Axe_Idle_30
+  - first:
+      213: -916151851959821492
+    second: Warrior Heavy Armor Axe_Idle_31
+  - first:
+      213: 2963022291069849016
+    second: Warrior Heavy Armor Axe_Idle_32
+  - first:
+      213: 6648630530641582013
+    second: Warrior Heavy Armor Axe_Idle_33
+  - first:
+      213: -8607281572530938151
+    second: Warrior Heavy Armor Axe_Idle_34
+  - first:
+      213: 1898703348687352502
+    second: Warrior Heavy Armor Axe_Idle_35
+  - first:
+      213: 7146767482581118395
+    second: Warrior Heavy Armor Axe_Idle_36
+  - first:
+      213: 3229180258180438656
+    second: Warrior Heavy Armor Axe_Idle_37
+  - first:
+      213: 3532923747706283726
+    second: Warrior Heavy Armor Axe_Idle_38
+  - first:
+      213: -2623681749942517019
+    second: Warrior Heavy Armor Axe_Idle_39
+  - first:
+      213: -1975038465782767687
+    second: Warrior Heavy Armor Axe_Idle_40
+  - first:
+      213: -2552915700675880720
+    second: Warrior Heavy Armor Axe_Idle_41
+  - first:
+      213: -130722193022705200
+    second: Warrior Heavy Armor Axe_Idle_42
+  - first:
+      213: 74946158776882925
+    second: Warrior Heavy Armor Axe_Idle_43
+  - first:
+      213: -1574053858972627750
+    second: Warrior Heavy Armor Axe_Idle_44
+  - first:
+      213: 1155524465643523769
+    second: Warrior Heavy Armor Axe_Idle_45
+  - first:
+      213: -2064232665200285100
+    second: Warrior Heavy Armor Axe_Idle_46
+  - first:
+      213: -9184534137946480594
+    second: Warrior Heavy Armor Axe_Idle_47
+  - first:
+      213: -340437736866454527
+    second: Warrior Heavy Armor Axe_Idle_48
+  - first:
+      213: -8305044778143610198
+    second: Warrior Heavy Armor Axe_Idle_49
+  - first:
+      213: -1056966004458561801
+    second: Warrior Heavy Armor Axe_Idle_50
+  - first:
+      213: -2031544280279124933
+    second: Warrior Heavy Armor Axe_Idle_51
+  - first:
+      213: -5552069698909478638
+    second: Warrior Heavy Armor Axe_Idle_52
+  - first:
+      213: -8786772273238857978
+    second: Warrior Heavy Armor Axe_Idle_53
+  - first:
+      213: 8474336541863938612
+    second: Warrior Heavy Armor Axe_Idle_54
+  - first:
+      213: -8573517820462232193
+    second: Warrior Heavy Armor Axe_Idle_55
+  - first:
+      213: -8898224751704353864
+    second: Warrior Heavy Armor Axe_Idle_56
+  - first:
+      213: 3093847110825505389
+    second: Warrior Heavy Armor Axe_Idle_57
+  - first:
+      213: 498621694228080819
+    second: Warrior Heavy Armor Axe_Idle_58
+  - first:
+      213: 3087695222847728080
+    second: Warrior Heavy Armor Axe_Idle_59
+  - first:
+      213: 6865034852653955749
+    second: Warrior Heavy Armor Axe_Idle_60
+  - first:
+      213: -1267733534989644227
+    second: Warrior Heavy Armor Axe_Idle_61
+  - first:
+      213: -3698518793655284561
+    second: Warrior Heavy Armor Axe_Idle_62
+  - first:
+      213: -4348013450014771688
+    second: Warrior Heavy Armor Axe_Idle_63
+  - first:
+      213: -1023330967124060608
+    second: Warrior Heavy Armor Axe_Idle_64
+  - first:
+      213: -8554089055610189361
+    second: Warrior Heavy Armor Axe_Idle_65
+  - first:
+      213: -6956818887632232597
+    second: Warrior Heavy Armor Axe_Idle_66
+  - first:
+      213: 2314893523852799904
+    second: Warrior Heavy Armor Axe_Idle_67
+  - first:
+      213: -4695756230425963391
+    second: Warrior Heavy Armor Axe_Idle_68
+  - first:
+      213: 962081735617274839
+    second: Warrior Heavy Armor Axe_Idle_69
+  - first:
+      213: 3626391744756615411
+    second: Warrior Heavy Armor Axe_Idle_70
+  - first:
+      213: 5592114459897615541
+    second: Warrior Heavy Armor Axe_Idle_71
+  - first:
+      213: 6571345102451501976
+    second: Warrior Heavy Armor Axe_Idle_72
+  - first:
+      213: -4909907107297661282
+    second: Warrior Heavy Armor Axe_Idle_73
+  - first:
+      213: -7328323725456698855
+    second: Warrior Heavy Armor Axe_Idle_74
+  - first:
+      213: -1634174358605213165
+    second: Warrior Heavy Armor Axe_Idle_75
+  - first:
+      213: -5014770124151282312
+    second: Warrior Heavy Armor Axe_Idle_76
+  - first:
+      213: -31702838935933131
+    second: Warrior Heavy Armor Axe_Idle_77
+  - first:
+      213: -2101633666060840835
+    second: Warrior Heavy Armor Axe_Idle_78
+  - first:
+      213: -8401868625473468059
+    second: Warrior Heavy Armor Axe_Idle_79
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 96
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Warrior Heavy Armor Axe_Idle_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 679.125
+        width: 96
+        height: 95.875
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e75469a86aa39470800000000000000
+      internalID: 8400245096471353317
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior Heavy Armor Axe_Idle_1
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 679.125
+        width: 96
+        height: 95.875
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 778f0a26abdac3b90800000000000000
+      internalID: -7260737483197843337
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior Heavy Armor Axe_Idle_2
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 679.125
+        width: 96
+        height: 95.875
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50bbb932aaf58f160800000000000000
+      internalID: 7059497600249740037
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior Heavy Armor Axe_Idle_3
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 679.125
+        width: 96
+        height: 95.875
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb9f2cb51f3a03e00800000000000000
+      internalID: 1022497372435052990
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior Heavy Armor Axe_Idle_4
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 679.125
+        width: 96
+        height: 95.875
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4dad91dee17636b20800000000000000
+      internalID: 3126455948849830612
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior Heavy Armor Axe_Idle_5
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 679.125
+        width: 96
+        height: 95.875
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79d2e15d3acd2c400800000000000000
+      internalID: 343079117846883735
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior Heavy Armor Axe_Idle_6
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 679.125
+        width: 96
+        height: 95.875
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f3cc3e25e9fb6de0800000000000000
+      internalID: -1338701701494029328
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior Heavy Armor Axe_Idle_7
+      rect:
+        serializedVersion: 2
+        x: 672
+        y: 679.125
+        width: 96
+        height: 95.875
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c016bf7325cc3880800000000000000
+      internalID: -8629806029691547449
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior Heavy Armor Axe_Idle_8
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 679.125
+        width: 96
+        height: 95.875
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa18a340333d2e530800000000000000
+      internalID: 3882898044814524842
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior Heavy Armor Axe_Idle_9
+      rect:
+        serializedVersion: 2
+        x: 864
+        y: 679.125
+        width: 96
+        height: 95.875
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68f9b6526ad6c94d0800000000000000
+      internalID: -3126503480942157946
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior Heavy Armor Axe_Idle_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 582
+        width: 96
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd35a3e74547af6f0800000000000000
+      internalID: -650079289957788708
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior Heavy Armor Axe_Idle_11
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 582
+        width: 96
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3047b13211a8e0090800000000000000
+      internalID: -8066358076365900797
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior Heavy Armor Axe_Idle_12
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 582
+        width: 96
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 762e996e99e38c150800000000000000
+      internalID: 5893028943134057063
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior Heavy Armor Axe_Idle_13
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 582
+        width: 96
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7cf0092a842148120800000000000000
+      internalID: 2415075403351723975
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior Heavy Armor Axe_Idle_14
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 582
+        width: 96
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4c58f9bfeb1a4ff0800000000000000
+      internalID: -51197729330144182
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior Heavy Armor Axe_Idle_15
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 582
+        width: 96
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fdcefb0b958a6cc90800000000000000
+      internalID: -7149842255233159969
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior Heavy Armor Axe_Idle_16
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 582
+        width: 96
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ad327276a2edca10800000000000000
+      internalID: 1931449019724348834
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior Heavy Armor Axe_Idle_17
+      rect:
+        serializedVersion: 2
+        x: 672
+        y: 582
+        width: 96
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d35ca7b4bbdd51e0800000000000000
+      internalID: -2207366673119554605
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior Heavy Armor Axe_Idle_18
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 582
+        width: 96
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df14337b206b37120800000000000000
+      internalID: 2410470348353126909
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior Heavy Armor Axe_Idle_19
+      rect:
+        serializedVersion: 2
+        x: 864
+        y: 582
+        width: 96
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 782c114f59f611a10800000000000000
+      internalID: 1878405209425822343
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior Heavy Armor Axe_Idle_20
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 485
+        width: 96
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b8b39639e8b31760800000000000000
+      internalID: 7427483522246621363
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior Heavy Armor Axe_Idle_21
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 485
+        width: 96
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1cde3cdbc397e0fe0800000000000000
+      internalID: -1220905147182092863
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior Heavy Armor Axe_Idle_22
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 485
+        width: 96
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc168e0d5ac5195a0800000000000000
+      internalID: -6516325318584147509
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior Heavy Armor Axe_Idle_23
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 485
+        width: 96
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf6be66d4406fd0d0800000000000000
+      internalID: -3395889745242441989
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior Heavy Armor Axe_Idle_24
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 485
+        width: 96
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a367e0ea7dbafaa10800000000000000
+      internalID: 1922944508736992826
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior Heavy Armor Axe_Idle_25
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 485
+        width: 96
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 324985656ea568250800000000000000
+      internalID: 5946540303326942243
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior Heavy Armor Axe_Idle_26
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 485
+        width: 96
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d037fa29d2370fc0800000000000000
+      internalID: -3528795874711359278
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior Heavy Armor Axe_Idle_27
+      rect:
+        serializedVersion: 2
+        x: 672
+        y: 485
+        width: 96
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6e4d9e30bc6686b0800000000000000
+      internalID: -5294424807706898834
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior Heavy Armor Axe_Idle_28
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 485
+        width: 96
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5bb724c4f03db1940800000000000000
+      internalID: 5268036251797322677
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior Heavy Armor Axe_Idle_29
+      rect:
+        serializedVersion: 2
+        x: 864
+        y: 485
+        width: 96
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5df27524747735e20800000000000000
+      internalID: 3338142896751062997
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior Heavy Armor Axe_Idle_30
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 388
+        width: 96
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69613c8ddffacaf80800000000000000
+      internalID: -8093900925493373290
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior Heavy Armor Axe_Idle_31
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 388
+        width: 96
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4b5e9f9ebc2943f0800000000000000
+      internalID: -916151851959821492
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior Heavy Armor Axe_Idle_32
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 388
+        width: 96
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8bd48c03315ce1920800000000000000
+      internalID: 2963022291069849016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior Heavy Armor Axe_Idle_33
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 388
+        width: 96
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db755bddd3ea44c50800000000000000
+      internalID: 6648630530641582013
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior Heavy Armor Axe_Idle_34
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 388
+        width: 96
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9de178b530bcc8880800000000000000
+      internalID: -8607281572530938151
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior Heavy Armor Axe_Idle_35
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 388
+        width: 96
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b2ba58c2ac895a10800000000000000
+      internalID: 1898703348687352502
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior Heavy Armor Axe_Idle_36
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 388
+        width: 96
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bbd6f83092b6e2360800000000000000
+      internalID: 7146767482581118395
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior Heavy Armor Axe_Idle_37
+      rect:
+        serializedVersion: 2
+        x: 672
+        y: 388
+        width: 96
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08a9c8cf55a50dc20800000000000000
+      internalID: 3229180258180438656
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior Heavy Armor Axe_Idle_38
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 388
+        width: 96
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec623982e67770130800000000000000
+      internalID: 3532923747706283726
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior Heavy Armor Axe_Idle_39
+      rect:
+        serializedVersion: 2
+        x: 864
+        y: 388
+        width: 96
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e2400b695fc69bd0800000000000000
+      internalID: -2623681749942517019
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior Heavy Armor Axe_Idle_40
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 291
+        width: 96
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9bf1945caf04794e0800000000000000
+      internalID: -1975038465782767687
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior Heavy Armor Axe_Idle_41
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 291
+        width: 96
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f852b732b8329cd0800000000000000
+      internalID: -2552915700675880720
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior Heavy Armor Axe_Idle_42
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 291
+        width: 96
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d12f98abd49f2ef0800000000000000
+      internalID: -130722193022705200
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior Heavy Armor Axe_Idle_43
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 291
+        width: 96
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de61d2362234a0100800000000000000
+      internalID: 74946158776882925
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior Heavy Armor Axe_Idle_44
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 291
+        width: 96
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: adc8a9eda56d72ae0800000000000000
+      internalID: -1574053858972627750
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior Heavy Armor Axe_Idle_45
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 291
+        width: 96
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9be84f7116f390010800000000000000
+      internalID: 1155524465643523769
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior Heavy Armor Axe_Idle_46
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 291
+        width: 96
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45aaaf8e35f5a53e0800000000000000
+      internalID: -2064232665200285100
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior Heavy Armor Axe_Idle_47
+      rect:
+        serializedVersion: 2
+        x: 672
+        y: 291
+        width: 96
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2060400ddaf98080800000000000000
+      internalID: -9184534137946480594
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior Heavy Armor Axe_Idle_48
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 291
+        width: 96
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 104efe99ea5864bf0800000000000000
+      internalID: -340437736866454527
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior Heavy Armor Axe_Idle_49
+      rect:
+        serializedVersion: 2
+        x: 864
+        y: 291
+        width: 96
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aaa890bb6cd8ebc80800000000000000
+      internalID: -8305044778143610198
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior Heavy Armor Axe_Idle_50
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 194
+        width: 96
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7fe559cd407e451f0800000000000000
+      internalID: -1056966004458561801
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior Heavy Armor Axe_Idle_51
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 194
+        width: 96
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b347c7c9d318ec3e0800000000000000
+      internalID: -2031544280279124933
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior Heavy Armor Axe_Idle_52
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 194
+        width: 96
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2116a44660613f2b0800000000000000
+      internalID: -5552069698909478638
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior Heavy Armor Axe_Idle_53
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 194
+        width: 96
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 607a85bfb2d1f0680800000000000000
+      internalID: -8786772273238857978
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior Heavy Armor Axe_Idle_54
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 194
+        width: 96
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43a89e49f24ea9570800000000000000
+      internalID: 8474336541863938612
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior Heavy Armor Axe_Idle_55
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 194
+        width: 96
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7d0edb77feb40980800000000000000
+      internalID: -8573517820462232193
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior Heavy Armor Axe_Idle_56
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 194
+        width: 96
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b3d21fabb7238480800000000000000
+      internalID: -8898224751704353864
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior Heavy Armor Axe_Idle_57
+      rect:
+        serializedVersion: 2
+        x: 672
+        y: 194
+        width: 96
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d627f1e2e8d8fea20800000000000000
+      internalID: 3093847110825505389
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior Heavy Armor Axe_Idle_58
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 194
+        width: 96
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b8a4c10ac57be600800000000000000
+      internalID: 498621694228080819
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior Heavy Armor Axe_Idle_59
+      rect:
+        serializedVersion: 2
+        x: 864
+        y: 194
+        width: 96
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d962842272b9da20800000000000000
+      internalID: 3087695222847728080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior Heavy Armor Axe_Idle_60
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 97
+        width: 96
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5aa7d1373d0854f50800000000000000
+      internalID: 6865034852653955749
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior Heavy Armor Axe_Idle_61
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 97
+        width: 96
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3e8711111b186ee0800000000000000
+      internalID: -1267733534989644227
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior Heavy Armor Axe_Idle_62
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 97
+        width: 96
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fac0215b0c83cacc0800000000000000
+      internalID: -3698518793655284561
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior Heavy Armor Axe_Idle_63
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 97
+        width: 96
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 816bf31ddc0c8a3c0800000000000000
+      internalID: -4348013450014771688
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior Heavy Armor Axe_Idle_64
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 97
+        width: 96
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 046d9e048e56cc1f0800000000000000
+      internalID: -1023330967124060608
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior Heavy Armor Axe_Idle_65
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 97
+        width: 96
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc94c4f4355c94980800000000000000
+      internalID: -8554089055610189361
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior Heavy Armor Axe_Idle_66
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 97
+        width: 96
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6fd3fb941a647f90800000000000000
+      internalID: -6956818887632232597
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior Heavy Armor Axe_Idle_67
+      rect:
+        serializedVersion: 2
+        x: 672
+        y: 97
+        width: 96
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0af29162567202020800000000000000
+      internalID: 2314893523852799904
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior Heavy Armor Axe_Idle_68
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 97
+        width: 96
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18412ad669255deb0800000000000000
+      internalID: -4695756230425963391
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior Heavy Armor Axe_Idle_69
+      rect:
+        serializedVersion: 2
+        x: 864
+        y: 97
+        width: 96
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d3eb50cd300a5d00800000000000000
+      internalID: 962081735617274839
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior Heavy Armor Axe_Idle_70
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 96
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f880a21418835230800000000000000
+      internalID: 3626391744756615411
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior Heavy Armor Axe_Idle_71
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 0
+        width: 96
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b4d585197e2b9d40800000000000000
+      internalID: 5592114459897615541
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior Heavy Armor Axe_Idle_72
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 0
+        width: 96
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89bef10ed8b123b50800000000000000
+      internalID: 6571345102451501976
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior Heavy Armor Axe_Idle_73
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 0
+        width: 96
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9e6b5def718cdbb0800000000000000
+      internalID: -4909907107297661282
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior Heavy Armor Axe_Idle_74
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 0
+        width: 96
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 912161916609c4a90800000000000000
+      internalID: -7328323725456698855
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior Heavy Armor Axe_Idle_75
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 0
+        width: 96
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 312d84e341f3259e0800000000000000
+      internalID: -1634174358605213165
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior Heavy Armor Axe_Idle_76
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 0
+        width: 96
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 875a8b73425f76ab0800000000000000
+      internalID: -5014770124151282312
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior Heavy Armor Axe_Idle_77
+      rect:
+        serializedVersion: 2
+        x: 672
+        y: 0
+        width: 96
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53f2ada9f6e5f8ff0800000000000000
+      internalID: -31702838935933131
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior Heavy Armor Axe_Idle_78
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 0
+        width: 96
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d70117ec05f75d2e0800000000000000
+      internalID: -2101633666060840835
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior Heavy Armor Axe_Idle_79
+      rect:
+        serializedVersion: 2
+        x: 864
+        y: 0
+        width: 96
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56987290001966b80800000000000000
+      internalID: -8401868625473468059
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

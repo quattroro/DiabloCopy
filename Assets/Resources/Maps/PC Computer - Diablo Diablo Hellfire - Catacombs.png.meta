@@ -1,0 +1,4068 @@
+fileFormatVersion: 2
+guid: 70f4a0c4f12cf8347bad49ce46251814
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -6124130071234258983
+    second: PC Computer - Diablo Diablo Hellfire - Catacombs_0
+  - first:
+      213: 7957733598291108254
+    second: PC Computer - Diablo Diablo Hellfire - Catacombs_1
+  - first:
+      213: 327681216009374847
+    second: PC Computer - Diablo Diablo Hellfire - Catacombs_2
+  - first:
+      213: 468960017131584211
+    second: PC Computer - Diablo Diablo Hellfire - Catacombs_3
+  - first:
+      213: 7927983320558720906
+    second: PC Computer - Diablo Diablo Hellfire - Catacombs_4
+  - first:
+      213: -5232878134198222239
+    second: PC Computer - Diablo Diablo Hellfire - Catacombs_5
+  - first:
+      213: -4367255872616066752
+    second: PC Computer - Diablo Diablo Hellfire - Catacombs_6
+  - first:
+      213: 2061068800177116014
+    second: PC Computer - Diablo Diablo Hellfire - Catacombs_7
+  - first:
+      213: -3348391915682727420
+    second: PC Computer - Diablo Diablo Hellfire - Catacombs_8
+  - first:
+      213: 7516015009669233193
+    second: PC Computer - Diablo Diablo Hellfire - Catacombs_9
+  - first:
+      213: 7203169178402129732
+    second: PC Computer - Diablo Diablo Hellfire - Catacombs_10
+  - first:
+      213: 2044066675993473954
+    second: PC Computer - Diablo Diablo Hellfire - Catacombs_11
+  - first:
+      213: -8870045146538002481
+    second: PC Computer - Diablo Diablo Hellfire - Catacombs_12
+  - first:
+      213: 4981660022528711138
+    second: PC Computer - Diablo Diablo Hellfire - Catacombs_13
+  - first:
+      213: -4795374594911254451
+    second: PC Computer - Diablo Diablo Hellfire - Catacombs_14
+  - first:
+      213: 4492686303886209077
+    second: PC Computer - Diablo Diablo Hellfire - Catacombs_15
+  - first:
+      213: -4957411582296957290
+    second: PC Computer - Diablo Diablo Hellfire - Catacombs_16
+  - first:
+      213: -7220855150674993486
+    second: PC Computer - Diablo Diablo Hellfire - Catacombs_17
+  - first:
+      213: -8284383682537548463
+    second: PC Computer - Diablo Diablo Hellfire - Catacombs_18
+  - first:
+      213: -7671786417520132555
+    second: PC Computer - Diablo Diablo Hellfire - Catacombs_19
+  - first:
+      213: -5110292534524306055
+    second: PC Computer - Diablo Diablo Hellfire - Catacombs_20
+  - first:
+      213: -9119203985227612855
+    second: PC Computer - Diablo Diablo Hellfire - Catacombs_21
+  - first:
+      213: -4731096080437393123
+    second: PC Computer - Diablo Diablo Hellfire - Catacombs_22
+  - first:
+      213: 4850781882669619127
+    second: PC Computer - Diablo Diablo Hellfire - Catacombs_23
+  - first:
+      213: 8430067245587799676
+    second: PC Computer - Diablo Diablo Hellfire - Catacombs_24
+  - first:
+      213: 8159929546053785421
+    second: PC Computer - Diablo Diablo Hellfire - Catacombs_25
+  - first:
+      213: 8039528088419151774
+    second: PC Computer - Diablo Diablo Hellfire - Catacombs_26
+  - first:
+      213: 7465378672721873834
+    second: PC Computer - Diablo Diablo Hellfire - Catacombs_27
+  - first:
+      213: 964880019791764400
+    second: PC Computer - Diablo Diablo Hellfire - Catacombs_28
+  - first:
+      213: -6826861792533178722
+    second: PC Computer - Diablo Diablo Hellfire - Catacombs_29
+  - first:
+      213: 49181366150766510
+    second: PC Computer - Diablo Diablo Hellfire - Catacombs_30
+  - first:
+      213: 2233035717628099934
+    second: PC Computer - Diablo Diablo Hellfire - Catacombs_31
+  - first:
+      213: 5744310559105364039
+    second: PC Computer - Diablo Diablo Hellfire - Catacombs_32
+  - first:
+      213: 9063165699618889709
+    second: PC Computer - Diablo Diablo Hellfire - Catacombs_33
+  - first:
+      213: -1324645296414419293
+    second: PC Computer - Diablo Diablo Hellfire - Catacombs_34
+  - first:
+      213: 2244942191871753113
+    second: PC Computer - Diablo Diablo Hellfire - Catacombs_35
+  - first:
+      213: -2139832372930961659
+    second: PC Computer - Diablo Diablo Hellfire - Catacombs_36
+  - first:
+      213: -1766624419085814506
+    second: PC Computer - Diablo Diablo Hellfire - Catacombs_37
+  - first:
+      213: -30482072614894911
+    second: PC Computer - Diablo Diablo Hellfire - Catacombs_38
+  - first:
+      213: -8094784807119117177
+    second: PC Computer - Diablo Diablo Hellfire - Catacombs_39
+  - first:
+      213: -544715782805579156
+    second: PC Computer - Diablo Diablo Hellfire - Catacombs_40
+  - first:
+      213: 1503053421001230336
+    second: PC Computer - Diablo Diablo Hellfire - Catacombs_41
+  - first:
+      213: 4877900670792709856
+    second: PC Computer - Diablo Diablo Hellfire - Catacombs_42
+  - first:
+      213: 1901634938155464975
+    second: PC Computer - Diablo Diablo Hellfire - Catacombs_43
+  - first:
+      213: -5752694162351795027
+    second: PC Computer - Diablo Diablo Hellfire - Catacombs_44
+  - first:
+      213: 6971672335573531171
+    second: PC Computer - Diablo Diablo Hellfire - Catacombs_45
+  - first:
+      213: -7218696934420650951
+    second: PC Computer - Diablo Diablo Hellfire - Catacombs_46
+  - first:
+      213: 3284686554002231372
+    second: PC Computer - Diablo Diablo Hellfire - Catacombs_47
+  - first:
+      213: 2956884117529358678
+    second: PC Computer - Diablo Diablo Hellfire - Catacombs_48
+  - first:
+      213: -550271827363825624
+    second: PC Computer - Diablo Diablo Hellfire - Catacombs_49
+  - first:
+      213: 8291343317856496363
+    second: PC Computer - Diablo Diablo Hellfire - Catacombs_50
+  - first:
+      213: 6047487711250291119
+    second: PC Computer - Diablo Diablo Hellfire - Catacombs_51
+  - first:
+      213: 1593677947795496973
+    second: PC Computer - Diablo Diablo Hellfire - Catacombs_52
+  - first:
+      213: -1119258779893961746
+    second: PC Computer - Diablo Diablo Hellfire - Catacombs_53
+  - first:
+      213: -8008386492781262158
+    second: PC Computer - Diablo Diablo Hellfire - Catacombs_54
+  - first:
+      213: 25531576772119683
+    second: PC Computer - Diablo Diablo Hellfire - Catacombs_55
+  - first:
+      213: -213515766203996516
+    second: PC Computer - Diablo Diablo Hellfire - Catacombs_56
+  - first:
+      213: -605644149369933644
+    second: PC Computer - Diablo Diablo Hellfire - Catacombs_57
+  - first:
+      213: -256362228561209225
+    second: PC Computer - Diablo Diablo Hellfire - Catacombs_58
+  - first:
+      213: 1838165074158424510
+    second: PC Computer - Diablo Diablo Hellfire - Catacombs_59
+  - first:
+      213: -5080682231708818245
+    second: PC Computer - Diablo Diablo Hellfire - Catacombs_60
+  - first:
+      213: 1777178224804855308
+    second: PC Computer - Diablo Diablo Hellfire - Catacombs_61
+  - first:
+      213: -29324916992094906
+    second: PC Computer - Diablo Diablo Hellfire - Catacombs_62
+  - first:
+      213: 1934298565366457470
+    second: PC Computer - Diablo Diablo Hellfire - Catacombs_63
+  - first:
+      213: 1522290717089491866
+    second: PC Computer - Diablo Diablo Hellfire - Catacombs_64
+  - first:
+      213: -8882171846060538080
+    second: PC Computer - Diablo Diablo Hellfire - Catacombs_65
+  - first:
+      213: -6519028848110769526
+    second: PC Computer - Diablo Diablo Hellfire - Catacombs_66
+  - first:
+      213: 8066479585359635906
+    second: PC Computer - Diablo Diablo Hellfire - Catacombs_67
+  - first:
+      213: 1873190707530624270
+    second: PC Computer - Diablo Diablo Hellfire - Catacombs_68
+  - first:
+      213: 2198375561882669705
+    second: PC Computer - Diablo Diablo Hellfire - Catacombs_69
+  - first:
+      213: 7571000496187257558
+    second: PC Computer - Diablo Diablo Hellfire - Catacombs_70
+  - first:
+      213: 5987696269655733036
+    second: PC Computer - Diablo Diablo Hellfire - Catacombs_71
+  - first:
+      213: 4229630613441524479
+    second: PC Computer - Diablo Diablo Hellfire - Catacombs_72
+  - first:
+      213: -7204368907002309687
+    second: PC Computer - Diablo Diablo Hellfire - Catacombs_73
+  - first:
+      213: -709674426734426038
+    second: PC Computer - Diablo Diablo Hellfire - Catacombs_74
+  - first:
+      213: -8113922068684727279
+    second: PC Computer - Diablo Diablo Hellfire - Catacombs_75
+  - first:
+      213: -907777023655749950
+    second: PC Computer - Diablo Diablo Hellfire - Catacombs_76
+  - first:
+      213: -4891986402689963983
+    second: PC Computer - Diablo Diablo Hellfire - Catacombs_77
+  - first:
+      213: 8094244427405187357
+    second: PC Computer - Diablo Diablo Hellfire - Catacombs_78
+  - first:
+      213: 8665955938810127010
+    second: PC Computer - Diablo Diablo Hellfire - Catacombs_79
+  - first:
+      213: 4889035246272997247
+    second: PC Computer - Diablo Diablo Hellfire - Catacombs_80
+  - first:
+      213: -7186604718763242923
+    second: PC Computer - Diablo Diablo Hellfire - Catacombs_81
+  - first:
+      213: -4349977186458597744
+    second: PC Computer - Diablo Diablo Hellfire - Catacombs_82
+  - first:
+      213: -6822426712979235700
+    second: PC Computer - Diablo Diablo Hellfire - Catacombs_83
+  - first:
+      213: -5240957767673477893
+    second: PC Computer - Diablo Diablo Hellfire - Catacombs_84
+  - first:
+      213: -6344980837036251015
+    second: PC Computer - Diablo Diablo Hellfire - Catacombs_85
+  - first:
+      213: 1119511292218930343
+    second: PC Computer - Diablo Diablo Hellfire - Catacombs_86
+  - first:
+      213: 1640899689341220059
+    second: PC Computer - Diablo Diablo Hellfire - Catacombs_87
+  - first:
+      213: -8158770683514853284
+    second: PC Computer - Diablo Diablo Hellfire - Catacombs_88
+  - first:
+      213: 4279875401758424054
+    second: PC Computer - Diablo Diablo Hellfire - Catacombs_89
+  - first:
+      213: 8845576488125995415
+    second: PC Computer - Diablo Diablo Hellfire - Catacombs_90
+  - first:
+      213: 1561945748886039536
+    second: PC Computer - Diablo Diablo Hellfire - Catacombs_91
+  - first:
+      213: -5047645127239560535
+    second: PC Computer - Diablo Diablo Hellfire - Catacombs_92
+  - first:
+      213: -5066982346201920609
+    second: PC Computer - Diablo Diablo Hellfire - Catacombs_93
+  - first:
+      213: 1254797606966144920
+    second: PC Computer - Diablo Diablo Hellfire - Catacombs_94
+  - first:
+      213: -8890047844967917831
+    second: PC Computer - Diablo Diablo Hellfire - Catacombs_95
+  - first:
+      213: 5006418275321458067
+    second: PC Computer - Diablo Diablo Hellfire - Catacombs_96
+  - first:
+      213: 2431528226766676715
+    second: PC Computer - Diablo Diablo Hellfire - Catacombs_97
+  - first:
+      213: -1696625623954686854
+    second: PC Computer - Diablo Diablo Hellfire - Catacombs_98
+  - first:
+      213: -750257169064333447
+    second: PC Computer - Diablo Diablo Hellfire - Catacombs_99
+  - first:
+      213: -2422229423692507876
+    second: PC Computer - Diablo Diablo Hellfire - Catacombs_100
+  - first:
+      213: -1488703540515304551
+    second: PC Computer - Diablo Diablo Hellfire - Catacombs_101
+  - first:
+      213: -107480060646689891
+    second: PC Computer - Diablo Diablo Hellfire - Catacombs_102
+  - first:
+      213: 1099324995173481794
+    second: PC Computer - Diablo Diablo Hellfire - Catacombs_103
+  - first:
+      213: -4730692703982339372
+    second: PC Computer - Diablo Diablo Hellfire - Catacombs_104
+  - first:
+      213: 3962735257100542764
+    second: PC Computer - Diablo Diablo Hellfire - Catacombs_105
+  - first:
+      213: -5644304742472034726
+    second: PC Computer - Diablo Diablo Hellfire - Catacombs_106
+  - first:
+      213: 7849340344547493513
+    second: PC Computer - Diablo Diablo Hellfire - Catacombs_107
+  - first:
+      213: 3366421309641542521
+    second: PC Computer - Diablo Diablo Hellfire - Catacombs_108
+  - first:
+      213: -7599699770590760004
+    second: PC Computer - Diablo Diablo Hellfire - Catacombs_109
+  - first:
+      213: -6888546643176342673
+    second: PC Computer - Diablo Diablo Hellfire - Catacombs_110
+  - first:
+      213: 1645092752175264602
+    second: PC Computer - Diablo Diablo Hellfire - Catacombs_111
+  - first:
+      213: -8631171472314749005
+    second: PC Computer - Diablo Diablo Hellfire - Catacombs_112
+  - first:
+      213: -3458459371798482119
+    second: PC Computer - Diablo Diablo Hellfire - Catacombs_113
+  - first:
+      213: -1532684824942932621
+    second: PC Computer - Diablo Diablo Hellfire - Catacombs_114
+  - first:
+      213: -4145366029841624755
+    second: PC Computer - Diablo Diablo Hellfire - Catacombs_115
+  - first:
+      213: -4381965089910413074
+    second: PC Computer - Diablo Diablo Hellfire - Catacombs_116
+  - first:
+      213: -6763240613552568702
+    second: PC Computer - Diablo Diablo Hellfire - Catacombs_117
+  - first:
+      213: -2396179927648702773
+    second: PC Computer - Diablo Diablo Hellfire - Catacombs_118
+  - first:
+      213: -2403903274505560207
+    second: PC Computer - Diablo Diablo Hellfire - Catacombs_119
+  - first:
+      213: -8619826424865056270
+    second: PC Computer - Diablo Diablo Hellfire - Catacombs_120
+  - first:
+      213: -6741690513868982515
+    second: PC Computer - Diablo Diablo Hellfire - Catacombs_121
+  - first:
+      213: -1457451768175095711
+    second: PC Computer - Diablo Diablo Hellfire - Catacombs_122
+  - first:
+      213: -5203209891937845071
+    second: PC Computer - Diablo Diablo Hellfire - Catacombs_123
+  - first:
+      213: 45519521858176181
+    second: PC Computer - Diablo Diablo Hellfire - Catacombs_124
+  - first:
+      213: -8690868027553142117
+    second: PC Computer - Diablo Diablo Hellfire - Catacombs_125
+  - first:
+      213: -1231759546900773417
+    second: PC Computer - Diablo Diablo Hellfire - Catacombs_126
+  - first:
+      213: -4998994145518597572
+    second: PC Computer - Diablo Diablo Hellfire - Catacombs_127
+  - first:
+      213: 2887570223891975202
+    second: PC Computer - Diablo Diablo Hellfire - Catacombs_128
+  - first:
+      213: 2034791949613887590
+    second: PC Computer - Diablo Diablo Hellfire - Catacombs_129
+  - first:
+      213: 3991218983632181701
+    second: PC Computer - Diablo Diablo Hellfire - Catacombs_130
+  - first:
+      213: 7173388385598417528
+    second: PC Computer - Diablo Diablo Hellfire - Catacombs_131
+  - first:
+      213: 7469361756367237316
+    second: PC Computer - Diablo Diablo Hellfire - Catacombs_132
+  - first:
+      213: -197889339026372133
+    second: PC Computer - Diablo Diablo Hellfire - Catacombs_133
+  - first:
+      213: 8914112620371793367
+    second: PC Computer - Diablo Diablo Hellfire - Catacombs_134
+  - first:
+      213: -6928101314720133956
+    second: PC Computer - Diablo Diablo Hellfire - Catacombs_135
+  - first:
+      213: -9108275795163585531
+    second: PC Computer - Diablo Diablo Hellfire - Catacombs_136
+  - first:
+      213: -8753504825994252094
+    second: PC Computer - Diablo Diablo Hellfire - Catacombs_137
+  - first:
+      213: 5615690870433358627
+    second: PC Computer - Diablo Diablo Hellfire - Catacombs_138
+  - first:
+      213: -7235447369250311794
+    second: PC Computer - Diablo Diablo Hellfire - Catacombs_139
+  - first:
+      213: 7619545267059807020
+    second: PC Computer - Diablo Diablo Hellfire - Catacombs_140
+  - first:
+      213: -6996219921628135709
+    second: PC Computer - Diablo Diablo Hellfire - Catacombs_141
+  - first:
+      213: 272851704457385828
+    second: PC Computer - Diablo Diablo Hellfire - Catacombs_142
+  - first:
+      213: -8432662875889952326
+    second: PC Computer - Diablo Diablo Hellfire - Catacombs_143
+  - first:
+      213: 3448004633481527379
+    second: PC Computer - Diablo Diablo Hellfire - Catacombs_144
+  - first:
+      213: -4661300069959403010
+    second: PC Computer - Diablo Diablo Hellfire - Catacombs_145
+  - first:
+      213: -9105089175037715522
+    second: PC Computer - Diablo Diablo Hellfire - Catacombs_146
+  - first:
+      213: -451798706746042760
+    second: PC Computer - Diablo Diablo Hellfire - Catacombs_147
+  - first:
+      213: -1337531290932437645
+    second: PC Computer - Diablo Diablo Hellfire - Catacombs_148
+  - first:
+      213: 6590346852823883220
+    second: PC Computer - Diablo Diablo Hellfire - Catacombs_149
+  - first:
+      213: 2000575898318356266
+    second: PC Computer - Diablo Diablo Hellfire - Catacombs_150
+  - first:
+      213: -3775743656356595426
+    second: PC Computer - Diablo Diablo Hellfire - Catacombs_151
+  - first:
+      213: -7645847730039282986
+    second: PC Computer - Diablo Diablo Hellfire - Catacombs_152
+  - first:
+      213: 4374422149646098166
+    second: PC Computer - Diablo Diablo Hellfire - Catacombs_153
+  - first:
+      213: 4135718251671299087
+    second: PC Computer - Diablo Diablo Hellfire - Catacombs_154
+  - first:
+      213: 6693987725552216344
+    second: PC Computer - Diablo Diablo Hellfire - Catacombs_155
+  - first:
+      213: 778016298450009220
+    second: PC Computer - Diablo Diablo Hellfire - Catacombs_156
+  - first:
+      213: -1964749434794801058
+    second: PC Computer - Diablo Diablo Hellfire - Catacombs_157
+  - first:
+      213: -7382108663074752786
+    second: PC Computer - Diablo Diablo Hellfire - Catacombs_158
+  - first:
+      213: 6957413404523255767
+    second: PC Computer - Diablo Diablo Hellfire - Catacombs_159
+  - first:
+      213: 933462428070381328
+    second: PC Computer - Diablo Diablo Hellfire - Catacombs_160
+  - first:
+      213: 7005141387071065472
+    second: PC Computer - Diablo Diablo Hellfire - Catacombs_161
+  - first:
+      213: -8362210122946000941
+    second: PC Computer - Diablo Diablo Hellfire - Catacombs_162
+  - first:
+      213: -2923921162428290736
+    second: PC Computer - Diablo Diablo Hellfire - Catacombs_163
+  - first:
+      213: -6017903409142862817
+    second: PC Computer - Diablo Diablo Hellfire - Catacombs_164
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 128
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: PC Computer - Diablo Diablo Hellfire - Catacombs_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1544
+        width: 128
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d75bc1b528b20ba0800000000000000
+      internalID: -6124130071234258983
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Diablo Diablo Hellfire - Catacombs_1
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 1544
+        width: 128
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e912557bb8c8f6e60800000000000000
+      internalID: 7957733598291108254
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Diablo Diablo Hellfire - Catacombs_2
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 1544
+        width: 128
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7c8ecf64582c8400800000000000000
+      internalID: 327681216009374847
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Diablo Diablo Hellfire - Catacombs_3
+      rect:
+        serializedVersion: 2
+        x: 387
+        y: 1544
+        width: 128
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3da3df2a6a4128600800000000000000
+      internalID: 468960017131584211
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Diablo Diablo Hellfire - Catacombs_4
+      rect:
+        serializedVersion: 2
+        x: 516
+        y: 1544
+        width: 128
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a87df1763dad50e60800000000000000
+      internalID: 7927983320558720906
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Diablo Diablo Hellfire - Catacombs_5
+      rect:
+        serializedVersion: 2
+        x: 645
+        y: 1544
+        width: 128
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 162c43adf051167b0800000000000000
+      internalID: -5232878134198222239
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Diablo Diablo Hellfire - Catacombs_6
+      rect:
+        serializedVersion: 2
+        x: 774
+        y: 1544
+        width: 128
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0411b7d2ce36463c0800000000000000
+      internalID: -4367255872616066752
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Diablo Diablo Hellfire - Catacombs_7
+      rect:
+        serializedVersion: 2
+        x: 903
+        y: 1544
+        width: 128
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e63923c57236a9c10800000000000000
+      internalID: 2061068800177116014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Diablo Diablo Hellfire - Catacombs_8
+      rect:
+        serializedVersion: 2
+        x: 1032
+        y: 1544
+        width: 128
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40af0f01b4f1881d0800000000000000
+      internalID: -3348391915682727420
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Diablo Diablo Hellfire - Catacombs_9
+      rect:
+        serializedVersion: 2
+        x: 1161
+        y: 1544
+        width: 128
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92ab6d964df3e4860800000000000000
+      internalID: 7516015009669233193
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Diablo Diablo Hellfire - Catacombs_10
+      rect:
+        serializedVersion: 2
+        x: 1290
+        y: 1544
+        width: 128
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44783b7243cc6f360800000000000000
+      internalID: 7203169178402129732
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Diablo Diablo Hellfire - Catacombs_11
+      rect:
+        serializedVersion: 2
+        x: 1419
+        y: 1544
+        width: 128
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a3fdc7dfcbfd5c10800000000000000
+      internalID: 2044066675993473954
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Diablo Diablo Hellfire - Catacombs_12
+      rect:
+        serializedVersion: 2
+        x: 1548
+        y: 1544
+        width: 128
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc7bcea4fe447e480800000000000000
+      internalID: -8870045146538002481
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Diablo Diablo Hellfire - Catacombs_13
+      rect:
+        serializedVersion: 2
+        x: 1677
+        y: 1544
+        width: 128
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e996928569622540800000000000000
+      internalID: 4981660022528711138
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Diablo Diablo Hellfire - Catacombs_14
+      rect:
+        serializedVersion: 2
+        x: 1806
+        y: 1544
+        width: 128
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d48c1618638637db0800000000000000
+      internalID: -4795374594911254451
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Diablo Diablo Hellfire - Catacombs_15
+      rect:
+        serializedVersion: 2
+        x: 1935
+        y: 1544
+        width: 128
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 530766ed36a395e30800000000000000
+      internalID: 4492686303886209077
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Diablo Diablo Hellfire - Catacombs_16
+      rect:
+        serializedVersion: 2
+        x: 2064
+        y: 1544
+        width: 128
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69e58cf6e6cb33bb0800000000000000
+      internalID: -4957411582296957290
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Diablo Diablo Hellfire - Catacombs_17
+      rect:
+        serializedVersion: 2
+        x: 2193
+        y: 1544
+        width: 128
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2be97798f7e5acb90800000000000000
+      internalID: -7220855150674993486
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Diablo Diablo Hellfire - Catacombs_18
+      rect:
+        serializedVersion: 2
+        x: 2322
+        y: 1544
+        width: 128
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1559e4beee4f70d80800000000000000
+      internalID: -8284383682537548463
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Diablo Diablo Hellfire - Catacombs_19
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1351
+        width: 128
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53ebb0f66e6588590800000000000000
+      internalID: -7671786417520132555
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Diablo Diablo Hellfire - Catacombs_20
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 1351
+        width: 128
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97d195de3089419b0800000000000000
+      internalID: -5110292534524306055
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Diablo Diablo Hellfire - Catacombs_21
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 1351
+        width: 128
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94d7e228a44127180800000000000000
+      internalID: -9119203985227612855
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Diablo Diablo Hellfire - Catacombs_22
+      rect:
+        serializedVersion: 2
+        x: 387
+        y: 1351
+        width: 128
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1949476e25c75eb0800000000000000
+      internalID: -4731096080437393123
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Diablo Diablo Hellfire - Catacombs_23
+      rect:
+        serializedVersion: 2
+        x: 516
+        y: 1351
+        width: 128
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b75c67fb60715340800000000000000
+      internalID: 4850781882669619127
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Diablo Diablo Hellfire - Catacombs_24
+      rect:
+        serializedVersion: 2
+        x: 645
+        y: 1351
+        width: 128
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7e9ae5de7d9df470800000000000000
+      internalID: 8430067245587799676
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Diablo Diablo Hellfire - Catacombs_25
+      rect:
+        serializedVersion: 2
+        x: 774
+        y: 1351
+        width: 128
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4710c060b4ed3170800000000000000
+      internalID: 8159929546053785421
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Diablo Diablo Hellfire - Catacombs_26
+      rect:
+        serializedVersion: 2
+        x: 903
+        y: 1351
+        width: 128
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9fafff7334229f60800000000000000
+      internalID: 8039528088419151774
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Diablo Diablo Hellfire - Catacombs_27
+      rect:
+        serializedVersion: 2
+        x: 1032
+        y: 1351
+        width: 128
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aab4d5d795a5a9760800000000000000
+      internalID: 7465378672721873834
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Diablo Diablo Hellfire - Catacombs_28
+      rect:
+        serializedVersion: 2
+        x: 1161
+        y: 1351
+        width: 128
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0bb5f8e0441f36d00800000000000000
+      internalID: 964880019791764400
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Diablo Diablo Hellfire - Catacombs_29
+      rect:
+        serializedVersion: 2
+        x: 1290
+        y: 1351
+        width: 128
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e969f55be5d1241a0800000000000000
+      internalID: -6826861792533178722
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Diablo Diablo Hellfire - Catacombs_30
+      rect:
+        serializedVersion: 2
+        x: 1419
+        y: 1351
+        width: 128
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eaf1cf2213abea000800000000000000
+      internalID: 49181366150766510
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Diablo Diablo Hellfire - Catacombs_31
+      rect:
+        serializedVersion: 2
+        x: 1548
+        y: 1351
+        width: 128
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5d7bff67265dfe10800000000000000
+      internalID: 2233035717628099934
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Diablo Diablo Hellfire - Catacombs_32
+      rect:
+        serializedVersion: 2
+        x: 1677
+        y: 1351
+        width: 128
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7403003d404e7bf40800000000000000
+      internalID: 5744310559105364039
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Diablo Diablo Hellfire - Catacombs_33
+      rect:
+        serializedVersion: 2
+        x: 1806
+        y: 1351
+        width: 128
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: defd9426f25d6cd70800000000000000
+      internalID: 9063165699618889709
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Diablo Diablo Hellfire - Catacombs_34
+      rect:
+        serializedVersion: 2
+        x: 1935
+        y: 1351
+        width: 128
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a693d50f1aed9de0800000000000000
+      internalID: -1324645296414419293
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Diablo Diablo Hellfire - Catacombs_35
+      rect:
+        serializedVersion: 2
+        x: 2064
+        y: 1351
+        width: 128
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99b7dcf7703a72f10800000000000000
+      internalID: 2244942191871753113
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Diablo Diablo Hellfire - Catacombs_36
+      rect:
+        serializedVersion: 2
+        x: 2193
+        y: 1351
+        width: 128
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50f919c4bc9cd42e0800000000000000
+      internalID: -2139832372930961659
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Diablo Diablo Hellfire - Catacombs_37
+      rect:
+        serializedVersion: 2
+        x: 2322
+        y: 1351
+        width: 128
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 615fbd86370bb77e0800000000000000
+      internalID: -1766624419085814506
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Diablo Diablo Hellfire - Catacombs_38
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1158
+        width: 128
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c285c967b4b39ff0800000000000000
+      internalID: -30482072614894911
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Diablo Diablo Hellfire - Catacombs_39
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 1158
+        width: 128
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 784af6e1b1c89af80800000000000000
+      internalID: -8094784807119117177
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Diablo Diablo Hellfire - Catacombs_40
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 1158
+        width: 128
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6a135ea1e7c078f0800000000000000
+      internalID: -544715782805579156
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Diablo Diablo Hellfire - Catacombs_41
+      rect:
+        serializedVersion: 2
+        x: 387
+        y: 1158
+        width: 128
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 008c6357f1bebd410800000000000000
+      internalID: 1503053421001230336
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Diablo Diablo Hellfire - Catacombs_42
+      rect:
+        serializedVersion: 2
+        x: 516
+        y: 1158
+        width: 128
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e63d3cd0d8c1b340800000000000000
+      internalID: 4877900670792709856
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Diablo Diablo Hellfire - Catacombs_43
+      rect:
+        serializedVersion: 2
+        x: 645
+        y: 1158
+        width: 128
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f097a35a6e6f36a10800000000000000
+      internalID: 1901634938155464975
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Diablo Diablo Hellfire - Catacombs_44
+      rect:
+        serializedVersion: 2
+        x: 774
+        y: 1158
+        width: 128
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da4de8f63235a20b0800000000000000
+      internalID: -5752694162351795027
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Diablo Diablo Hellfire - Catacombs_45
+      rect:
+        serializedVersion: 2
+        x: 903
+        y: 1158
+        width: 128
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32a374c3d0b50c060800000000000000
+      internalID: 6971672335573531171
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Diablo Diablo Hellfire - Catacombs_46
+      rect:
+        serializedVersion: 2
+        x: 1032
+        y: 1158
+        width: 128
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 934e7aa626902db90800000000000000
+      internalID: -7218696934420650951
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Diablo Diablo Hellfire - Catacombs_47
+      rect:
+        serializedVersion: 2
+        x: 1161
+        y: 1158
+        width: 128
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c401ec1940d859d20800000000000000
+      internalID: 3284686554002231372
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Diablo Diablo Hellfire - Catacombs_48
+      rect:
+        serializedVersion: 2
+        x: 1290
+        y: 1158
+        width: 128
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 651f45b4076f80920800000000000000
+      internalID: 2956884117529358678
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Diablo Diablo Hellfire - Catacombs_49
+      rect:
+        serializedVersion: 2
+        x: 1419
+        y: 1158
+        width: 128
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 828f21040ba0d58f0800000000000000
+      internalID: -550271827363825624
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Diablo Diablo Hellfire - Catacombs_50
+      rect:
+        serializedVersion: 2
+        x: 1548
+        y: 1158
+        width: 128
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bea25a371d4c01370800000000000000
+      internalID: 8291343317856496363
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Diablo Diablo Hellfire - Catacombs_51
+      rect:
+        serializedVersion: 2
+        x: 1677
+        y: 1158
+        width: 128
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa91d9c480efce350800000000000000
+      internalID: 6047487711250291119
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Diablo Diablo Hellfire - Catacombs_52
+      rect:
+        serializedVersion: 2
+        x: 1806
+        y: 1158
+        width: 128
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0069bc56a1ed1610800000000000000
+      internalID: 1593677947795496973
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Diablo Diablo Hellfire - Catacombs_53
+      rect:
+        serializedVersion: 2
+        x: 1935
+        y: 1158
+        width: 128
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eebeeacd1189770f0800000000000000
+      internalID: -1119258779893961746
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Diablo Diablo Hellfire - Catacombs_54
+      rect:
+        serializedVersion: 2
+        x: 2064
+        y: 1158
+        width: 128
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ba8cb14aee7cd090800000000000000
+      internalID: -8008386492781262158
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Diablo Diablo Hellfire - Catacombs_55
+      rect:
+        serializedVersion: 2
+        x: 2193
+        y: 1158
+        width: 128
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38cce0475d4ba5000800000000000000
+      internalID: 25531576772119683
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Diablo Diablo Hellfire - Catacombs_56
+      rect:
+        serializedVersion: 2
+        x: 2322
+        y: 1158
+        width: 128
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c962779ba80790df0800000000000000
+      internalID: -213515766203996516
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Diablo Diablo Hellfire - Catacombs_57
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 965
+        width: 128
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b0f280ead15897f0800000000000000
+      internalID: -605644149369933644
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Diablo Diablo Hellfire - Catacombs_58
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 965
+        width: 128
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77818c059e7317cf0800000000000000
+      internalID: -256362228561209225
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Diablo Diablo Hellfire - Catacombs_59
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 965
+        width: 128
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb11ebb5569728910800000000000000
+      internalID: 1838165074158424510
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Diablo Diablo Hellfire - Catacombs_60
+      rect:
+        serializedVersion: 2
+        x: 387
+        y: 965
+        width: 128
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb46b5acd6acd79b0800000000000000
+      internalID: -5080682231708818245
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Diablo Diablo Hellfire - Catacombs_61
+      rect:
+        serializedVersion: 2
+        x: 516
+        y: 965
+        width: 128
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0e7d08fd2ec9a810800000000000000
+      internalID: 1777178224804855308
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Diablo Diablo Hellfire - Catacombs_62
+      rect:
+        serializedVersion: 2
+        x: 645
+        y: 965
+        width: 128
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64d4e93b421d79ff0800000000000000
+      internalID: -29324916992094906
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Diablo Diablo Hellfire - Catacombs_63
+      rect:
+        serializedVersion: 2
+        x: 774
+        y: 965
+        width: 128
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e74273efb4208da10800000000000000
+      internalID: 1934298565366457470
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Diablo Diablo Hellfire - Catacombs_64
+      rect:
+        serializedVersion: 2
+        x: 903
+        y: 965
+        width: 128
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9b6efc7753402510800000000000000
+      internalID: 1522290717089491866
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Diablo Diablo Hellfire - Catacombs_65
+      rect:
+        serializedVersion: 2
+        x: 1032
+        y: 965
+        width: 128
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 027069904cf2cb480800000000000000
+      internalID: -8882171846060538080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Diablo Diablo Hellfire - Catacombs_66
+      rect:
+        serializedVersion: 2
+        x: 1161
+        y: 965
+        width: 128
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8a65db4dc1c785a0800000000000000
+      internalID: -6519028848110769526
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Diablo Diablo Hellfire - Catacombs_67
+      rect:
+        serializedVersion: 2
+        x: 1290
+        y: 965
+        width: 128
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c52d41e174e1ff60800000000000000
+      internalID: 8066479585359635906
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Diablo Diablo Hellfire - Catacombs_68
+      rect:
+        serializedVersion: 2
+        x: 1419
+        y: 965
+        width: 128
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0decee1609eef910800000000000000
+      internalID: 1873190707530624270
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Diablo Diablo Hellfire - Catacombs_69
+      rect:
+        serializedVersion: 2
+        x: 1548
+        y: 965
+        width: 128
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9829ae01de2328e10800000000000000
+      internalID: 2198375561882669705
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Diablo Diablo Hellfire - Catacombs_70
+      rect:
+        serializedVersion: 2
+        x: 1677
+        y: 965
+        width: 128
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d23c81a6d8911960800000000000000
+      internalID: 7571000496187257558
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Diablo Diablo Hellfire - Catacombs_71
+      rect:
+        serializedVersion: 2
+        x: 1806
+        y: 965
+        width: 128
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c23f2c77802981350800000000000000
+      internalID: 5987696269655733036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Diablo Diablo Hellfire - Catacombs_72
+      rect:
+        serializedVersion: 2
+        x: 1935
+        y: 965
+        width: 128
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff2bc4522aaa2ba30800000000000000
+      internalID: 4229630613441524479
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Diablo Diablo Hellfire - Catacombs_73
+      rect:
+        serializedVersion: 2
+        x: 2064
+        y: 965
+        width: 128
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c3124346a0f40c90800000000000000
+      internalID: -7204368907002309687
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Diablo Diablo Hellfire - Catacombs_74
+      rect:
+        serializedVersion: 2
+        x: 2193
+        y: 965
+        width: 128
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a48c0507edab626f0800000000000000
+      internalID: -709674426734426038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Diablo Diablo Hellfire - Catacombs_75
+      rect:
+        serializedVersion: 2
+        x: 2322
+        y: 965
+        width: 128
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11c18d03ede856f80800000000000000
+      internalID: -8113922068684727279
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Diablo Diablo Hellfire - Catacombs_76
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 772
+        width: 128
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c6dcb94b9de663f0800000000000000
+      internalID: -907777023655749950
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Diablo Diablo Hellfire - Catacombs_77
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 772
+        width: 128
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 138af9d194c2c1cb0800000000000000
+      internalID: -4891986402689963983
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Diablo Diablo Hellfire - Catacombs_78
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 772
+        width: 128
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d19dbaceb68845070800000000000000
+      internalID: 8094244427405187357
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Diablo Diablo Hellfire - Catacombs_79
+      rect:
+        serializedVersion: 2
+        x: 387
+        y: 772
+        width: 128
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a2e6fb1309a34870800000000000000
+      internalID: 8665955938810127010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Diablo Diablo Hellfire - Catacombs_80
+      rect:
+        serializedVersion: 2
+        x: 516
+        y: 772
+        width: 128
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f77677c37a759d340800000000000000
+      internalID: 4889035246272997247
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Diablo Diablo Hellfire - Catacombs_81
+      rect:
+        serializedVersion: 2
+        x: 645
+        y: 772
+        width: 128
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55a88f4a51d044c90800000000000000
+      internalID: -7186604718763242923
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Diablo Diablo Hellfire - Catacombs_82
+      rect:
+        serializedVersion: 2
+        x: 774
+        y: 772
+        width: 128
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 096051ccbc6c1a3c0800000000000000
+      internalID: -4349977186458597744
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Diablo Diablo Hellfire - Catacombs_83
+      rect:
+        serializedVersion: 2
+        x: 903
+        y: 772
+        width: 128
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8c9cb22d0fd151a0800000000000000
+      internalID: -6822426712979235700
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Diablo Diablo Hellfire - Catacombs_84
+      rect:
+        serializedVersion: 2
+        x: 1032
+        y: 772
+        width: 128
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf48ff69da06447b0800000000000000
+      internalID: -5240957767673477893
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Diablo Diablo Hellfire - Catacombs_85
+      rect:
+        serializedVersion: 2
+        x: 1161
+        y: 772
+        width: 128
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9782bcdbb8912f7a0800000000000000
+      internalID: -6344980837036251015
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Diablo Diablo Hellfire - Catacombs_86
+      rect:
+        serializedVersion: 2
+        x: 1290
+        y: 772
+        width: 128
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a47fbeb69d498f00800000000000000
+      internalID: 1119511292218930343
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Diablo Diablo Hellfire - Catacombs_87
+      rect:
+        serializedVersion: 2
+        x: 1419
+        y: 772
+        width: 128
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd47b37d295a5c610800000000000000
+      internalID: 1640899689341220059
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Diablo Diablo Hellfire - Catacombs_88
+      rect:
+        serializedVersion: 2
+        x: 1548
+        y: 772
+        width: 128
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c58e9355a4936ce80800000000000000
+      internalID: -8158770683514853284
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Diablo Diablo Hellfire - Catacombs_89
+      rect:
+        serializedVersion: 2
+        x: 1677
+        y: 772
+        width: 128
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6fb3ebc800c256b30800000000000000
+      internalID: 4279875401758424054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Diablo Diablo Hellfire - Catacombs_90
+      rect:
+        serializedVersion: 2
+        x: 1806
+        y: 772
+        width: 128
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7991c4833fcc1ca70800000000000000
+      internalID: 8845576488125995415
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Diablo Diablo Hellfire - Catacombs_91
+      rect:
+        serializedVersion: 2
+        x: 1935
+        y: 772
+        width: 128
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0fba8c012652da510800000000000000
+      internalID: 1561945748886039536
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Diablo Diablo Hellfire - Catacombs_92
+      rect:
+        serializedVersion: 2
+        x: 2064
+        y: 772
+        width: 128
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a297a6108923f9b0800000000000000
+      internalID: -5047645127239560535
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Diablo Diablo Hellfire - Catacombs_93
+      rect:
+        serializedVersion: 2
+        x: 2193
+        y: 772
+        width: 128
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9b8573f6667ea9b0800000000000000
+      internalID: -5066982346201920609
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Diablo Diablo Hellfire - Catacombs_94
+      rect:
+        serializedVersion: 2
+        x: 2322
+        y: 772
+        width: 128
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89f2a3c76cfe96110800000000000000
+      internalID: 1254797606966144920
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Diablo Diablo Hellfire - Catacombs_95
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 579
+        width: 128
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f6d574269430a480800000000000000
+      internalID: -8890047844967917831
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Diablo Diablo Hellfire - Catacombs_96
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 579
+        width: 128
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39d2f8175ee5a7540800000000000000
+      internalID: 5006418275321458067
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Diablo Diablo Hellfire - Catacombs_97
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 579
+        width: 128
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be263c91a068eb120800000000000000
+      internalID: 2431528226766676715
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Diablo Diablo Hellfire - Catacombs_98
+      rect:
+        serializedVersion: 2
+        x: 387
+        y: 579
+        width: 128
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7cfa5febff5478e0800000000000000
+      internalID: -1696625623954686854
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Diablo Diablo Hellfire - Catacombs_99
+      rect:
+        serializedVersion: 2
+        x: 516
+        y: 579
+        width: 128
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97feabb641d8695f0800000000000000
+      internalID: -750257169064333447
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Diablo Diablo Hellfire - Catacombs_100
+      rect:
+        serializedVersion: 2
+        x: 645
+        y: 579
+        width: 128
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c151f443c23826ed0800000000000000
+      internalID: -2422229423692507876
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Diablo Diablo Hellfire - Catacombs_101
+      rect:
+        serializedVersion: 2
+        x: 774
+        y: 579
+        width: 128
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99b08b37400175be0800000000000000
+      internalID: -1488703540515304551
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Diablo Diablo Hellfire - Catacombs_102
+      rect:
+        serializedVersion: 2
+        x: 903
+        y: 579
+        width: 128
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9377bc4477228ef0800000000000000
+      internalID: -107480060646689891
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Diablo Diablo Hellfire - Catacombs_103
+      rect:
+        serializedVersion: 2
+        x: 1032
+        y: 579
+        width: 128
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24df5063246914f00800000000000000
+      internalID: 1099324995173481794
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Diablo Diablo Hellfire - Catacombs_104
+      rect:
+        serializedVersion: 2
+        x: 1161
+        y: 579
+        width: 128
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4dab99dcc04395eb0800000000000000
+      internalID: -4730692703982339372
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Diablo Diablo Hellfire - Catacombs_105
+      rect:
+        serializedVersion: 2
+        x: 1290
+        y: 579
+        width: 128
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c23e46a88b67ef630800000000000000
+      internalID: 3962735257100542764
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Diablo Diablo Hellfire - Catacombs_106
+      rect:
+        serializedVersion: 2
+        x: 1419
+        y: 579
+        width: 128
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a56d6e4ddb66ba1b0800000000000000
+      internalID: -5644304742472034726
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Diablo Diablo Hellfire - Catacombs_107
+      rect:
+        serializedVersion: 2
+        x: 1548
+        y: 579
+        width: 128
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98645eda4757eec60800000000000000
+      internalID: 7849340344547493513
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Diablo Diablo Hellfire - Catacombs_108
+      rect:
+        serializedVersion: 2
+        x: 1677
+        y: 579
+        width: 128
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97b4d75585ee7be20800000000000000
+      internalID: 3366421309641542521
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Diablo Diablo Hellfire - Catacombs_109
+      rect:
+        serializedVersion: 2
+        x: 1806
+        y: 579
+        width: 128
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb3f156d251788690800000000000000
+      internalID: -7599699770590760004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Diablo Diablo Hellfire - Catacombs_110
+      rect:
+        serializedVersion: 2
+        x: 1935
+        y: 579
+        width: 128
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6bb3ca3357f660a0800000000000000
+      internalID: -6888546643176342673
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Diablo Diablo Hellfire - Catacombs_111
+      rect:
+        serializedVersion: 2
+        x: 2064
+        y: 579
+        width: 128
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a53f9fb542b84d610800000000000000
+      internalID: 1645092752175264602
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Diablo Diablo Hellfire - Catacombs_112
+      rect:
+        serializedVersion: 2
+        x: 2193
+        y: 579
+        width: 128
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3bfa13d964be73880800000000000000
+      internalID: -8631171472314749005
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Diablo Diablo Hellfire - Catacombs_113
+      rect:
+        serializedVersion: 2
+        x: 2322
+        y: 579
+        width: 128
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 933b4d966851100d0800000000000000
+      internalID: -3458459371798482119
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Diablo Diablo Hellfire - Catacombs_114
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 386
+        width: 128
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37d05a0b54fcabae0800000000000000
+      internalID: -1532684824942932621
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Diablo Diablo Hellfire - Catacombs_115
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 386
+        width: 128
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4191571f83b876c0800000000000000
+      internalID: -4145366029841624755
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Diablo Diablo Hellfire - Catacombs_116
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 386
+        width: 128
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee82ab5a7f12033c0800000000000000
+      internalID: -4381965089910413074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Diablo Diablo Hellfire - Catacombs_117
+      rect:
+        serializedVersion: 2
+        x: 387
+        y: 386
+        width: 128
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28644b2ce742422a0800000000000000
+      internalID: -6763240613552568702
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Diablo Diablo Hellfire - Catacombs_118
+      rect:
+        serializedVersion: 2
+        x: 516
+        y: 386
+        width: 128
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bcee3922d0f0fbed0800000000000000
+      internalID: -2396179927648702773
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Diablo Diablo Hellfire - Catacombs_119
+      rect:
+        serializedVersion: 2
+        x: 645
+        y: 386
+        width: 128
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17f92b055be93aed0800000000000000
+      internalID: -2403903274505560207
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Diablo Diablo Hellfire - Catacombs_120
+      rect:
+        serializedVersion: 2
+        x: 774
+        y: 386
+        width: 128
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f994605989306880800000000000000
+      internalID: -8619826424865056270
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Diablo Diablo Hellfire - Catacombs_121
+      rect:
+        serializedVersion: 2
+        x: 903
+        y: 386
+        width: 128
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d07f7375234b072a0800000000000000
+      internalID: -6741690513868982515
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Diablo Diablo Hellfire - Catacombs_122
+      rect:
+        serializedVersion: 2
+        x: 1032
+        y: 386
+        width: 128
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16098a8b65716cbe0800000000000000
+      internalID: -1457451768175095711
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Diablo Diablo Hellfire - Catacombs_123
+      rect:
+        serializedVersion: 2
+        x: 1161
+        y: 386
+        width: 128
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b00f3bcb2c7ac7b0800000000000000
+      internalID: -5203209891937845071
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Diablo Diablo Hellfire - Catacombs_124
+      rect:
+        serializedVersion: 2
+        x: 1290
+        y: 386
+        width: 128
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b4c3b293c7b1a000800000000000000
+      internalID: 45519521858176181
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Diablo Diablo Hellfire - Catacombs_125
+      rect:
+        serializedVersion: 2
+        x: 1419
+        y: 386
+        width: 128
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9a25eb3395d36780800000000000000
+      internalID: -8690868027553142117
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Diablo Diablo Hellfire - Catacombs_126
+      rect:
+        serializedVersion: 2
+        x: 1548
+        y: 386
+        width: 128
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d5884ed739e7eee0800000000000000
+      internalID: -1231759546900773417
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Diablo Diablo Hellfire - Catacombs_127
+      rect:
+        serializedVersion: 2
+        x: 1677
+        y: 386
+        width: 128
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3a4b1a7f4100aab0800000000000000
+      internalID: -4998994145518597572
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Diablo Diablo Hellfire - Catacombs_128
+      rect:
+        serializedVersion: 2
+        x: 1806
+        y: 386
+        width: 128
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22c8313d1d5b21820800000000000000
+      internalID: 2887570223891975202
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Diablo Diablo Hellfire - Catacombs_129
+      rect:
+        serializedVersion: 2
+        x: 1935
+        y: 386
+        width: 128
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6607f845f780d3c10800000000000000
+      internalID: 2034791949613887590
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Diablo Diablo Hellfire - Catacombs_130
+      rect:
+        serializedVersion: 2
+        x: 2064
+        y: 386
+        width: 128
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c9113ce488a36730800000000000000
+      internalID: 3991218983632181701
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Diablo Diablo Hellfire - Catacombs_131
+      rect:
+        serializedVersion: 2
+        x: 2193
+        y: 386
+        width: 128
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87aa18ffabefc8360800000000000000
+      internalID: 7173388385598417528
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Diablo Diablo Hellfire - Catacombs_132
+      rect:
+        serializedVersion: 2
+        x: 2322
+        y: 386
+        width: 128
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c0382b61f088a760800000000000000
+      internalID: 7469361756367237316
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Diablo Diablo Hellfire - Catacombs_133
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 193
+        width: 128
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd90f72d1b4f04df0800000000000000
+      internalID: -197889339026372133
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Diablo Diablo Hellfire - Catacombs_134
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 193
+        width: 128
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d55611033a45bb70800000000000000
+      internalID: 8914112620371793367
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Diablo Diablo Hellfire - Catacombs_135
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 193
+        width: 128
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cbc80389f807adf90800000000000000
+      internalID: -6928101314720133956
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Diablo Diablo Hellfire - Catacombs_136
+      rect:
+        serializedVersion: 2
+        x: 387
+        y: 193
+        width: 128
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5046cf80c67e89180800000000000000
+      internalID: -9108275795163585531
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Diablo Diablo Hellfire - Catacombs_137
+      rect:
+        serializedVersion: 2
+        x: 516
+        y: 193
+        width: 128
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c0f1f22dbd458680800000000000000
+      internalID: -8753504825994252094
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Diablo Diablo Hellfire - Catacombs_138
+      rect:
+        serializedVersion: 2
+        x: 645
+        y: 193
+        width: 128
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 323a59ce711feed40800000000000000
+      internalID: 5615690870433358627
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Diablo Diablo Hellfire - Catacombs_139
+      rect:
+        serializedVersion: 2
+        x: 774
+        y: 193
+        width: 128
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e81fcc4e3f6869b90800000000000000
+      internalID: -7235447369250311794
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Diablo Diablo Hellfire - Catacombs_140
+      rect:
+        serializedVersion: 2
+        x: 903
+        y: 193
+        width: 128
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c23db11ec001eb960800000000000000
+      internalID: 7619545267059807020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Diablo Diablo Hellfire - Catacombs_141
+      rect:
+        serializedVersion: 2
+        x: 1032
+        y: 193
+        width: 128
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3eef7d08c0f68ee90800000000000000
+      internalID: -6996219921628135709
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Diablo Diablo Hellfire - Catacombs_142
+      rect:
+        serializedVersion: 2
+        x: 1161
+        y: 193
+        width: 128
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 467da88fd2d59c300800000000000000
+      internalID: 272851704457385828
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Diablo Diablo Hellfire - Catacombs_143
+      rect:
+        serializedVersion: 2
+        x: 1290
+        y: 193
+        width: 128
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab994f3eac929fa80800000000000000
+      internalID: -8432662875889952326
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Diablo Diablo Hellfire - Catacombs_144
+      rect:
+        serializedVersion: 2
+        x: 1419
+        y: 193
+        width: 128
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 350419222f5c9df20800000000000000
+      internalID: 3448004633481527379
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Diablo Diablo Hellfire - Catacombs_145
+      rect:
+        serializedVersion: 2
+        x: 1548
+        y: 193
+        width: 128
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef9f092784cbf4fb0800000000000000
+      internalID: -4661300069959403010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Diablo Diablo Hellfire - Catacombs_146
+      rect:
+        serializedVersion: 2
+        x: 1677
+        y: 193
+        width: 128
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ebb5f99d2a934a180800000000000000
+      internalID: -9105089175037715522
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Diablo Diablo Hellfire - Catacombs_147
+      rect:
+        serializedVersion: 2
+        x: 1806
+        y: 193
+        width: 128
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 876db6e4873eab9f0800000000000000
+      internalID: -451798706746042760
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Diablo Diablo Hellfire - Catacombs_148
+      rect:
+        serializedVersion: 2
+        x: 1935
+        y: 193
+        width: 128
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37d9000a062207de0800000000000000
+      internalID: -1337531290932437645
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Diablo Diablo Hellfire - Catacombs_149
+      rect:
+        serializedVersion: 2
+        x: 2064
+        y: 193
+        width: 128
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4dd5e25ab8d957b50800000000000000
+      internalID: 6590346852823883220
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Diablo Diablo Hellfire - Catacombs_150
+      rect:
+        serializedVersion: 2
+        x: 2193
+        y: 193
+        width: 128
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2f39751e2973cb10800000000000000
+      internalID: 2000575898318356266
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Diablo Diablo Hellfire - Catacombs_151
+      rect:
+        serializedVersion: 2
+        x: 2322
+        y: 193
+        width: 128
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e193ee7362dd99bc0800000000000000
+      internalID: -3775743656356595426
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Diablo Diablo Hellfire - Catacombs_152
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 128
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d2284cbffd74e590800000000000000
+      internalID: -7645847730039282986
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Diablo Diablo Hellfire - Catacombs_153
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 0
+        width: 128
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6fe9147b4c115bc30800000000000000
+      internalID: 4374422149646098166
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Diablo Diablo Hellfire - Catacombs_154
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 0
+        width: 128
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f04a7f186d5056930800000000000000
+      internalID: 4135718251671299087
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Diablo Diablo Hellfire - Catacombs_155
+      rect:
+        serializedVersion: 2
+        x: 387
+        y: 0
+        width: 128
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8196d50ce52d5ec50800000000000000
+      internalID: 6693987725552216344
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Diablo Diablo Hellfire - Catacombs_156
+      rect:
+        serializedVersion: 2
+        x: 516
+        y: 0
+        width: 128
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48cb39a83b11cca00800000000000000
+      internalID: 778016298450009220
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Diablo Diablo Hellfire - Catacombs_157
+      rect:
+        serializedVersion: 2
+        x: 645
+        y: 0
+        width: 128
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e58086a7ccecbb4e0800000000000000
+      internalID: -1964749434794801058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Diablo Diablo Hellfire - Catacombs_158
+      rect:
+        serializedVersion: 2
+        x: 2451
+        y: 1544
+        width: 125
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee67814784b7d8990800000000000000
+      internalID: -7382108663074752786
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Diablo Diablo Hellfire - Catacombs_159
+      rect:
+        serializedVersion: 2
+        x: 2451
+        y: 1351
+        width: 125
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d7562421a2bd8060800000000000000
+      internalID: 6957413404523255767
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Diablo Diablo Hellfire - Catacombs_160
+      rect:
+        serializedVersion: 2
+        x: 2451
+        y: 1158
+        width: 125
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0170f44f12354fc00800000000000000
+      internalID: 933462428070381328
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Diablo Diablo Hellfire - Catacombs_161
+      rect:
+        serializedVersion: 2
+        x: 2451
+        y: 965
+        width: 125
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08d02c90af2473160800000000000000
+      internalID: 7005141387071065472
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Diablo Diablo Hellfire - Catacombs_162
+      rect:
+        serializedVersion: 2
+        x: 2451
+        y: 772
+        width: 125
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d7c0a4b23673fb80800000000000000
+      internalID: -8362210122946000941
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Diablo Diablo Hellfire - Catacombs_163
+      rect:
+        serializedVersion: 2
+        x: 2451
+        y: 579
+        width: 125
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 059e632c1352c67d0800000000000000
+      internalID: -2923921162428290736
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Diablo Diablo Hellfire - Catacombs_164
+      rect:
+        serializedVersion: 2
+        x: 2451
+        y: 386
+        width: 125
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1c6d6dcbbc1c7ca0800000000000000
+      internalID: -6017903409142862817
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: e5b6d2c6934fb2d48b082d9712fd8bf1
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

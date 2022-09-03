@@ -1,0 +1,3948 @@
+fileFormatVersion: 2
+guid: 4039295f10c6ae54d812103e8556c3ab
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 2404759895054222007
+    second: Warrior Heavy Armor Axe_Attack_0
+  - first:
+      213: 5782473596230199373
+    second: Warrior Heavy Armor Axe_Attack_1
+  - first:
+      213: -1417251682964140932
+    second: Warrior Heavy Armor Axe_Attack_2
+  - first:
+      213: 7575092832625854365
+    second: Warrior Heavy Armor Axe_Attack_3
+  - first:
+      213: 4001700590250725006
+    second: Warrior Heavy Armor Axe_Attack_4
+  - first:
+      213: 2909098536910070064
+    second: Warrior Heavy Armor Axe_Attack_5
+  - first:
+      213: -5813813679490578004
+    second: Warrior Heavy Armor Axe_Attack_6
+  - first:
+      213: 4049312801190670509
+    second: Warrior Heavy Armor Axe_Attack_7
+  - first:
+      213: -677489833482268844
+    second: Warrior Heavy Armor Axe_Attack_8
+  - first:
+      213: -5632809231566695442
+    second: Warrior Heavy Armor Axe_Attack_9
+  - first:
+      213: -5740467571788249952
+    second: Warrior Heavy Armor Axe_Attack_10
+  - first:
+      213: 3121459957277893020
+    second: Warrior Heavy Armor Axe_Attack_11
+  - first:
+      213: 8607908393929738123
+    second: Warrior Heavy Armor Axe_Attack_12
+  - first:
+      213: 815863698175831465
+    second: Warrior Heavy Armor Axe_Attack_13
+  - first:
+      213: -1216486744055190235
+    second: Warrior Heavy Armor Axe_Attack_14
+  - first:
+      213: 2714140062694635128
+    second: Warrior Heavy Armor Axe_Attack_15
+  - first:
+      213: 6768666836563373336
+    second: Warrior Heavy Armor Axe_Attack_16
+  - first:
+      213: -6714470977837915212
+    second: Warrior Heavy Armor Axe_Attack_17
+  - first:
+      213: -8756563313080821032
+    second: Warrior Heavy Armor Axe_Attack_18
+  - first:
+      213: -7215237431473823281
+    second: Warrior Heavy Armor Axe_Attack_19
+  - first:
+      213: 1876171922444504676
+    second: Warrior Heavy Armor Axe_Attack_20
+  - first:
+      213: -5800775717129191623
+    second: Warrior Heavy Armor Axe_Attack_21
+  - first:
+      213: 8384133442934733491
+    second: Warrior Heavy Armor Axe_Attack_22
+  - first:
+      213: 6814756804961541354
+    second: Warrior Heavy Armor Axe_Attack_23
+  - first:
+      213: 967466265153459804
+    second: Warrior Heavy Armor Axe_Attack_24
+  - first:
+      213: 6764212392777976247
+    second: Warrior Heavy Armor Axe_Attack_25
+  - first:
+      213: 8323275105899908124
+    second: Warrior Heavy Armor Axe_Attack_26
+  - first:
+      213: 7381409326912354822
+    second: Warrior Heavy Armor Axe_Attack_27
+  - first:
+      213: -334847444403977502
+    second: Warrior Heavy Armor Axe_Attack_28
+  - first:
+      213: -6206147646829934119
+    second: Warrior Heavy Armor Axe_Attack_29
+  - first:
+      213: -1475230361394284481
+    second: Warrior Heavy Armor Axe_Attack_30
+  - first:
+      213: 9079349600432305094
+    second: Warrior Heavy Armor Axe_Attack_31
+  - first:
+      213: -5984115943684829625
+    second: Warrior Heavy Armor Axe_Attack_32
+  - first:
+      213: -6676503200133328590
+    second: Warrior Heavy Armor Axe_Attack_33
+  - first:
+      213: 3925659629505480422
+    second: Warrior Heavy Armor Axe_Attack_34
+  - first:
+      213: -6626980037394871706
+    second: Warrior Heavy Armor Axe_Attack_35
+  - first:
+      213: 7963337804952589677
+    second: Warrior Heavy Armor Axe_Attack_36
+  - first:
+      213: -4207170466659880558
+    second: Warrior Heavy Armor Axe_Attack_37
+  - first:
+      213: 7683498688451704070
+    second: Warrior Heavy Armor Axe_Attack_38
+  - first:
+      213: 2236524128570977920
+    second: Warrior Heavy Armor Axe_Attack_39
+  - first:
+      213: -1577495543477068144
+    second: Warrior Heavy Armor Axe_Attack_40
+  - first:
+      213: -6695202264407485200
+    second: Warrior Heavy Armor Axe_Attack_41
+  - first:
+      213: -3839071783207712573
+    second: Warrior Heavy Armor Axe_Attack_42
+  - first:
+      213: -5250430117404074285
+    second: Warrior Heavy Armor Axe_Attack_43
+  - first:
+      213: 5352575624195987553
+    second: Warrior Heavy Armor Axe_Attack_44
+  - first:
+      213: 4580630564008764328
+    second: Warrior Heavy Armor Axe_Attack_45
+  - first:
+      213: 8602259619130898608
+    second: Warrior Heavy Armor Axe_Attack_46
+  - first:
+      213: 5319479872236110250
+    second: Warrior Heavy Armor Axe_Attack_47
+  - first:
+      213: -4139484080244458678
+    second: Warrior Heavy Armor Axe_Attack_48
+  - first:
+      213: 2865063898275030319
+    second: Warrior Heavy Armor Axe_Attack_49
+  - first:
+      213: 3932477472709177395
+    second: Warrior Heavy Armor Axe_Attack_50
+  - first:
+      213: 2347919016053669060
+    second: Warrior Heavy Armor Axe_Attack_51
+  - first:
+      213: -9039007152608034331
+    second: Warrior Heavy Armor Axe_Attack_52
+  - first:
+      213: 2454073451929995516
+    second: Warrior Heavy Armor Axe_Attack_53
+  - first:
+      213: 4772094212749084908
+    second: Warrior Heavy Armor Axe_Attack_54
+  - first:
+      213: 9094733242646547876
+    second: Warrior Heavy Armor Axe_Attack_55
+  - first:
+      213: -1951549916830428437
+    second: Warrior Heavy Armor Axe_Attack_56
+  - first:
+      213: -5651767208563025736
+    second: Warrior Heavy Armor Axe_Attack_57
+  - first:
+      213: 959557079199955060
+    second: Warrior Heavy Armor Axe_Attack_58
+  - first:
+      213: 5554441546658674103
+    second: Warrior Heavy Armor Axe_Attack_59
+  - first:
+      213: -3034498328169637643
+    second: Warrior Heavy Armor Axe_Attack_60
+  - first:
+      213: 1680556019229864475
+    second: Warrior Heavy Armor Axe_Attack_61
+  - first:
+      213: 747203400009575686
+    second: Warrior Heavy Armor Axe_Attack_62
+  - first:
+      213: 6178906689799632633
+    second: Warrior Heavy Armor Axe_Attack_63
+  - first:
+      213: 8853506022326448923
+    second: Warrior Heavy Armor Axe_Attack_64
+  - first:
+      213: -1313016721470576604
+    second: Warrior Heavy Armor Axe_Attack_65
+  - first:
+      213: 7952820460801027738
+    second: Warrior Heavy Armor Axe_Attack_66
+  - first:
+      213: 2058040502566701840
+    second: Warrior Heavy Armor Axe_Attack_67
+  - first:
+      213: 7029704746604515795
+    second: Warrior Heavy Armor Axe_Attack_68
+  - first:
+      213: -3209763518162456706
+    second: Warrior Heavy Armor Axe_Attack_69
+  - first:
+      213: 2307548291347303535
+    second: Warrior Heavy Armor Axe_Attack_70
+  - first:
+      213: -4639309709232673085
+    second: Warrior Heavy Armor Axe_Attack_71
+  - first:
+      213: 7158707928587487660
+    second: Warrior Heavy Armor Axe_Attack_72
+  - first:
+      213: -2819560803251551491
+    second: Warrior Heavy Armor Axe_Attack_73
+  - first:
+      213: -5780089681993501198
+    second: Warrior Heavy Armor Axe_Attack_74
+  - first:
+      213: -1439518970673759680
+    second: Warrior Heavy Armor Axe_Attack_75
+  - first:
+      213: -6836577598240103658
+    second: Warrior Heavy Armor Axe_Attack_76
+  - first:
+      213: -1167469740515862864
+    second: Warrior Heavy Armor Axe_Attack_77
+  - first:
+      213: -1259697790765373675
+    second: Warrior Heavy Armor Axe_Attack_78
+  - first:
+      213: 8682582012838184172
+    second: Warrior Heavy Armor Axe_Attack_79
+  - first:
+      213: 7937349464428581552
+    second: Warrior Heavy Armor Axe_Attack_80
+  - first:
+      213: 6847887699799719977
+    second: Warrior Heavy Armor Axe_Attack_81
+  - first:
+      213: -640954330997261650
+    second: Warrior Heavy Armor Axe_Attack_82
+  - first:
+      213: 6256929257379082044
+    second: Warrior Heavy Armor Axe_Attack_83
+  - first:
+      213: 5831246568143971904
+    second: Warrior Heavy Armor Axe_Attack_84
+  - first:
+      213: -6960629379649650058
+    second: Warrior Heavy Armor Axe_Attack_85
+  - first:
+      213: -2438559989679406598
+    second: Warrior Heavy Armor Axe_Attack_86
+  - first:
+      213: -4595616780126653393
+    second: Warrior Heavy Armor Axe_Attack_87
+  - first:
+      213: -969609436151694823
+    second: Warrior Heavy Armor Axe_Attack_88
+  - first:
+      213: -4439041523480315839
+    second: Warrior Heavy Armor Axe_Attack_89
+  - first:
+      213: 4450573352200937451
+    second: Warrior Heavy Armor Axe_Attack_90
+  - first:
+      213: 5848904306614569578
+    second: Warrior Heavy Armor Axe_Attack_91
+  - first:
+      213: -8348193155056294616
+    second: Warrior Heavy Armor Axe_Attack_92
+  - first:
+      213: 3669596018866151254
+    second: Warrior Heavy Armor Axe_Attack_93
+  - first:
+      213: 8782451367083891274
+    second: Warrior Heavy Armor Axe_Attack_94
+  - first:
+      213: 5228083963484241872
+    second: Warrior Heavy Armor Axe_Attack_95
+  - first:
+      213: 7940457697778467626
+    second: Warrior Heavy Armor Axe_Attack_96
+  - first:
+      213: 3286432170416505299
+    second: Warrior Heavy Armor Axe_Attack_97
+  - first:
+      213: 7352907179161255868
+    second: Warrior Heavy Armor Axe_Attack_98
+  - first:
+      213: -2220454430249501054
+    second: Warrior Heavy Armor Axe_Attack_99
+  - first:
+      213: -4559358733274163883
+    second: Warrior Heavy Armor Axe_Attack_100
+  - first:
+      213: 3736415935969393663
+    second: Warrior Heavy Armor Axe_Attack_101
+  - first:
+      213: -2673634497525764125
+    second: Warrior Heavy Armor Axe_Attack_102
+  - first:
+      213: 1752914907289175000
+    second: Warrior Heavy Armor Axe_Attack_103
+  - first:
+      213: -5441435002096793576
+    second: Warrior Heavy Armor Axe_Attack_104
+  - first:
+      213: 133437485387981679
+    second: Warrior Heavy Armor Axe_Attack_105
+  - first:
+      213: 3567111060027104413
+    second: Warrior Heavy Armor Axe_Attack_106
+  - first:
+      213: -8581311212225789382
+    second: Warrior Heavy Armor Axe_Attack_107
+  - first:
+      213: -7929943873256885714
+    second: Warrior Heavy Armor Axe_Attack_108
+  - first:
+      213: -80896300649349834
+    second: Warrior Heavy Armor Axe_Attack_109
+  - first:
+      213: -8781575374861229390
+    second: Warrior Heavy Armor Axe_Attack_110
+  - first:
+      213: -6806497707302452234
+    second: Warrior Heavy Armor Axe_Attack_111
+  - first:
+      213: -2862515307872681122
+    second: Warrior Heavy Armor Axe_Attack_112
+  - first:
+      213: 6410578484118407146
+    second: Warrior Heavy Armor Axe_Attack_113
+  - first:
+      213: -5994938724468444642
+    second: Warrior Heavy Armor Axe_Attack_114
+  - first:
+      213: 8667166334230610941
+    second: Warrior Heavy Armor Axe_Attack_115
+  - first:
+      213: -253089612522157599
+    second: Warrior Heavy Armor Axe_Attack_116
+  - first:
+      213: -8144059876021346040
+    second: Warrior Heavy Armor Axe_Attack_117
+  - first:
+      213: 7934611542883442896
+    second: Warrior Heavy Armor Axe_Attack_118
+  - first:
+      213: 2087612087462943150
+    second: Warrior Heavy Armor Axe_Attack_119
+  - first:
+      213: -5890049666688838864
+    second: Warrior Heavy Armor Axe_Attack_120
+  - first:
+      213: 2795595774459487341
+    second: Warrior Heavy Armor Axe_Attack_121
+  - first:
+      213: -4231353349474872361
+    second: Warrior Heavy Armor Axe_Attack_122
+  - first:
+      213: 4305991009156311010
+    second: Warrior Heavy Armor Axe_Attack_123
+  - first:
+      213: 3653462287053005225
+    second: Warrior Heavy Armor Axe_Attack_124
+  - first:
+      213: 766320050348125184
+    second: Warrior Heavy Armor Axe_Attack_125
+  - first:
+      213: -8571852578214064799
+    second: Warrior Heavy Armor Axe_Attack_126
+  - first:
+      213: 6650956257855061857
+    second: Warrior Heavy Armor Axe_Attack_127
+  - first:
+      213: -6866283674141737927
+    second: Warrior Heavy Armor Axe_Attack_128
+  - first:
+      213: -6509811863419587596
+    second: Warrior Heavy Armor Axe_Attack_129
+  - first:
+      213: 3446243353154917526
+    second: Warrior Heavy Armor Axe_Attack_130
+  - first:
+      213: -769845547800736156
+    second: Warrior Heavy Armor Axe_Attack_131
+  - first:
+      213: 1478548734341945940
+    second: Warrior Heavy Armor Axe_Attack_132
+  - first:
+      213: -1608511751925463381
+    second: Warrior Heavy Armor Axe_Attack_133
+  - first:
+      213: 613539086031607964
+    second: Warrior Heavy Armor Axe_Attack_134
+  - first:
+      213: -5791298056525641564
+    second: Warrior Heavy Armor Axe_Attack_135
+  - first:
+      213: 1717712309529207435
+    second: Warrior Heavy Armor Axe_Attack_136
+  - first:
+      213: 5215522611401762771
+    second: Warrior Heavy Armor Axe_Attack_137
+  - first:
+      213: 1126321527619999748
+    second: Warrior Heavy Armor Axe_Attack_138
+  - first:
+      213: 867231906287182688
+    second: Warrior Heavy Armor Axe_Attack_139
+  - first:
+      213: -5703030616710889689
+    second: Warrior Heavy Armor Axe_Attack_140
+  - first:
+      213: -7425025595873345398
+    second: Warrior Heavy Armor Axe_Attack_141
+  - first:
+      213: 5225875066571027295
+    second: Warrior Heavy Armor Axe_Attack_142
+  - first:
+      213: 5056278499689672486
+    second: Warrior Heavy Armor Axe_Attack_143
+  - first:
+      213: -4297715494011451022
+    second: Warrior Heavy Armor Axe_Attack_144
+  - first:
+      213: 6100531742365304010
+    second: Warrior Heavy Armor Axe_Attack_145
+  - first:
+      213: 1043261349796475434
+    second: Warrior Heavy Armor Axe_Attack_146
+  - first:
+      213: 7264445854005588902
+    second: Warrior Heavy Armor Axe_Attack_147
+  - first:
+      213: 6600697557204099767
+    second: Warrior Heavy Armor Axe_Attack_148
+  - first:
+      213: -4660587825990542898
+    second: Warrior Heavy Armor Axe_Attack_149
+  - first:
+      213: 5794405311256312491
+    second: Warrior Heavy Armor Axe_Attack_150
+  - first:
+      213: -6752467001526114118
+    second: Warrior Heavy Armor Axe_Attack_151
+  - first:
+      213: 7472777237089243500
+    second: Warrior Heavy Armor Axe_Attack_152
+  - first:
+      213: -4936961080553051368
+    second: Warrior Heavy Armor Axe_Attack_153
+  - first:
+      213: -8910821932610621744
+    second: Warrior Heavy Armor Axe_Attack_154
+  - first:
+      213: -4443200048008681172
+    second: Warrior Heavy Armor Axe_Attack_155
+  - first:
+      213: -5360038073865384879
+    second: Warrior Heavy Armor Axe_Attack_156
+  - first:
+      213: -3231747365188706480
+    second: Warrior Heavy Armor Axe_Attack_157
+  - first:
+      213: 1446592290158646477
+    second: Warrior Heavy Armor Axe_Attack_158
+  - first:
+      213: -3681382567675655856
+    second: Warrior Heavy Armor Axe_Attack_159
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 128
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Warrior Heavy Armor Axe_Attack_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 900
+        width: 128
+        height: 125
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b200d2326c6f5120800000000000000
+      internalID: 2404759895054222007
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior Heavy Armor Axe_Attack_1
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 900
+        width: 128
+        height: 125
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d48606259197f3050800000000000000
+      internalID: 5782473596230199373
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior Heavy Armor Axe_Attack_2
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 900
+        width: 128
+        height: 125
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7c099f6a19e45ce0800000000000000
+      internalID: -1417251682964140932
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior Heavy Armor Axe_Attack_3
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 900
+        width: 128
+        height: 125
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d978545fbc2202960800000000000000
+      internalID: 7575092832625854365
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior Heavy Armor Axe_Attack_4
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 900
+        width: 128
+        height: 125
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8e8d532c75e88730800000000000000
+      internalID: 4001700590250725006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior Heavy Armor Axe_Attack_5
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 900
+        width: 128
+        height: 125
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 031222dc4b13f5820800000000000000
+      internalID: 2909098536910070064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior Heavy Armor Axe_Attack_6
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 900
+        width: 128
+        height: 125
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca948abe24f215fa0800000000000000
+      internalID: -5813813679490578004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior Heavy Armor Axe_Attack_7
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 900
+        width: 128
+        height: 125
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da0796bd98c023830800000000000000
+      internalID: 4049312801190670509
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior Heavy Armor Axe_Attack_8
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 900
+        width: 128
+        height: 125
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45fc95006921996f0800000000000000
+      internalID: -677489833482268844
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior Heavy Armor Axe_Attack_9
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 900
+        width: 128
+        height: 125
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee31de809dd34d1b0800000000000000
+      internalID: -5632809231566695442
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior Heavy Armor Axe_Attack_10
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 900
+        width: 128
+        height: 125
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a489e26823c550b0800000000000000
+      internalID: -5740467571788249952
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior Heavy Armor Axe_Attack_11
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 900
+        width: 128
+        height: 125
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c91a72efa47a15b20800000000000000
+      internalID: 3121459957277893020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior Heavy Armor Axe_Attack_12
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 900
+        width: 128
+        height: 125
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b87094fd31f657770800000000000000
+      internalID: 8607908393929738123
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior Heavy Armor Axe_Attack_13
+      rect:
+        serializedVersion: 2
+        x: 1664
+        y: 900
+        width: 128
+        height: 125
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ad28eaf5b7825b00800000000000000
+      internalID: 815863698175831465
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior Heavy Armor Axe_Attack_14
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 900
+        width: 128
+        height: 125
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52d6e9260cb2e1fe0800000000000000
+      internalID: -1216486744055190235
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior Heavy Armor Axe_Attack_15
+      rect:
+        serializedVersion: 2
+        x: 1920
+        y: 900
+        width: 128
+        height: 125
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 876f193c1009aa520800000000000000
+      internalID: 2714140062694635128
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior Heavy Armor Axe_Attack_16
+      rect:
+        serializedVersion: 2
+        x: 2048
+        y: 900
+        width: 128
+        height: 125
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81da35c30a22fed50800000000000000
+      internalID: 6768666836563373336
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior Heavy Armor Axe_Attack_17
+      rect:
+        serializedVersion: 2
+        x: 2176
+        y: 900
+        width: 128
+        height: 125
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b32d4f683861d2a0800000000000000
+      internalID: -6714470977837915212
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior Heavy Armor Axe_Attack_18
+      rect:
+        serializedVersion: 2
+        x: 2304
+        y: 900
+        width: 128
+        height: 125
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8da999e9f007a7680800000000000000
+      internalID: -8756563313080821032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior Heavy Armor Axe_Attack_19
+      rect:
+        serializedVersion: 2
+        x: 2432
+        y: 900
+        width: 128
+        height: 125
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc1a6e6b8c35edb90800000000000000
+      internalID: -7215237431473823281
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior Heavy Armor Axe_Attack_20
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 771
+        width: 128
+        height: 125
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46ecdde4c60890a10800000000000000
+      internalID: 1876171922444504676
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior Heavy Armor Axe_Attack_21
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 771
+        width: 128
+        height: 125
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93f7dc618318f7fa0800000000000000
+      internalID: -5800775717129191623
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior Heavy Armor Axe_Attack_22
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 771
+        width: 128
+        height: 125
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3baf89ff1fc6a5470800000000000000
+      internalID: 8384133442934733491
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior Heavy Armor Axe_Attack_23
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 771
+        width: 128
+        height: 125
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aec986e3531e29e50800000000000000
+      internalID: 6814756804961541354
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior Heavy Armor Axe_Attack_24
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 771
+        width: 128
+        height: 125
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5655aa31712d6d00800000000000000
+      internalID: 967466265153459804
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior Heavy Armor Axe_Attack_25
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 771
+        width: 128
+        height: 125
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b983d8355f4fdd50800000000000000
+      internalID: 6764212392777976247
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior Heavy Armor Axe_Attack_26
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 771
+        width: 128
+        height: 125
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1c04073c96328370800000000000000
+      internalID: 8323275105899908124
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior Heavy Armor Axe_Attack_27
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 771
+        width: 128
+        height: 125
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60abd58aca8007660800000000000000
+      internalID: 7381409326912354822
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior Heavy Armor Axe_Attack_28
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 771
+        width: 128
+        height: 125
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e28a5ef5026a5bf0800000000000000
+      internalID: -334847444403977502
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior Heavy Armor Axe_Attack_29
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 771
+        width: 128
+        height: 125
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d94317c8955fd9a0800000000000000
+      internalID: -6206147646829934119
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior Heavy Armor Axe_Attack_30
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 771
+        width: 128
+        height: 125
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f38f83b6dcde68be0800000000000000
+      internalID: -1475230361394284481
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior Heavy Armor Axe_Attack_31
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 771
+        width: 128
+        height: 125
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c33a5d6b54500e70800000000000000
+      internalID: 9079349600432305094
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior Heavy Armor Axe_Attack_32
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 771
+        width: 128
+        height: 125
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74e0ae1214624fca0800000000000000
+      internalID: -5984115943684829625
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior Heavy Armor Axe_Attack_33
+      rect:
+        serializedVersion: 2
+        x: 1664
+        y: 771
+        width: 128
+        height: 125
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2315b4e86bb4853a0800000000000000
+      internalID: -6676503200133328590
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior Heavy Armor Axe_Attack_34
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 771
+        width: 128
+        height: 125
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e604cd42aeba7630800000000000000
+      internalID: 3925659629505480422
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior Heavy Armor Axe_Attack_35
+      rect:
+        serializedVersion: 2
+        x: 1920
+        y: 771
+        width: 128
+        height: 125
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66a497964cc3804a0800000000000000
+      internalID: -6626980037394871706
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior Heavy Armor Axe_Attack_36
+      rect:
+        serializedVersion: 2
+        x: 2048
+        y: 771
+        width: 128
+        height: 125
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6553a2ca85738e60800000000000000
+      internalID: 7963337804952589677
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior Heavy Armor Axe_Attack_37
+      rect:
+        serializedVersion: 2
+        x: 2176
+        y: 771
+        width: 128
+        height: 125
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 291393940c02d95c0800000000000000
+      internalID: -4207170466659880558
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior Heavy Armor Axe_Attack_38
+      rect:
+        serializedVersion: 2
+        x: 2304
+        y: 771
+        width: 128
+        height: 125
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 605f755295541aa60800000000000000
+      internalID: 7683498688451704070
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior Heavy Armor Axe_Attack_39
+      rect:
+        serializedVersion: 2
+        x: 2432
+        y: 771
+        width: 128
+        height: 125
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08e201768dab90f10800000000000000
+      internalID: 2236524128570977920
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior Heavy Armor Axe_Attack_40
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 642
+        width: 128
+        height: 125
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09e9940492c9b1ae0800000000000000
+      internalID: -1577495543477068144
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior Heavy Armor Axe_Attack_41
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 642
+        width: 128
+        height: 125
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f4d992630dd513a0800000000000000
+      internalID: -6695202264407485200
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior Heavy Armor Axe_Attack_42
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 642
+        width: 128
+        height: 125
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c8cdaead80e8bac0800000000000000
+      internalID: -3839071783207712573
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior Heavy Armor Axe_Attack_43
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 642
+        width: 128
+        height: 125
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3de1e1e40a9b227b0800000000000000
+      internalID: -5250430117404074285
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior Heavy Armor Axe_Attack_44
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 642
+        width: 128
+        height: 125
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 168dd99cb2b284a40800000000000000
+      internalID: 5352575624195987553
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior Heavy Armor Axe_Attack_45
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 642
+        width: 128
+        height: 125
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a32a0f8a3ba19f30800000000000000
+      internalID: 4580630564008764328
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior Heavy Armor Axe_Attack_46
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 642
+        width: 128
+        height: 125
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b8fbfffb8d516770800000000000000
+      internalID: 8602259619130898608
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior Heavy Armor Axe_Attack_47
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 642
+        width: 128
+        height: 125
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa1497e82c692d940800000000000000
+      internalID: 5319479872236110250
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior Heavy Armor Axe_Attack_48
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 642
+        width: 128
+        height: 125
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4bf4a339299d86c0800000000000000
+      internalID: -4139484080244458678
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior Heavy Armor Axe_Attack_49
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 642
+        width: 128
+        height: 125
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f25aa7b8f60c2c720800000000000000
+      internalID: 2865063898275030319
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior Heavy Armor Axe_Attack_50
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 642
+        width: 128
+        height: 125
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3307e002d67f29630800000000000000
+      internalID: 3932477472709177395
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior Heavy Armor Axe_Attack_51
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 642
+        width: 128
+        height: 125
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4cc7341c7eb759020800000000000000
+      internalID: 2347919016053669060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior Heavy Armor Axe_Attack_52
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 642
+        width: 128
+        height: 125
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e1459aa2eefe8280800000000000000
+      internalID: -9039007152608034331
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior Heavy Armor Axe_Attack_53
+      rect:
+        serializedVersion: 2
+        x: 1664
+        y: 642
+        width: 128
+        height: 125
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf801036dce9e0220800000000000000
+      internalID: 2454073451929995516
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior Heavy Armor Axe_Attack_54
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 642
+        width: 128
+        height: 125
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce84b912762e93240800000000000000
+      internalID: 4772094212749084908
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior Heavy Armor Axe_Attack_55
+      rect:
+        serializedVersion: 2
+        x: 1920
+        y: 642
+        width: 128
+        height: 125
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ad42eeb2bbf63e70800000000000000
+      internalID: 9094733242646547876
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior Heavy Armor Axe_Attack_56
+      rect:
+        serializedVersion: 2
+        x: 2048
+        y: 642
+        width: 128
+        height: 125
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be211edb0b3bae4e0800000000000000
+      internalID: -1951549916830428437
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior Heavy Armor Axe_Attack_57
+      rect:
+        serializedVersion: 2
+        x: 2176
+        y: 642
+        width: 128
+        height: 125
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b8566c0ba3e091b0800000000000000
+      internalID: -5651767208563025736
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior Heavy Armor Axe_Attack_58
+      rect:
+        serializedVersion: 2
+        x: 2304
+        y: 642
+        width: 128
+        height: 125
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 478bc6f5418015d00800000000000000
+      internalID: 959557079199955060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior Heavy Armor Axe_Attack_59
+      rect:
+        serializedVersion: 2
+        x: 2432
+        y: 642
+        width: 128
+        height: 125
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b5f2427827551d40800000000000000
+      internalID: 5554441546658674103
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior Heavy Armor Axe_Attack_60
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 513
+        width: 128
+        height: 125
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f89ee519db43e5d0800000000000000
+      internalID: -3034498328169637643
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior Heavy Armor Axe_Attack_61
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 513
+        width: 128
+        height: 125
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b123757abc8825710800000000000000
+      internalID: 1680556019229864475
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior Heavy Armor Axe_Attack_62
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 513
+        width: 128
+        height: 125
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60de88098899e5a00800000000000000
+      internalID: 747203400009575686
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior Heavy Armor Axe_Attack_63
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 513
+        width: 128
+        height: 125
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f6bac9a5e2efb550800000000000000
+      internalID: 6178906689799632633
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior Heavy Armor Axe_Attack_64
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 513
+        width: 128
+        height: 125
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b13bc85c1d8fdda70800000000000000
+      internalID: 8853506022326448923
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior Heavy Armor Axe_Attack_65
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 513
+        width: 128
+        height: 125
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 428299c9f3a37cde0800000000000000
+      internalID: -1313016721470576604
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior Heavy Armor Axe_Attack_66
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 513
+        width: 128
+        height: 125
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9ee080c2181e5e60800000000000000
+      internalID: 7952820460801027738
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior Heavy Armor Axe_Attack_67
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 513
+        width: 128
+        height: 125
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01bcad0eee0af8c10800000000000000
+      internalID: 2058040502566701840
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior Heavy Armor Axe_Attack_68
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 513
+        width: 128
+        height: 125
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d15d39d8378e8160800000000000000
+      internalID: 7029704746604515795
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior Heavy Armor Axe_Attack_69
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 513
+        width: 128
+        height: 125
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7f2be61611a473d0800000000000000
+      internalID: -3209763518162456706
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior Heavy Armor Axe_Attack_70
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 513
+        width: 128
+        height: 125
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6cc0dfe1fe060020800000000000000
+      internalID: 2307548291347303535
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior Heavy Armor Axe_Attack_71
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 513
+        width: 128
+        height: 125
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ce6a2a466cdd9fb0800000000000000
+      internalID: -4639309709232673085
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior Heavy Armor Axe_Attack_72
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 513
+        width: 128
+        height: 125
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca9ca3ebee6d85360800000000000000
+      internalID: 7158707928587487660
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior Heavy Armor Axe_Attack_73
+      rect:
+        serializedVersion: 2
+        x: 1664
+        y: 513
+        width: 128
+        height: 125
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df2839b5368eed8d0800000000000000
+      internalID: -2819560803251551491
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior Heavy Armor Axe_Attack_74
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 513
+        width: 128
+        height: 125
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f570e6fe0ff8cfa0800000000000000
+      internalID: -5780089681993501198
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior Heavy Armor Axe_Attack_75
+      rect:
+        serializedVersion: 2
+        x: 1920
+        y: 513
+        width: 128
+        height: 125
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04afd818f1dc50ce0800000000000000
+      internalID: -1439518970673759680
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior Heavy Armor Axe_Attack_76
+      rect:
+        serializedVersion: 2
+        x: 2048
+        y: 513
+        width: 128
+        height: 125
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 613618965e89f11a0800000000000000
+      internalID: -6836577598240103658
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior Heavy Armor Axe_Attack_77
+      rect:
+        serializedVersion: 2
+        x: 2176
+        y: 513
+        width: 128
+        height: 125
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b6d88ed4705ccfe0800000000000000
+      internalID: -1167469740515862864
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior Heavy Armor Axe_Attack_78
+      rect:
+        serializedVersion: 2
+        x: 2304
+        y: 513
+        width: 128
+        height: 125
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 517e5119887a48ee0800000000000000
+      internalID: -1259697790765373675
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior Heavy Armor Axe_Attack_79
+      rect:
+        serializedVersion: 2
+        x: 2432
+        y: 513
+        width: 128
+        height: 125
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce48a60a65abe7870800000000000000
+      internalID: 8682582012838184172
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior Heavy Armor Axe_Attack_80
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 384
+        width: 128
+        height: 125
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b21765b841272e60800000000000000
+      internalID: 7937349464428581552
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior Heavy Armor Axe_Attack_81
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 384
+        width: 128
+        height: 125
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9204450d495980f50800000000000000
+      internalID: 6847887699799719977
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior Heavy Armor Axe_Attack_82
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 384
+        width: 128
+        height: 125
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eaaf8af8e6fda17f0800000000000000
+      internalID: -640954330997261650
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior Heavy Armor Axe_Attack_83
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 384
+        width: 128
+        height: 125
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3f24da420415d650800000000000000
+      internalID: 6256929257379082044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior Heavy Armor Axe_Attack_84
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 384
+        width: 128
+        height: 125
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 046efe3cbdfbce050800000000000000
+      internalID: 5831246568143971904
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior Heavy Armor Axe_Attack_85
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 384
+        width: 128
+        height: 125
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 672c5dc4570e66f90800000000000000
+      internalID: -6960629379649650058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior Heavy Armor Axe_Attack_86
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 384
+        width: 128
+        height: 125
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af1cda30c9e782ed0800000000000000
+      internalID: -2438559989679406598
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior Heavy Armor Axe_Attack_87
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 384
+        width: 128
+        height: 125
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f24f9b813e61930c0800000000000000
+      internalID: -4595616780126653393
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior Heavy Armor Axe_Attack_88
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 384
+        width: 128
+        height: 125
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91abf43ea514b82f0800000000000000
+      internalID: -969609436151694823
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior Heavy Armor Axe_Attack_89
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 384
+        width: 128
+        height: 125
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1483fb1e04b5562c0800000000000000
+      internalID: -4439041523480315839
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior Heavy Armor Axe_Attack_90
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 384
+        width: 128
+        height: 125
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bef91c832ec93cd30800000000000000
+      internalID: 4450573352200937451
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior Heavy Armor Axe_Attack_91
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 384
+        width: 128
+        height: 125
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6a83016a7b7b2150800000000000000
+      internalID: 5848904306614569578
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior Heavy Armor Axe_Attack_92
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 384
+        width: 128
+        height: 125
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 825a58c5e82452c80800000000000000
+      internalID: -8348193155056294616
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior Heavy Armor Axe_Attack_93
+      rect:
+        serializedVersion: 2
+        x: 1664
+        y: 384
+        width: 128
+        height: 125
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65f54b503260de230800000000000000
+      internalID: 3669596018866151254
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior Heavy Armor Axe_Attack_94
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 384
+        width: 128
+        height: 125
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4add28acf881e970800000000000000
+      internalID: 8782451367083891274
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior Heavy Armor Axe_Attack_95
+      rect:
+        serializedVersion: 2
+        x: 1920
+        y: 384
+        width: 128
+        height: 125
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0dff46b4aa2ed8840800000000000000
+      internalID: 5228083963484241872
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior Heavy Armor Axe_Attack_96
+      rect:
+        serializedVersion: 2
+        x: 2048
+        y: 384
+        width: 128
+        height: 125
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a230a1ea43c223e60800000000000000
+      internalID: 7940457697778467626
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior Heavy Armor Axe_Attack_97
+      rect:
+        serializedVersion: 2
+        x: 2176
+        y: 384
+        width: 128
+        height: 125
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d1871095a0cb9d20800000000000000
+      internalID: 3286432170416505299
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior Heavy Armor Axe_Attack_98
+      rect:
+        serializedVersion: 2
+        x: 2304
+        y: 384
+        width: 128
+        height: 125
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cbf73504f16ca0660800000000000000
+      internalID: 7352907179161255868
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior Heavy Armor Axe_Attack_99
+      rect:
+        serializedVersion: 2
+        x: 2432
+        y: 384
+        width: 128
+        height: 125
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28e390dc57c5f21e0800000000000000
+      internalID: -2220454430249501054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior Heavy Armor Axe_Attack_100
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 255
+        width: 128
+        height: 125
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5555e9b7367e9b0c0800000000000000
+      internalID: -4559358733274163883
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior Heavy Armor Axe_Attack_101
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 255
+        width: 128
+        height: 125
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ffb70945f7a6ad330800000000000000
+      internalID: 3736415935969393663
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior Heavy Armor Axe_Attack_102
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 255
+        width: 128
+        height: 125
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ef2fbb079755ead0800000000000000
+      internalID: -2673634497525764125
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior Heavy Armor Axe_Attack_103
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 255
+        width: 128
+        height: 125
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d3457222da935810800000000000000
+      internalID: 1752914907289175000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior Heavy Armor Axe_Attack_104
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 255
+        width: 128
+        height: 125
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 818c4af02b32c74b0800000000000000
+      internalID: -5441435002096793576
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior Heavy Armor Axe_Attack_105
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 255
+        width: 128
+        height: 125
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f63a54c9fa01ad100800000000000000
+      internalID: 133437485387981679
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior Heavy Armor Axe_Attack_106
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 255
+        width: 128
+        height: 125
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9c58471c9ce08130800000000000000
+      internalID: 3567111060027104413
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior Heavy Armor Axe_Attack_107
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 255
+        width: 128
+        height: 125
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3284301bee09e880800000000000000
+      internalID: -8581311212225789382
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior Heavy Armor Axe_Attack_108
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 255
+        width: 128
+        height: 125
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e22fcb9df0e23f190800000000000000
+      internalID: -7929943873256885714
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior Heavy Armor Axe_Attack_109
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 255
+        width: 128
+        height: 125
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63df6204e3990eef0800000000000000
+      internalID: -80896300649349834
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior Heavy Armor Axe_Attack_110
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 255
+        width: 128
+        height: 125
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b2241d29b3912680800000000000000
+      internalID: -8781575374861229390
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior Heavy Armor Axe_Attack_111
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 255
+        width: 128
+        height: 125
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f30ab7c5667a81a0800000000000000
+      internalID: -6806497707302452234
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior Heavy Armor Axe_Attack_112
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 255
+        width: 128
+        height: 125
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5381266e7d4648d0800000000000000
+      internalID: -2862515307872681122
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior Heavy Armor Axe_Attack_113
+      rect:
+        serializedVersion: 2
+        x: 1664
+        y: 255
+        width: 128
+        height: 125
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae7c3a6aa23f6f850800000000000000
+      internalID: 6410578484118407146
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior Heavy Armor Axe_Attack_114
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 255
+        width: 128
+        height: 125
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1233dd1ef2bdcca0800000000000000
+      internalID: -5994938724468444642
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior Heavy Armor Axe_Attack_115
+      rect:
+        serializedVersion: 2
+        x: 1920
+        y: 255
+        width: 128
+        height: 125
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df34a014cd5f74870800000000000000
+      internalID: 8667166334230610941
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior Heavy Armor Axe_Attack_116
+      rect:
+        serializedVersion: 2
+        x: 2048
+        y: 255
+        width: 128
+        height: 125
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e9864d9658dc7cf0800000000000000
+      internalID: -253089612522157599
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior Heavy Armor Axe_Attack_117
+      rect:
+        serializedVersion: 2
+        x: 2176
+        y: 255
+        width: 128
+        height: 125
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8016c3c11bc7afe80800000000000000
+      internalID: -8144059876021346040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior Heavy Armor Axe_Attack_118
+      rect:
+        serializedVersion: 2
+        x: 2304
+        y: 255
+        width: 128
+        height: 125
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d0284ca8276d1e60800000000000000
+      internalID: 7934611542883442896
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior Heavy Armor Axe_Attack_119
+      rect:
+        serializedVersion: 2
+        x: 2432
+        y: 255
+        width: 128
+        height: 125
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea95a060220b8fc10800000000000000
+      internalID: 2087612087462943150
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior Heavy Armor Axe_Attack_120
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 126
+        width: 128
+        height: 125
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0339a93f807524ea0800000000000000
+      internalID: -5890049666688838864
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior Heavy Armor Axe_Attack_121
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 126
+        width: 128
+        height: 125
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d64ad309b83fbc620800000000000000
+      internalID: 2795595774459487341
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior Heavy Armor Axe_Attack_122
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 126
+        width: 128
+        height: 125
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d3146d1c863745c0800000000000000
+      internalID: -4231353349474872361
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior Heavy Armor Axe_Attack_123
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 126
+        width: 128
+        height: 125
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e7a9ca3204f1cb30800000000000000
+      internalID: 4305991009156311010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior Heavy Armor Axe_Attack_124
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 126
+        width: 128
+        height: 125
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a1a41cd794b3b230800000000000000
+      internalID: 3653462287053005225
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior Heavy Armor Axe_Attack_125
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 126
+        width: 128
+        height: 125
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00c6241960482aa00800000000000000
+      internalID: 766320050348125184
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior Heavy Armor Axe_Attack_126
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 126
+        width: 128
+        height: 125
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16dc888ee79aa0980800000000000000
+      internalID: -8571852578214064799
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior Heavy Armor Axe_Attack_127
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 126
+        width: 128
+        height: 125
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16fbc1e6a71fc4c50800000000000000
+      internalID: 6650956257855061857
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior Heavy Armor Axe_Attack_128
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 126
+        width: 128
+        height: 125
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93cb7b3a06f06b0a0800000000000000
+      internalID: -6866283674141737927
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior Heavy Armor Axe_Attack_129
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 126
+        width: 128
+        height: 125
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f37046c99088a5a0800000000000000
+      internalID: -6509811863419587596
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior Heavy Armor Axe_Attack_130
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 126
+        width: 128
+        height: 125
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 694995a121483df20800000000000000
+      internalID: 3446243353154917526
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior Heavy Armor Axe_Attack_131
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 126
+        width: 128
+        height: 125
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46ecb679d85f055f0800000000000000
+      internalID: -769845547800736156
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior Heavy Armor Axe_Attack_132
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 126
+        width: 128
+        height: 125
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45a1e8d7d3cd48410800000000000000
+      internalID: 1478548734341945940
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior Heavy Armor Axe_Attack_133
+      rect:
+        serializedVersion: 2
+        x: 1664
+        y: 126
+        width: 128
+        height: 125
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba60179751b6da9e0800000000000000
+      internalID: -1608511751925463381
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior Heavy Armor Axe_Attack_134
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 126
+        width: 128
+        height: 125
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c985bbe4c8ab38800800000000000000
+      internalID: 613539086031607964
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior Heavy Armor Axe_Attack_135
+      rect:
+        serializedVersion: 2
+        x: 1920
+        y: 126
+        width: 128
+        height: 125
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a80168e91d21afa0800000000000000
+      internalID: -5791298056525641564
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior Heavy Armor Axe_Attack_136
+      rect:
+        serializedVersion: 2
+        x: 2048
+        y: 126
+        width: 128
+        height: 125
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b82edc3ae3a86d710800000000000000
+      internalID: 1717712309529207435
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior Heavy Armor Axe_Attack_137
+      rect:
+        serializedVersion: 2
+        x: 2176
+        y: 126
+        width: 128
+        height: 125
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d7ae9a9e22416840800000000000000
+      internalID: 5215522611401762771
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior Heavy Armor Axe_Attack_138
+      rect:
+        serializedVersion: 2
+        x: 2304
+        y: 126
+        width: 128
+        height: 125
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4085aac367f71af00800000000000000
+      internalID: 1126321527619999748
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior Heavy Armor Axe_Attack_139
+      rect:
+        serializedVersion: 2
+        x: 2432
+        y: 126
+        width: 128
+        height: 125
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 063e120f2d6090c00800000000000000
+      internalID: 867231906287182688
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior Heavy Armor Axe_Attack_140
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 128
+        height: 125
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72f35cbbed3cad0b0800000000000000
+      internalID: -5703030616710889689
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior Heavy Armor Axe_Attack_141
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 0
+        width: 128
+        height: 125
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8049cd5f8205f890800000000000000
+      internalID: -7425025595873345398
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior Heavy Armor Axe_Attack_142
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 0
+        width: 128
+        height: 125
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5379876fa9068840800000000000000
+      internalID: 5225875066571027295
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior Heavy Armor Axe_Attack_143
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 0
+        width: 128
+        height: 125
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62fa27391828b2640800000000000000
+      internalID: 5056278499689672486
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior Heavy Armor Axe_Attack_144
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 0
+        width: 128
+        height: 125
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27941c947827b54c0800000000000000
+      internalID: -4297715494011451022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior Heavy Armor Axe_Attack_145
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 0
+        width: 128
+        height: 125
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac4cda43c4179a450800000000000000
+      internalID: 6100531742365304010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior Heavy Armor Axe_Attack_146
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 0
+        width: 128
+        height: 125
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2273829ba86a7e00800000000000000
+      internalID: 1043261349796475434
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior Heavy Armor Axe_Attack_147
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 0
+        width: 128
+        height: 125
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a3ff0af30f70d460800000000000000
+      internalID: 7264445854005588902
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior Heavy Armor Axe_Attack_148
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 0
+        width: 128
+        height: 125
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b260fec4736a9b50800000000000000
+      internalID: 6600697557204099767
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior Heavy Armor Axe_Attack_149
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 0
+        width: 128
+        height: 125
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec9d25ba014425fb0800000000000000
+      internalID: -4660587825990542898
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior Heavy Armor Axe_Attack_150
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 0
+        width: 128
+        height: 125
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: baab1163eecd96050800000000000000
+      internalID: 5794405311256312491
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior Heavy Armor Axe_Attack_151
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 0
+        width: 128
+        height: 125
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab82d78c90b6a42a0800000000000000
+      internalID: -6752467001526114118
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior Heavy Armor Axe_Attack_152
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 0
+        width: 128
+        height: 125
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c61545efd43a4b760800000000000000
+      internalID: 7472777237089243500
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior Heavy Armor Axe_Attack_153
+      rect:
+        serializedVersion: 2
+        x: 1664
+        y: 0
+        width: 128
+        height: 125
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81be4bbed046c7bb0800000000000000
+      internalID: -4936961080553051368
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior Heavy Armor Axe_Attack_154
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 0
+        width: 128
+        height: 125
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0deebf1f9a6665480800000000000000
+      internalID: -8910821932610621744
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior Heavy Armor Axe_Attack_155
+      rect:
+        serializedVersion: 2
+        x: 1920
+        y: 0
+        width: 128
+        height: 125
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c29a170f8159652c0800000000000000
+      internalID: -4443200048008681172
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior Heavy Armor Axe_Attack_156
+      rect:
+        serializedVersion: 2
+        x: 2048
+        y: 0
+        width: 128
+        height: 125
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15c4fa045c15d95b0800000000000000
+      internalID: -5360038073865384879
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior Heavy Armor Axe_Attack_157
+      rect:
+        serializedVersion: 2
+        x: 2176
+        y: 0
+        width: 128
+        height: 125
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05f5f16d4e68623d0800000000000000
+      internalID: -3231747365188706480
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior Heavy Armor Axe_Attack_158
+      rect:
+        serializedVersion: 2
+        x: 2304
+        y: 0
+        width: 128
+        height: 125
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc499b50604531410800000000000000
+      internalID: 1446592290158646477
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior Heavy Armor Axe_Attack_159
+      rect:
+        serializedVersion: 2
+        x: 2432
+        y: 0
+        width: 128
+        height: 125
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 059806b3f0a19ecc0800000000000000
+      internalID: -3681382567675655856
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

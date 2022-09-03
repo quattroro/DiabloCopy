@@ -1,0 +1,5244 @@
+fileFormatVersion: 2
+guid: 604e23c17d190614ba9a4992e816ff7b
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -8474635985983669416
+    second: Maptile_Dungeon_0
+  - first:
+      213: 5389813628933017224
+    second: Maptile_Dungeon_1
+  - first:
+      213: -4855459981362910183
+    second: Maptile_Dungeon_2
+  - first:
+      213: 4556140804313040734
+    second: Maptile_Dungeon_3
+  - first:
+      213: -6469034414562647668
+    second: Maptile_Dungeon_4
+  - first:
+      213: 5585658640694329101
+    second: Maptile_Dungeon_5
+  - first:
+      213: 8986463166935907781
+    second: Maptile_Dungeon_6
+  - first:
+      213: -5258482701697668082
+    second: Maptile_Dungeon_7
+  - first:
+      213: -8412654285065345669
+    second: Maptile_Dungeon_8
+  - first:
+      213: -2150037577654370498
+    second: Maptile_Dungeon_9
+  - first:
+      213: 563327705938063181
+    second: Maptile_Dungeon_10
+  - first:
+      213: -4828498304736396508
+    second: Maptile_Dungeon_11
+  - first:
+      213: -4000014467435179208
+    second: Maptile_Dungeon_12
+  - first:
+      213: -1384573255491407803
+    second: Maptile_Dungeon_13
+  - first:
+      213: -8211819564377664689
+    second: Maptile_Dungeon_14
+  - first:
+      213: -6004361578770600513
+    second: Maptile_Dungeon_15
+  - first:
+      213: 8053353873315338608
+    second: Maptile_Dungeon_16
+  - first:
+      213: 1106948966872157200
+    second: Maptile_Dungeon_17
+  - first:
+      213: 1129932866406873391
+    second: Maptile_Dungeon_18
+  - first:
+      213: 5922287143505135330
+    second: Maptile_Dungeon_19
+  - first:
+      213: -4412726096107590231
+    second: Maptile_Dungeon_20
+  - first:
+      213: 6737680288941381734
+    second: Maptile_Dungeon_21
+  - first:
+      213: 4115841694106252721
+    second: Maptile_Dungeon_22
+  - first:
+      213: -5520735449741885204
+    second: Maptile_Dungeon_23
+  - first:
+      213: -5406875471569518292
+    second: Maptile_Dungeon_24
+  - first:
+      213: -751097748803962200
+    second: Maptile_Dungeon_25
+  - first:
+      213: 4864963250000407510
+    second: Maptile_Dungeon_26
+  - first:
+      213: -8291555347017740596
+    second: Maptile_Dungeon_27
+  - first:
+      213: 7539386280234471206
+    second: Maptile_Dungeon_28
+  - first:
+      213: 3312463484581219594
+    second: Maptile_Dungeon_29
+  - first:
+      213: -8249287441604577346
+    second: Maptile_Dungeon_30
+  - first:
+      213: 3960192156527779350
+    second: Maptile_Dungeon_31
+  - first:
+      213: 3292402961809065354
+    second: Maptile_Dungeon_32
+  - first:
+      213: 6349346651141323361
+    second: Maptile_Dungeon_33
+  - first:
+      213: -7013469022000981784
+    second: Maptile_Dungeon_34
+  - first:
+      213: 5457609205633421232
+    second: Maptile_Dungeon_35
+  - first:
+      213: -3036375217907782527
+    second: Maptile_Dungeon_36
+  - first:
+      213: -1670104915182885093
+    second: Maptile_Dungeon_37
+  - first:
+      213: -5544609967562965956
+    second: Maptile_Dungeon_38
+  - first:
+      213: 4678502681721778916
+    second: Maptile_Dungeon_39
+  - first:
+      213: -3246490648955586077
+    second: Maptile_Dungeon_40
+  - first:
+      213: -267956543915206813
+    second: Maptile_Dungeon_41
+  - first:
+      213: 7077206966543086577
+    second: Maptile_Dungeon_42
+  - first:
+      213: -2912565450723391317
+    second: Maptile_Dungeon_43
+  - first:
+      213: 822573605089358792
+    second: Maptile_Dungeon_44
+  - first:
+      213: -3211179555841649681
+    second: Maptile_Dungeon_45
+  - first:
+      213: -2715889141757416816
+    second: Maptile_Dungeon_46
+  - first:
+      213: -145192781082843215
+    second: Maptile_Dungeon_47
+  - first:
+      213: -3771850916327563266
+    second: Maptile_Dungeon_48
+  - first:
+      213: -5792136073278764332
+    second: Maptile_Dungeon_49
+  - first:
+      213: 5020257072516527551
+    second: Maptile_Dungeon_50
+  - first:
+      213: -7815642256987113774
+    second: Maptile_Dungeon_51
+  - first:
+      213: 1870824512845235832
+    second: Maptile_Dungeon_52
+  - first:
+      213: 1397915115487667251
+    second: Maptile_Dungeon_53
+  - first:
+      213: 1879918025571703787
+    second: Maptile_Dungeon_54
+  - first:
+      213: 7641797978938864459
+    second: Maptile_Dungeon_55
+  - first:
+      213: 7438343965825854855
+    second: Maptile_Dungeon_56
+  - first:
+      213: 4187096378708074460
+    second: Maptile_Dungeon_57
+  - first:
+      213: 2194951318461857382
+    second: Maptile_Dungeon_58
+  - first:
+      213: 1915869272075427525
+    second: Maptile_Dungeon_59
+  - first:
+      213: 393188979780065909
+    second: Maptile_Dungeon_60
+  - first:
+      213: -161241780951017005
+    second: Maptile_Dungeon_61
+  - first:
+      213: 5667839895378470292
+    second: Maptile_Dungeon_62
+  - first:
+      213: -204118538933375624
+    second: Maptile_Dungeon_63
+  - first:
+      213: 6593943162977823781
+    second: Maptile_Dungeon_64
+  - first:
+      213: -936569228016297623
+    second: Maptile_Dungeon_65
+  - first:
+      213: -8754055345457597919
+    second: Maptile_Dungeon_66
+  - first:
+      213: 5305847610243088240
+    second: Maptile_Dungeon_67
+  - first:
+      213: -4791094571897415245
+    second: Maptile_Dungeon_68
+  - first:
+      213: 8358578813528538026
+    second: Maptile_Dungeon_69
+  - first:
+      213: 2030530158783753843
+    second: Maptile_Dungeon_70
+  - first:
+      213: -5168142286616195396
+    second: Maptile_Dungeon_71
+  - first:
+      213: 4131418853391146131
+    second: Maptile_Dungeon_72
+  - first:
+      213: 4260770651849089350
+    second: Maptile_Dungeon_73
+  - first:
+      213: -3066498303425352311
+    second: Maptile_Dungeon_74
+  - first:
+      213: 7078265310745097319
+    second: Maptile_Dungeon_75
+  - first:
+      213: 7667918962397487554
+    second: Maptile_Dungeon_76
+  - first:
+      213: 2594744468608667525
+    second: Maptile_Dungeon_77
+  - first:
+      213: 6842007722423696435
+    second: Maptile_Dungeon_78
+  - first:
+      213: 9194379203200689366
+    second: Maptile_Dungeon_79
+  - first:
+      213: 3437362196853383250
+    second: Maptile_Dungeon_80
+  - first:
+      213: -3465080793376780695
+    second: Maptile_Dungeon_81
+  - first:
+      213: -5071878472677234306
+    second: Maptile_Dungeon_82
+  - first:
+      213: -6905749011729047602
+    second: Maptile_Dungeon_83
+  - first:
+      213: -7678290525918991409
+    second: Maptile_Dungeon_84
+  - first:
+      213: 5357444654972477724
+    second: Maptile_Dungeon_85
+  - first:
+      213: 4435054396922136396
+    second: Maptile_Dungeon_86
+  - first:
+      213: 2966320399778881439
+    second: Maptile_Dungeon_87
+  - first:
+      213: 9220543565222248916
+    second: Maptile_Dungeon_88
+  - first:
+      213: 8003117876037585566
+    second: Maptile_Dungeon_89
+  - first:
+      213: -7630066010696363625
+    second: Maptile_Dungeon_90
+  - first:
+      213: 1527190515715748265
+    second: Maptile_Dungeon_91
+  - first:
+      213: 8907414357585773456
+    second: Maptile_Dungeon_92
+  - first:
+      213: 3328087055456720133
+    second: Maptile_Dungeon_93
+  - first:
+      213: -8633131994648369586
+    second: Maptile_Dungeon_94
+  - first:
+      213: -7850251954721968402
+    second: Maptile_Dungeon_95
+  - first:
+      213: -5771702499081628795
+    second: Maptile_Dungeon_96
+  - first:
+      213: 786455443735251210
+    second: Maptile_Dungeon_97
+  - first:
+      213: -6994809187387812699
+    second: Maptile_Dungeon_98
+  - first:
+      213: -5589562827362086009
+    second: Maptile_Dungeon_99
+  - first:
+      213: 1373302244117076812
+    second: Maptile_Dungeon_100
+  - first:
+      213: 3295039086336234465
+    second: Maptile_Dungeon_101
+  - first:
+      213: -215982463934006791
+    second: Maptile_Dungeon_102
+  - first:
+      213: -4807761772955388352
+    second: Maptile_Dungeon_103
+  - first:
+      213: 1604851334313306822
+    second: Maptile_Dungeon_104
+  - first:
+      213: 2301910838977758
+    second: Maptile_Dungeon_105
+  - first:
+      213: -545832669698783165
+    second: Maptile_Dungeon_106
+  - first:
+      213: 6078134487436667203
+    second: Maptile_Dungeon_107
+  - first:
+      213: -6007626736115815095
+    second: Maptile_Dungeon_108
+  - first:
+      213: -2366353431013014296
+    second: Maptile_Dungeon_109
+  - first:
+      213: 4456585878263535990
+    second: Maptile_Dungeon_110
+  - first:
+      213: 5730288111645667823
+    second: Maptile_Dungeon_111
+  - first:
+      213: -8906405232616234512
+    second: Maptile_Dungeon_112
+  - first:
+      213: 1965590250707478350
+    second: Maptile_Dungeon_113
+  - first:
+      213: 7211466182373843478
+    second: Maptile_Dungeon_114
+  - first:
+      213: -2985124455711302470
+    second: Maptile_Dungeon_115
+  - first:
+      213: 8918142327103554353
+    second: Maptile_Dungeon_116
+  - first:
+      213: 1052875364992126486
+    second: Maptile_Dungeon_117
+  - first:
+      213: 1144641416196093055
+    second: Maptile_Dungeon_118
+  - first:
+      213: -188654327708708352
+    second: Maptile_Dungeon_119
+  - first:
+      213: 6116136245299908768
+    second: Maptile_Dungeon_120
+  - first:
+      213: -2649233710655502536
+    second: Maptile_Dungeon_121
+  - first:
+      213: -1382935151747611345
+    second: Maptile_Dungeon_122
+  - first:
+      213: 5879347584027432917
+    second: Maptile_Dungeon_123
+  - first:
+      213: 4583253323388603797
+    second: Maptile_Dungeon_124
+  - first:
+      213: 841910914854350571
+    second: Maptile_Dungeon_125
+  - first:
+      213: -1161129293875373574
+    second: Maptile_Dungeon_126
+  - first:
+      213: -7785807009476101818
+    second: Maptile_Dungeon_127
+  - first:
+      213: -6586178387147979936
+    second: Maptile_Dungeon_128
+  - first:
+      213: -6837207910966207949
+    second: Maptile_Dungeon_129
+  - first:
+      213: 5236775697814988823
+    second: Maptile_Dungeon_130
+  - first:
+      213: -6629973715532903890
+    second: Maptile_Dungeon_131
+  - first:
+      213: -6896261658867763801
+    second: Maptile_Dungeon_132
+  - first:
+      213: 8458676730546258662
+    second: Maptile_Dungeon_133
+  - first:
+      213: -3787242062466577868
+    second: Maptile_Dungeon_134
+  - first:
+      213: -6871137704262417126
+    second: Maptile_Dungeon_135
+  - first:
+      213: -8805319929057640963
+    second: Maptile_Dungeon_136
+  - first:
+      213: 4763272094276028390
+    second: Maptile_Dungeon_137
+  - first:
+      213: -2458079879954470578
+    second: Maptile_Dungeon_138
+  - first:
+      213: 3768570653293138304
+    second: Maptile_Dungeon_139
+  - first:
+      213: -5032548928344882214
+    second: Maptile_Dungeon_140
+  - first:
+      213: -7057457669025015822
+    second: Maptile_Dungeon_141
+  - first:
+      213: 2755038845865330338
+    second: Maptile_Dungeon_142
+  - first:
+      213: 6510913407734888014
+    second: Maptile_Dungeon_143
+  - first:
+      213: 8369329279987807910
+    second: Maptile_Dungeon_144
+  - first:
+      213: -4241819922335125498
+    second: Maptile_Dungeon_145
+  - first:
+      213: -5783479463803234659
+    second: Maptile_Dungeon_146
+  - first:
+      213: -4419298048574813871
+    second: Maptile_Dungeon_147
+  - first:
+      213: -5741143963929314479
+    second: Maptile_Dungeon_148
+  - first:
+      213: -2614857974555417442
+    second: Maptile_Dungeon_149
+  - first:
+      213: 4709854242932450896
+    second: Maptile_Dungeon_150
+  - first:
+      213: -5168177482913168122
+    second: Maptile_Dungeon_151
+  - first:
+      213: 3930628695710447798
+    second: Maptile_Dungeon_152
+  - first:
+      213: -7674089483332680364
+    second: Maptile_Dungeon_153
+  - first:
+      213: -1218487125138552437
+    second: Maptile_Dungeon_154
+  - first:
+      213: 5380112079575850026
+    second: Maptile_Dungeon_155
+  - first:
+      213: -4136536666672736441
+    second: Maptile_Dungeon_156
+  - first:
+      213: -8223638816381833777
+    second: Maptile_Dungeon_157
+  - first:
+      213: -7519258538885852389
+    second: Maptile_Dungeon_158
+  - first:
+      213: -4149691423289141837
+    second: Maptile_Dungeon_159
+  - first:
+      213: 3996531376279230181
+    second: Maptile_Dungeon_160
+  - first:
+      213: -5570884216562173539
+    second: Maptile_Dungeon_161
+  - first:
+      213: -8058174491336861081
+    second: Maptile_Dungeon_162
+  - first:
+      213: 353214703845176048
+    second: Maptile_Dungeon_163
+  - first:
+      213: -3957859262686255191
+    second: Maptile_Dungeon_164
+  - first:
+      213: 7365857648186417489
+    second: Maptile_Dungeon_165
+  - first:
+      213: 3362667369073541319
+    second: Maptile_Dungeon_166
+  - first:
+      213: 5052735451197254530
+    second: Maptile_Dungeon_167
+  - first:
+      213: -5908449377311008389
+    second: Maptile_Dungeon_168
+  - first:
+      213: 3092805560828829912
+    second: Maptile_Dungeon_169
+  - first:
+      213: 3547458224036976726
+    second: Maptile_Dungeon_170
+  - first:
+      213: 2287936016270400823
+    second: Maptile_Dungeon_171
+  - first:
+      213: 7033182039624272361
+    second: Maptile_Dungeon_172
+  - first:
+      213: -6205199213866553606
+    second: Maptile_Dungeon_173
+  - first:
+      213: -2426073766766832977
+    second: Maptile_Dungeon_174
+  - first:
+      213: -3827938823295131275
+    second: Maptile_Dungeon_175
+  - first:
+      213: 2405006065515525497
+    second: Maptile_Dungeon_176
+  - first:
+      213: 3785933134379427791
+    second: Maptile_Dungeon_177
+  - first:
+      213: -2327401464656726781
+    second: Maptile_Dungeon_178
+  - first:
+      213: -7165066989033395397
+    second: Maptile_Dungeon_179
+  - first:
+      213: 7739244174457295128
+    second: Maptile_Dungeon_180
+  - first:
+      213: 7403762118759064021
+    second: Maptile_Dungeon_181
+  - first:
+      213: -6763297147050389112
+    second: Maptile_Dungeon_182
+  - first:
+      213: -6023042296512678931
+    second: Maptile_Dungeon_183
+  - first:
+      213: -4791875982994981546
+    second: Maptile_Dungeon_184
+  - first:
+      213: 9104566820209097720
+    second: Maptile_Dungeon_185
+  - first:
+      213: 6699138724368697437
+    second: Maptile_Dungeon_186
+  - first:
+      213: -7205284192297657071
+    second: Maptile_Dungeon_187
+  - first:
+      213: 5390850134248335321
+    second: Maptile_Dungeon_188
+  - first:
+      213: 7275829900882751013
+    second: Maptile_Dungeon_189
+  - first:
+      213: -2074333745922530508
+    second: Maptile_Dungeon_190
+  - first:
+      213: -1667003317233341372
+    second: Maptile_Dungeon_191
+  - first:
+      213: -4787268196083012836
+    second: Maptile_Dungeon_192
+  - first:
+      213: 216920961220942768
+    second: Maptile_Dungeon_193
+  - first:
+      213: -1766617077598111421
+    second: Maptile_Dungeon_194
+  - first:
+      213: 7356228904709264918
+    second: Maptile_Dungeon_195
+  - first:
+      213: 4884092185638213377
+    second: Maptile_Dungeon_196
+  - first:
+      213: -5576299096520400966
+    second: Maptile_Dungeon_197
+  - first:
+      213: -1680321993499391487
+    second: Maptile_Dungeon_198
+  - first:
+      213: 8653372899295628120
+    second: Maptile_Dungeon_199
+  - first:
+      213: 620963536040859723
+    second: Maptile_Dungeon_200
+  - first:
+      213: 5211347666564428880
+    second: Maptile_Dungeon_201
+  - first:
+      213: 1163914980817567518
+    second: Maptile_Dungeon_202
+  - first:
+      213: 6789683099662861858
+    second: Maptile_Dungeon_203
+  - first:
+      213: 859718216106508778
+    second: Maptile_Dungeon_204
+  - first:
+      213: -7837736080194771974
+    second: Maptile_Dungeon_205
+  - first:
+      213: -8092250303914817062
+    second: Maptile_Dungeon_206
+  - first:
+      213: -2873532911750990509
+    second: Maptile_Dungeon_207
+  - first:
+      213: 8998797661894599057
+    second: Maptile_Dungeon_208
+  - first:
+      213: 5431088873092483778
+    second: Maptile_Dungeon_209
+  - first:
+      213: -4102139922467618338
+    second: Maptile_Dungeon_210
+  - first:
+      213: -7315356064442808176
+    second: Maptile_Dungeon_211
+  - first:
+      213: 3851328255314107982
+    second: Maptile_Dungeon_212
+  - first:
+      213: -6838638446002443416
+    second: Maptile_Dungeon_213
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Maptile_Dungeon_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1930
+        width: 128
+        height: 192
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85b73b6a87b046a80800000000000000
+      internalID: -8474635985983669416
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Maptile_Dungeon_1
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 1930
+        width: 128
+        height: 192
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88e8c1660f67cca40800000000000000
+      internalID: 5389813628933017224
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Maptile_Dungeon_2
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 1930
+        width: 128
+        height: 192
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91c2dbd4fd0fd9cb0800000000000000
+      internalID: -4855459981362910183
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Maptile_Dungeon_3
+      rect:
+        serializedVersion: 2
+        x: 387
+        y: 1930
+        width: 128
+        height: 192
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e57cdbb0ce9aa3f30800000000000000
+      internalID: 4556140804313040734
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Maptile_Dungeon_4
+      rect:
+        serializedVersion: 2
+        x: 516
+        y: 1930
+        width: 128
+        height: 192
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c816730797f5936a0800000000000000
+      internalID: -6469034414562647668
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Maptile_Dungeon_5
+      rect:
+        serializedVersion: 2
+        x: 645
+        y: 1930
+        width: 128
+        height: 192
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0f3d2b80fe348d40800000000000000
+      internalID: 5585658640694329101
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Maptile_Dungeon_6
+      rect:
+        serializedVersion: 2
+        x: 774
+        y: 1930
+        width: 128
+        height: 192
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5cdb85453a456bc70800000000000000
+      internalID: 8986463166935907781
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Maptile_Dungeon_7
+      rect:
+        serializedVersion: 2
+        x: 903
+        y: 1930
+        width: 128
+        height: 192
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0c26cbe7dd1607b0800000000000000
+      internalID: -5258482701697668082
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Maptile_Dungeon_8
+      rect:
+        serializedVersion: 2
+        x: 1032
+        y: 1930
+        width: 128
+        height: 192
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b752388ff7f304b80800000000000000
+      internalID: -8412654285065345669
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Maptile_Dungeon_9
+      rect:
+        serializedVersion: 2
+        x: 1161
+        y: 1930
+        width: 128
+        height: 192
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3f7b2ae6388922e0800000000000000
+      internalID: -2150037577654370498
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Maptile_Dungeon_10
+      rect:
+        serializedVersion: 2
+        x: 1290
+        y: 1930
+        width: 128
+        height: 192
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4fe29c509751d700800000000000000
+      internalID: 563327705938063181
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Maptile_Dungeon_11
+      rect:
+        serializedVersion: 2
+        x: 1419
+        y: 1930
+        width: 128
+        height: 192
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42b7c93df5abdfcb0800000000000000
+      internalID: -4828498304736396508
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Maptile_Dungeon_12
+      rect:
+        serializedVersion: 2
+        x: 1548
+        y: 1930
+        width: 128
+        height: 192
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8335a1ce8081d78c0800000000000000
+      internalID: -4000014467435179208
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Maptile_Dungeon_13
+      rect:
+        serializedVersion: 2
+        x: 1677
+        y: 1930
+        width: 128
+        height: 192
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 540bdecb5f109cce0800000000000000
+      internalID: -1384573255491407803
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Maptile_Dungeon_14
+      rect:
+        serializedVersion: 2
+        x: 1806
+        y: 1930
+        width: 128
+        height: 192
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f439aa14d91c90e80800000000000000
+      internalID: -8211819564377664689
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Maptile_Dungeon_15
+      rect:
+        serializedVersion: 2
+        x: 1935
+        y: 1930
+        width: 128
+        height: 192
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fbdef52e4f83caca0800000000000000
+      internalID: -6004361578770600513
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Maptile_Dungeon_16
+      rect:
+        serializedVersion: 2
+        x: 2064
+        y: 1930
+        width: 128
+        height: 192
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0791a75eda243cf60800000000000000
+      internalID: 8053353873315338608
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Maptile_Dungeon_17
+      rect:
+        serializedVersion: 2
+        x: 2193
+        y: 1930
+        width: 128
+        height: 192
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01c86e2783cac5f00800000000000000
+      internalID: 1106948966872157200
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Maptile_Dungeon_18
+      rect:
+        serializedVersion: 2
+        x: 2322
+        y: 1930
+        width: 128
+        height: 192
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f29783294f35eaf00800000000000000
+      internalID: 1129932866406873391
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Maptile_Dungeon_19
+      rect:
+        serializedVersion: 2
+        x: 2451
+        y: 1930
+        width: 128
+        height: 192
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e68c7687c0303250800000000000000
+      internalID: 5922287143505135330
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Maptile_Dungeon_20
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1737
+        width: 128
+        height: 192
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ad2966cef8d2c2c0800000000000000
+      internalID: -4412726096107590231
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Maptile_Dungeon_21
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 1737
+        width: 128
+        height: 192
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6689088668c018d50800000000000000
+      internalID: 6737680288941381734
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Maptile_Dungeon_22
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 1737
+        width: 128
+        height: 192
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b5f1f0d6386e1930800000000000000
+      internalID: 4115841694106252721
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Maptile_Dungeon_23
+      rect:
+        serializedVersion: 2
+        x: 387
+        y: 1737
+        width: 128
+        height: 192
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce08a3bcb586263b0800000000000000
+      internalID: -5520735449741885204
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Maptile_Dungeon_24
+      rect:
+        serializedVersion: 2
+        x: 516
+        y: 1737
+        width: 128
+        height: 192
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c21835cc76be6f4b0800000000000000
+      internalID: -5406875471569518292
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Maptile_Dungeon_25
+      rect:
+        serializedVersion: 2
+        x: 645
+        y: 1737
+        width: 128
+        height: 192
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8aab1f2b3909395f0800000000000000
+      internalID: -751097748803962200
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Maptile_Dungeon_26
+      rect:
+        serializedVersion: 2
+        x: 774
+        y: 1737
+        width: 128
+        height: 192
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6dbaa99dc42d38340800000000000000
+      internalID: 4864963250000407510
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Maptile_Dungeon_27
+      rect:
+        serializedVersion: 2
+        x: 903
+        y: 1737
+        width: 128
+        height: 192
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cce4489a75a7eec80800000000000000
+      internalID: -8291555347017740596
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Maptile_Dungeon_28
+      rect:
+        serializedVersion: 2
+        x: 1032
+        y: 1737
+        width: 128
+        height: 192
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62f44d160e741a860800000000000000
+      internalID: 7539386280234471206
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Maptile_Dungeon_29
+      rect:
+        serializedVersion: 2
+        x: 1161
+        y: 1737
+        width: 128
+        height: 192
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0d8ae13dfb38fd20800000000000000
+      internalID: 3312463484581219594
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Maptile_Dungeon_30
+      rect:
+        serializedVersion: 2
+        x: 1290
+        y: 1737
+        width: 128
+        height: 192
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb7711947c4a48d80800000000000000
+      internalID: -8249287441604577346
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Maptile_Dungeon_31
+      rect:
+        serializedVersion: 2
+        x: 1419
+        y: 1737
+        width: 128
+        height: 192
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61e502cc8cd65f630800000000000000
+      internalID: 3960192156527779350
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Maptile_Dungeon_32
+      rect:
+        serializedVersion: 2
+        x: 1548
+        y: 1737
+        width: 128
+        height: 192
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a85c214cc07f0bd20800000000000000
+      internalID: 3292402961809065354
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Maptile_Dungeon_33
+      rect:
+        serializedVersion: 2
+        x: 1677
+        y: 1737
+        width: 128
+        height: 192
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16a381193296d1850800000000000000
+      internalID: 6349346651141323361
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Maptile_Dungeon_34
+      rect:
+        serializedVersion: 2
+        x: 1806
+        y: 1737
+        width: 128
+        height: 192
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e8dc6c55172bae90800000000000000
+      internalID: -7013469022000981784
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Maptile_Dungeon_35
+      rect:
+        serializedVersion: 2
+        x: 1935
+        y: 1737
+        width: 128
+        height: 192
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0bf8ea828a25dbb40800000000000000
+      internalID: 5457609205633421232
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Maptile_Dungeon_36
+      rect:
+        serializedVersion: 2
+        x: 2064
+        y: 1737
+        width: 128
+        height: 192
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18caec3a3d0acd5d0800000000000000
+      internalID: -3036375217907782527
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Maptile_Dungeon_37
+      rect:
+        serializedVersion: 2
+        x: 2193
+        y: 1737
+        width: 128
+        height: 192
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b17e3e0ad6892d8e0800000000000000
+      internalID: -1670104915182885093
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Maptile_Dungeon_38
+      rect:
+        serializedVersion: 2
+        x: 2322
+        y: 1737
+        width: 128
+        height: 192
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3cb1517c969d03b0800000000000000
+      internalID: -5544609967562965956
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Maptile_Dungeon_39
+      rect:
+        serializedVersion: 2
+        x: 2451
+        y: 1737
+        width: 128
+        height: 192
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e23db8b6616de040800000000000000
+      internalID: 4678502681721778916
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Maptile_Dungeon_40
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1544
+        width: 128
+        height: 192
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e9ff5694f522f2d0800000000000000
+      internalID: -3246490648955586077
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Maptile_Dungeon_41
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 1544
+        width: 128
+        height: 192
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36751b861f6084cf0800000000000000
+      internalID: -267956543915206813
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Maptile_Dungeon_42
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 1544
+        width: 128
+        height: 192
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f378ba4d3a473260800000000000000
+      internalID: 7077206966543086577
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Maptile_Dungeon_43
+      rect:
+        serializedVersion: 2
+        x: 387
+        y: 1544
+        width: 128
+        height: 192
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba88e8c672d7497d0800000000000000
+      internalID: -2912565450723391317
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Maptile_Dungeon_44
+      rect:
+        serializedVersion: 2
+        x: 516
+        y: 1544
+        width: 128
+        height: 192
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c3b6fce55e5a6b00800000000000000
+      internalID: 822573605089358792
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Maptile_Dungeon_45
+      rect:
+        serializedVersion: 2
+        x: 645
+        y: 1544
+        width: 128
+        height: 192
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe3df0025399f63d0800000000000000
+      internalID: -3211179555841649681
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Maptile_Dungeon_46
+      rect:
+        serializedVersion: 2
+        x: 774
+        y: 1544
+        width: 128
+        height: 192
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09a653807393f4ad0800000000000000
+      internalID: -2715889141757416816
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Maptile_Dungeon_47
+      rect:
+        serializedVersion: 2
+        x: 903
+        y: 1544
+        width: 128
+        height: 192
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b72b935feb2cfdf0800000000000000
+      internalID: -145192781082843215
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Maptile_Dungeon_48
+      rect:
+        serializedVersion: 2
+        x: 1032
+        y: 1544
+        width: 128
+        height: 192
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eff50926391b7abc0800000000000000
+      internalID: -3771850916327563266
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Maptile_Dungeon_49
+      rect:
+        serializedVersion: 2
+        x: 1161
+        y: 1544
+        width: 128
+        height: 192
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4da4e7dede23e9fa0800000000000000
+      internalID: -5792136073278764332
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Maptile_Dungeon_50
+      rect:
+        serializedVersion: 2
+        x: 1290
+        y: 1544
+        width: 128
+        height: 192
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb57d7085398ba540800000000000000
+      internalID: 5020257072516527551
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Maptile_Dungeon_51
+      rect:
+        serializedVersion: 2
+        x: 1419
+        y: 1544
+        width: 128
+        height: 192
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d630ccb6c2498390800000000000000
+      internalID: -7815642256987113774
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Maptile_Dungeon_52
+      rect:
+        serializedVersion: 2
+        x: 1548
+        y: 1544
+        width: 128
+        height: 192
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 876cb3d7bf086f910800000000000000
+      internalID: 1870824512845235832
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Maptile_Dungeon_53
+      rect:
+        serializedVersion: 2
+        x: 1677
+        y: 1544
+        width: 128
+        height: 192
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 334aacc1464666310800000000000000
+      internalID: 1397915115487667251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Maptile_Dungeon_54
+      rect:
+        serializedVersion: 2
+        x: 1806
+        y: 1544
+        width: 128
+        height: 192
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: beb1e09eb7fc61a10800000000000000
+      internalID: 1879918025571703787
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Maptile_Dungeon_55
+      rect:
+        serializedVersion: 2
+        x: 1935
+        y: 1544
+        width: 128
+        height: 192
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b43f2fb16ce1d0a60800000000000000
+      internalID: 7641797978938864459
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Maptile_Dungeon_56
+      rect:
+        serializedVersion: 2
+        x: 2064
+        y: 1544
+        width: 128
+        height: 192
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78d68384d6e4a3760800000000000000
+      internalID: 7438343965825854855
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Maptile_Dungeon_57
+      rect:
+        serializedVersion: 2
+        x: 2193
+        y: 1544
+        width: 128
+        height: 192
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cdf1835e8fd8b1a30800000000000000
+      internalID: 4187096378708074460
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Maptile_Dungeon_58
+      rect:
+        serializedVersion: 2
+        x: 2322
+        y: 1544
+        width: 128
+        height: 192
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66eb1344898067e10800000000000000
+      internalID: 2194951318461857382
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Maptile_Dungeon_59
+      rect:
+        serializedVersion: 2
+        x: 2451
+        y: 1544
+        width: 128
+        height: 192
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ce5426c3f8869a10800000000000000
+      internalID: 1915869272075427525
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Maptile_Dungeon_60
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1351
+        width: 128
+        height: 192
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57a936d3b43e47500800000000000000
+      internalID: 393188979780065909
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Maptile_Dungeon_61
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 1351
+        width: 128
+        height: 192
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d9967b547723cdf0800000000000000
+      internalID: -161241780951017005
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Maptile_Dungeon_62
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 1351
+        width: 128
+        height: 192
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49522d7fa5638ae40800000000000000
+      internalID: 5667839895378470292
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Maptile_Dungeon_63
+      rect:
+        serializedVersion: 2
+        x: 387
+        y: 1351
+        width: 128
+        height: 192
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87dedc23543da2df0800000000000000
+      internalID: -204118538933375624
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Maptile_Dungeon_64
+      rect:
+        serializedVersion: 2
+        x: 516
+        y: 1351
+        width: 128
+        height: 192
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52ca86ade54628b50800000000000000
+      internalID: 6593943162977823781
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Maptile_Dungeon_65
+      rect:
+        serializedVersion: 2
+        x: 645
+        y: 1351
+        width: 128
+        height: 192
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 969d680df33a003f0800000000000000
+      internalID: -936569228016297623
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Maptile_Dungeon_66
+      rect:
+        serializedVersion: 2
+        x: 774
+        y: 1351
+        width: 128
+        height: 192
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 122f3e55b09538680800000000000000
+      internalID: -8754055345457597919
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Maptile_Dungeon_67
+      rect:
+        serializedVersion: 2
+        x: 903
+        y: 1351
+        width: 128
+        height: 192
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07ff4e83a4822a940800000000000000
+      internalID: 5305847610243088240
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Maptile_Dungeon_68
+      rect:
+        serializedVersion: 2
+        x: 1032
+        y: 1351
+        width: 128
+        height: 192
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b990c40fdc928db0800000000000000
+      internalID: -4791094571897415245
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Maptile_Dungeon_69
+      rect:
+        serializedVersion: 2
+        x: 1161
+        y: 1351
+        width: 128
+        height: 192
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aab797f2523aff370800000000000000
+      internalID: 8358578813528538026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Maptile_Dungeon_70
+      rect:
+        serializedVersion: 2
+        x: 1290
+        y: 1351
+        width: 128
+        height: 192
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37ee504db64ed2c10800000000000000
+      internalID: 2030530158783753843
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Maptile_Dungeon_71
+      rect:
+        serializedVersion: 2
+        x: 1419
+        y: 1351
+        width: 128
+        height: 192
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cbe0199e8f11748b0800000000000000
+      internalID: -5168142286616195396
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Maptile_Dungeon_72
+      rect:
+        serializedVersion: 2
+        x: 1548
+        y: 1351
+        width: 128
+        height: 192
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39c1bb6de8fb55930800000000000000
+      internalID: 4131418853391146131
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Maptile_Dungeon_73
+      rect:
+        serializedVersion: 2
+        x: 1677
+        y: 1351
+        width: 128
+        height: 192
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 641efd4555c412b30800000000000000
+      internalID: 4260770651849089350
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Maptile_Dungeon_74
+      rect:
+        serializedVersion: 2
+        x: 1806
+        y: 1351
+        width: 128
+        height: 192
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98d6eff3a0c9175d0800000000000000
+      internalID: -3066498303425352311
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Maptile_Dungeon_75
+      rect:
+        serializedVersion: 2
+        x: 1935
+        y: 1351
+        width: 128
+        height: 192
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7647ee04ccc0b3260800000000000000
+      internalID: 7078265310745097319
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Maptile_Dungeon_76
+      rect:
+        serializedVersion: 2
+        x: 2064
+        y: 1351
+        width: 128
+        height: 192
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c12f208babe96a60800000000000000
+      internalID: 7667918962397487554
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Maptile_Dungeon_77
+      rect:
+        serializedVersion: 2
+        x: 2193
+        y: 1351
+        width: 128
+        height: 192
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58f445eb852620420800000000000000
+      internalID: 2594744468608667525
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Maptile_Dungeon_78
+      rect:
+        serializedVersion: 2
+        x: 2322
+        y: 1351
+        width: 128
+        height: 192
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33c3b85e5c1b3fe50800000000000000
+      internalID: 6842007722423696435
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Maptile_Dungeon_79
+      rect:
+        serializedVersion: 2
+        x: 2451
+        y: 1351
+        width: 128
+        height: 192
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d42401eb2ff89f70800000000000000
+      internalID: 9194379203200689366
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Maptile_Dungeon_80
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1158
+        width: 128
+        height: 192
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2506dc3c4b6f3bf20800000000000000
+      internalID: 3437362196853383250
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Maptile_Dungeon_81
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 1158
+        width: 128
+        height: 192
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96e8fb0906f89efc0800000000000000
+      internalID: -3465080793376780695
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Maptile_Dungeon_82
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 1158
+        width: 128
+        height: 192
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e796f1ca6611d99b0800000000000000
+      internalID: -5071878472677234306
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Maptile_Dungeon_83
+      rect:
+        serializedVersion: 2
+        x: 387
+        y: 1158
+        width: 128
+        height: 192
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ecf92efacd9d920a0800000000000000
+      internalID: -6905749011729047602
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Maptile_Dungeon_84
+      rect:
+        serializedVersion: 2
+        x: 516
+        y: 1158
+        width: 128
+        height: 192
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fcbe950b27b317590800000000000000
+      internalID: -7678290525918991409
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Maptile_Dungeon_85
+      rect:
+        serializedVersion: 2
+        x: 645
+        y: 1158
+        width: 128
+        height: 192
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c11237b5787795a40800000000000000
+      internalID: 5357444654972477724
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Maptile_Dungeon_86
+      rect:
+        serializedVersion: 2
+        x: 774
+        y: 1158
+        width: 128
+        height: 192
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c470410e97a7c8d30800000000000000
+      internalID: 4435054396922136396
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Maptile_Dungeon_87
+      rect:
+        serializedVersion: 2
+        x: 903
+        y: 1158
+        width: 128
+        height: 192
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9f90d6ffac7a2920800000000000000
+      internalID: 2966320399778881439
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Maptile_Dungeon_88
+      rect:
+        serializedVersion: 2
+        x: 1032
+        y: 1158
+        width: 128
+        height: 192
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d106112583f5ff70800000000000000
+      internalID: 9220543565222248916
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Maptile_Dungeon_89
+      rect:
+        serializedVersion: 2
+        x: 1161
+        y: 1158
+        width: 128
+        height: 192
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9a8cc05e49c01f60800000000000000
+      internalID: 8003117876037585566
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Maptile_Dungeon_90
+      rect:
+        serializedVersion: 2
+        x: 1290
+        y: 1158
+        width: 128
+        height: 192
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79159ab936f8c1690800000000000000
+      internalID: -7630066010696363625
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Maptile_Dungeon_91
+      rect:
+        serializedVersion: 2
+        x: 1419
+        y: 1158
+        width: 128
+        height: 192
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a13591ceaba13510800000000000000
+      internalID: 1527190515715748265
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Maptile_Dungeon_92
+      rect:
+        serializedVersion: 2
+        x: 1548
+        y: 1158
+        width: 128
+        height: 192
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0934d1b2a2e7d9b70800000000000000
+      internalID: 8907414357585773456
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Maptile_Dungeon_93
+      rect:
+        serializedVersion: 2
+        x: 1677
+        y: 1158
+        width: 128
+        height: 192
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 505d2124b8dbf2e20800000000000000
+      internalID: 3328087055456720133
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Maptile_Dungeon_94
+      rect:
+        serializedVersion: 2
+        x: 1806
+        y: 1158
+        width: 128
+        height: 192
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e46acefe034f03880800000000000000
+      internalID: -8633131994648369586
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Maptile_Dungeon_95
+      rect:
+        serializedVersion: 2
+        x: 1935
+        y: 1158
+        width: 128
+        height: 192
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eee2b79807d4e0390800000000000000
+      internalID: -7850251954721968402
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Maptile_Dungeon_96
+      rect:
+        serializedVersion: 2
+        x: 2064
+        y: 1158
+        width: 128
+        height: 192
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5835109282bc6efa0800000000000000
+      internalID: -5771702499081628795
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Maptile_Dungeon_97
+      rect:
+        serializedVersion: 2
+        x: 2193
+        y: 1158
+        width: 128
+        height: 192
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a09038b2f0d0aea00800000000000000
+      internalID: 786455443735251210
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Maptile_Dungeon_98
+      rect:
+        serializedVersion: 2
+        x: 2322
+        y: 1158
+        width: 128
+        height: 192
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a45c1aaa127dee90800000000000000
+      internalID: -6994809187387812699
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Maptile_Dungeon_99
+      rect:
+        serializedVersion: 2
+        x: 2451
+        y: 1158
+        width: 128
+        height: 192
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 783da592932ed62b0800000000000000
+      internalID: -5589562827362086009
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Maptile_Dungeon_100
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 965
+        width: 128
+        height: 192
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4b58dd6d13fe0310800000000000000
+      internalID: 1373302244117076812
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Maptile_Dungeon_101
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 965
+        width: 128
+        height: 192
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e3591657945abd20800000000000000
+      internalID: 3295039086336234465
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Maptile_Dungeon_102
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 965
+        width: 128
+        height: 192
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f9ff77e71da00df0800000000000000
+      internalID: -215982463934006791
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Maptile_Dungeon_103
+      rect:
+        serializedVersion: 2
+        x: 387
+        y: 965
+        width: 128
+        height: 192
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 046ba4ed326674db0800000000000000
+      internalID: -4807761772955388352
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Maptile_Dungeon_104
+      rect:
+        serializedVersion: 2
+        x: 516
+        y: 965
+        width: 128
+        height: 192
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ca6e0329c3954610800000000000000
+      internalID: 1604851334313306822
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Maptile_Dungeon_105
+      rect:
+        serializedVersion: 2
+        x: 645
+        y: 965
+        width: 128
+        height: 192
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed4acd1639d280000800000000000000
+      internalID: 2301910838977758
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Maptile_Dungeon_106
+      rect:
+        serializedVersion: 2
+        x: 774
+        y: 965
+        width: 128
+        height: 192
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3480dcf2410dc68f0800000000000000
+      internalID: -545832669698783165
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Maptile_Dungeon_107
+      rect:
+        serializedVersion: 2
+        x: 903
+        y: 965
+        width: 128
+        height: 192
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 349a6bcec1fd95450800000000000000
+      internalID: 6078134487436667203
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Maptile_Dungeon_108
+      rect:
+        serializedVersion: 2
+        x: 1032
+        y: 965
+        width: 128
+        height: 192
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94d6da2305f90aca0800000000000000
+      internalID: -6007626736115815095
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Maptile_Dungeon_109
+      rect:
+        serializedVersion: 2
+        x: 1161
+        y: 965
+        width: 128
+        height: 192
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e4417b8716092fd0800000000000000
+      internalID: -2366353431013014296
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Maptile_Dungeon_110
+      rect:
+        serializedVersion: 2
+        x: 1290
+        y: 965
+        width: 128
+        height: 192
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6799be88e39f8dd30800000000000000
+      internalID: 4456585878263535990
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Maptile_Dungeon_111
+      rect:
+        serializedVersion: 2
+        x: 1419
+        y: 965
+        width: 128
+        height: 192
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe1b84b5da2168f40800000000000000
+      internalID: 5730288111645667823
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Maptile_Dungeon_112
+      rect:
+        serializedVersion: 2
+        x: 1548
+        y: 965
+        width: 128
+        height: 192
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f1aa3c01a7166480800000000000000
+      internalID: -8906405232616234512
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Maptile_Dungeon_113
+      rect:
+        serializedVersion: 2
+        x: 1677
+        y: 965
+        width: 128
+        height: 192
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e47e36b3bed274b10800000000000000
+      internalID: 1965590250707478350
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Maptile_Dungeon_114
+      rect:
+        serializedVersion: 2
+        x: 1806
+        y: 965
+        width: 128
+        height: 192
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 612a22ee846441460800000000000000
+      internalID: 7211466182373843478
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Maptile_Dungeon_115
+      rect:
+        serializedVersion: 2
+        x: 1935
+        y: 965
+        width: 128
+        height: 192
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: abc1ff69f15b296d0800000000000000
+      internalID: -2985124455711302470
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Maptile_Dungeon_116
+      rect:
+        serializedVersion: 2
+        x: 2064
+        y: 965
+        width: 128
+        height: 192
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1330267323b93cb70800000000000000
+      internalID: 8918142327103554353
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Maptile_Dungeon_117
+      rect:
+        serializedVersion: 2
+        x: 2193
+        y: 965
+        width: 128
+        height: 192
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61e8d1be0909c9e00800000000000000
+      internalID: 1052875364992126486
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Maptile_Dungeon_118
+      rect:
+        serializedVersion: 2
+        x: 2322
+        y: 965
+        width: 128
+        height: 192
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f74719fad4592ef00800000000000000
+      internalID: 1144641416196093055
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Maptile_Dungeon_119
+      rect:
+        serializedVersion: 2
+        x: 2451
+        y: 965
+        width: 128
+        height: 192
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 002159373e3c16df0800000000000000
+      internalID: -188654327708708352
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Maptile_Dungeon_120
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 772
+        width: 128
+        height: 192
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a01efaa281e0e450800000000000000
+      internalID: 6116136245299908768
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Maptile_Dungeon_121
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 772
+        width: 128
+        height: 192
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8378365f9f70c3bd0800000000000000
+      internalID: -2649233710655502536
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Maptile_Dungeon_122
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 772
+        width: 128
+        height: 192
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f25ceac7ec3decce0800000000000000
+      internalID: -1382935151747611345
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Maptile_Dungeon_123
+      rect:
+        serializedVersion: 2
+        x: 387
+        y: 772
+        width: 128
+        height: 192
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d791014a73a79150800000000000000
+      internalID: 5879347584027432917
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Maptile_Dungeon_124
+      rect:
+        serializedVersion: 2
+        x: 516
+        y: 772
+        width: 128
+        height: 192
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59dc4305d9cfa9f30800000000000000
+      internalID: 4583253323388603797
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Maptile_Dungeon_125
+      rect:
+        serializedVersion: 2
+        x: 645
+        y: 772
+        width: 128
+        height: 192
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: beeea6434811fab00800000000000000
+      internalID: 841910914854350571
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Maptile_Dungeon_126
+      rect:
+        serializedVersion: 2
+        x: 774
+        y: 772
+        width: 128
+        height: 192
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af912442f07d2efe0800000000000000
+      internalID: -1161129293875373574
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Maptile_Dungeon_127
+      rect:
+        serializedVersion: 2
+        x: 903
+        y: 772
+        width: 128
+        height: 192
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6493e6e96c143f390800000000000000
+      internalID: -7785807009476101818
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Maptile_Dungeon_128
+      rect:
+        serializedVersion: 2
+        x: 1032
+        y: 772
+        width: 128
+        height: 192
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06380b6e6a13994a0800000000000000
+      internalID: -6586178387147979936
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Maptile_Dungeon_129
+      rect:
+        serializedVersion: 2
+        x: 1161
+        y: 772
+        width: 128
+        height: 192
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33a5e5b41ab5d11a0800000000000000
+      internalID: -6837207910966207949
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Maptile_Dungeon_130
+      rect:
+        serializedVersion: 2
+        x: 1290
+        y: 772
+        width: 128
+        height: 192
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71829a460c3cca840800000000000000
+      internalID: 5236775697814988823
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Maptile_Dungeon_131
+      rect:
+        serializedVersion: 2
+        x: 1419
+        y: 772
+        width: 128
+        height: 192
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2a0c77680a9df3a0800000000000000
+      internalID: -6629973715532903890
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Maptile_Dungeon_132
+      rect:
+        serializedVersion: 2
+        x: 1548
+        y: 772
+        width: 128
+        height: 192
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a57a092f8e8b40a0800000000000000
+      internalID: -6896261658867763801
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Maptile_Dungeon_133
+      rect:
+        serializedVersion: 2
+        x: 1677
+        y: 772
+        width: 128
+        height: 192
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e28212aba1436570800000000000000
+      internalID: 8458676730546258662
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Maptile_Dungeon_134
+      rect:
+        serializedVersion: 2
+        x: 1806
+        y: 772
+        width: 128
+        height: 192
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43a034ce863017bc0800000000000000
+      internalID: -3787242062466577868
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Maptile_Dungeon_135
+      rect:
+        serializedVersion: 2
+        x: 1935
+        y: 772
+        width: 128
+        height: 192
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1545aea9a0d4a0a0800000000000000
+      internalID: -6871137704262417126
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Maptile_Dungeon_136
+      rect:
+        serializedVersion: 2
+        x: 2064
+        y: 772
+        width: 128
+        height: 192
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dfdf9d65d283dc580800000000000000
+      internalID: -8805319929057640963
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Maptile_Dungeon_137
+      rect:
+        serializedVersion: 2
+        x: 2193
+        y: 772
+        width: 128
+        height: 192
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e78adb9bba8a1240800000000000000
+      internalID: 4763272094276028390
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Maptile_Dungeon_138
+      rect:
+        serializedVersion: 2
+        x: 2322
+        y: 772
+        width: 128
+        height: 192
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4967c56f5523edd0800000000000000
+      internalID: -2458079879954470578
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Maptile_Dungeon_139
+      rect:
+        serializedVersion: 2
+        x: 2451
+        y: 772
+        width: 128
+        height: 192
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 081df7cda07ac4430800000000000000
+      internalID: 3768570653293138304
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Maptile_Dungeon_140
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 579
+        width: 128
+        height: 192
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad30b3bc96bc82ab0800000000000000
+      internalID: -5032548928344882214
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Maptile_Dungeon_141
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 579
+        width: 128
+        height: 192
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f7586c54afde0e90800000000000000
+      internalID: -7057457669025015822
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Maptile_Dungeon_142
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 579
+        width: 128
+        height: 192
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a68436cb3ddb3620800000000000000
+      internalID: 2755038845865330338
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Maptile_Dungeon_143
+      rect:
+        serializedVersion: 2
+        x: 387
+        y: 579
+        width: 128
+        height: 192
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e46bd5f7f396b5a50800000000000000
+      internalID: 6510913407734888014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Maptile_Dungeon_144
+      rect:
+        serializedVersion: 2
+        x: 516
+        y: 579
+        width: 128
+        height: 192
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a6f2f533a4d52470800000000000000
+      internalID: 8369329279987807910
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Maptile_Dungeon_145
+      rect:
+        serializedVersion: 2
+        x: 645
+        y: 579
+        width: 128
+        height: 192
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6003a0831470225c0800000000000000
+      internalID: -4241819922335125498
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Maptile_Dungeon_146
+      rect:
+        serializedVersion: 2
+        x: 774
+        y: 579
+        width: 128
+        height: 192
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d96dd32e114fcbfa0800000000000000
+      internalID: -5783479463803234659
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Maptile_Dungeon_147
+      rect:
+        serializedVersion: 2
+        x: 903
+        y: 579
+        width: 128
+        height: 192
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1590f1ad6df7ba2c0800000000000000
+      internalID: -4419298048574813871
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Maptile_Dungeon_148
+      rect:
+        serializedVersion: 2
+        x: 1032
+        y: 579
+        width: 128
+        height: 192
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15b7d919bfb5350b0800000000000000
+      internalID: -5741143963929314479
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Maptile_Dungeon_149
+      rect:
+        serializedVersion: 2
+        x: 1161
+        y: 579
+        width: 128
+        height: 192
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e94e688b68826bbd0800000000000000
+      internalID: -2614857974555417442
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Maptile_Dungeon_150
+      rect:
+        serializedVersion: 2
+        x: 1290
+        y: 579
+        width: 128
+        height: 192
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 056ead5ea73cc5140800000000000000
+      internalID: 4709854242932450896
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Maptile_Dungeon_151
+      rect:
+        serializedVersion: 2
+        x: 1419
+        y: 579
+        width: 128
+        height: 192
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 605c9c226f1f648b0800000000000000
+      internalID: -5168177482913168122
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Maptile_Dungeon_152
+      rect:
+        serializedVersion: 2
+        x: 1548
+        y: 579
+        width: 128
+        height: 192
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b837cf29f56c8630800000000000000
+      internalID: 3930628695710447798
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Maptile_Dungeon_153
+      rect:
+        serializedVersion: 2
+        x: 1677
+        y: 579
+        width: 128
+        height: 192
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45505632648208590800000000000000
+      internalID: -7674089483332680364
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Maptile_Dungeon_154
+      rect:
+        serializedVersion: 2
+        x: 1806
+        y: 579
+        width: 128
+        height: 192
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b89cabe5a60171fe0800000000000000
+      internalID: -1218487125138552437
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Maptile_Dungeon_155
+      rect:
+        serializedVersion: 2
+        x: 1935
+        y: 579
+        width: 128
+        height: 192
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2c18ea6e6ff9aa40800000000000000
+      internalID: 5380112079575850026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Maptile_Dungeon_156
+      rect:
+        serializedVersion: 2
+        x: 2064
+        y: 579
+        width: 128
+        height: 192
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 747d79661d11896c0800000000000000
+      internalID: -4136536666672736441
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Maptile_Dungeon_157
+      rect:
+        serializedVersion: 2
+        x: 2193
+        y: 579
+        width: 128
+        height: 192
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fcd62743114cfdd80800000000000000
+      internalID: -8223638816381833777
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Maptile_Dungeon_158
+      rect:
+        serializedVersion: 2
+        x: 2322
+        y: 579
+        width: 128
+        height: 192
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b13d267923a36a790800000000000000
+      internalID: -7519258538885852389
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Maptile_Dungeon_159
+      rect:
+        serializedVersion: 2
+        x: 2451
+        y: 579
+        width: 128
+        height: 192
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b59d53f2a55966c0800000000000000
+      internalID: -4149691423289141837
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Maptile_Dungeon_160
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 386
+        width: 128
+        height: 192
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e693d8bc18867730800000000000000
+      internalID: 3996531376279230181
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Maptile_Dungeon_161
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 386
+        width: 128
+        height: 192
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d993bf2225e30b2b0800000000000000
+      internalID: -5570884216562173539
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Maptile_Dungeon_162
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 386
+        width: 128
+        height: 192
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76a90c18efc9b2090800000000000000
+      internalID: -8058174491336861081
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Maptile_Dungeon_163
+      rect:
+        serializedVersion: 2
+        x: 387
+        y: 386
+        width: 128
+        height: 192
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f2f228d6eed6e400800000000000000
+      internalID: 353214703845176048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Maptile_Dungeon_164
+      rect:
+        serializedVersion: 2
+        x: 516
+        y: 386
+        width: 128
+        height: 192
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a7a89068fbd219c0800000000000000
+      internalID: -3957859262686255191
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Maptile_Dungeon_165
+      rect:
+        serializedVersion: 2
+        x: 645
+        y: 386
+        width: 128
+        height: 192
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 151ee3a4188c83660800000000000000
+      internalID: 7365857648186417489
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Maptile_Dungeon_166
+      rect:
+        serializedVersion: 2
+        x: 774
+        y: 386
+        width: 128
+        height: 192
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c00d6fe7289aae20800000000000000
+      internalID: 3362667369073541319
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Maptile_Dungeon_167
+      rect:
+        serializedVersion: 2
+        x: 903
+        y: 386
+        width: 128
+        height: 192
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28ba2a05f1cee1640800000000000000
+      internalID: 5052735451197254530
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Maptile_Dungeon_168
+      rect:
+        serializedVersion: 2
+        x: 1032
+        y: 386
+        width: 128
+        height: 192
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b79dffb7898f00ea0800000000000000
+      internalID: -5908449377311008389
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Maptile_Dungeon_169
+      rect:
+        serializedVersion: 2
+        x: 1161
+        y: 386
+        width: 128
+        height: 192
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d02e8c654adbea20800000000000000
+      internalID: 3092805560828829912
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Maptile_Dungeon_170
+      rect:
+        serializedVersion: 2
+        x: 1290
+        y: 386
+        width: 128
+        height: 192
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6581343a57a1b3130800000000000000
+      internalID: 3547458224036976726
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Maptile_Dungeon_171
+      rect:
+        serializedVersion: 2
+        x: 1419
+        y: 386
+        width: 128
+        height: 192
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73d9e9e4fa160cf10800000000000000
+      internalID: 2287936016270400823
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Maptile_Dungeon_172
+      rect:
+        serializedVersion: 2
+        x: 1548
+        y: 386
+        width: 128
+        height: 192
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e946783dc1ea9160800000000000000
+      internalID: 7033182039624272361
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Maptile_Dungeon_173
+      rect:
+        serializedVersion: 2
+        x: 1677
+        y: 386
+        width: 128
+        height: 192
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: afe63f80134b2e9a0800000000000000
+      internalID: -6205199213866553606
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Maptile_Dungeon_174
+      rect:
+        serializedVersion: 2
+        x: 1806
+        y: 386
+        width: 128
+        height: 192
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa218f453cad45ed0800000000000000
+      internalID: -2426073766766832977
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Maptile_Dungeon_175
+      rect:
+        serializedVersion: 2
+        x: 1935
+        y: 386
+        width: 128
+        height: 192
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5712197ebed60eac0800000000000000
+      internalID: -3827938823295131275
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Maptile_Dungeon_176
+      rect:
+        serializedVersion: 2
+        x: 2064
+        y: 386
+        width: 128
+        height: 192
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97576b9364c406120800000000000000
+      internalID: 2405006065515525497
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Maptile_Dungeon_177
+      rect:
+        serializedVersion: 2
+        x: 2193
+        y: 386
+        width: 128
+        height: 192
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc7211280265a8430800000000000000
+      internalID: 3785933134379427791
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Maptile_Dungeon_178
+      rect:
+        serializedVersion: 2
+        x: 2322
+        y: 386
+        width: 128
+        height: 192
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3057961f2b863bfd0800000000000000
+      internalID: -2327401464656726781
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Maptile_Dungeon_179
+      rect:
+        serializedVersion: 2
+        x: 2451
+        y: 386
+        width: 128
+        height: 192
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3b69ce1981909c90800000000000000
+      internalID: -7165066989033395397
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Maptile_Dungeon_180
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 193
+        width: 128
+        height: 192
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 811d9888291576b60800000000000000
+      internalID: 7739244174457295128
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Maptile_Dungeon_181
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 193
+        width: 128
+        height: 192
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d1a0229b627fb660800000000000000
+      internalID: 7403762118759064021
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Maptile_Dungeon_182
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 193
+        width: 128
+        height: 192
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88116a70411f322a0800000000000000
+      internalID: -6763297147050389112
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Maptile_Dungeon_183
+      rect:
+        serializedVersion: 2
+        x: 387
+        y: 193
+        width: 128
+        height: 192
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de3753951fad96ca0800000000000000
+      internalID: -6023042296512678931
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Maptile_Dungeon_184
+      rect:
+        serializedVersion: 2
+        x: 516
+        y: 193
+        width: 128
+        height: 192
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65dbbd19e26df7db0800000000000000
+      internalID: -4791875982994981546
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Maptile_Dungeon_185
+      rect:
+        serializedVersion: 2
+        x: 645
+        y: 193
+        width: 128
+        height: 192
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8fbfe50f84be95e70800000000000000
+      internalID: 9104566820209097720
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Maptile_Dungeon_186
+      rect:
+        serializedVersion: 2
+        x: 774
+        y: 193
+        width: 128
+        height: 192
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d584f0f1d2f18fc50800000000000000
+      internalID: 6699138724368697437
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Maptile_Dungeon_187
+      rect:
+        serializedVersion: 2
+        x: 903
+        y: 193
+        width: 128
+        height: 192
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11d5c5cc330b10c90800000000000000
+      internalID: -7205284192297657071
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Maptile_Dungeon_188
+      rect:
+        serializedVersion: 2
+        x: 1032
+        y: 193
+        width: 128
+        height: 192
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d72d3992a520da40800000000000000
+      internalID: 5390850134248335321
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Maptile_Dungeon_189
+      rect:
+        serializedVersion: 2
+        x: 1161
+        y: 193
+        width: 128
+        height: 192
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52e2840feb0f8f460800000000000000
+      internalID: 7275829900882751013
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Maptile_Dungeon_190
+      rect:
+        serializedVersion: 2
+        x: 1290
+        y: 193
+        width: 128
+        height: 192
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 433aea8c27c7633e0800000000000000
+      internalID: -2074333745922530508
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Maptile_Dungeon_191
+      rect:
+        serializedVersion: 2
+        x: 1419
+        y: 193
+        width: 128
+        height: 192
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44ca8eca05d9dd8e0800000000000000
+      internalID: -1667003317233341372
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Maptile_Dungeon_192
+      rect:
+        serializedVersion: 2
+        x: 1548
+        y: 193
+        width: 128
+        height: 192
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1b62ff80f4309db0800000000000000
+      internalID: -4787268196083012836
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Maptile_Dungeon_193
+      rect:
+        serializedVersion: 2
+        x: 1677
+        y: 193
+        width: 128
+        height: 192
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0bb19e50778a20300800000000000000
+      internalID: 216920961220942768
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Maptile_Dungeon_194
+      rect:
+        serializedVersion: 2
+        x: 1806
+        y: 193
+        width: 128
+        height: 192
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34930abb027bb77e0800000000000000
+      internalID: -1766617077598111421
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Maptile_Dungeon_195
+      rect:
+        serializedVersion: 2
+        x: 1935
+        y: 193
+        width: 128
+        height: 192
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61618afb633961660800000000000000
+      internalID: 7356228904709264918
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Maptile_Dungeon_196
+      rect:
+        serializedVersion: 2
+        x: 2064
+        y: 193
+        width: 128
+        height: 192
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1071a3f37f7c7c340800000000000000
+      internalID: 4884092185638213377
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Maptile_Dungeon_197
+      rect:
+        serializedVersion: 2
+        x: 2193
+        y: 193
+        width: 128
+        height: 192
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: abfd19624810d92b0800000000000000
+      internalID: -5576299096520400966
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Maptile_Dungeon_198
+      rect:
+        serializedVersion: 2
+        x: 2322
+        y: 193
+        width: 128
+        height: 192
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10a4135bc0c4ea8e0800000000000000
+      internalID: -1680321993499391487
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Maptile_Dungeon_199
+      rect:
+        serializedVersion: 2
+        x: 2451
+        y: 193
+        width: 128
+        height: 192
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85b028bedc4f61870800000000000000
+      internalID: 8653372899295628120
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Maptile_Dungeon_200
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 128
+        height: 192
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b489f28cb0b1e9800800000000000000
+      internalID: 620963536040859723
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Maptile_Dungeon_201
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 0
+        width: 128
+        height: 192
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05432a2871d625840800000000000000
+      internalID: 5211347666564428880
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Maptile_Dungeon_202
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 0
+        width: 128
+        height: 192
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1ff264228e072010800000000000000
+      internalID: 1163914980817567518
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Maptile_Dungeon_203
+      rect:
+        serializedVersion: 2
+        x: 387
+        y: 0
+        width: 128
+        height: 192
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 226c0ec4eccc93e50800000000000000
+      internalID: 6789683099662861858
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Maptile_Dungeon_204
+      rect:
+        serializedVersion: 2
+        x: 516
+        y: 0
+        width: 128
+        height: 192
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae106fd99255eeb00800000000000000
+      internalID: 859718216106508778
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Maptile_Dungeon_205
+      rect:
+        serializedVersion: 2
+        x: 645
+        y: 0
+        width: 128
+        height: 192
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af36ab8af84ca3390800000000000000
+      internalID: -7837736080194771974
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Maptile_Dungeon_206
+      rect:
+        serializedVersion: 2
+        x: 774
+        y: 0
+        width: 128
+        height: 192
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad94c91293d82bf80800000000000000
+      internalID: -8092250303914817062
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Maptile_Dungeon_207
+      rect:
+        serializedVersion: 2
+        x: 903
+        y: 0
+        width: 128
+        height: 192
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35530b89a092f18d0800000000000000
+      internalID: -2873532911750990509
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Maptile_Dungeon_208
+      rect:
+        serializedVersion: 2
+        x: 1032
+        y: 0
+        width: 128
+        height: 192
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 191e7dabbc622ec70800000000000000
+      internalID: 8998797661894599057
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Maptile_Dungeon_209
+      rect:
+        serializedVersion: 2
+        x: 1161
+        y: 0
+        width: 128
+        height: 192
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ca01401e8a1f5b40800000000000000
+      internalID: 5431088873092483778
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Maptile_Dungeon_210
+      rect:
+        serializedVersion: 2
+        x: 1290
+        y: 0
+        width: 128
+        height: 192
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed18e5e79754217c0800000000000000
+      internalID: -4102139922467618338
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Maptile_Dungeon_211
+      rect:
+        serializedVersion: 2
+        x: 1419
+        y: 0
+        width: 128
+        height: 192
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0980365fa62aa7a90800000000000000
+      internalID: -7315356064442808176
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Maptile_Dungeon_212
+      rect:
+        serializedVersion: 2
+        x: 1548
+        y: 0
+        width: 128
+        height: 192
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4e1c6b94aaa27530800000000000000
+      internalID: 3851328255314107982
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Maptile_Dungeon_213
+      rect:
+        serializedVersion: 2
+        x: 2451
+        y: 0
+        width: 128
+        height: 192
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86be1b6e0964811a0800000000000000
+      internalID: -6838638446002443416
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
