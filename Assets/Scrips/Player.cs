@@ -102,7 +102,7 @@ public class Player : Status
 
     public void OpenItemBag()
     {
-        itemBag.OpenSlotWindow();
+        //itemBag.OpenSlotWindow();
 
         //itemBag.Operate();
     }

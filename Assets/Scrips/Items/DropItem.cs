@@ -49,12 +49,12 @@ public class DropItem : MonoBehaviour
             if (itemBag.gameObject.activeSelf == false)
             {
                 itemBag.gameObject.SetActive(true);
-                itemBag.Add(item);
+                //itemBag.InsertItem(item);
                 itemBag.gameObject.SetActive(false);
             }
             else
             {
-                itemBag.Add(item);
+                //itemBag.Add(item);
             }
         }
         GameObject.Destroy(this.gameObject);

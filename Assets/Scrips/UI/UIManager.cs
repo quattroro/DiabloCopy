@@ -5,7 +5,7 @@ using UnityEngine.UI;
 
 
 //여기서 항상 보여야 하는 퀵슬롯, hp,mp등을 관리한다.
-public class UIManager : MonoBehaviour
+public class UIManager : Singleton<UIManager>
 {
     public enum UIBUTTONS
     {
@@ -41,19 +41,31 @@ public class UIManager : MonoBehaviour
         }
     }
 
+    public Transform objpanels;
+    public void RegistUIPanel(ObjectPanel panel)
+    {
+        panel.transform.parent = objpanels;
+    }
+
+    public void DeleteUIPanel(ObjectPanel panel)
+    {
+        panel.IsDestroy = true;
+        GameObject.Destroy(panel.gameObject);
+    }
+
     private void Awake()
     {
-        BaseUI obj = FindObjectOfType<UICHAR>();
-        buttons.Add(UIBUTTONS.CHAR, obj);
-        obj.setActive(false);
+        //BaseUI obj = FindObjectOfType<UICHAR>();
+        //buttons.Add(UIBUTTONS.CHAR, obj);
+       // obj.setActive(false);
 
 
-        obj = FindObjectOfType<UIINV>();
-        buttons.Add(UIBUTTONS.INV, obj);
-        obj.setActive(false);
+        //obj = FindObjectOfType<UIINV>();
+        //buttons.Add(UIBUTTONS.INV, obj);
+        //obj.setActive(false);
 
-        testlist.Add(FindObjectOfType<UICHAR>());
-        testlist.Add(FindObjectOfType<UIINV>());
+        //testlist.Add(FindObjectOfType<UICHAR>());
+        //testlist.Add(FindObjectOfType<UIINV>());
     }
 
     void ShowQuickSlot()
@@ -63,15 +75,15 @@ public class UIManager : MonoBehaviour
 
     void Start()
     {
-        sc_player = GameManager.GetI.CS_Palyer;
-        QuickSlotInfo = sc_player.itemBag.QuickSlot;
-        Itemlist = sc_player.itemBag.Itemlist;
+        //sc_player = GameManager.GetI.CS_Palyer;
+        //QuickSlotInfo = sc_player.itemBag.QuickSlot;
+        //Itemlist = sc_player.itemBag.Itemlist;
     }
 
     void Update()
     {
-        HPbar.fillAmount = (float)sc_player.CurHP / (float)sc_player.MaxHP;
-        MPbar.fillAmount = (float)sc_player.CurMP / (float)sc_player.MaxMP;
+        //HPbar.fillAmount = (float)sc_player.CurHP / (float)sc_player.MaxHP;
+        //MPbar.fillAmount = (float)sc_player.CurMP / (float)sc_player.MaxMP;
         
     }
 }
