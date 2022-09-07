@@ -5087,6 +5087,10 @@ PrefabInstance:
       propertyPath: itemBag
       value: 
       objectReference: {fileID: 974919631}
+    - target: {fileID: 1384433291959799495, guid: fc61951dcab881c4b97c51ed4e4bf489, type: 3}
+      propertyPath: movespeed
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 1384433291959799497, guid: fc61951dcab881c4b97c51ed4e4bf489, type: 3}
       propertyPath: m_RootOrder
       value: 0

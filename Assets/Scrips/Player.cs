@@ -220,9 +220,52 @@ public class Player : Status
 
     }
 
+    //오른쪽클릭 이동 왼쪽클릭 아이템획득, 몬스터 공격
+    //마우스 움직임 관리
+    //마우스가 캐릭터 위에 올라가거나 
+    //몬스터 공격하도록
+    public void MouseClick()
+    {
+
+        //마우스 왼클릭
+        if (Input.GetMouseButtonDown(0))
+        {
+            if (Input.mousePosition.y >= 144f)
+            {
+
+                Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
+                Vector3 point = Camera.main.ScreenToWorldPoint(Input.mousePosition);
+
+
+                RaycastHit2D[] hit = Physics2D.CircleCastAll(point, 0.1f, Vector2.zero, 0);
+                foreach (RaycastHit2D a in hit)
+                {
+                    if (a.transform.tag == "Wall")
+                    {
+                        return;
+                    }
+
+                    if (a.transform.tag == "Enemy")
+                    {
+                        //Debug.Log("Attackmove");
+                        this.AttackMove(this.transform.position, a.point, a.transform);
+                        return;
+                    }
+
+
+                }
+                //Debug.Log("nomalmove");
+                this.Move(this.transform.position, hit[0].point);
+
+            }
+
+        }
+    }
+
+
     // Update is called once per frame
     void Update()
     {
-        
+        MouseClick();
     }
 }

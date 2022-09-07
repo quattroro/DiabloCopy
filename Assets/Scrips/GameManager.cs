@@ -43,9 +43,6 @@ public class GameManager : MonoBehaviour
         //마우스 왼클릭
         if(Input.GetMouseButtonDown(0))
         {
-            
-
-
             if(Input.mousePosition.y>=144f)
             {
                 

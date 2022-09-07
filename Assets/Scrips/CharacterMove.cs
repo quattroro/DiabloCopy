@@ -68,6 +68,12 @@ public class CharacterMove : MonoBehaviour
         direction = target - start;
         sc_player.SetDirection(direction.normalized);
 
+        if(MoveCor!=null)
+        {
+            StopCoroutine(MoveCor);
+            MoveCor = null;
+        }
+
         MoveCor = CMove();
         StartCoroutine(MoveCor);
     }    
@@ -116,6 +122,7 @@ public class CharacterMove : MonoBehaviour
             if (direction.magnitude <= 0.05)
             {
                 this.transform.position = curtarget;
+
                 if (this.transform.position == targetpos)
                 {
                     Moving = false;
