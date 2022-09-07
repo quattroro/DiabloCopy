@@ -17,13 +17,17 @@ public class CharacterMove : MonoBehaviour
     public float Timeval = 1;
     float curtime = 0;
 
+    IEnumerator MoveCor;
+
+
+    //시작점과 끝점이 들어오면 해당 점들 사이에 장애물이 있는지 검사하고
+    //장애물이 없으면 그냥 가고 장애물이 있으면 A-star 연산 실행
     //시작점과 끝점이 들어오면 Astar를 이용해 노드배열을 받아오고 셀의 중심좌표를 따라서 한칸씩 이동한다.
     public void StartMove(Vector3 start, Vector3 target)
     {
+        //
         if (sc_player.targetmonster != null)
         {
-            //StartMove(this.transform.position, sc_player.sc_targetmonster.transform.position);
-
             RaycastHit2D[] hit = Physics2D.CircleCastAll(sc_player.AttackRange.transform.position, sc_player.AttackRange.radius, new Vector2(0, 0), 0);
             foreach (RaycastHit2D a in hit)
             {
@@ -45,6 +49,15 @@ public class CharacterMove : MonoBehaviour
         targetpos = target;
 
         MoveNodeList = MoveAstar.GetI.PathFinding(start, target);
+        if (MoveNodeList == null)
+        {
+            Moving = false;
+            if (MoveCor != null)
+                StopCoroutine(MoveCor);
+            MoveCor = null;
+            return;
+        }
+            
         Curindex = 1;
         curtarget = MapManager.GetI.MyGetCellCenterWorld(MoveNodeList[Curindex].x, MoveNodeList[Curindex].y);
         
@@ -54,21 +67,31 @@ public class CharacterMove : MonoBehaviour
         sc_player.State = PLAYERSTATE.WALKING;
         direction = target - start;
         sc_player.SetDirection(direction.normalized);
+
+        MoveCor = CMove();
+        StartCoroutine(MoveCor);
     }    
     
+
     //천번째 노드의 위치로 움직이고 그 다음에는 다음 노드 다음에는 다음 노드 그런 식으로 마지막 노드의 위치까지 오면 처음 입력된 타겟노드로 이동
-    public void CMove()
+    public IEnumerator CMove()
     {
-        if (Moving)
+        while(true)
         {
+            if (!Moving)
+            {
+                MoveCor = null;
+                yield break;
+            }
+
             //몬스터를 목표로 움직일때는 움직일때마다 공격범위에 몬스터가 들어왔는지 확인한다.
-            if(sc_player.targetmonster!=null)
+            if (sc_player.targetmonster != null)
             {
                 //StartMove(this.transform.position, sc_player.sc_targetmonster.transform.position);
                 RaycastHit2D[] hit = Physics2D.CircleCastAll(sc_player.AttackRange.transform.position, sc_player.AttackRange.radius, new Vector2(0, 0), 0);
-                foreach(RaycastHit2D a in hit)
+                foreach (RaycastHit2D a in hit)
                 {
-                    if(sc_player.targetmonster==a.transform)
+                    if (sc_player.targetmonster == a.transform)
                     {
                         direction = a.point - (Vector2)this.transform.position;
                         sc_player.SetDirection(direction);//공격하기 전에 마지막으로 방향을 정해준다.
@@ -77,10 +100,11 @@ public class CharacterMove : MonoBehaviour
                         sc_player.weapon.Attack();
                         //sc_player.weapon.Att
                         Debug.Log("플레이어 공격 시작");
-                        return;
+                        MoveCor = null;
+                        yield break;
                     }
                 }
-                
+
                 //if(this.transform.position-sc_player.sc_targetmonster.transform.position<=)
             }
 
@@ -88,7 +112,7 @@ public class CharacterMove : MonoBehaviour
 
             direction = curtarget - this.transform.position;//현재의 목표방향을 구하고 
                                                             //일정 거리 이상 근접했으면 현재타겟을 다음으로 바꿔주고 다시 움직인다 만약 마지막 노드까지 왔으면 진짜 타겟으로 움직여주고 끝
-            
+
             if (direction.magnitude <= 0.05)
             {
                 this.transform.position = curtarget;
@@ -97,38 +121,25 @@ public class CharacterMove : MonoBehaviour
                     Moving = false;
                     //sc_player.playeranimator.SetBool("Walking", false);
                     sc_player.State = PLAYERSTATE.IDLE;
-                    return;
+                    MoveCor = null;
+                    yield break;
                 }
-                if (MoveNodeList.Count-1 <= Curindex)
+                if (MoveNodeList.Count - 1 <= Curindex)
                 {
                     curtarget = targetpos;
                 }
                 else
                 {
-                    
+
                     curtarget = MapManager.GetI.MyGetCellCenterWorld(MoveNodeList[Curindex].x, MoveNodeList[Curindex].y);
                     Curindex++;
                 }
             }
             direction.Normalize();
             this.transform.position += direction * movespeed * Time.deltaTime;
+
+            yield return new WaitForSeconds(Time.deltaTime);
         }
-        //if (Time.time>=curtime)
-        //{
-        //    curtime = Time.time + Timeval;
-            
-        //}
-        
-    }
-
-
-
-    IEnumerator Moveroutine()
-    {
-
-
-
-        yield return null;
     }
 
     // Start is called before the first frame update
@@ -137,9 +148,4 @@ public class CharacterMove : MonoBehaviour
         sc_player = GetComponent<Player>();
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-        CMove();
-    }
 }
