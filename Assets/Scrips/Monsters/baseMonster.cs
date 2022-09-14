@@ -7,7 +7,7 @@ public enum MONSTERSTATE { IDLE, WALKING, ATTACK, HIT, DEAD, STATEMAX };
 
 public class baseMonster : Status
 {
-    public int[,] WAYS = new int[(int)DIRECTION.DIRECTIONMAX - 1, 2] { { -1, 0 }, { 1, 0 }, { 0, -1 }, { 0, 1 }, { -1, 1 }, { -1, -1 }, { 1, -1 }, { 1, 1 } };
+    public Vector2[] WAYS;
     [Header("=====BaseMonster=====")]
     public bool Attack;
     public DIRECTION Direction;
@@ -35,6 +35,22 @@ public class baseMonster : Status
     public Animator MonsterAnimator;
     [Header("연결필요")]
     public MonsterMove MoveScript;
+
+
+    public void Init()
+    {
+        WAYS = new Vector2[(int)DIRECTION.DIRECTIONMAX];
+        WAYS[(int)DIRECTION.D1] = new Vector2(-1, 0);
+        WAYS[(int)DIRECTION.D2] = new Vector2(1, 0);
+        WAYS[(int)DIRECTION.D3] = new Vector2(0, -1);
+        WAYS[(int)DIRECTION.D4] = new Vector2(0, 1);
+        WAYS[(int)DIRECTION.D5] = new Vector2(-1, 1);
+        WAYS[(int)DIRECTION.D6] = new Vector2(-1, -1);
+        WAYS[(int)DIRECTION.D7] = new Vector2(1, -1);
+        WAYS[(int)DIRECTION.D8] = new Vector2(1, 1);
+
+        //{ { -1, 0 }, { 1, 0 }, { 0, -1 }, { 0, 1 }, { -1, 1 }, { -1, -1 }, { 1, -1 }, { 1, 1 } }
+    }
 
     public MONSTERSTATE State
     {
@@ -165,12 +181,13 @@ public class baseMonster : Status
     // Start is called before the first frame update
     void Start()
     {
-        sc_player = GameObject.FindObjectOfType<Player>();
+        StartVirtual();
+        
     }
 
-    // Update is called once per frame
-    void Update()
+    public virtual void StartVirtual()
     {
-        
+        sc_player = GameObject.FindObjectOfType<Player>();
+        Init();
     }
 }

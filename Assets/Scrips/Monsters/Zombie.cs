@@ -6,12 +6,17 @@ using UnityEngine;
 
 public class Zombie : baseMonster
 {
+    public Vector2 Foword;
+    public Vector2 Right;
     //public enum DIRECTION { D1 = 1, D2, D3, D4, D5, D6, D7, D8, DIRECTIONMAX };//정면 부터 시계방향으로 돌아가는 8방향
     public int TestCurHP;
 
-    // Start is called before the first frame update
-    void Start()
+    
+
+    public override void StartVirtual()
     {
+        base.StartVirtual();
+
         Myname = "Zombie";
         MaxHP = 30;
         curhp = 30;
@@ -22,9 +27,8 @@ public class Zombie : baseMonster
         ResistMagic = 15;
 
         //MoveScript = GetComponent<MonsterMove>();
-        MonsterAnimator = GetComponent<Animator>();
+        MonsterAnimator = GetComponentInChildren<Animator>();
         State = MONSTERSTATE.IDLE;
-        //
     }
 
     void isDead()

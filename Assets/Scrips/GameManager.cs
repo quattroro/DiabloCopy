@@ -77,7 +77,8 @@ public class GameManager : MonoBehaviour
 
     void Start()
     {
-        Cursor.SetCursor(Resources.Load<Texture2D>("Cursur/CursurFinger"), Vector2.zero, CursorMode.ForceSoftware);
+        Cursor.SetCursor(Resources.Load<Texture2D>("Cursur/Cursor2"), Vector2.zero, CursorMode.ForceSoftware);
+        
     }
 
     private void Awake()

@@ -4,6 +4,8 @@ using UnityEngine;
 
 public class MonsterAttack : MonoBehaviour
 {
+
+
     public baseMonster sc_monster;
     public Player sc_player;
 

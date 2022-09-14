@@ -25,43 +25,53 @@ public class CharacterMove : MonoBehaviour
     //시작점과 끝점이 들어오면 Astar를 이용해 노드배열을 받아오고 셀의 중심좌표를 따라서 한칸씩 이동한다.
     public void StartMove(Vector3 start, Vector3 target)
     {
-        //
+        //일단 공격범위 안에 몬스터가 있는지 확인 한다. 몬스터가 있으면 움직이지 않고 공격을 실행
         if (sc_player.targetmonster != null)
         {
-            RaycastHit2D[] hit = Physics2D.CircleCastAll(sc_player.AttackRange.transform.position, sc_player.AttackRange.radius, new Vector2(0, 0), 0);
-            foreach (RaycastHit2D a in hit)
+            RaycastHit2D[] hitarr = Physics2D.CircleCastAll(sc_player.AttackRange.transform.position, sc_player.AttackRange.radius, new Vector2(0, 0), 0);
+            foreach (RaycastHit2D a in hitarr)
             {
                 if (sc_player.targetmonster == a.transform)
                 {
                     direction = a.point - (Vector2)this.transform.position;
                     sc_player.SetDirection(direction);//공격하기 전에 마지막으로 방향을 정해준다.
                     Moving = false;
-                    //sc_player.State = PLAYERSTATE.ATTACK;
                     sc_player.weapon.Attack();
-                    //sc_player.weapon.Att
                     Debug.Log("플레이어 공격 시작");
                     return;
                 }
 
             }
         }
+
+
         startpos = start;
         targetpos = target;
 
-        MoveNodeList = MoveAstar.GetI.PathFinding(start, target);
-        if (MoveNodeList == null)
+        if(!CheckWall(startpos, targetpos))
         {
-            Moving = false;
-            if (MoveCor != null)
-                StopCoroutine(MoveCor);
-            MoveCor = null;
-            return;
+            Debug.Log("벽 없음");
+            curtarget = targetpos;
+            //Moving = true;
+
         }
-            
-        Curindex = 1;
-        curtarget = MapManager.GetI.MyGetCellCenterWorld(MoveNodeList[Curindex].x, MoveNodeList[Curindex].y);
-        
-        Curindex++;
+        else
+        {
+            MoveNodeList = MoveAstar.GetI.PathFinding(start, target);
+            if (MoveNodeList == null)
+            {
+                Moving = false;
+                if (MoveCor != null)
+                    StopCoroutine(MoveCor);
+                MoveCor = null;
+                return;
+            }
+
+            Curindex = 1;
+            curtarget = MapManager.GetI.MyGetCellCenterWorld(MoveNodeList[Curindex].x, MoveNodeList[Curindex].y);
+            Curindex++;
+        }
+
         Moving = true;
         //sc_player.playeranimator.SetBool("Walking", true);
         sc_player.State = PLAYERSTATE.WALKING;
@@ -78,6 +88,30 @@ public class CharacterMove : MonoBehaviour
         StartCoroutine(MoveCor);
     }    
     
+    public bool CheckWall(Vector2 start, Vector2 dest)
+    {
+
+        bool result = false;
+        float dis = (dest - start).magnitude;
+        Vector2 dir = (dest - start).normalized;
+
+        //시작점에서 끝점까지 Ray를 쏴서 중간에 벽이 있는지 확인한다.
+        RaycastHit2D[] hit = Physics2D.RaycastAll(start, dir,dis);
+        foreach(var a in hit)
+        {
+            if(a.transform.gameObject.layer == LayerMask.NameToLayer("Wall"))
+            {
+                result = true;
+                break;
+            }   
+        }
+        //Debug.DrawLine(start, dest, Color.red);
+        //RaycastHit2D hit = Physics2D.Raycast(startpos, dir, dis, LayerMask.NameToLayer("Wall"));
+        //if (hit.Length > 0)
+        //    result = true;
+
+        return result;
+    }
 
     //천번째 노드의 위치로 움직이고 그 다음에는 다음 노드 다음에는 다음 노드 그런 식으로 마지막 노드의 위치까지 오면 처음 입력된 타겟노드로 이동
     public IEnumerator CMove()
@@ -155,4 +189,9 @@ public class CharacterMove : MonoBehaviour
         sc_player = GetComponent<Player>();
     }
 
+    private void OnDrawGizmos()
+    {
+        Gizmos.color = Color.red;
+        Gizmos.DrawLine(startpos, targetpos);
+    }
 }
