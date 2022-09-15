@@ -41,7 +41,7 @@ public class Zombie : baseMonster
     // Update is called once per frame
     void Update()
     {
-        DetecePlayer();
+        DetectPlayer();
         TestCurHP = this.CurHP;
     }
 }

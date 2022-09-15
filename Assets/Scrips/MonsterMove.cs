@@ -22,12 +22,7 @@ public class MonsterMove : MonoBehaviour
     [Header("NavMesh2D")]
     public NavMeshAgent2D NavAgent;
 
-    [Header("탐지옵션")]
-    public float DetectRadius;//탐지 거리
-    public float DetectAngle;
-    public LayerMask PlayerLayer;
-    public float DetectTime;
-    private float LastDetestTime;
+    
 
 
     public MonsterAttack sc_Attack;
@@ -46,23 +41,7 @@ public class MonsterMove : MonoBehaviour
         
     }
 
-    //일정 시간에 한번씩 주변의 플레이어를 감지한다
-    public void DetectPlayer()
-    {
-        if(Time.time-LastDetestTime>=DetectTime)
-        {
-            LastDetestTime = Time.time;
-
-            //탐지범위에 플레이어가 있는지 판단
-            RaycastHit2D hit = Physics2D.CircleCast(transform.position, DetectRadius, new Vector2(0, 0), 0, PlayerLayer);
-
-            //플레이어가 판단되면 정면벡터
-
-
-
-            sc_Attack.StartAttack(sc_player, sc_monster);
-        }
-    }
+    
 
     public void StartMove2(Vector3 start, Vector3 target)
     {
@@ -139,10 +118,20 @@ public class MonsterMove : MonoBehaviour
 
     private void OnDrawGizmos()
     {
-        Gizmos.color = Color.blue;
-        Gizmos.DrawLine(transform.position, (Vector2)transform.position + sc_monster.WAYS[(int)sc_monster.Direction]);
+        //.color = Color.blue;
+        //if (sc_monster != null)
+        //
         //DrawSolidArc(시작점, 노멀, 그려줄 방향벡터, 각도, 반지름)
-        //Handles.DrawSolidArc
+        if(sc_monster!=null)
+        {
+            Gizmos.color = Color.blue;
+            Gizmos.DrawLine(transform.position, (Vector2)transform.position + sc_monster.WAYS[(int)sc_monster.Direction]);
+            Gizmos.color = Color.white;
+            Handles.DrawSolidArc(transform.position, new Vector3(0, 0, 1), sc_monster.WAYS[(int)sc_monster.Direction], sc_monster.DetectAngle/2, 1);
+            Handles.DrawSolidArc(transform.position, new Vector3(0, 0, 1), sc_monster.WAYS[(int)sc_monster.Direction], -sc_monster.DetectAngle/2, 1);
+
+        }
+        //Handles.DrawSolidArc(transform.position, new Vector3(0, 0, 1), sc_monster.WAYS[(int)sc_monster.Direction], sc_monster.DetectAngle, 1);
     }
 
 }

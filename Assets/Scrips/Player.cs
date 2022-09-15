@@ -2,11 +2,12 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public enum DIRECTION { D1 = 1, D2, D3, D4, D5, D6, D7, D8, DIRECTIONMAX };//정면 부터 시계방향으로 돌아가는 8방향
+public enum DIRECTION { D1 = 1, D2, D3, D4, D5, D6, D7, D8, DIRECTIONMAX };//정면(아래) 부터 시계방향으로 돌아가는 8방향
 public enum PLAYERSTATE { IDLE, WALKING, ATTACK, HIT, DEAD, STATEMAX };
 public class Player : Status
 {
-    public int[,] WAYS = new int[(int)DIRECTION.DIRECTIONMAX - 1, 2] { { -1, 0 }, { 1, 0 }, { 0, -1 }, { 0, 1 }, { -1, 1 }, { -1, -1 }, { 1, -1 }, { 1, 1 } };
+    public Vector2[] WAYS;
+    //public int[,] WAYS = new int[(int)DIRECTION.DIRECTIONMAX - 1, 2] { { -1, 0 }, { 1, 0 }, { 0, -1 }, { 0, 1 }, { -1, 1 }, { -1, -1 }, { 1, -1 }, { 1, 1 } };
     [Header("=====Player=====")]
     public bool Attack;
     public DIRECTION Direction;
@@ -93,11 +94,6 @@ public class Player : Status
             yield return new WaitForSeconds(1f);
             ///
         }
-    }
-
-    private void Awake()
-    {
-        
     }
 
     public void OpenItemBag()
@@ -188,12 +184,22 @@ public class Player : Status
 
     //}
 
-
-    // Start is called before the first frame update
-    void Start()
+    public override void StartVirtual()
     {
         MoveScript = GetComponent<CharacterMove>();
         playeranimator = GetComponent<Animator>();
+
+        WAYS = new Vector2[(int)DIRECTION.DIRECTIONMAX];
+        WAYS[(int)DIRECTION.D1] = new Vector2(0, -1).normalized;
+        WAYS[(int)DIRECTION.D2] = new Vector2(-1, -1).normalized;
+        WAYS[(int)DIRECTION.D3] = new Vector2(-1, 0).normalized;
+        WAYS[(int)DIRECTION.D4] = new Vector2(-1, 1).normalized;
+        WAYS[(int)DIRECTION.D5] = new Vector2(0, 1).normalized;
+        WAYS[(int)DIRECTION.D6] = new Vector2(1, 1).normalized;
+        WAYS[(int)DIRECTION.D7] = new Vector2(1, 0).normalized;
+        WAYS[(int)DIRECTION.D8] = new Vector2(1, -1).normalized;
+        SetDirection(WAYS[(int)DIRECTION.D1]);
+
         //AttackRange = 
         State = PLAYERSTATE.IDLE;
         //itemBag = new ItemBag("Bag", Item.ITEMTYPE.EQUIP);

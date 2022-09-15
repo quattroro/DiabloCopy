@@ -14,10 +14,6 @@ public class baseMonster : Status
 
     
     public float degree;
-
-    
-    
-
     public CircleCollider2D collcircle;
     public CircleCollider2D attackcircle;
     public Vector3 targetpos;
@@ -36,19 +32,31 @@ public class baseMonster : Status
     [Header("연결필요")]
     public MonsterMove MoveScript;
 
+    [Header("탐지옵션")]
+    public float DetectRadius;//탐지 거리
+    public float DetectAngle = 10f;
+    public LayerMask PlayerLayer;
+    public float DetectTime;
+    private float LastDetestTime;
+
+    public float DetectedAngle = 0;
+    public Player DetectedPlayer = null;
+
 
     public void Init()
     {
+        MonsterAnimator = GetComponentInChildren<Animator>();
         WAYS = new Vector2[(int)DIRECTION.DIRECTIONMAX];
-        WAYS[(int)DIRECTION.D1] = new Vector2(-1, 0);
-        WAYS[(int)DIRECTION.D2] = new Vector2(1, 0);
-        WAYS[(int)DIRECTION.D3] = new Vector2(0, -1);
-        WAYS[(int)DIRECTION.D4] = new Vector2(0, 1);
-        WAYS[(int)DIRECTION.D5] = new Vector2(-1, 1);
-        WAYS[(int)DIRECTION.D6] = new Vector2(-1, -1);
-        WAYS[(int)DIRECTION.D7] = new Vector2(1, -1);
-        WAYS[(int)DIRECTION.D8] = new Vector2(1, 1);
-
+        WAYS[(int)DIRECTION.D1] = new Vector2(0, -1).normalized;
+        WAYS[(int)DIRECTION.D2] = new Vector2(-1, -1).normalized;
+        WAYS[(int)DIRECTION.D3] = new Vector2(-1, 0).normalized;
+        WAYS[(int)DIRECTION.D4] = new Vector2(-1, 1).normalized;
+        WAYS[(int)DIRECTION.D5] = new Vector2(0, 1).normalized;
+        WAYS[(int)DIRECTION.D6] = new Vector2(1, 1).normalized;
+        WAYS[(int)DIRECTION.D7] = new Vector2(1, 0).normalized;
+        WAYS[(int)DIRECTION.D8] = new Vector2(1, -1).normalized;
+        SetDirection(WAYS[(int)DIRECTION.D1]);
+        
         //{ { -1, 0 }, { 1, 0 }, { 0, -1 }, { 0, 1 }, { -1, 1 }, { -1, -1 }, { 1, -1 }, { 1, 1 } }
     }
 
@@ -141,52 +149,80 @@ public class baseMonster : Status
         return temp;
     }
 
-    public void DetecePlayer()
+    //public void DetecePlayer()
+    //{
+    //    //Debug.Log("플레이어 감지");
+    //    //일정 시간에 한번씩 감지 
+    //    if(Time.time>=LastDetectTime)
+    //    {
+    //        //count++;
+    //        //Debug.Log($"{count}");
+    //        LastDetectTime = Time.time + DetectTimeVal;
+    //        test1 = collcircle.transform.position;
+    //        testradi = collcircle.radius;
+
+    //        RaycastHit2D[] hit = Physics2D.CircleCastAll(collcircle.transform.position, collcircle.radius, new Vector2(1, 1), 0);
+
+    //        foreach(RaycastHit2D a in hit)
+    //        {
+    //            if (a.transform.tag == "Player")
+    //            {
+    //                //Debug.Log("플레이어 감지");
+    //                if(State!=MONSTERSTATE.WALKING|| State != MONSTERSTATE.ATTACK)
+    //                {
+    //                    targetpos = a.point;
+    //                    this.Move(this.transform.position, targetpos);
+    //                }
+    //            }
+    //        }
+    //    }
+    //}
+
+    //일정 시간에 한번씩 주변의 플레이어를 감지한다
+    public bool DetectPlayer()
     {
-        //Debug.Log("플레이어 감지");
-        //일정 시간에 한번씩 감지 
-        if(Time.time>=LastDetectTime)
+        bool flag = false;
+        Vector2 direction;
+        //RaycastHit2D hit = null;
+        if (Time.time - LastDetestTime >= DetectTime)
         {
-            //count++;
-            //Debug.Log($"{count}");
-            LastDetectTime = Time.time + DetectTimeVal;
-            test1 = collcircle.transform.position;
-            testradi = collcircle.radius;
+            LastDetestTime = Time.time;
 
-            RaycastHit2D[] hit = Physics2D.CircleCastAll(collcircle.transform.position, collcircle.radius, new Vector2(1, 1), 0);
+            //탐지범위에 플레이어가 있는지 판단
+            RaycastHit2D hit = Physics2D.CircleCast(transform.position, DetectRadius, new Vector2(0, 0), 0, PlayerLayer);
 
-            foreach(RaycastHit2D a in hit)
+            if(hit.collider!=null)
             {
-                if (a.transform.tag == "Player")
+                //플레이어가 판단되면 정면벡터와의 내적으로 각도를 구해서 정면이면 탐지
+                direction = hit.transform.position - this.transform.position;
+                direction.Normalize();
+
+                DetectedAngle = Mathf.Acos(Vector3.Dot(WAYS[(int)Direction], direction)) * 180.0f / 3.14f;
+                if(DetectedAngle<=DetectAngle)
                 {
-                    //Debug.Log("플레이어 감지");
-                    if(State!=MONSTERSTATE.WALKING|| State != MONSTERSTATE.ATTACK)
-                    {
-                        targetpos = a.point;
-                        this.Move(this.transform.position, targetpos);
-                    }
+                    Debug.Log("플레이거 감지");
                 }
             }
-            //if(hit==true)
-            //{
-            //    Debug.Log("무언가 충돌함");
-                
-            //}
+
             
 
-        }
-    }
 
+            //sc_Attack.StartAttack(sc_player, sc_monster);
+        }
+        return flag;
+    }
 
     // Start is called before the first frame update
-    void Start()
-    {
-        StartVirtual();
-        
-    }
+    //void Start()
+    //{
+    //    StartVirtual();
 
-    public virtual void StartVirtual()
+    //}
+
+    public override void StartVirtual()
     {
+        base.StartVirtual();
+
         sc_player = GameObject.FindObjectOfType<Player>();
         Init();
     }

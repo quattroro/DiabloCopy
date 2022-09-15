@@ -377,24 +377,18 @@ public class Status : MonoBehaviour
     }
 
 
-
-
-
-
-
-
-
-
     // Start is called before the first frame update
     void Start()
     {
         CurHP = MaxHP;
         CurMP = MaxMP;
+        StartVirtual();
     }
 
-    // Update is called once per frame
-    void Update()
+    public virtual void StartVirtual()
     {
-        
+        CurHP = MaxHP;
+        CurMP = MaxMP;
     }
+
 }
