@@ -1513,11 +1513,11 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 128
   DetectTime: 1
+  NowDetected: 0
   DetectedAngle: 0
   DetectedPlayer: {fileID: 0}
   Foword: {x: 0, y: 0}
   Right: {x: 0, y: 0}
-  TestCurHP: 0
 --- !u!114 &488800882
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5204,11 +5204,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 910993192996530688, guid: 590e94129ac3a6d439a7350864d7c743, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 4.824
+      value: 3.55
       objectReference: {fileID: 0}
     - target: {fileID: 910993192996530688, guid: 590e94129ac3a6d439a7350864d7c743, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 8.723
+      value: 14.67
       objectReference: {fileID: 0}
     - target: {fileID: 910993192996530688, guid: 590e94129ac3a6d439a7350864d7c743, type: 3}
       propertyPath: m_LocalPosition.z
@@ -5339,11 +5339,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1384433291481083502, guid: fc61951dcab881c4b97c51ed4e4bf489, type: 3}
       propertyPath: m_Layer
-      value: 7
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1384433291679174113, guid: fc61951dcab881c4b97c51ed4e4bf489, type: 3}
       propertyPath: m_Layer
-      value: 7
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1384433291803194846, guid: fc61951dcab881c4b97c51ed4e4bf489, type: 3}
       propertyPath: m_Layer

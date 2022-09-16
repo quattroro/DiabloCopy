@@ -12,7 +12,7 @@ public class baseMonster : Status
     public bool Attack;
     public DIRECTION Direction;
 
-    
+
     public float degree;
     public CircleCollider2D collcircle;
     public CircleCollider2D attackcircle;
@@ -37,7 +37,9 @@ public class baseMonster : Status
     public float DetectAngle = 10f;
     public LayerMask PlayerLayer;
     public float DetectTime;
+    public bool NowDetected;
     private float LastDetestTime;
+
 
     public float DetectedAngle = 0;
     public Player DetectedPlayer = null;
@@ -45,6 +47,7 @@ public class baseMonster : Status
 
     public void Init()
     {
+        MoveScript = GetComponent<MonsterMove>();
         MonsterAnimator = GetComponentInChildren<Animator>();
         WAYS = new Vector2[(int)DIRECTION.DIRECTIONMAX];
         WAYS[(int)DIRECTION.D1] = new Vector2(0, -1).normalized;
@@ -140,7 +143,7 @@ public class baseMonster : Status
     public void Move(Vector3 strat, Vector3 target)
     {
         //MoveScript.StartMove(strat, target);
-        MoveScript.StartMove2(strat, target);
+        MoveScript.MoveStart(strat, target);
     }
 
     public GameObject DropItem()
@@ -179,9 +182,9 @@ public class baseMonster : Status
     //}
 
     //일정 시간에 한번씩 주변의 플레이어를 감지한다
-    public bool DetectPlayer()
+    public GameObject DetectPlayer()
     {
-        bool flag = false;
+        GameObject obj = null;
         Vector2 direction;
         //RaycastHit2D hit = null;
         if (Time.time - LastDetestTime >= DetectTime)
@@ -191,25 +194,40 @@ public class baseMonster : Status
             //탐지범위에 플레이어가 있는지 판단
             RaycastHit2D hit = Physics2D.CircleCast(transform.position, DetectRadius, new Vector2(0, 0), 0, PlayerLayer);
 
-            if(hit.collider!=null)
+            if (hit.collider != null)
             {
                 //플레이어가 판단되면 정면벡터와의 내적으로 각도를 구해서 정면이면 탐지
                 direction = hit.transform.position - this.transform.position;
                 direction.Normalize();
 
                 DetectedAngle = Mathf.Acos(Vector3.Dot(WAYS[(int)Direction], direction)) * 180.0f / 3.14f;
-                if(DetectedAngle<=DetectAngle)
+                if (DetectedAngle <= DetectAngle)
                 {
-                    Debug.Log("플레이거 감지");
+                    obj = hit.transform.gameObject;
                 }
+                Debug.Log("플레이어 감지");
             }
 
-            
+            if (obj != null)
+            {
+                if (state != MONSTERSTATE.ATTACK || state != MONSTERSTATE.WALKING)
+                {
+                    sc_player = obj.GetComponentInChildren<Player>();
+                    NowDetected = true;
+                    MoveScript.MoveStart(transform.position, sc_player.transform.position);
+                }
 
-
-            //sc_Attack.StartAttack(sc_player, sc_monster);
+            }
+            else
+            {
+                sc_player = null;
+                NowDetected = false;
+            }
         }
-        return flag;
+
+
+
+        return obj;
     }
 
     // Start is called before the first frame update

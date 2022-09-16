@@ -9,9 +9,9 @@ public class Zombie : baseMonster
     public Vector2 Foword;
     public Vector2 Right;
     //public enum DIRECTION { D1 = 1, D2, D3, D4, D5, D6, D7, D8, DIRECTIONMAX };//정면 부터 시계방향으로 돌아가는 8방향
-    public int TestCurHP;
+    //public int TestCurHP;
 
-    
+
 
     public override void StartVirtual()
     {
@@ -26,7 +26,7 @@ public class Zombie : baseMonster
         ResisLightning = 0;
         ResistMagic = 15;
 
-        //MoveScript = GetComponent<MonsterMove>();
+        MoveScript = GetComponent<MonsterMove>();
         MonsterAnimator = GetComponentInChildren<Animator>();
         State = MONSTERSTATE.IDLE;
     }
@@ -41,7 +41,9 @@ public class Zombie : baseMonster
     // Update is called once per frame
     void Update()
     {
-        DetectPlayer();
-        TestCurHP = this.CurHP;
+        GameObject obj = DetectPlayer();
+
+
+        //TestCurHP = this.CurHP;
     }
 }

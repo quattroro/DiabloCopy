@@ -22,7 +22,7 @@ public class MonsterMove : MonoBehaviour
     [Header("NavMesh2D")]
     public NavMeshAgent2D NavAgent;
 
-    
+
 
 
     public MonsterAttack sc_Attack;
@@ -35,27 +35,21 @@ public class MonsterMove : MonoBehaviour
         sc_monster = GetComponent<baseMonster>();
     }
 
-    //일정 시간에 한번씩 캐릭터가 탐지범위 안에 들어왔는지 확인한다.
-    private void Update()
-    {
-        
-    }
 
-    
-
-    public void StartMove2(Vector3 start, Vector3 target)
+    public void MoveStart(Vector3 start, Vector3 target)
     {
         direction = target - this.transform.position;
         sc_monster.SetDirection(direction.normalized);
-        //목적지에 도착하면 상대방이 있는지 확인하고 상대방이 있으면 공격을 한다.
-        if (direction.magnitude <= 0.5)
+
+        //움직임을 시작하기 전에 이미 공격 상태가 아니면 상대방이 공격범위에 있는지 확인하고 상대방이 있으면 공격을 한다.
+        if (sc_monster.NowDetected && sc_monster.state != MONSTERSTATE.ATTACK)
         {
             RaycastHit2D[] hit = Physics2D.CircleCastAll(sc_monster.attackcircle.transform.position, sc_monster.attackcircle.radius, new Vector2(0, 0), 0);
             foreach (RaycastHit2D a in hit)
             {
                 if (a.transform.tag == "Player")
                 {
-                    Debug.Log("플레이어 감지");
+                    Debug.Log("공격감지");
                     Moving = false;
                     targetpos = a.point;
                     //sc_monster.State = MONSTERSTATE.ATTACK;
@@ -64,23 +58,24 @@ public class MonsterMove : MonoBehaviour
                     return;
                 }
             }
-            Moving = false;
-            sc_monster.State = MONSTERSTATE.IDLE;
-            return;
         }
+
 
         startpos = start;
         targetpos = target;
-        Moving = true;
-        sc_monster.State = MONSTERSTATE.WALKING;
+        
+
+        NavMove();
     }
 
 
-
-    //astar없이 그냥 따라감
+    //NavMesh 사용
     public void NavMove()
     {
-
+        Moving = true;
+        sc_monster.State = MONSTERSTATE.WALKING;
+        Debug.Log("네브메쉬 들어옴");
+        NavAgent.SetDestination(targetpos);
 
         //if (Moving)
         //{
@@ -118,20 +113,15 @@ public class MonsterMove : MonoBehaviour
 
     private void OnDrawGizmos()
     {
-        //.color = Color.blue;
-        //if (sc_monster != null)
-        //
-        //DrawSolidArc(시작점, 노멀, 그려줄 방향벡터, 각도, 반지름)
-        if(sc_monster!=null)
+        if (sc_monster != null)
         {
             Gizmos.color = Color.blue;
             Gizmos.DrawLine(transform.position, (Vector2)transform.position + sc_monster.WAYS[(int)sc_monster.Direction]);
             Gizmos.color = Color.white;
-            Handles.DrawSolidArc(transform.position, new Vector3(0, 0, 1), sc_monster.WAYS[(int)sc_monster.Direction], sc_monster.DetectAngle/2, 1);
-            Handles.DrawSolidArc(transform.position, new Vector3(0, 0, 1), sc_monster.WAYS[(int)sc_monster.Direction], -sc_monster.DetectAngle/2, 1);
+            Handles.DrawSolidArc(transform.position, new Vector3(0, 0, 1), sc_monster.WAYS[(int)sc_monster.Direction], sc_monster.DetectAngle / 2, 1);
+            Handles.DrawSolidArc(transform.position, new Vector3(0, 0, 1), sc_monster.WAYS[(int)sc_monster.Direction], -sc_monster.DetectAngle / 2, 1);
 
         }
-        //Handles.DrawSolidArc(transform.position, new Vector3(0, 0, 1), sc_monster.WAYS[(int)sc_monster.Direction], sc_monster.DetectAngle, 1);
     }
 
 }

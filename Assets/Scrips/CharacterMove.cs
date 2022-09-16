@@ -50,7 +50,7 @@ public class CharacterMove : MonoBehaviour
 
         if(!CheckWall(startpos, targetpos))
         {
-            Debug.Log("벽 없음");
+            //Debug.Log("벽 없음");
             curtarget = targetpos;
             //Moving = true;
 
