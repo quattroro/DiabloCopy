@@ -2,11 +2,27 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
-public interface BaseUI
+public class BaseUI:MonoBehaviour
 {
-    ///ui 기본 인터페이스
-    //ui가 실행할 동작
-    public void BTNClickProc();
-    public void setActive(bool val);
+    public RectTransform rectTransform;
+    public UIManager.UITYPES _type;
+
+    public virtual void Init(UIManager.UITYPES type)
+    {
+        rectTransform = GetComponent<RectTransform>();
+        _type = type;
+    }
+
+
+    public virtual void setActive(bool val)
+    {
+        gameObject.SetActive(val);
+    }
+
+    public virtual bool IsActive()
+    {
+        return gameObject.activeSelf;
+    }
+    
 
 }

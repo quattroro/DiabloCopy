@@ -45,7 +45,7 @@ public class ItemBox : MonoBehaviour
         //uipanel은 생성을해서 이렇게 링킹을 해주면 ui상의 panel이 월드상의 해당 객체를 따라다닌다.
         //그러다 해당 패널이 클릭되면 같이 등록해준 함수를 실행 시켜 준다.
         uipanel.LinkObjectPanel(this.gameObject, "ItemBox"/*표시될 이름*/, BoxOpen/*클릭되었을때 실행할 함수*/, new Vector2(0, 30)/*떨어진 위치*/);
-        UIManager.Instance.RegistUIPanel(uipanel);//uipanel을 쉽게 관리하기 위해 uimanager에 등록 시켜 준다.
+        //UIManager.Instance.RegistUIPanel(uipanel);//uipanel을 쉽게 관리하기 위해 uimanager에 등록 시켜 준다.
     }
 
     // Update is called once per frame

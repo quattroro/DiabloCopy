@@ -3,16 +3,16 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class UICHAR : MonoBehaviour, BaseUI
+public class UICHAR : BaseUI
 {
     enum CHARSTATTEXT { Name, Level, Exp, NextExp, Gold, STR, MGC, DEX, VIT, StatPoint, HP, MP, ArmorClass, ToHit, Damage, ResisMGC, ResisFire, ResisLGT, TEXTMAX };
     public Player SC_Player=null;
 
-
-    public void setActive(bool val)
+    public override void Init(UIManager.UITYPES type)
     {
-        this.gameObject.SetActive(val);
+        base.Init(type);
     }
+
     public void BTNClickProc()
     {
         if (gameObject.activeSelf == false)
@@ -37,18 +37,5 @@ public class UICHAR : MonoBehaviour, BaseUI
             text.text = $"{SC_Player.GetStatElement((Status.STATS)i)}";
         }
     }
-
-    private void OnEnable()
-    {
-        
-    }
-
-
-
-
-
-
-
-
 
 }
