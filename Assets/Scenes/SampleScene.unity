@@ -1077,19 +1077,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 406306819}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 980302029}
-        m_TargetAssemblyTypeName: UIManager, Assembly-CSharp
-        m_MethodName: ButtonClick
-        m_Mode: 5
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: INV
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
 --- !u!114 &406306819
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2077,6 +2065,57 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!1 &956264942
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 956264944}
+  - component: {fileID: 956264943}
+  m_Layer: 0
+  m_Name: UIManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &956264943
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 956264942}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fde7fe768134d4347b36e67e66dbeff1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Test: []
+  CurActiveUI: []
+  UIButtons:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  objpanels: {fileID: 0}
+--- !u!4 &956264944
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 956264942}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 863.6525, y: 559.10547, z: -241.9659}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 25
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &974919630
 GameObject:
   m_ObjectHideFlags: 0
@@ -2238,12 +2277,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fde7fe768134d4347b36e67e66dbeff1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sc_player: {fileID: 0}
-  HPbar: {fileID: 839519259}
-  MPbar: {fileID: 1252712234}
-  QuickSlotInfo: 
-  Itemlist: []
-  QuickSlotButton: []
+  Test: []
+  CurActiveUI: []
+  UIButtons:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
   objpanels: {fileID: 0}
 --- !u!1 &1038733634
 GameObject:
@@ -4297,11 +4337,14 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1835427883}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 33d7936482c2e4a4cba5657317a5557a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _rectTransform: {fileID: 0}
+  _type: 0
+  _image: {fileID: 0}
   equipslotarr: []
 --- !u!1 &1872491523
 GameObject:
@@ -4657,6 +4700,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cf7866ddaf0549a4b847efe0d3ec7784, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _rectTransform: {fileID: 0}
+  _type: 0
+  _image: {fileID: 0}
   SC_Player: {fileID: 703483688}
 --- !u!1 &2043946071
 GameObject:
@@ -5078,19 +5124,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 2137835304}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 980302029}
-        m_TargetAssemblyTypeName: UIManager, Assembly-CSharp
-        m_MethodName: ButtonClick
-        m_Mode: 5
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: CHAR
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
 --- !u!114 &2137835304
 MonoBehaviour:
   m_ObjectHideFlags: 0

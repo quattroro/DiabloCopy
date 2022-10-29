@@ -4,11 +4,16 @@ using System.Linq;
 using UnityEngine;
 
 //장비 슬롯들을 관리할 장비창
-public class EquipmentWindow : Singleton<EquipmentWindow>
+public class EquipmentWindow : BaseUI
 {
     //public List<BaseSlot> equipslots;
     public BaseSlot[] equipslotarr;//장비 슬롯들을 관리할 배열
 
+    public override void Init()
+    {
+        base.Init();
+        _type = UIManager.UITYPES.INV;
+    }
 
     //장비 슬롯에 장비를 장착한다.
     public bool EquipEquipments(BaseNode node, BaseSlot slot)

@@ -22,7 +22,7 @@ public class ItemObj : MonoBehaviour
         //그러다 해당 패널이 클릭되면 같이 등록해준 함수를 실행 시켜 준다.
         uipanel = GameObject.Instantiate<ObjectPanel>(Resources.Load<ObjectPanel>("Prefabs/ObjectPanel"));
         uipanel.LinkObjectPanel(this.gameObject, itemname/*표시될 이름*/, GetItem/*클릭시 호출될 함수*/, new Vector2(0, 30)/*떨어질 위치*/);
-        UIManager.Instance.RegistUIPanel(uipanel);//uipanel을 쉽게 관리하기 위해 uimanager에 등록 시켜 준다.
+        //UIManager.Instance.RegistUIPanel(uipanel);//uipanel을 쉽게 관리하기 위해 uimanager에 등록 시켜 준다.
         this.transform.position = pos;
 
 
@@ -32,7 +32,7 @@ public class ItemObj : MonoBehaviour
     public void GetItem()
     {
         BaseNode copynode = ItemNodeManager.Instance.InstantiateNode(itemcode, this.transform);//해당 코드에 해당하는 아이템을 아이템 가방에 넣어준다.
-        UIManager.Instance.DeleteUIPanel(uipanel);
+        //UIManager.Instance.DeleteUIPanel(uipanel);
         ItemBag.Instance.InsertItem(copynode);
         Destroy(this.gameObject);
 

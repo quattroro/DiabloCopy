@@ -8,9 +8,10 @@ public class UICHAR : BaseUI
     enum CHARSTATTEXT { Name, Level, Exp, NextExp, Gold, STR, MGC, DEX, VIT, StatPoint, HP, MP, ArmorClass, ToHit, Damage, ResisMGC, ResisFire, ResisLGT, TEXTMAX };
     public Player SC_Player=null;
 
-    public override void Init(UIManager.UITYPES type)
+    public override void Init()
     {
-        base.Init(type);
+        base.Init();
+        _type = UIManager.UITYPES.CHAR;
     }
 
     public void BTNClickProc()

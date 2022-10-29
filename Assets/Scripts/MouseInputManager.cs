@@ -170,8 +170,8 @@ public class MouseInputManager : MonoBehaviour
                 {
                     if(flag)
                     {
-                        if (EquipmentWindow.Instance.EquipEquipments(ClickedObj, resultslot[0]))//장비 슬롯에 넣어주고 넣어주기 실패했을때는 clickedobj를 그대로 둬서 이전 위치로 돌아가도록 해준다.
-                            ClickedObj = null;
+                        //if (EquipmentWindow.Instance.EquipEquipments(ClickedObj, resultslot[0]))//장비 슬롯에 넣어주고 넣어주기 실패했을때는 clickedobj를 그대로 둬서 이전 위치로 돌아가도록 해준다.
+                        //    ClickedObj = null;
                     }
                     
                 }
@@ -188,8 +188,8 @@ public class MouseInputManager : MonoBehaviour
 
             if (ClickedObj.PreSlot.GetSlotTypes() != EnumTypes.SlotTypes.Equip)
                 ItemBag.Instance.SetItem(ClickedObj, ClickedObj.PreSlot);
-            else
-                EquipmentWindow.Instance.EquipEquipments(ClickedObj, ClickedObj.PreSlot);
+            //else
+            //    EquipmentWindow.Instance.EquipEquipments(ClickedObj, ClickedObj.PreSlot);
 
             //ItemBag.Instance.SetItem(ClickedObj, ClickedObj.PreSlot);
             //ClickedObj.PreSlot.SetNode(ClickedObj);
