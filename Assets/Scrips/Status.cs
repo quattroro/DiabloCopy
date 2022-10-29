@@ -4,10 +4,14 @@ using UnityEngine;
 
 public class Status : MonoBehaviour
 {
-    public enum ABLESTAT {  STR, MGC, DEX, VIT, HP, MP };//변경 가능한 값들
-    public enum STATS { Name, Level, Exp, NextExp, Gold, STR, MGC, DEX, VIT, StatPoint, HP, MP, ArmorClass, ToHit, Damege, ResisMGC, ResisFire, ResisLGT, STATMAX };
+    public enum STATS { Name, Level, Exp, NextExp, Gold, STR, MGC, DEX, VIT, HP, MP, StatPoint, ArmorClass, ToHit, Damage, ResisMGC, ResisFire, ResisLGT, STATMAX };
+    public enum CHANGEABLESTATS { STR = STATS.STR, MGC, DEX, VIT, HP, MP, CHANGEMAX};//변경 가능한 값들
+
     [Header("=====Status=====")]
-    public string Myname;
+    public int level = 1;
+    public int gold;
+
+    public string className;
     public int curhp;
     public int curmp;
     public int maxhp;
@@ -17,10 +21,8 @@ public class Status : MonoBehaviour
     public int dexterity;
     public int vitality;
     public int pointstodistribute;
-    public int level=1;
     public int exprtience;
     public int nextlevel = 400;
-    public int gold;
     public int armorclass;
     public int tohit;
     public int damage;
@@ -28,16 +30,20 @@ public class Status : MonoBehaviour
     public int resistmagic;
     public int resisfire;
     public int resislightning;
+
+
+    public UIManager uimanager;
+
     //[Header("==========")]
-    public string Name
+    public string ClassName
     {
         get
         {
-            return Myname;
+            return className;
         }
         set
         {
-            Myname = value;
+            className = value;
         }
     }
     public int CurHP
@@ -156,6 +162,8 @@ public class Status : MonoBehaviour
             level = value;
         }
     }
+
+
     public int Experience//경험치
     {
         get
@@ -167,6 +175,9 @@ public class Status : MonoBehaviour
             exprtience = value;
         }
     }
+
+    
+
     public int NextLevel//레벨업까지 남은 경험치
     {
         get
@@ -302,7 +313,7 @@ public class Status : MonoBehaviour
                 return ArmorClass;
             case STATS.ToHit:
                 return ToHit;
-            case STATS.Damege:
+            case STATS.Damage:
                 return Damage;
             case STATS.ResisMGC:
                 return ResistMagic;
@@ -325,7 +336,17 @@ public class Status : MonoBehaviour
         curmp = maxmp;
         MaxHP += 100;
         curhp = maxhp;
-        
+
+        Strength += 5;
+        Magic += 3;
+        Dexterity += 3;
+        Vitality += 5;
+        ArmorClass += 10;
+        Damage += 10;
+        MagicDamege += 10;
+        ResistMagic += 10;
+        ResisFire += 10;
+        ResisLightning += 10;
     }
 
 
@@ -339,56 +360,80 @@ public class Status : MonoBehaviour
 
     }
 
-    public virtual void StatUp(int stat)//유저가 포인트를 사용해 스탯을 증가시킬때 사용
+    public virtual void StatUp(CHANGEABLESTATS element)//유저가 포인트를 사용해 스탯을 증가시킬때 사용
     {
         if(PointsToDistribute<=0)
         {
             return;
         }
+
         pointstodistribute--;
-        switch((ABLESTAT)stat)
+
+        switch(element)
         {
-            case ABLESTAT.HP:
+            case CHANGEABLESTATS.HP:
                 MaxHP += 50;
                 break;
 
-            case ABLESTAT.MP:
+            case CHANGEABLESTATS.MP:
                 MaxMP += 50;
                 break;
 
-            case ABLESTAT.STR:
+            case CHANGEABLESTATS.STR:
                 Strength += 1;
                 break;
 
-            case ABLESTAT.MGC:
+            case CHANGEABLESTATS.MGC:
                 Magic += 1;
                 break;
 
-            case ABLESTAT.DEX:
+            case CHANGEABLESTATS.DEX:
                 Dexterity += 1;
                 break;
 
-            case ABLESTAT.VIT:
+            case CHANGEABLESTATS.VIT:
                 Vitality += 1;
                 break;
           
-
         }
+        UIManager.Instance.GetUIInstance(UIManager.UITYPES.CHAR).ShowUIInfo();
+
     }
 
 
-    // Start is called before the first frame update
     void Start()
     {
-        CurHP = MaxHP;
-        CurMP = MaxMP;
         StartVirtual();
     }
 
     public virtual void StartVirtual()
     {
-        CurHP = MaxHP;
-        CurMP = MaxMP;
+        //CurHP = MaxHP;
+        //CurMP = MaxMP;
+        Level = 1;
+
+        NextLevel = 400;
+        Experience = 0;
+
+        PointsToDistribute = 3;
+        MaxMP = 100;
+        curmp = maxmp;
+        MaxHP = 100;
+        curhp = maxhp;
+
+        Strength = 5;
+        Magic = 3;
+        Dexterity = 3;
+        Vitality = 5;
+        ArmorClass = 10;
+        Damage = 10;
+        MagicDamege = 10;
+        ResistMagic = 10;
+        ResisFire = 10;
+        ResisLightning = 10;
+
+        
+
     }
 
 }

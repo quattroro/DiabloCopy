@@ -15,10 +15,10 @@ public class MPPotion : ItemLeaf
     //ItemLeaf의 Operate는 실행되지 않음
     public override void Operate()
     {
-        GameManager.GetI.CS_Palyer.CurMP += 30;
-        if(GameManager.GetI.CS_Palyer.CurMP >= GameManager.GetI.CS_Palyer.MaxMP)
+        GameManager.GetI.CS_Player.CurMP += 30;
+        if(GameManager.GetI.CS_Player.CurMP >= GameManager.GetI.CS_Player.MaxMP)
         {
-            GameManager.GetI.CS_Palyer.CurMP = GameManager.GetI.CS_Palyer.MaxMP;
+            GameManager.GetI.CS_Player.CurMP = GameManager.GetI.CS_Player.MaxMP;
         }
     }
 

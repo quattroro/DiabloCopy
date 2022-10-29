@@ -24,6 +24,7 @@ public class UIManager : Singleton<UIManager>
     public Button[] UIButtons = new Button[(int)UITYPES.UITYPEMAX];
 
 
+
     //[Header("연결 필요")]
     //public Player sc_player;
     //public Image HPbar;
@@ -73,6 +74,11 @@ public class UIManager : Singleton<UIManager>
     public List<BaseUI> GetCurActiveUI()
     {
         return CurActiveUI;
+    }
+
+    public BaseUI GetUIInstance(UITYPES type)
+    {
+        return UIObjList[type];
     }
 
     public void LoadBaseUI(UITYPES type)

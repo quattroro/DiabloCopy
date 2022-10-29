@@ -25,7 +25,7 @@ public class MeleeWeapon : Weapon
         //StartCoroutine("MeleeAttack");
     }
 
-    IEnumerator MeleeAttack()
+    public IEnumerator MeleeAttack()
     {
         while(true)
         {
@@ -56,16 +56,12 @@ public class MeleeWeapon : Weapon
             yield return new WaitForSeconds(cooltime);
         }
     }
-    // Start is called before the first frame update
+
+
     void Start()
     {
         weaponkind = WEAPONKIND.MELEE;
         Debug.Log("Melee Start");
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
 }

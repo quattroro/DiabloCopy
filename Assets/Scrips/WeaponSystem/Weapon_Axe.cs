@@ -13,14 +13,12 @@ public class Weapon_Axe : MeleeWeapon
 
     public override void Attack()
     {
-        //sc_monster = sc_player.sc_targetmonster;
-        //monster=sc_player.TargetMonster
         if (sc_player.State != PLAYERSTATE.ATTACK)
         {
             sc_player.State = PLAYERSTATE.ATTACK;
             monster = sc_player.targetmonster;
             sc_monster = monster.GetComponent<baseMonster>();
-            StartCoroutine("MeleeAttack");
+            StartCoroutine(MeleeAttack());
         }
 
     }
@@ -33,12 +31,7 @@ public class Weapon_Axe : MeleeWeapon
         //base.cooltime = 1.8f;
         meleekind = MELEEKIND.AXE;
         sc_player = transform.parent.GetComponent<Player>();
-        Debug.Log("Axe start");
+        //Debug.Log("Axe start");
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-
-    }
 }

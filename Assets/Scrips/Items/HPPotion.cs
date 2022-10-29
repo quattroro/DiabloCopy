@@ -18,10 +18,10 @@ public class HPPotion : ItemLeaf
     //ItemLeaf의 Operate는 실행되지 않음
     public override void Operate()
     {
-        GameManager.GetI.CS_Palyer.CurHP += 30;
-        if (GameManager.GetI.CS_Palyer.CurHP >= GameManager.GetI.CS_Palyer.MaxHP)
+        GameManager.GetI.CS_Player.CurHP += 30;
+        if (GameManager.GetI.CS_Player.CurHP >= GameManager.GetI.CS_Player.MaxHP)
         {
-            GameManager.GetI.CS_Palyer.CurHP = GameManager.GetI.CS_Palyer.MaxHP;
+            GameManager.GetI.CS_Player.CurHP = GameManager.GetI.CS_Player.MaxHP;
         }
     }
 

@@ -17,7 +17,7 @@ public class Zombie : baseMonster
     {
         base.StartVirtual();
 
-        Myname = "Zombie";
+        ClassName = "Zombie";
         MaxHP = 30;
         curhp = 30;
         MaxMP = 0;

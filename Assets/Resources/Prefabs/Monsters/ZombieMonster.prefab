@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 910993192040903344}
   - component: {fileID: 910993192040903310}
   - component: {fileID: 910993192040903345}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: AttackRadius
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -111,13 +111,13 @@ GameObject:
   - component: {fileID: 910993192583468383}
   - component: {fileID: 910993192583468380}
   - component: {fileID: 910993192583468381}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: DitectionRadius
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &910993192583468383
 Transform:
   m_ObjectHideFlags: 0
@@ -211,12 +211,7 @@ GameObject:
   - component: {fileID: 910993192684438564}
   - component: {fileID: 910993192684438565}
   - component: {fileID: 910993192684438562}
-  - component: {fileID: 910993192684438563}
-  - component: {fileID: 910993192684438560}
-  - component: {fileID: 910993192684438561}
-  - component: {fileID: 910993192684438591}
-  - component: {fileID: 910993192684438590}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Zombie
   m_TagString: Enemy
   m_Icon: {fileID: 0}
@@ -308,129 +303,6 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
---- !u!114 &910993192684438563
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 910993192684438567}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 31977f40e09aba64490b8c7830021b75, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Myname: 
-  curhp: 0
-  curmp: 0
-  maxhp: 0
-  maxmp: 0
-  strength: 0
-  magic: 0
-  dexterity: 0
-  vitality: 0
-  pointstodistribute: 0
-  level: 0
-  exprtience: 0
-  nextlevel: 0
-  gold: 0
-  armorclass: 0
-  tohit: 0
-  damage: 0
-  magicdamage: 0
-  resistmagic: 0
-  resisfire: 0
-  resislightning: 0
-  Attack: 0
-  Direction: 0
-  degree: 0
-  collcircle: {fileID: 910993192583468381}
-  attackcircle: {fileID: 910993192040903345}
-  targetpos: {x: 0, y: 0, z: 0}
-  DetectTimeVal: 1
-  test1: {x: 0, y: 0, z: 0}
-  testradi: 0
-  testCircle: {fileID: 0}
-  sc_player: {fileID: 0}
-  state: 0
-  MonsterAnimator: {fileID: 0}
-  MoveScript: {fileID: 910993192996530718}
-  TestCurHP: 0
---- !u!70 &910993192684438560
-CapsuleCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 910993192684438567}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0.28}
-  m_Size: {x: 0.25, y: 0.63}
-  m_Direction: 0
---- !u!50 &910993192684438561
-Rigidbody2D:
-  serializedVersion: 4
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 910993192684438567}
-  m_BodyType: 1
-  m_Simulated: 1
-  m_UseFullKinematicContacts: 0
-  m_UseAutoMass: 0
-  m_Mass: 1
-  m_LinearDrag: 0
-  m_AngularDrag: 0.05
-  m_GravityScale: 1
-  m_Material: {fileID: 0}
-  m_Interpolate: 0
-  m_SleepingMode: 1
-  m_CollisionDetection: 0
-  m_Constraints: 0
---- !u!114 &910993192684438591
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 910993192684438567}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c0d3874793e96e34da7b297478a12c79, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  sc_monster: {fileID: 0}
-  sc_player: {fileID: 0}
-  AttackTime: 2
---- !u!114 &910993192684438590
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 910993192684438567}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0ea43ec13dbf1db428636c9046304749, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  sc_player: {fileID: 0}
-  direction: {x: 0, y: 0, z: 0}
-  movespeed: 0.3
-  startpos: {x: 0, y: 0, z: 0}
-  targetpos: {x: 0, y: 0, z: 0}
-  Moving: 0
-  curtarget: {x: 0, y: 0, z: 0}
-  Curindex: 0
-  Timeval: 1
-  sc_Attack: {fileID: 0}
-  sc_monster: {fileID: 0}
 --- !u!1 &910993192996530691
 GameObject:
   m_ObjectHideFlags: 0
@@ -442,9 +314,13 @@ GameObject:
   - component: {fileID: 910993192996530688}
   - component: {fileID: 910993192996530718}
   - component: {fileID: 910993192996530689}
-  m_Layer: 0
+  - component: {fileID: 488800879}
+  - component: {fileID: 488800880}
+  - component: {fileID: 488800881}
+  - component: {fileID: 488800882}
+  m_Layer: 8
   m_Name: ZombieMonster
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -487,8 +363,9 @@ MonoBehaviour:
   curtarget: {x: 0, y: 0, z: 0}
   Curindex: 0
   Timeval: 1
-  sc_Attack: {fileID: 910993192684438591}
-  sc_monster: {fileID: 910993192684438563}
+  NavAgent: {fileID: 0}
+  sc_Attack: {fileID: 0}
+  sc_monster: {fileID: 0}
 --- !u!114 &910993192996530689
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -496,7 +373,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 910993192996530691}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: c0d3874793e96e34da7b297478a12c79, type: 3}
   m_Name: 
@@ -504,3 +381,113 @@ MonoBehaviour:
   sc_monster: {fileID: 0}
   sc_player: {fileID: 0}
   AttackTime: 2
+--- !u!50 &488800879
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 910993192996530691}
+  m_BodyType: 1
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 1
+  m_Material: {fileID: 0}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 0
+--- !u!70 &488800880
+CapsuleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 910993192996530691}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0.28}
+  m_Size: {x: 0.25, y: 0.63}
+  m_Direction: 0
+--- !u!114 &488800881
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 910993192996530691}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 31977f40e09aba64490b8c7830021b75, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  level: 0
+  gold: 0
+  className: 
+  curhp: 0
+  curmp: 0
+  maxhp: 0
+  maxmp: 0
+  strength: 0
+  magic: 0
+  dexterity: 0
+  vitality: 0
+  pointstodistribute: 0
+  exprtience: 0
+  nextlevel: 0
+  armorclass: 0
+  tohit: 0
+  damage: 0
+  magicdamage: 0
+  resistmagic: 0
+  resisfire: 0
+  resislightning: 0
+  WAYS: []
+  Attack: 0
+  Direction: 1
+  degree: 0
+  collcircle: {fileID: 910993192583468381}
+  attackcircle: {fileID: 910993192040903345}
+  targetpos: {x: 0, y: 0, z: 0}
+  DetectTimeVal: 1
+  test1: {x: 0, y: 0, z: 0}
+  testradi: 0
+  testCircle: {fileID: 0}
+  sc_player: {fileID: 0}
+  state: 0
+  MonsterAnimator: {fileID: 0}
+  MoveScript: {fileID: 910993192996530718}
+  DetectRadius: 1.5
+  DetectAngle: 60
+  PlayerLayer:
+    serializedVersion: 2
+    m_Bits: 128
+  DetectTime: 1
+  NowDetected: 0
+  DetectedAngle: 0
+  DetectedPlayer: {fileID: 0}
+  Foword: {x: 0, y: 0}
+  Right: {x: 0, y: 0}
+--- !u!114 &488800882
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 910993192996530691}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ece36a903e754ca41a618d0735d95b78, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speed: 1
+  stoppingDistance: 0

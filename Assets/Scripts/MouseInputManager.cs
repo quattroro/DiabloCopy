@@ -16,7 +16,8 @@ public class MouseInputManager : MonoBehaviour
 
     private void Awake()
     {
-        raycaster = GetComponent<GraphicRaycaster>();
+        //raycaster = GetComponent<GraphicRaycaster>();
+        raycaster = FindObjectOfType<GraphicRaycaster>();
     }
 
 
@@ -35,13 +36,10 @@ public class MouseInputManager : MonoBehaviour
 
 
     }
-
-
-
     
 
 
-
+    //클릭 영역에 활성화된 UI가 있는지 확인한다.
     public void LeftMouseDown(Vector2 pos)
     {
         //canvas에 있는 graphicraycast를 이용해 클릭된 위치에 있는 객체들의 정보들을 받아온다.
@@ -53,32 +51,72 @@ public class MouseInputManager : MonoBehaviour
         BaseNode node = null;
         BaseSlot slot = null;
 
-
-        if (ClickedObj == null)
+        //클릭된 영역에 UI가 있을때
+        if(result.Count>0)
         {
-            foreach (var a in result)
+            if (ClickedObj == null)
             {
-                if (a.gameObject.tag == "Node")
+                foreach (var a in result)
                 {
-                    node = a.gameObject.GetComponent<BaseNode>();
-                    if (node.NodeIsActive)//활성노드
+                    if (a.gameObject.tag == "Node")
                     {
-                        if (!node.NodeIsClicked)//클릭된 노드가 아닐때
+                        node = a.gameObject.GetComponent<BaseNode>();
+                        if (node.NodeIsActive)//활성노드
                         {
-                            Debug.Log("노드 클릭됨");
-                            ClickedObj = node.NodeClick();
+                            if (!node.NodeIsClicked)//클릭된 노드가 아닐때
+                            {
+                                Debug.Log("노드 클릭됨");
+                                ClickedObj = node.NodeClick();
+                            }
                         }
+
+                        Debug.Log($"{a.gameObject.name} clicked");
+                    }
+                    else if (a.gameObject.tag == "ObjPanel")//클릭된 것이 오브젝트 패널이면 패널에 등록되어있는 클릭 이벤트를 실행시켜 준다.
+                    {
+                        a.gameObject.GetComponent<ObjectPanel>().ObjectPanelClick();
                     }
 
-                    Debug.Log($"{a.gameObject.name} clicked");
                 }
-                else if (a.gameObject.tag == "ObjPanel")//클릭된 것이 오브젝트 패널이면 패널에 등록되어있는 클릭 이벤트를 실행시켜 준다.
+            }
+        }
+        //클릭된 영역에 UI가 없을때 캐릭터 이동과 공격을 실시한다.
+        else
+        {
+            Player player;
+            if (Input.mousePosition.y >= 144f)
+            {
+
+                Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
+                Vector3 point = Camera.main.ScreenToWorldPoint(Input.mousePosition);
+
+
+                RaycastHit2D[] hit = Physics2D.CircleCastAll(point, 0.1f, Vector2.zero, 0);
+                player = GameManager.Instance.GetPlayer();
+                foreach (RaycastHit2D a in hit)
                 {
-                    a.gameObject.GetComponent<ObjectPanel>().ObjectPanelClick();
+                    if (a.transform.tag == "Wall")
+                    {
+                        return;
+                    }
+
+                    if (a.transform.tag == "Enemy")
+                    {
+                        player.AttackMove(player.transform.position, a.point, a.transform);
+                        Debug.Log("Attackmove");
+                        //this.AttackMove(this.transform.position, a.point, a.transform);
+                        return;
+                    }
+
+
                 }
+                player.Move(player.transform.position, hit[0].point);
+                Debug.Log("nomalmove");
+                //this.Move(this.transform.position, hit[0].point);
 
             }
         }
+        
     }
 
     
@@ -219,7 +257,7 @@ public class MouseInputManager : MonoBehaviour
     public float lasttime = 0.0f;
 
     //마우스가 UI 요소들 위에 올라와 있는지 확인한다.(0.1초에 한번씩 실행)
-    public void CheckMouseOveray()
+    public void CheckMouseOverlay()
     {
         if (Time.time - lasttime >= 0.1f)
         {
@@ -273,6 +311,49 @@ public class MouseInputManager : MonoBehaviour
 
     }
 
+    //오른쪽클릭 이동 왼쪽클릭 아이템획득, 몬스터 공격
+    //마우스 움직임 관리
+    //마우스가 캐릭터 위에 올라가거나 
+    //몬스터 공격하도록
+    public void MouseClick()
+    {
+
+        //마우스 왼클릭
+        if (Input.GetMouseButtonDown(0))
+        {
+            if (Input.mousePosition.y >= 144f)
+            {
+
+                Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
+                Vector3 point = Camera.main.ScreenToWorldPoint(Input.mousePosition);
+
+
+                RaycastHit2D[] hit = Physics2D.CircleCastAll(point, 0.1f, Vector2.zero, 0);
+                foreach (RaycastHit2D a in hit)
+                {
+                    if (a.transform.tag == "Wall")
+                    {
+                        return;
+                    }
+
+                    if (a.transform.tag == "Enemy")
+                    {
+                        //Debug.Log("Attackmove");
+                        //this.AttackMove(this.transform.position, a.point, a.transform);
+                        return;
+                    }
+
+
+                }
+                //Debug.Log("nomalmove");
+                //this.Move(this.transform.position, hit[0].point);
+
+            }
+
+        }
+    }
+
+
     // Update is called once per frame
     void Update()
     {
@@ -292,6 +373,6 @@ public class MouseInputManager : MonoBehaviour
             //DraggingItem(Input.mousePosition);
         }
 
-        CheckMouseOveray();
+        CheckMouseOverlay();
     }
 }

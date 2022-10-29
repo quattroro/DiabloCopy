@@ -43,7 +43,7 @@ public class DropItem : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        ItemBag itemBag = GameManager.GetI.CS_Palyer.itemBag;
+        ItemBag itemBag = GameManager.GetI.CS_Player.itemBag;
         if (collision.transform.tag == "Player")
         {
             if (itemBag.gameObject.activeSelf == false)

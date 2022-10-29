@@ -45,6 +45,11 @@ public class BaseUI:MonoBehaviour
     {
         return gameObject.activeSelf;
     }
-    
+    public virtual void ShowUIInfo()
+    {
+
+    }
+
+
 
 }
