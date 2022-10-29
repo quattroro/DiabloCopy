@@ -8,4 +8,5 @@ public interface IPointerOverLay
 {
     public bool GetIsNowOverLay();
     public void SetIsNowOverLay(bool value);
+
 }

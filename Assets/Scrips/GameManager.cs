@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Tilemaps;
 
-public class GameManager : MonoBehaviour
+public class GameManager : Singleton<GameManager>
 {
     static GameManager _instance = null;
     public static GameManager GetI
@@ -31,7 +31,10 @@ public class GameManager : MonoBehaviour
 
     public baseMonster testmonster;
 
-
+    public Camera GetMainCamera()
+    {
+        return _MainCamera;
+    }
 
     //오른쪽클릭 이동 왼쪽클릭 아이템획득, 몬스터 공격
     //마우스 움직임 관리
@@ -123,7 +126,7 @@ public class GameManager : MonoBehaviour
     void Update()
     {
 
-        CameraMove();
+        //CameraMove();
         MouseClick();
     }
 }

@@ -3,8 +3,32 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class UICHAR : BaseUI
+public class UICHAR : BaseUI,IPointerOverLay
 {
+    public bool _isoverlay;
+    public bool IsOverlay
+    {
+        get
+        {
+            return _isoverlay;
+        }
+        set
+        {
+            _isoverlay = value;
+        }
+
+    }
+
+    public bool GetIsNowOverLay()
+    {
+        throw new System.NotImplementedException();
+    }
+
+    public void SetIsNowOverLay(bool value)
+    {
+        throw new System.NotImplementedException();
+    }
+
     enum CHARSTATTEXT { Name, Level, Exp, NextExp, Gold, STR, MGC, DEX, VIT, StatPoint, HP, MP, ArmorClass, ToHit, Damage, ResisMGC, ResisFire, ResisLGT, TEXTMAX };
     public Player SC_Player=null;
 

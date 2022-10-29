@@ -5,7 +5,8 @@ using UnityEngine.EventSystems;
 using UnityEngine.UI;
 
 
-//마우스 조작에 따른 노드와 슬롯 조작
+//마우스 조작에 따른 UI 노드와 슬롯 조작
+//마우스 조작에 따른 월드 조작
 public class MouseInputManager : MonoBehaviour
 {
     GraphicRaycaster raycaster;

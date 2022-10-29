@@ -9,6 +9,7 @@ public class UIManager : Singleton<UIManager>
 {
     public enum UITYPES
     {
+        MAIN,
         CHAR,
         INV,
         SPELLS,
@@ -58,12 +59,12 @@ public class UIManager : Singleton<UIManager>
             UIButtons[(int)a.GetUIType()] = activeBTN;
 
             //UI는 비활성화된 상태로 시작
-            a.setActive(false);
+            if (a.GetUIType()!=UITYPES.MAIN)
+                a.setActive(false);
 
             //딕셔너리에 넣어서 관리
             UIObjList.Add(a.GetUIType(), a);
             Test.Add(a);
-
 
         }
         
