@@ -400,6 +400,40 @@ public class Status : MonoBehaviour
 
     }
 
+    HPBar hpbar;
+    MPBar mpbar;
+
+    public void HPUp(float val)
+    {
+        if(hpbar == null)
+            hpbar = UIManager.Instance.GetUIInstance(UIManager.UITYPES.HP) as HPBar;
+
+        hpbar.CurVal += val;
+    }
+
+    public void HPDown(float val)
+    {
+        if (hpbar == null)
+            hpbar = UIManager.Instance.GetUIInstance(UIManager.UITYPES.HP) as HPBar;
+
+        hpbar.CurVal -= val;
+    }
+
+    public void MPUp(float val)
+    {
+        if (mpbar == null)
+            mpbar = UIManager.Instance.GetUIInstance(UIManager.UITYPES.MP) as MPBar;
+
+        mpbar.CurVal += val;
+    }
+
+    public void MPDown(float val)
+    {
+        if (mpbar == null)
+            mpbar = UIManager.Instance.GetUIInstance(UIManager.UITYPES.MP) as MPBar;
+
+        mpbar.CurVal -= val;
+    }
 
     void Start()
     {

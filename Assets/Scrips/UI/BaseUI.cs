@@ -6,12 +6,12 @@ public class BaseUI:MonoBehaviour
 {
     public RectTransform _rectTransform;
     public UIManager.UITYPES _type;
-    public Image _image;
+    //public Image _image;
 
     public virtual void Init()
     {
         _rectTransform = GetComponent<RectTransform>();
-        _image = GetComponent<Image>();
+        //_image = GetComponent<Image>();
     }
 
     public UIManager.UITYPES GetUIType()

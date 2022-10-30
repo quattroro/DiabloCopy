@@ -14,6 +14,8 @@ public class UIManager : Singleton<UIManager>
         INV,
         SPELLS,
         SPELL,
+        HP,
+        MP,
         UITYPEMAX
     };
 
@@ -53,15 +55,19 @@ public class UIManager : Singleton<UIManager>
         {
             //UI 초기세팅 해주고
             a.Init();
+            UITYPES type = a.GetUIType();
 
-            //UI 타입에 해당하는 활성화 버튼을 찾아서 활성화 함수를 연결해준다.
-            Button activeBTN = GameObject.Find($"Button({a.GetUIType()})").GetComponent<Button>();
-            activeBTN.onClick.AddListener(a.setActive);
-            UIButtons[(int)a.GetUIType()] = activeBTN;
+            if (type != UITYPES.HP && type != UITYPES.MP && type != UITYPES.MAIN)
+            {
+                //UI 타입에 해당하는 활성화 버튼을 찾아서 활성화 함수를 연결해준다.
+                Button activeBTN = GameObject.Find($"Button({type.ToString()})").GetComponent<Button>();
+                activeBTN.onClick.AddListener(a.setActive);
+                UIButtons[(int)type] = activeBTN;
 
-            //UI는 비활성화된 상태로 시작
-            if (a.GetUIType()!=UITYPES.MAIN)
+                //UI는 비활성화된 상태로 시작
                 a.setActive(false);
+            }
+            
 
             //딕셔너리에 넣어서 관리
             UIObjList.Add(a.GetUIType(), a);
