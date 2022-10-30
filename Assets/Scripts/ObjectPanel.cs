@@ -22,6 +22,8 @@ public class ObjectPanel : MonoBehaviour,IPointerOverLay
 
     public bool IsDestroy = false;
 
+    public Canvas canvas;
+
     //현재 마우스가 오버레이 되어있는지
     public bool IsOverlay
     {
@@ -55,12 +57,15 @@ public class ObjectPanel : MonoBehaviour,IPointerOverLay
     private void Start()
     {
         IsOverlay = false;
+        canvas = FindObjectOfType<Canvas>(); 
+        transform.parent = canvas.transform;
     }
 
     //월드상의 객체와 링킹을 해준다.
     public void LinkObjectPanel(GameObject obj,string showtext/*표시될 이름*/, ClickedEvent cevent/*클릭될 시 실행시킬 함수*/,Vector2 pos)
     {
-
+        //if (transform.parent != canvas.transform)
+            
         LinkedObj = obj;
         clickedevent += cevent;
         intervalpos = pos;

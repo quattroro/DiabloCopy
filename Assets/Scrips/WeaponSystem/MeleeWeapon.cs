@@ -44,8 +44,6 @@ public class MeleeWeapon : Weapon
                     sc_player.TargetMonster = null;
                     sc_player.State = PLAYERSTATE.IDLE;
                     GameObject.Destroy(sc_monster.gameObject);
-                    
-                    
                     yield break;
                 }
             }

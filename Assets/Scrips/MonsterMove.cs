@@ -22,11 +22,10 @@ public class MonsterMove : MonoBehaviour
     [Header("NavMesh2D")]
     public NavMeshAgent2D NavAgent;
 
-
-
-
     public MonsterAttack sc_Attack;
     public baseMonster sc_monster;
+
+    private IEnumerator movecor = null;
 
     private void Start()
     {
@@ -75,7 +74,14 @@ public class MonsterMove : MonoBehaviour
         Moving = true;
         sc_monster.State = MONSTERSTATE.WALKING;
         Debug.Log("네브메쉬 들어옴");
-        NavAgent.SetDestination(targetpos);
+        if (movecor != null)
+        {
+            StopCoroutine(movecor);
+            movecor = null;
+        }
+        movecor = nav();
+        StartCoroutine(movecor);
+
 
         //if (Moving)
         //{
@@ -108,6 +114,21 @@ public class MonsterMove : MonoBehaviour
         //    direction.Normalize();
         //    this.transform.position += direction * movespeed * Time.deltaTime;
         //}
+
+    }
+
+    IEnumerator nav()
+    {
+        while (true)
+        {
+            if (NavAgent.Trace(transform.position, targetpos))
+            {
+                movecor = null;
+                yield break;
+            }
+
+            yield return new WaitForSeconds(Time.deltaTime);
+        }
 
     }
 

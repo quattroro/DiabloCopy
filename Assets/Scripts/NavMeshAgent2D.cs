@@ -26,11 +26,11 @@ public class NavMeshAgent2D : MonoBehaviour
         return true;
     }
 
-    private void Trace(Vector2 current, Vector2 target)
+    public bool Trace(Vector2 current, Vector2 target)
     {
         if (Vector2.Distance(current, target) <= stoppingDistance)
         {
-            return;
+            return true;
         }
 
         // NavMesh に応じて経路を求める
@@ -45,5 +45,7 @@ public class NavMeshAgent2D : MonoBehaviour
         }
 
         transform.position = Vector2.MoveTowards(current, corner, speed * Time.deltaTime);
+
+        return false;
     }
 }

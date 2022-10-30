@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 910993192040903344}
   - component: {fileID: 910993192040903310}
   - component: {fileID: 910993192040903345}
-  m_Layer: 8
+  m_Layer: 0
   m_Name: AttackRadius
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -211,6 +211,7 @@ GameObject:
   - component: {fileID: 910993192684438564}
   - component: {fileID: 910993192684438565}
   - component: {fileID: 910993192684438562}
+  - component: {fileID: 2118080953}
   m_Layer: 8
   m_Name: Zombie
   m_TagString: Enemy
@@ -303,6 +304,18 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &2118080953
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 910993192684438567}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9ba4ea70fb10aa64a824df2aa31ad87c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &910993192996530691
 GameObject:
   m_ObjectHideFlags: 0
@@ -312,11 +325,11 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 910993192996530688}
-  - component: {fileID: 910993192996530718}
-  - component: {fileID: 910993192996530689}
   - component: {fileID: 488800879}
   - component: {fileID: 488800880}
   - component: {fileID: 488800881}
+  - component: {fileID: 910993192996530718}
+  - component: {fileID: 910993192996530689}
   - component: {fileID: 488800882}
   m_Layer: 8
   m_Name: ZombieMonster
@@ -342,45 +355,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &910993192996530718
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 910993192996530691}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0ea43ec13dbf1db428636c9046304749, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  sc_player: {fileID: 0}
-  direction: {x: 0, y: 0, z: 0}
-  movespeed: 0.3
-  startpos: {x: 0, y: 0, z: 0}
-  targetpos: {x: 0, y: 0, z: 0}
-  Moving: 0
-  curtarget: {x: 0, y: 0, z: 0}
-  Curindex: 0
-  Timeval: 1
-  NavAgent: {fileID: 0}
-  sc_Attack: {fileID: 0}
-  sc_monster: {fileID: 0}
---- !u!114 &910993192996530689
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 910993192996530691}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c0d3874793e96e34da7b297478a12c79, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  sc_monster: {fileID: 0}
-  sc_player: {fileID: 0}
-  AttackTime: 2
 --- !u!50 &488800879
 Rigidbody2D:
   serializedVersion: 4
@@ -451,6 +425,7 @@ MonoBehaviour:
   resistmagic: 0
   resisfire: 0
   resislightning: 0
+  uimanager: {fileID: 0}
   WAYS: []
   Attack: 0
   Direction: 1
@@ -477,6 +452,46 @@ MonoBehaviour:
   DetectedPlayer: {fileID: 0}
   Foword: {x: 0, y: 0}
   Right: {x: 0, y: 0}
+--- !u!114 &910993192996530718
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 910993192996530691}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0ea43ec13dbf1db428636c9046304749, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sc_player: {fileID: 0}
+  direction: {x: 0, y: 0, z: 0}
+  movespeed: 0.3
+  startpos: {x: 0, y: 0, z: 0}
+  targetpos: {x: 0, y: 0, z: 0}
+  Moving: 0
+  curtarget: {x: 0, y: 0, z: 0}
+  Curindex: 0
+  Timeval: 1
+  NavAgent: {fileID: 0}
+  sc_Attack: {fileID: 0}
+  sc_monster: {fileID: 0}
+--- !u!114 &910993192996530689
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 910993192996530691}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c0d3874793e96e34da7b297478a12c79, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sc_monster: {fileID: 0}
+  sc_player: {fileID: 0}
+  AttackTime: 2
+  eventsystem: {fileID: 0}
 --- !u!114 &488800882
 MonoBehaviour:
   m_ObjectHideFlags: 0

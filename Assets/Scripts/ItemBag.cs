@@ -47,6 +47,7 @@ public class ItemBag : Singleton<ItemBag>
                 }
             }
         }
+
         QuickSlotArr = new BaseSlot[QuickInvectoryNum];
         QuickSlotArr[0] = QuickSlot;
         for (int x = 1; x < QuickInvectoryNum; x++)

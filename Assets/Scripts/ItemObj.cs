@@ -35,7 +35,7 @@ public class ItemObj : MonoBehaviour
         //UIManager.Instance.DeleteUIPanel(uipanel);
         ItemBag.Instance.InsertItem(copynode);
         Destroy(this.gameObject);
-
+        Destroy(uipanel.gameObject);
     }
 
     // Start is called before the first frame update
