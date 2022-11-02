@@ -6,6 +6,8 @@ using UnityEngine.Tilemaps;
 
 //맵에 관한 정보들을 가지고 정보를 요청하면 해당 정보들을 보내준다.
 //타일맵 한칸의 가로길이 = 1, 세로길이 0.5
+//맵 전체 정보를 가지고 있는다.
+//맵 을 지역별로 나눠서 
 public class MapManager : MonoBehaviour
 {
 
@@ -57,6 +59,21 @@ public class MapManager : MonoBehaviour
             }
         }
     }
+
+    public int RegionSizeX;
+    public int RegionSizeY;
+
+    //맵을 리젼크기에 따라 리젼을 나눈다.
+    //긴 거리를 이동해야 할때 맵 전체를 가지고 Astar알고리즘을 사용하는것이 아닌 
+    //지역별로 연산을한다
+    //각 지역별로는 인적한 지역에 도착할 수 있는지 없는지 정보를 가지고 있는다.
+    //목적지가 있는 지역이 아닌 지나쳐가는 지역의 경우는 현재 위치와 목적지까지의 일직선의 접점을 리젼 내에서의 목적지로 정하고 움직인다.
+    //일단은 벽이 있고 없고 상관하지 않고 움직인다.
+    public void InitSetting()
+    {
+
+    }
+
 
     public Vector3 MyGetCellCenterWorld(int x, int y)
     {

@@ -56,7 +56,7 @@ public class MoveAstar : MonoBehaviour
 
         int sizeX = targetcell.x - startcell.x;//시작지점과 목표지점을 이용해서 연산을 할 사이즈를 구한다.
         int sizeY = targetcell.y - startcell.y;
-        if (sizeX < 0 || sizeY < 0)//둘중 하나라도 음수면 그냥 둘다 절댓값을 붙여준다.
+        if (sizeX < 0 || sizeY < 0)//둘중 하나라도 음수면 둘다 절댓값을 붙여준다.
         {
             sizeX = Mathf.Abs(sizeX);
             sizeY = Mathf.Abs(sizeY);
@@ -212,8 +212,12 @@ public class MoveAstar : MonoBehaviour
 
             }
         }
-        
-            
+        Vector3 _topright = MapManager.GetI.MyGetCellCenterWorld(topRight.x, topRight.y);
+        Vector3 _bottomleft = MapManager.GetI.MyGetCellCenterWorld(bottomLeft.x, bottomLeft.y);
+        Gizmos.color = Color.gray;
+        Gizmos.DrawLine(transform.position, _topright);
+        Gizmos.color = Color.cyan;
+        Gizmos.DrawLine(transform.position, _bottomleft);
     }
 
 
