@@ -12,12 +12,9 @@ public class HPBar : BaseUI
     {
         base.Init();
         _type = UIManager.UITYPES.HP;
-    }
-
-    private void Start()
-    {
         _image = GetComponent<Image>();
     }
+
 
     public float MaxVal
     {

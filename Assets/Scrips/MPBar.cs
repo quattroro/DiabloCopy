@@ -12,12 +12,9 @@ public class MPBar : BaseUI
     {
         base.Init();
         _type = UIManager.UITYPES.MP;
-    }
-
-    private void Start()
-    {
         _image = GetComponent<Image>();
     }
+
 
     public float MaxVal
     {

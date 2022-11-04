@@ -26,12 +26,21 @@ public class MoveAstar : MonoBehaviour
     int sizeX, sizeY;
     public float cellsizeX = 1;
     public float cellsizeY = 0.5f;
-    public Node[,] NodeArray = new Node[30, 30];//한 화면에 최대로 담기는 타일의 갯수가 가로,세로 10~11개 이기 때문에 이정도 크기로 함
-    public Node StartNode, TargetNode, CurNode;
-    public List<Node> OpenList, ClosedList;
-    public Vector3Int startcell, targetcell;
     
+    public Vector3Int startcell, targetcell;
+
+    //한 화면에 최대로 담기는 타일의 갯수가 가로,세로 10~11개 이기 때문에 이정도 크기로 고정하였다.
+    public Node[,] NodeArray = new Node[30, 30];
+    //시작노드, 목표 노드, 현재 탐색중인 노드
+    public Node StartNode, TargetNode, CurNode;
+    //현재 노드와 인접해있고 벽이 아닌, 이동 가능한 노드들의 리스트
+    public List<Node> OpenList;
+    //현재까지 지나온 노드들의 리스트
+    public List<Node> ClosedList;
+    //최종 경로
     public List<Node> FinalNodeList;
+
+
 
     public List<Node> test = new List<Node>();
 
@@ -50,6 +59,9 @@ public class MoveAstar : MonoBehaviour
         
         bottomLeft = new Vector2Int(startcell.x, startcell.y);
         topRight = new Vector2Int(targetcell.x, targetcell.y);
+
+
+
         startPos = new Vector2Int(startcell.x,startcell.y);
         targetPos = new Vector2Int(targetcell.x, targetcell.y);
 
@@ -95,10 +107,9 @@ public class MoveAstar : MonoBehaviour
                 //시작점부터 끝점까지 타일맵의 셀들을 조사하면서 해당 셀이 벽인지 확인해서 노드에 넣어준다
                 if (MapManager.GetI.IsWall(new Vector3Int(i + bottomLeft.x, j + bottomLeft.y, 0))) 
                 {
-
                     iswall = true;
-                    
                 }
+
                 NodeArray[i, j] = new Node(iswall, i + bottomLeft.x, j + bottomLeft.y);
                 test.Add(NodeArray[i, j]);
             }
@@ -109,10 +120,10 @@ public class MoveAstar : MonoBehaviour
         TargetNode = NodeArray[targetPos.x - bottomLeft.x, targetPos.y - bottomLeft.y];
 
 
-
         OpenList = new List<Node>() { StartNode };
         ClosedList = new List<Node>();
         FinalNodeList = new List<Node>();
+
         //시작지점부터 목표지점까지의 공간과 벽정보들을 받아온다.
         //MapManager.GetI.ReadMapInfo(start, target);
     }
@@ -128,7 +139,8 @@ public class MoveAstar : MonoBehaviour
             CurNode = OpenList[0];
 
             for (int i = 1; i < OpenList.Count; i++)
-                if (OpenList[i].F <= CurNode.F && OpenList[i].H < CurNode.H) CurNode = OpenList[i];
+                if (OpenList[i].F <= CurNode.F && OpenList[i].H < CurNode.H) 
+                    CurNode = OpenList[i];
 
             OpenList.Remove(CurNode);
             ClosedList.Add(CurNode);
@@ -146,7 +158,6 @@ public class MoveAstar : MonoBehaviour
                 FinalNodeList.Add(StartNode);
                 FinalNodeList.Reverse();
 
-                //for (int i = 0; i < FinalNodeList.Count; i++) print(i + "번째는 " + FinalNodeList[i].x + ", " + FinalNodeList[i].y);
                 return FinalNodeList;
             }
 
@@ -181,10 +192,24 @@ public class MoveAstar : MonoBehaviour
             if (dontCrossCorner) if (NodeArray[CurNode.x - bottomLeft.x, checkY - bottomLeft.y].isWall || NodeArray[checkX - bottomLeft.x, CurNode.y - bottomLeft.y].isWall) return;
 
 
-            // 이웃노드에 넣고, 직선은 10, 대각선은 14비용
+            // 이웃노드에 넣고, 수평으로 가는 직선은 16, 대각선은 14비용, 수직으로 가는 직선은 10
             Node NeighborNode = NodeArray[checkX - bottomLeft.x, checkY - bottomLeft.y];
             //int MoveCost = CurNode.G + (CurNode.x - checkX == 0 || CurNode.y - checkY == 0 ? 10 : 6);
-            int MoveCost = CurNode.G + (CurNode.x - checkX == 0 || CurNode.y - checkY == 0 ? 10 : 14);
+            //int MoveCost = CurNode.G + (CurNode.x - checkX == 0 || CurNode.y - checkY == 0 ? 10 : 14);
+
+            int MoveCost = 0;
+            if (CurNode.x - checkX == 0)//세로로 이동
+            {
+                MoveCost = CurNode.G + 10;
+            }
+            else if (CurNode.y - checkY == 0)//가로로 이동
+            {
+                MoveCost = CurNode.G + 16;
+            }
+            else //나머지 대각선으로 이동
+            {
+                MoveCost = CurNode.G + 14;
+            }
 
             // 이동비용이 이웃노드G보다 작거나 또는 열린리스트에 이웃노드가 없다면 G, H, ParentNode를 설정 후 열린리스트에 추가
             if (MoveCost < NeighborNode.G || !OpenList.Contains(NeighborNode))
@@ -214,10 +239,10 @@ public class MoveAstar : MonoBehaviour
         }
         Vector3 _topright = MapManager.GetI.MyGetCellCenterWorld(topRight.x, topRight.y);
         Vector3 _bottomleft = MapManager.GetI.MyGetCellCenterWorld(bottomLeft.x, bottomLeft.y);
-        Gizmos.color = Color.gray;
-        Gizmos.DrawLine(transform.position, _topright);
-        Gizmos.color = Color.cyan;
-        Gizmos.DrawLine(transform.position, _bottomleft);
+        //Gizmos.color = Color.gray;
+        //Gizmos.DrawLine(transform.position, _topright);
+        //Gizmos.color = Color.cyan;
+        //Gizmos.DrawLine(transform.position, _bottomleft);
     }
 
 

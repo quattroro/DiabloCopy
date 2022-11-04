@@ -35,9 +35,9 @@ public class MeleeWeapon : Weapon
                 //플레이어가 움직이거나 할때의 멈춤은 다른곳에서 처리
                 if (sc_monster.CurHP <= 0)
                 {
-                    GameObject dropitem = GameObject.Instantiate(GameManager.GetI.DropItem);
-                    dropitem.GetComponent<DropItem>().SetItemType(Random.Range(0, (int)Item.ITEMS.ItemMax));
-                    dropitem.transform.position = sc_player.targetmonster.transform.position;
+                    //GameObject dropitem = GameObject.Instantiate(GameManager.GetI.DropItem);
+                    //dropitem.GetComponent<DropItem>().SetItemType(Random.Range(0, (int)Item.ITEMS.ItemMax));
+                    //dropitem.transform.position = sc_player.targetmonster.transform.position;
 
                     sc_player.GetExp(100);
                     //공격멈춤

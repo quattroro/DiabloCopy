@@ -35,9 +35,14 @@ public class UIManager : Singleton<UIManager>
     //public List<Item> Itemlist;
     //public Button[] QuickSlotButton;
 
-    private void Start()
+    private void Awake()
     {
         Init();
+    }
+
+    private void Start()
+    {
+        
     }
     //모든 UI들을 Ini을 할때 탐색해서 가지고 있는다.
     public void Init()

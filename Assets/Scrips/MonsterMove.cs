@@ -48,7 +48,7 @@ public class MonsterMove : MonoBehaviour
             {
                 if (a.transform.tag == "Player")
                 {
-                    Debug.Log("공격감지");
+                    Debug.Log("[MonsterAttack]공격감지");
                     Moving = false;
                     targetpos = a.point;
                     //sc_monster.State = MONSTERSTATE.ATTACK;
@@ -125,6 +125,22 @@ public class MonsterMove : MonoBehaviour
             {
                 movecor = null;
                 yield break;
+            }
+
+            RaycastHit2D[] hit = Physics2D.CircleCastAll(sc_monster.attackcircle.transform.position, sc_monster.attackcircle.radius, new Vector2(0, 0), 0);
+            foreach (RaycastHit2D a in hit)
+            {
+                if (a.transform.tag == "Player")
+                {
+                    Debug.Log("[MonsterAttack]공격감지");
+                    Moving = false;
+                    targetpos = a.point;
+                    //sc_monster.State = MONSTERSTATE.ATTACK;
+                    sc_player = a.transform.gameObject.GetComponent<Player>();
+                    sc_Attack.StartAttack(sc_player, sc_monster);
+                    movecor = null;
+                    yield break;
+                }
             }
 
             yield return new WaitForSeconds(Time.deltaTime);

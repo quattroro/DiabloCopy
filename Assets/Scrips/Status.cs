@@ -55,6 +55,12 @@ public class Status : MonoBehaviour
         set
         {
             curhp = value;
+
+            if (curhp >= MaxHP)
+                curhp = MaxHP;
+            if (curhp <= 0)
+                curhp = 0;
+
         }
     }
     public int CurMP
@@ -66,6 +72,11 @@ public class Status : MonoBehaviour
         set
         {
             curmp = value;
+
+            if (curmp >= MaxMP)
+                curmp = MaxMP;
+            if (curmp <= 0)
+                curmp = 0;
         }
     }
     public int MaxHP//최대 체력
@@ -403,36 +414,41 @@ public class Status : MonoBehaviour
     HPBar hpbar;
     MPBar mpbar;
 
-    public void HPUp(float val)
+    public void HPUp(int val)
     {
         if(hpbar == null)
             hpbar = UIManager.Instance.GetUIInstance(UIManager.UITYPES.HP) as HPBar;
 
-        hpbar.CurVal += val;
+        CurHP = CurHP + val;
+        hpbar.CurVal = CurHP;
+        
     }
 
-    public void HPDown(float val)
+    public void HPDown(int val)
     {
         if (hpbar == null)
             hpbar = UIManager.Instance.GetUIInstance(UIManager.UITYPES.HP) as HPBar;
 
-        hpbar.CurVal -= val;
+        CurHP = CurHP - val;
+        hpbar.CurVal = CurHP;
     }
 
-    public void MPUp(float val)
+    public void MPUp(int val)
     {
         if (mpbar == null)
             mpbar = UIManager.Instance.GetUIInstance(UIManager.UITYPES.MP) as MPBar;
 
-        mpbar.CurVal += val;
+        CurMP = CurMP + val;
+        mpbar.CurVal = val;
     }
 
-    public void MPDown(float val)
+    public void MPDown(int val)
     {
         if (mpbar == null)
             mpbar = UIManager.Instance.GetUIInstance(UIManager.UITYPES.MP) as MPBar;
 
-        mpbar.CurVal -= val;
+        CurMP = CurMP - val;
+        mpbar.CurVal = val;
     }
 
     void Start()

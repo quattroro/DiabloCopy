@@ -75,7 +75,9 @@ public class Player : Status
     public bool GetDemage(int damage)
     {
         //hp
-        this.CurHP -= damage;
+        Debug.Log($"[MonsterAttack] 캐릭터 데미지 들어옴 {damage}");
+        HPDown(damage);
+        //this.CurHP -= damage;
         if(CurHP<=0)
         {
             //게임오버
@@ -203,9 +205,16 @@ public class Player : Status
         //itemBag = new ItemBag("Bag", Item.ITEMTYPE.EQUIP);
         //itemBag = new ItemBag();
         MaxHP = 100;
-        curhp = 100;
+        CurHP = 100;
         MaxMP = 100;
-        curmp = 100;
+        CurMP = 100;
+
+        HPBar hpbar = UIManager.Instance.GetUIInstance(UIManager.UITYPES.HP) as HPBar;
+        hpbar.MaxVal = MaxHP;
+        hpbar.CurVal = CurHP;
+        MPBar mpbar = UIManager.Instance.GetUIInstance(UIManager.UITYPES.MP) as MPBar;
+        mpbar.MaxVal = MaxMP;
+        mpbar.CurVal = CurMP;
         //if (itemBag.gameObject.activeSelf == false)
         //{
         //    itemBag.gameObject.SetActive(true);
