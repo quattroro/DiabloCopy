@@ -2,6 +2,17 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+
+//전체 맵 구조를 받아와서 리전을 나눈다.
+//리전을 나누는 규칙 
+//1. 기본적으로 리전은 타일맵 8X8 의 크기로 나뉜다.
+//2. 리젼 내에서의 이동은 8X8 크기에서의 a*이동을 사용한다.
+//3. 하나의 리전 내에서는 어디든 어떻게든 움직일 수 있어야 한다.(리젼을 유기적으로 나누는 알고리즘이 필요)
+//4. 리젼에서 다른 리젼으로 이동해야 하는경우는 리전끼리 A*알고리즘을 이용해 전체적인 경로를 구하고 세부적인 움직임은 Stupid Funnel 알고리즘을 적용한다.
+//5. 하나의 리전 내에서 벽으로 막혀 갈 수 없는 경우가 있으면 리젼을 나눠준다.
+
+
+
 public class MoveAstar : MonoBehaviour
 {
     //맵 매니저는 맵의 정보를 얻을려고 할때 빈번하게 필요하기 때문에 싱글톤으로 구성
@@ -19,6 +30,7 @@ public class MoveAstar : MonoBehaviour
         }
     }
 
+    public Vector2 RegionSize;
 
     Vector2Int bottomLeft, topRight, startPos, targetPos;
     
@@ -46,23 +58,46 @@ public class MoveAstar : MonoBehaviour
 
     
 
-    
+    public class Region
+    {
+        public Vector2Int RegionSize;
+        public int Num;
+        public List<Region> NeighborRegions;
+        public List<Region> MoveAbleNeighborRegions;
+        public Vector2Int TopLeftIndex;
+        public Vector2Int BottomRightIndex;
+        public Node[,] NodeArray;
+
+
+        public Region(Vector2Int _size)
+        {
+            RegionSize = _size;
+            NodeArray = new Node[RegionSize.x, RegionSize.y];
+        }
+    }
+
+    //리젼을 나눠준다.
+    public void InitSetting()
+    {
+        
+    }
+
 
     //시작 위치와 끝 위치를 받아와서 해당 크기만큼의 맵을 맵 매니저한테 받아온다.
     //그러곤 사용할 노드를 만들어 준다.
     //노드는 미리 만들어 두고 용량이 더 필요하면 새로 할당 받는다.
     //마우스가 클릭되면 현재 캐릭터의 월드위치가 시작점, 마우스의 클릭 월드위치가 목표지점으로 들어온다.
-    public void InitSetting(Vector3 start, Vector3 target)
+    public void PathSetting(Vector3 start, Vector3 target)
     {
         startcell = MapManager.GetI.GetTileCellNum(new Vector2(start.x, start.y));//시작지점과 목표지점을 셀번호로 받아온다.
         targetcell = MapManager.GetI.GetTileCellNum(new Vector2(target.x, target.y));
-        
+
         bottomLeft = new Vector2Int(startcell.x, startcell.y);
         topRight = new Vector2Int(targetcell.x, targetcell.y);
 
 
 
-        startPos = new Vector2Int(startcell.x,startcell.y);
+        startPos = new Vector2Int(startcell.x, startcell.y);
         targetPos = new Vector2Int(targetcell.x, targetcell.y);
 
 
@@ -101,11 +136,11 @@ public class MoveAstar : MonoBehaviour
         //지작점부터 끝점까지 벽정보인지 아닌지 받아와서 노드를 만들어 준다.
         for (int i = 0; i < sizeX; i++)
         {
-            for(int j=0;j<sizeY;j++)
+            for (int j = 0; j < sizeY; j++)
             {
                 bool iswall = false;
                 //시작점부터 끝점까지 타일맵의 셀들을 조사하면서 해당 셀이 벽인지 확인해서 노드에 넣어준다
-                if (MapManager.GetI.IsWall(new Vector3Int(i + bottomLeft.x, j + bottomLeft.y, 0))) 
+                if (MapManager.GetI.IsWall(new Vector3Int(i + bottomLeft.x, j + bottomLeft.y, 0)))
                 {
                     iswall = true;
                 }
@@ -127,11 +162,12 @@ public class MoveAstar : MonoBehaviour
         //시작지점부터 목표지점까지의 공간과 벽정보들을 받아온다.
         //MapManager.GetI.ReadMapInfo(start, target);
     }
-    
+
+
     public List<Node> PathFinding(Vector3 start, Vector3 target)
     {
         //초기 세팅 (시작점, 끝점, TopRight, BottomLeft 지정 리스트들 초기화 등등을 수행한다.)
-        InitSetting(start, target);
+        PathSetting(start, target);
 
         while (OpenList.Count > 0)
         {
