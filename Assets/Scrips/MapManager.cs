@@ -1,6 +1,9 @@
 using System.Collections;
 using System.Collections.Generic;
+using Unity.VisualScripting;
+using UnityEditor.Profiling.Memory.Experimental;
 using UnityEngine;
+using UnityEngine.Jobs;
 using UnityEngine.Tilemaps;
 
 
@@ -8,28 +11,25 @@ using UnityEngine.Tilemaps;
 //타일맵 한칸의 가로길이 = 1, 세로길이 0.5
 //맵 전체 정보를 가지고 있는다.
 //맵 을 지역별로 나눠서 
-public class MapManager : MonoBehaviour
+public class MapManager : Singleton<MapManager>
 {
-
-    //맵 매니저는 맵의 정보를 얻을려고 할때 빈번하게 필요하기 때문에 싱글톤으로 구성
-    protected static MapManager m_Instance = null;
-
-    public static MapManager GetI
-    {
-        get
-        {
-            if(m_Instance==null)
-            {
-                m_Instance = GameObject.FindObjectOfType<MapManager>();
-            }
-            return m_Instance;
-        }
-    }
-
     public enum ACT { ACT1, ACT2, ACTMAX };
     public GameObject[,] MapTiles = null;
-    public int mapsize_x;
-    public int mapsize_y;
+
+
+    public Vector3Int TopLeftIndex;
+    public Vector3Int BottomRightIndex; // 0,0 BottomRight가 원점
+    public Vector2Int MapSize;
+
+   
+
+
+    public Transform BottomRight;
+    public Transform TopLeft;
+
+
+
+
     private ACT m_act;
 
     public Camera _MainCamera = null;
@@ -71,6 +71,16 @@ public class MapManager : MonoBehaviour
     //일단은 벽이 있고 없고 상관하지 않고 움직인다.
     public void InitSetting()
     {
+        //전체 맵의 정보를 가지고 있는다.
+        BottomRight = this.transform.Find("BottomRight");
+        TopLeft = this.transform.Find("TopLeft");
+
+        BottomRightIndex = GetTileCellNum(new Vector2(BottomRight.position.x, BottomRight.position.y));
+        TopLeftIndex = GetTileCellNum(new Vector2(TopLeft.position.x, TopLeft.position.y));
+
+        MapSize.x = TopLeftIndex.x - BottomRightIndex.x;
+        MapSize.y = TopLeftIndex.y - BottomRightIndex.y;
+
 
     }
 
@@ -80,7 +90,65 @@ public class MapManager : MonoBehaviour
         Vector3 pos = _tilemap.GetCellCenterWorld(new Vector3Int(x, y, 0));
         return pos;
     }
-    
+
+    //해당 셀 번호가 맵 안쪽인지 확인한다.
+    public bool CheckBoundary(int x, int y)
+    {
+        if(x>=BottomRightIndex.x&&x<=TopLeftIndex.x&&y>=BottomRightIndex.y&&y<=TopLeftIndex.y)
+            return true;
+
+        return false;
+    }
+
+
+    //해당 영역이 맵 안쪽인지 확인한다.
+    //맵 안쪽에 들어와 있으면 리턴으로 시작점과 사이즈 그대로 내보내주고
+    //맵 안에 들어와 있지 않으면 
+    //맵 안에 들어와 있는 만큼만 컬링해서 내보내준다.
+    //두개의 사각형이 겹친다는 뜻
+    //두개의 사각형이 겹치지 않으면 지정 영역은 맵 안에 없다는뜻 이때는 (0,0,0,0)을 내보낸다.
+    public bool CheckBoundary(int x, int y, int sizeX, int sizeY , out Rect Bound)
+    {
+        Rect _bound = new Rect(0, 0, 0, 0);
+        Bound = _bound;
+
+        int endX = x + sizeX - 1;
+        int endY = y + sizeY - 1;
+
+        //겹치는 부분이 없을때
+        if (x > TopLeftIndex.x) return false;
+        if (endX < BottomRightIndex.x) return false;
+        if (y > TopLeftIndex.y) return false;
+        if (endY < BottomRightIndex.y) return false;
+
+
+        _bound.x = Mathf.Max(x, BottomRightIndex.x);
+        _bound.y = Mathf.Max(y, BottomRightIndex.y);
+        _bound.width = Mathf.Min(endX, TopLeftIndex.x) - _bound.x;
+        _bound.height = Mathf.Min(endY, TopLeftIndex.y) - _bound.y;
+
+        Bound = _bound;
+        return true;
+
+
+
+        ////시작점이 맵 범위 안에 있고
+        //if (x >= BottomRightIndex.x && x <= TopLeftIndex.x && y >= BottomRightIndex.y && y <= TopLeftIndex.y)
+        //{
+        //    _bound.x = x;
+        //    _bound.y = y;
+
+        //    //끝점도 맵 범위 안에 있으면
+        //    if (endX >= BottomRightIndex.x && endX <= TopLeftIndex.x && endY >= BottomRightIndex.y && endY <= TopLeftIndex.y)
+        //    {
+        //        _bound.width = sizeX;
+        //        _bound.height = sizeY;
+        //        Bound = _bound;
+        //        return true;
+        //    }
+        //}
+
+    }
 
 
     //셀의 인덱스를 주면 해당 셀의 월드 위치를 구해서 해당 위치고 레이를쏴준다. 

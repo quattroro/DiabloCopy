@@ -1,6 +1,10 @@
 using System.Collections;
 using System.Collections.Generic;
+using Unity.VisualScripting;
+using UnityEditor.UIElements;
 using UnityEngine;
+using UnityEngine.Events;
+using static UnityEngine.GraphicsBuffer;
 
 
 //전체 맵 구조를 받아와서 리전을 나눈다.
@@ -30,7 +34,132 @@ public class MoveAstar : MonoBehaviour
         }
     }
 
-    public Vector2 RegionSize;
+    public Vector2Int RegionSize;
+    public class Region
+    {
+        public Vector2Int RegionSize;
+        public int Num;
+        public List<Region> NeighborRegions;
+        public List<Region> MoveAbleNeighborRegions;
+        public Vector3Int TopLeftIndex;
+        public Vector3Int BottomRightIndex;
+        public Node[,] NodeArray;
+
+
+        public Region(Vector3Int _bottomRight, Vector2Int _size)
+        {
+            RegionSize = _size;
+            NodeArray = new Node[RegionSize.x, RegionSize.y];
+        }
+
+    }
+
+
+    //리젼을 나눠준다.
+    public void InitSetting()
+    {
+        Vector3Int MapTopLeft = MapManager.Instance.TopLeftIndex;
+        Vector3Int MapBottomRight = MapManager.Instance.BottomRightIndex;
+        Vector2Int MapSize = MapManager.Instance.MapSize;
+
+
+        for (int y = MapBottomRight.y; y < MapTopLeft.y; y = y + RegionSize.y)
+        {
+            for (int i = MapBottomRight.x; i < MapTopLeft.x; i = i + RegionSize.x)
+            {
+
+            }
+        }
+
+    }
+
+    Stack<int> stack = new Stack<int>();
+    bool[,] Ck;
+    public List<Region> Regions = new List<Region>();
+    int[,] dir = { { 0, 1 }, { 0, -1 }, { 1, 0 }, { -1, 0 } };
+
+    //해당 지역 안에서 갈수있는 길과, 장애물이 모두 이어져 있는지 확인한다.
+    //이어져있지 않으면 이어져있는것들끼리 리젼을 구성한다.
+    public void CreateRegion(Vector3Int _bottomRight, Vector2Int _size)
+    {
+        Rect rect;
+        Vector3Int bottomright;
+        Vector2Int size;
+
+        Region region = new Region(_bottomRight, _size);
+
+        //맵 안에 있는지 확인하고 맵 안에 있는 범위만 짤라서 리전을 만들어 준다.
+        if (MapManager.Instance.CheckBoundary(_bottomRight.x, _bottomRight.y, _size.x, _size.y, out rect))
+        {
+            bottomright = new Vector3Int((int)rect.x, (int)rect.y, 0);
+            size = new Vector2Int((int)rect.width, (int)rect.height);
+
+            for (int y = bottomright.y; y < size.y; y++)
+            {
+                for (int x = bottomright.x; x < size.x; x++)
+                {
+                    //방문한적이 없고
+                    if (!Ck[x, y])
+                    {
+                        //벽이 아니면
+                        if (!MapManager.Instance.IsWall(new Vector3Int(x, y, 0)))
+                        {
+                            //이어져있는 길들을 탐색해서 리젼을 만들어 준다.
+                            CheckRoad(x, y, bottomright.x + size.x, bottomright.y + size.y);
+                        }
+                        else
+                        {
+                            CheckWall(x, y, bottomright.x + size.x, bottomright.y + size.y);
+                        }
+                    }
+
+                }
+            }
+        }
+        else
+        {
+            return;
+        }
+
+        
+        
+    }
+
+    public void CheckWall(int x,int y,int maxX,int maxY)
+    {
+        Ck[x, y] = true;
+        //상
+        if (y + 1 < maxY && !Ck[x, y + 1])
+            CheckWall(x, y + 1, maxX, maxY);
+        //하
+        if (y - 1 >= 0 && !Ck[x, y - 1])
+            CheckWall(x, y - 1, maxX, maxY);
+        //좌
+        if (x + 1 < maxX && !Ck[x + 1, y])
+            CheckWall(x + 1, y, maxX, maxY);
+        //우
+        if (x - 1 >= 0 && !Ck[x - 1, y])
+            CheckWall(x - 1, y, maxX, maxY);
+    }
+
+    public void CheckRoad(int x, int y,int maxX,int maxY)
+    {
+        Ck[x, y] = true;
+        //상
+        if (y + 1 < maxY && !Ck[x, y + 1])
+            CheckRoad(x, y + 1, maxX, maxY);
+        //하
+        if (y - 1 >= 0 && !Ck[x, y - 1])
+            CheckRoad(x, y - 1, maxX, maxY);
+        //좌
+        if (x + 1 < maxX && !Ck[x + 1, y])
+            CheckRoad(x + 1, y, maxX, maxY);
+        //우
+        if (x - 1 >= 0 && !Ck[x - 1, y])
+            CheckRoad(x - 1, y, maxX, maxY);
+    }
+
+
 
     Vector2Int bottomLeft, topRight, startPos, targetPos;
     
@@ -51,36 +180,14 @@ public class MoveAstar : MonoBehaviour
     public List<Node> ClosedList;
     //최종 경로
     public List<Node> FinalNodeList;
-
-
+    
 
     public List<Node> test = new List<Node>();
 
+
     
 
-    public class Region
-    {
-        public Vector2Int RegionSize;
-        public int Num;
-        public List<Region> NeighborRegions;
-        public List<Region> MoveAbleNeighborRegions;
-        public Vector2Int TopLeftIndex;
-        public Vector2Int BottomRightIndex;
-        public Node[,] NodeArray;
-
-
-        public Region(Vector2Int _size)
-        {
-            RegionSize = _size;
-            NodeArray = new Node[RegionSize.x, RegionSize.y];
-        }
-    }
-
-    //리젼을 나눠준다.
-    public void InitSetting()
-    {
-        
-    }
+    
 
 
     //시작 위치와 끝 위치를 받아와서 해당 크기만큼의 맵을 맵 매니저한테 받아온다.
@@ -89,8 +196,8 @@ public class MoveAstar : MonoBehaviour
     //마우스가 클릭되면 현재 캐릭터의 월드위치가 시작점, 마우스의 클릭 월드위치가 목표지점으로 들어온다.
     public void PathSetting(Vector3 start, Vector3 target)
     {
-        startcell = MapManager.GetI.GetTileCellNum(new Vector2(start.x, start.y));//시작지점과 목표지점을 셀번호로 받아온다.
-        targetcell = MapManager.GetI.GetTileCellNum(new Vector2(target.x, target.y));
+        startcell = MapManager.Instance.GetTileCellNum(new Vector2(start.x, start.y));//시작지점과 목표지점을 셀번호로 받아온다.
+        targetcell = MapManager.Instance.GetTileCellNum(new Vector2(target.x, target.y));
 
         bottomLeft = new Vector2Int(startcell.x, startcell.y);
         topRight = new Vector2Int(targetcell.x, targetcell.y);
@@ -140,7 +247,7 @@ public class MoveAstar : MonoBehaviour
             {
                 bool iswall = false;
                 //시작점부터 끝점까지 타일맵의 셀들을 조사하면서 해당 셀이 벽인지 확인해서 노드에 넣어준다
-                if (MapManager.GetI.IsWall(new Vector3Int(i + bottomLeft.x, j + bottomLeft.y, 0)))
+                if (MapManager.Instance.IsWall(new Vector3Int(i + bottomLeft.x, j + bottomLeft.y, 0)))
                 {
                     iswall = true;
                 }
@@ -268,13 +375,13 @@ public class MoveAstar : MonoBehaviour
                 for (int i = 0; i < FinalNodeList.Count - 1; i++)
                 {
                     //Gizmos.DrawLine(new Vector2(FinalNodeList[i].x, FinalNodeList[i].y), new Vector2(FinalNodeList[i + 1].x, FinalNodeList[i + 1].y));
-                    Gizmos.DrawLine(MapManager.GetI.MyGetCellCenterWorld(FinalNodeList[i].x, FinalNodeList[i].y), MapManager.GetI.MyGetCellCenterWorld(FinalNodeList[i + 1].x, FinalNodeList[i + 1].y));
+                    Gizmos.DrawLine(MapManager.Instance.MyGetCellCenterWorld(FinalNodeList[i].x, FinalNodeList[i].y), MapManager.Instance.MyGetCellCenterWorld(FinalNodeList[i + 1].x, FinalNodeList[i + 1].y));
                 }
 
             }
         }
-        Vector3 _topright = MapManager.GetI.MyGetCellCenterWorld(topRight.x, topRight.y);
-        Vector3 _bottomleft = MapManager.GetI.MyGetCellCenterWorld(bottomLeft.x, bottomLeft.y);
+        Vector3 _topright = MapManager.Instance.MyGetCellCenterWorld(topRight.x, topRight.y);
+        Vector3 _bottomleft = MapManager.Instance.MyGetCellCenterWorld(bottomLeft.x, bottomLeft.y);
         //Gizmos.color = Color.gray;
         //Gizmos.DrawLine(transform.position, _topright);
         //Gizmos.color = Color.cyan;

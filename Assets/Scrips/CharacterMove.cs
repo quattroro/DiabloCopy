@@ -68,7 +68,7 @@ public class CharacterMove : MonoBehaviour
             }
 
             Curindex = 1;
-            curtarget = MapManager.GetI.MyGetCellCenterWorld(MoveNodeList[Curindex].x, MoveNodeList[Curindex].y);
+            curtarget = MapManager.Instance.MyGetCellCenterWorld(MoveNodeList[Curindex].x, MoveNodeList[Curindex].y);
             Curindex++;
         }
 
@@ -172,7 +172,7 @@ public class CharacterMove : MonoBehaviour
                 else
                 {
 
-                    curtarget = MapManager.GetI.MyGetCellCenterWorld(MoveNodeList[Curindex].x, MoveNodeList[Curindex].y);
+                    curtarget = MapManager.Instance.MyGetCellCenterWorld(MoveNodeList[Curindex].x, MoveNodeList[Curindex].y);
                     Curindex++;
                 }
             }
