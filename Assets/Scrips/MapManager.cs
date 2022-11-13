@@ -63,6 +63,11 @@ public class MapManager : Singleton<MapManager>
     public int RegionSizeX;
     public int RegionSizeY;
 
+    public void Start()
+    {
+        InitSetting();
+    }
+
     //맵을 리젼크기에 따라 리젼을 나눈다.
     //긴 거리를 이동해야 할때 맵 전체를 가지고 Astar알고리즘을 사용하는것이 아닌 
     //지역별로 연산을한다
@@ -72,8 +77,8 @@ public class MapManager : Singleton<MapManager>
     public void InitSetting()
     {
         //전체 맵의 정보를 가지고 있는다.
-        BottomRight = this.transform.Find("BottomRight");
-        TopLeft = this.transform.Find("TopLeft");
+        BottomRight = GameObject.Find("BottomRight").transform;
+        TopLeft = GameObject.Find("TopLeft").transform;
 
         BottomRightIndex = GetTileCellNum(new Vector2(BottomRight.position.x, BottomRight.position.y));
         TopLeftIndex = GetTileCellNum(new Vector2(TopLeft.position.x, TopLeft.position.y));
@@ -124,8 +129,8 @@ public class MapManager : Singleton<MapManager>
 
         _bound.x = Mathf.Max(x, BottomRightIndex.x);
         _bound.y = Mathf.Max(y, BottomRightIndex.y);
-        _bound.width = Mathf.Min(endX, TopLeftIndex.x) - _bound.x;
-        _bound.height = Mathf.Min(endY, TopLeftIndex.y) - _bound.y;
+        _bound.width = Mathf.Min(endX, TopLeftIndex.x) - _bound.x+1;
+        _bound.height = Mathf.Min(endY, TopLeftIndex.y) - _bound.y+1;
 
         Bound = _bound;
         return true;

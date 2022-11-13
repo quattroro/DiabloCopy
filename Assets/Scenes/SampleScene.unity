@@ -2921,7 +2921,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ccd54a22b84a17748b18896a7400e755, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  RegionSize: {x: 0, y: 0}
+  regioninputpos: []
+  RegionSize: {x: 8, y: 8}
+  Regions: []
   allowDiagonal: 1
   dontCrossCorner: 1
   cellsizeX: 1

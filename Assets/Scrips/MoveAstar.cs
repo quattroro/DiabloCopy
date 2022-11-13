@@ -19,7 +19,6 @@ using static UnityEngine.GraphicsBuffer;
 
 public class MoveAstar : MonoBehaviour
 {
-    //맵 매니저는 맵의 정보를 얻을려고 할때 빈번하게 필요하기 때문에 싱글톤으로 구성
     protected static MoveAstar m_StarInstance = null;
 
     public static MoveAstar GetI
@@ -34,25 +33,126 @@ public class MoveAstar : MonoBehaviour
         }
     }
 
+    public List<Vector3> regioninputpos = new List<Vector3>();
     public Vector2Int RegionSize;
+
+    //맵을 넘어가지 않는 한 무조건 8*8 지역의 정보를 가지고 있는다.
+    //그 중에서도 움직일 수 있는 지역을 하위 지역으로 가지고 있는다.
+    [System.Serializable]
     public class Region
     {
-        public Vector2Int RegionSize;
+        
         public int Num;
         public List<Region> NeighborRegions;
         public List<Region> MoveAbleNeighborRegions;
-        public Vector3Int TopLeftIndex;
-        public Vector3Int BottomRightIndex;
+
+        public Vector3Int Local_TopLeft = new Vector3Int(-1,-1,-1);
+        public Vector3Int Local_BottomRight = new Vector3Int(-1, -1, -1);
+        public Vector3Int Local_TopRight = new Vector3Int(-1, -1, -1);
+        public Vector3Int Local_BottomLeft = new Vector3Int(-1, -1, -1);
+
+        public Vector3Int BottomRight = new Vector3Int(-1, -1, -1);
+        public Vector2Int RegionSize = new Vector2Int(-1, -1);
+
         public Node[,] NodeArray;
+
+        public Color color;
 
 
         public Region(Vector3Int _bottomRight, Vector2Int _size)
         {
+            color = new Color(Random.Range(0.0f, 1.0f), Random.Range(0.0f, 1.0f), Random.Range(0.0f, 1.0f));
+            BottomRight = _bottomRight;
             RegionSize = _size;
-            NodeArray = new Node[RegionSize.x, RegionSize.y];
+            //TopLeft = new Vector3Int(_bottomRight.x + _size.x - 1, _bottomRight.y + _size.y - 1,0);
+            NodeArray = new Node[_size.x, _size.y];
+
+        }
+
+
+        public Vector3Int GetLocalBottomRight()
+        {
+            if(Local_TopRight == new Vector3Int(-1,-1,-1))
+            {
+
+            }
+            return Local_TopRight;
+        }
+
+        public Vector3Int GetLocalTopLeft()
+        {
+            if (Local_TopLeft == new Vector3Int(-1, -1, -1))
+            {
+
+            }
+
+            return Local_TopRight;
+        }
+
+        public Vector3Int GetLocalTopRight()
+        {
+            if (Local_TopLeft == new Vector3Int(-1, -1, -1))
+            {
+
+            }
+
+            return Local_TopRight;
+        }
+
+        public Vector3Int GetLocalBottomLeft()
+        {
+            if (Local_TopLeft == new Vector3Int(-1, -1, -1))
+            {
+
+            }
+
+            return Local_TopRight;
+        }
+
+
+
+        public Vector3Int GetBottomRight()
+        {
+            return BottomRight;
+        }
+
+
+        public Vector2Int GetSize()
+        {
+            return RegionSize;
+        }
+
+        //월드에서의 인덱스를 넣어주면 해당 영역 안에 존재하는지 확인해준다.
+        public bool IsInside(int x,int y)
+        {
+
+            return false;
+        }
+
+        
+
+        //다른 인접한 리전과 합친다.
+        public void MergeRegion(Region region)
+        {
+
+        }
+
+        
+        public void SetRegion()
+        {
+
         }
 
     }
+
+    public void Start()
+    {
+        InitSetting();
+    }
+
+    //벽으로된 리젼은 상관하지 않고
+    //길로만 이루어진 리전들만 가지고 리전끼리의 이동이 가능한지 확인한다.
+    //각 리전의 네 귀퉁이로부터 상하좌우 대각선 방향에 존재하는 리전을 찾아내서 길찾기를 실행해보고 움직일 수 있는지 없는지를 미리 확인한다. 
 
 
     //리젼을 나눠준다.
@@ -65,18 +165,29 @@ public class MoveAstar : MonoBehaviour
 
         for (int y = MapBottomRight.y; y < MapTopLeft.y; y = y + RegionSize.y)
         {
-            for (int i = MapBottomRight.x; i < MapTopLeft.x; i = i + RegionSize.x)
+            for (int x = MapBottomRight.x; x < MapTopLeft.x; x = x + RegionSize.x)
             {
-
+                CreateRegion(new Vector3Int(x, y, 0), new Vector2Int(8, 8));
             }
         }
 
     }
 
-    Stack<int> stack = new Stack<int>();
-    bool[,] Ck;
+    public Stack<int> stack = new Stack<int>();
+    public bool[,] Ck = new bool[8, 8];
     public List<Region> Regions = new List<Region>();
-    int[,] dir = { { 0, 1 }, { 0, -1 }, { 1, 0 }, { -1, 0 } };
+    public int[,] dir = { { 0, 1 }, { 0, -1 }, { 1, 0 }, { -1, 0 } };
+
+    public bool IsCheck(int x,int y, int padX, int padY)
+    {
+        
+        return Ck[x - padX, y - padY];
+    }
+
+    public void SetCkech(int x, int y, int padX, int padY, bool val)
+    {
+        Ck[x - padX, y - padY] = val;
+    }
 
     //해당 지역 안에서 갈수있는 길과, 장애물이 모두 이어져 있는지 확인한다.
     //이어져있지 않으면 이어져있는것들끼리 리젼을 구성한다.
@@ -85,32 +196,52 @@ public class MoveAstar : MonoBehaviour
         Rect rect;
         Vector3Int bottomright;
         Vector2Int size;
-
-        Region region = new Region(_bottomRight, _size);
+        Vector2Int maxsize;
+        //Region region = new Region(_bottomRight, _size);
 
         //맵 안에 있는지 확인하고 맵 안에 있는 범위만 짤라서 리전을 만들어 준다.
         if (MapManager.Instance.CheckBoundary(_bottomRight.x, _bottomRight.y, _size.x, _size.y, out rect))
         {
             bottomright = new Vector3Int((int)rect.x, (int)rect.y, 0);
             size = new Vector2Int((int)rect.width, (int)rect.height);
+            maxsize = new Vector2Int((int)rect.x + (int)rect.width, (int)rect.y + (int)rect.height);
 
-            for (int y = bottomright.y; y < size.y; y++)
+            for (int i = 0; i < 8; i++)
             {
-                for (int x = bottomright.x; x < size.x; x++)
+                for (int j = 0; j < 8; j++)
+                {
+                    Ck[i, j] = false;
+                }
+            }
+
+            if(_bottomRight.x!=0)
+            {
+                int a = 0;
+            }
+
+            for (int y = bottomright.y; y < maxsize.y; y++)
+            {
+                for (int x = bottomright.x; x < maxsize.x; x++)
                 {
                     //방문한적이 없고
-                    if (!Ck[x, y])
+                    if (!IsCheck(x, y,bottomright.x,bottomright.y))
                     {
+                        Region region = new Region(bottomright, size);
+                        regioninputpos.Add(bottomright);
+
                         //벽이 아니면
                         if (!MapManager.Instance.IsWall(new Vector3Int(x, y, 0)))
                         {
                             //이어져있는 길들을 탐색해서 리젼을 만들어 준다.
-                            CheckRoad(x, y, bottomright.x + size.x, bottomright.y + size.y);
+                            CheckRoad(region, x, y, bottomright.x + size.x, bottomright.y + size.y);
                         }
                         else
                         {
-                            CheckWall(x, y, bottomright.x + size.x, bottomright.y + size.y);
+                            region.color = new Color(1.0f, 1.0f, 1.0f);
+                            CheckWall(region, x, y, bottomright.x + size.x, bottomright.y + size.y);
                         }
+
+                        Regions.Add(region);
                     }
 
                 }
@@ -125,38 +256,88 @@ public class MoveAstar : MonoBehaviour
         
     }
 
-    public void CheckWall(int x,int y,int maxX,int maxY)
+    public void CheckWall(Region region, int x,int y,int maxX,int maxY)
     {
-        Ck[x, y] = true;
+        int rocalIndextX = x - region.BottomRight.x;
+        int rocalIndextY = y - region.BottomRight.y;
+
+        SetCkech(x, y, region.BottomRight.x, region.BottomRight.y, true);
+        region.NodeArray[rocalIndextX, rocalIndextY] = new Node(true, x, y);
+        bool iswall = false;
+
+
         //상
-        if (y + 1 < maxY && !Ck[x, y + 1])
-            CheckWall(x, y + 1, maxX, maxY);
+        if (y + 1 < maxY && !IsCheck(x, y + 1, region.BottomRight.x, region.BottomRight.y))
+        {
+            iswall = MapManager.Instance.IsWall(new Vector3Int(x, y + 1, 0));
+            if(iswall)
+                CheckWall(region, x, y + 1, maxX, maxY);
+        }
         //하
-        if (y - 1 >= 0 && !Ck[x, y - 1])
-            CheckWall(x, y - 1, maxX, maxY);
+        if (rocalIndextY - 1 >= 0 && !IsCheck(x, y - 1, region.BottomRight.x, region.BottomRight.y))
+        {
+            iswall = MapManager.Instance.IsWall(new Vector3Int(x, y - 1, 0));
+            if (iswall)
+                CheckWall(region, x, y - 1, maxX, maxY);
+        }
         //좌
-        if (x + 1 < maxX && !Ck[x + 1, y])
-            CheckWall(x + 1, y, maxX, maxY);
+        if (x + 1 < maxX && !IsCheck(x + 1, y, region.BottomRight.x, region.BottomRight.y))
+        {
+            iswall = MapManager.Instance.IsWall(new Vector3Int(x + 1, y, 0));
+            if (iswall)
+                CheckWall(region, x + 1, y, maxX, maxY);
+        }
         //우
-        if (x - 1 >= 0 && !Ck[x - 1, y])
-            CheckWall(x - 1, y, maxX, maxY);
+        if (rocalIndextX - 1 >= 0 && !IsCheck(x - 1, y, region.BottomRight.x, region.BottomRight.y))
+        {
+            iswall = MapManager.Instance.IsWall(new Vector3Int(x - 1, y, 0));
+            if (iswall)
+                CheckWall(region, x - 1, y, maxX, maxY);
+        }
+            
     }
 
-    public void CheckRoad(int x, int y,int maxX,int maxY)
+    public void CheckRoad(Region region, int x, int y,int maxX,int maxY)
     {
-        Ck[x, y] = true;
+        int rocalIndextX = x - region.BottomRight.x;
+        int rocalIndextY = y - region.BottomRight.y;
+
+        SetCkech(x, y, region.BottomRight.x, region.BottomRight.y, true);
+        region.NodeArray[rocalIndextX, rocalIndextY] = new Node(false, x, y);
+        bool iswall = false;
+
         //상
-        if (y + 1 < maxY && !Ck[x, y + 1])
-            CheckRoad(x, y + 1, maxX, maxY);
+        if (y + 1 < maxY && !IsCheck(x, y + 1, region.BottomRight.x, region.BottomRight.y))
+        {
+            iswall = MapManager.Instance.IsWall(new Vector3Int(x, y + 1, 0));
+            if (!iswall)
+                CheckRoad(region, x, y + 1, maxX, maxY);
+        }    
+            
         //하
-        if (y - 1 >= 0 && !Ck[x, y - 1])
-            CheckRoad(x, y - 1, maxX, maxY);
+        if (rocalIndextY - 1 >= 0 && !IsCheck(x, y - 1, region.BottomRight.x, region.BottomRight.y))
+        {
+            iswall = MapManager.Instance.IsWall(new Vector3Int(x, y - 1, 0));
+            if (!iswall)
+                CheckRoad(region, x, y - 1, maxX, maxY);
+        }
+            
         //좌
-        if (x + 1 < maxX && !Ck[x + 1, y])
-            CheckRoad(x + 1, y, maxX, maxY);
+        if (x + 1 < maxX && !IsCheck(x + 1, y, region.BottomRight.x, region.BottomRight.y))
+        {
+            iswall = MapManager.Instance.IsWall(new Vector3Int(x + 1, y, 0));
+            if (!iswall)
+                CheckRoad(region, x + 1, y, maxX, maxY);
+        }
+            
         //우
-        if (x - 1 >= 0 && !Ck[x - 1, y])
-            CheckRoad(x - 1, y, maxX, maxY);
+        if (rocalIndextX - 1 >= 0 && !IsCheck(x - 1, y, region.BottomRight.x, region.BottomRight.y))
+        {
+            iswall = MapManager.Instance.IsWall(new Vector3Int(x - 1, y, 0));
+            if (!iswall)
+                CheckRoad(region, x - 1, y, maxX, maxY);
+        }
+            
     }
 
 
@@ -366,6 +547,8 @@ public class MoveAstar : MonoBehaviour
         }
     }
 
+    
+
     void OnDrawGizmos()
     {
         if(FinalNodeList!=null)
@@ -386,8 +569,41 @@ public class MoveAstar : MonoBehaviour
         //Gizmos.DrawLine(transform.position, _topright);
         //Gizmos.color = Color.cyan;
         //Gizmos.DrawLine(transform.position, _bottomleft);
+        //for(int i=0;i< regioninputpos.Count;i++)
+        //{
+        //    Vector3 temp = MapManager.Instance.MyGetCellCenterWorld((int)regioninputpos[i].x, (int)regioninputpos[i].y);
+        //    Gizmos.DrawCube(temp, new Vector3(0.2f, 0.2f, 0.2f));
+        //}
+
+        DrawRegion();
     }
 
+    //Color[] color = { { 1.0f,1.0f,1.0f,1.0f}, }
+
+    void DrawRegion()
+    {
+
+        for (int i = 0; i < Regions.Count; i++)
+        {
+            Gizmos.color = Regions[i].color;
+            foreach (Node a in Regions[i].NodeArray)
+            {
+                if(a!=null)
+                {
+                    Vector3 temp = MapManager.Instance.MyGetCellCenterWorld(a.x, a.y);
+                    
+                    Gizmos.DrawCube(temp, new Vector3(0.2f, 0.2f, 0.2f));
+                }
+                
+            }
+            
+        }
+    }
+
+    void DrawGizmoRect(Vector3 bottomleft,Vector2 size)
+    {
+
+    }
 
     
 }
