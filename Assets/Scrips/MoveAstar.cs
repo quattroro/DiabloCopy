@@ -33,7 +33,7 @@ public class MoveAstar : MonoBehaviour
         }
     }
 
-    public List<Vector3> regioninputpos = new List<Vector3>();
+    //public List<Vector3> regioninputpos = new List<Vector3>();
     public Vector2Int RegionSize;
 
     //맵을 넘어가지 않는 한 무조건 8*8 지역의 정보를 가지고 있는다.
@@ -45,6 +45,9 @@ public class MoveAstar : MonoBehaviour
         public int Num;
         public List<Region> NeighborRegions;
         public List<Region> MoveAbleNeighborRegions;
+        //하나의 리전 안에 있는 리전들 각각의 로컬 리전을 나누는 기준은 길이 이어져 있어서 움직일 수 있는가 이다.
+        //따라서 하나의 로컬 리전은 온전히 길로만 이루어져 있거나 온전히 벽으로만 이루어져 있다.
+        public List<Region> LocalRegion;
 
         public Vector3Int Local_TopLeft = new Vector3Int(-1,-1,-1);
         public Vector3Int Local_BottomRight = new Vector3Int(-1, -1, -1);
@@ -66,7 +69,7 @@ public class MoveAstar : MonoBehaviour
             RegionSize = _size;
             //TopLeft = new Vector3Int(_bottomRight.x + _size.x - 1, _bottomRight.y + _size.y - 1,0);
             NodeArray = new Node[_size.x, _size.y];
-
+            LocalRegion = new List<Region>();
         }
 
 
@@ -214,10 +217,8 @@ public class MoveAstar : MonoBehaviour
                 }
             }
 
-            if(_bottomRight.x!=0)
-            {
-                int a = 0;
-            }
+            Region region = new Region(bottomright, size);
+            Regions.Add(region);
 
             for (int y = bottomright.y; y < maxsize.y; y++)
             {
@@ -226,22 +227,24 @@ public class MoveAstar : MonoBehaviour
                     //방문한적이 없고
                     if (!IsCheck(x, y,bottomright.x,bottomright.y))
                     {
-                        Region region = new Region(bottomright, size);
-                        regioninputpos.Add(bottomright);
+                        //Region region = new Region(bottomright, size);
+                        Region localRegion = new Region(bottomright, size);
+                        
+                        //regioninputpos.Add(bottomright);
 
                         //벽이 아니면
                         if (!MapManager.Instance.IsWall(new Vector3Int(x, y, 0)))
                         {
                             //이어져있는 길들을 탐색해서 리젼을 만들어 준다.
-                            CheckRoad(region, x, y, bottomright.x + size.x, bottomright.y + size.y);
+                            CheckRoad(localRegion, x, y, bottomright.x + size.x, bottomright.y + size.y);
                         }
                         else
                         {
                             region.color = new Color(1.0f, 1.0f, 1.0f);
-                            CheckWall(region, x, y, bottomright.x + size.x, bottomright.y + size.y);
+                            CheckWall(localRegion, x, y, bottomright.x + size.x, bottomright.y + size.y);
                         }
 
-                        Regions.Add(region);
+                        region.LocalRegion.Add(localRegion);
                     }
 
                 }
@@ -585,18 +588,21 @@ public class MoveAstar : MonoBehaviour
 
         for (int i = 0; i < Regions.Count; i++)
         {
-            Gizmos.color = Regions[i].color;
-            foreach (Node a in Regions[i].NodeArray)
-            {
-                if(a!=null)
-                {
-                    Vector3 temp = MapManager.Instance.MyGetCellCenterWorld(a.x, a.y);
-                    
-                    Gizmos.DrawCube(temp, new Vector3(0.2f, 0.2f, 0.2f));
-                }
-                
-            }
             
+            foreach (Region region in Regions[i].LocalRegion)
+            {
+                Gizmos.color = region.color;
+                foreach (Node a in region.NodeArray)
+                {
+                    if (a != null)
+                    {
+                        Vector3 temp = MapManager.Instance.MyGetCellCenterWorld(a.x, a.y);
+
+                        Gizmos.DrawCube(temp, new Vector3(0.2f, 0.2f, 0.2f));
+                    }
+
+                }
+            }
         }
     }
 
