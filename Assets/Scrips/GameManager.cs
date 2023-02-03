@@ -27,7 +27,9 @@ public class GameManager : Singleton<GameManager>
     public GameObject PlayerObj = null;
     public GameObject DropItem = null;
 
-    public MoveAstar astar = null;
+    //public MoveAstar astar = null;
+    public AstarModule astarModule;
+
 
     public baseMonster testmonster;
 
@@ -86,7 +88,22 @@ public class GameManager : Singleton<GameManager>
     void Start()
     {
         Cursor.SetCursor(Resources.Load<Texture2D>("Cursur/Cursor2"), Vector2.zero, CursorMode.ForceSoftware);
+
+        MapManager.Instance.InitSetting();
+
+        //AstarModule.Instance.InitSetting();
+
+        //astarModule = new AstarModule();
+
+        astarModule = FindObjectOfType<AstarModule>();
+        astarModule.InitSetting();
         
+
+    }
+
+    public AstarModule GetAstarModule()
+    {
+        return astarModule;
     }
 
     private void Awake()

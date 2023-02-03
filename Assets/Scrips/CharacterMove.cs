@@ -20,6 +20,8 @@ public class CharacterMove : MonoBehaviour
     IEnumerator MoveCor;
 
 
+    AstarModule astarModule;
+
     //시작점과 끝점이 들어오면 해당 점들 사이에 장애물이 있는지 검사하고
     //장애물이 없으면 그냥 가고 장애물이 있으면 A-star 연산 실행
     //시작점과 끝점이 들어오면 Astar를 이용해 노드배열을 받아오고 셀의 중심좌표를 따라서 한칸씩 이동한다.
@@ -57,7 +59,12 @@ public class CharacterMove : MonoBehaviour
         }
         else
         {
-            MoveNodeList = MoveAstar.GetI.PathFinding(start, target);
+            //MoveNodeList = AstarModule.Instance.PathFinding(start, target);
+            if (astarModule == null)
+                astarModule = GameManager.Instance.GetAstarModule();
+
+            MoveNodeList = astarModule.PathFinding(start, target);
+
             if (MoveNodeList == null)
             {
                 Moving = false;
@@ -165,10 +172,12 @@ public class CharacterMove : MonoBehaviour
                     MoveCor = null;
                     yield break;
                 }
+
                 if (MoveNodeList.Count - 1 <= Curindex)
                 {
                     curtarget = targetpos;
                 }
+
                 else
                 {
 
@@ -187,6 +196,7 @@ public class CharacterMove : MonoBehaviour
     void Start()
     {
         sc_player = GetComponent<Player>();
+        
     }
 
     private void OnDrawGizmos()

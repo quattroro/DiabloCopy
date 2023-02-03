@@ -22,6 +22,9 @@ public class Player : Status
     [Header("연결필요")]
     public CircleCollider2D AttackRange;
     public Weapon weapon = null;
+
+
+
     [SerializeField]
     protected PLAYERSTATE state;
     

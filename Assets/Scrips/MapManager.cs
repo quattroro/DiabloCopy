@@ -1,9 +1,9 @@
 using System.Collections;
 using System.Collections.Generic;
-using Unity.VisualScripting;
-using UnityEditor.Profiling.Memory.Experimental;
+//using Unity.VisualScripting;
+//using UnityEditor.Profiling.Memory.Experimental;
 using UnityEngine;
-using UnityEngine.Jobs;
+//using UnityEngine.Jobs;
 using UnityEngine.Tilemaps;
 
 
@@ -63,10 +63,10 @@ public class MapManager : Singleton<MapManager>
     public int RegionSizeX;
     public int RegionSizeY;
 
-    public void Start()
-    {
-        InitSetting();
-    }
+    //public void Start()
+    //{
+    //    InitSetting();
+    //}
 
     //맵을 리젼크기에 따라 리젼을 나눈다.
     //긴 거리를 이동해야 할때 맵 전체를 가지고 Astar알고리즘을 사용하는것이 아닌 
@@ -83,8 +83,8 @@ public class MapManager : Singleton<MapManager>
         BottomRightIndex = GetTileCellNum(new Vector2(BottomRight.position.x, BottomRight.position.y));
         TopLeftIndex = GetTileCellNum(new Vector2(TopLeft.position.x, TopLeft.position.y));
 
-        MapSize.x = TopLeftIndex.x - BottomRightIndex.x;
-        MapSize.y = TopLeftIndex.y - BottomRightIndex.y;
+        MapSize.x = TopLeftIndex.x - BottomRightIndex.x + 1;
+        MapSize.y = TopLeftIndex.y - BottomRightIndex.y + 1;
 
 
     }
@@ -135,23 +135,6 @@ public class MapManager : Singleton<MapManager>
         Bound = _bound;
         return true;
 
-
-
-        ////시작점이 맵 범위 안에 있고
-        //if (x >= BottomRightIndex.x && x <= TopLeftIndex.x && y >= BottomRightIndex.y && y <= TopLeftIndex.y)
-        //{
-        //    _bound.x = x;
-        //    _bound.y = y;
-
-        //    //끝점도 맵 범위 안에 있으면
-        //    if (endX >= BottomRightIndex.x && endX <= TopLeftIndex.x && endY >= BottomRightIndex.y && endY <= TopLeftIndex.y)
-        //    {
-        //        _bound.width = sizeX;
-        //        _bound.height = sizeY;
-        //        Bound = _bound;
-        //        return true;
-        //    }
-        //}
 
     }
 

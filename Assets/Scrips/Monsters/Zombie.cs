@@ -26,21 +26,26 @@ public class Zombie : baseMonster
         ResisLightning = 0;
         ResistMagic = 15;
 
-        MoveScript = GetComponent<MonsterMove>();
+        moveScript = GetComponent<MonsterMove>();
         MonsterAnimator = GetComponentInChildren<Animator>();
-        State = MONSTERSTATE.IDLE;
+        //State = MONSTERSTATE.IDLE;
+        FSM.ChangeState(FSM.idleStste);
     }
 
-    void isDead()
-    {
-        //this.MonsterAnimator.
-        Destroy(this.gameObject);
-    }
+    //void isDead()
+    //{
+    //    //this.MonsterAnimator.
+    //    Destroy(this.gameObject);
+    //}
 
 
     void Update()
     {
-        GameObject obj = DetectPlayer();
+        if(FSM.GetCurstate == MONSTERSTATE.Move.ToString()|| FSM.GetCurstate == MONSTERSTATE.Idle.ToString())
+        {
+            GameObject obj = DetectPlayer();
+        }
+        
 
     }
 }

@@ -52,6 +52,9 @@ public class AnimationEventSystem : MonoBehaviour
 
     public void AddEvent(KeyValuePair<string, beginCallback> begin, KeyValuePair<string, midCallback> mid, KeyValuePair<string, endCallback> end)
     {
+        //AnimationEvent[] events = animator.m_clips[begin.Key].events;
+        //events[0].str
+
         if (begin.Key != null)
             BeginEventInvokers.Add(begin.Key, begin.Value);
         if (mid.Key != null)
@@ -59,6 +62,70 @@ public class AnimationEventSystem : MonoBehaviour
         if (end.Key != null)
             EndEventInvokers.Add(end.Key, end.Value);
     }
+
+    //각각의 애니메이션에 실행시킬 이벤트들을 넣어준다.
+    public void AddEvent(KeyValuePair<string, beginCallback> begin, float begintime, KeyValuePair<string, midCallback> mid, float midtime, KeyValuePair<string, endCallback> end, float endtime)
+    {
+        AnimationEvent aevent;
+        float time;
+
+        if (animator == null)
+            animator = GetComponent<AnimationController>();
+
+        if (begin.Key != null)
+        {
+            //time = begintime / animator.m_clips[begin.Key].length;
+
+            aevent = new AnimationEvent();
+            aevent.time = begintime;
+            aevent.functionName = "OnBeginEvent";
+            aevent.stringParameter = begin.Key;
+            if (!animator.m_clips.ContainsKey(begin.Key))
+            {
+                Debug.Log($"AnimationEventSystem 오류 키값이 존재하기 않음 {begin.Key}");
+            }
+            animator.m_clips[begin.Key].AddEvent(aevent);
+
+            BeginEventInvokers.Add(begin.Key, begin.Value);
+        }
+
+        if (mid.Key != null)
+        {
+            //time = midtime / animator.m_clips[begin.Key].length;
+
+            aevent = new AnimationEvent();
+            aevent.time = midtime;
+            aevent.functionName = "OnMidEvent";
+            aevent.stringParameter = mid.Key;
+
+            if (!animator.m_clips.ContainsKey(mid.Key))
+            {
+                Debug.Log($"AnimationEventSystem 오류 키값이 존재하기 않음 {mid.Key}");
+            }
+            animator.m_clips[mid.Key].AddEvent(aevent);
+
+            MidEventInvokers.Add(mid.Key, mid.Value);
+        }
+
+        if (end.Key != null)
+        {
+            //time = endtime / animator.m_clips[begin.Key].length;
+
+            aevent = new AnimationEvent();
+            aevent.time = endtime;
+            aevent.functionName = "OnEndEvent";
+            aevent.stringParameter = end.Key;
+            if (!animator.m_clips.ContainsKey(end.Key))
+            {
+                Debug.Log($"AnimationEventSystem 오류 키값이 존재하기 않음 {end.Key}");
+            }
+            animator.m_clips[end.Key].AddEvent(aevent);
+
+            EndEventInvokers.Add(end.Key, end.Value);
+        }
+
+    }
+
 
     //public void AddTempletEvent(KeyValuePair<string, beginCallbackT<Object>> begin, KeyValuePair<string, midCallback> mid, KeyValuePair<string, endCallback> end)
     //{

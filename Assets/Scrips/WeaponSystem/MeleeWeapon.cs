@@ -9,6 +9,7 @@ public class MeleeWeapon : Weapon
     //public enum MELEEKIND {AXE,MACE,LONGSWORD,MELEEMAX};
     protected MELEEKIND kind;
 
+    //Animator animator;
 
     //유저가 클릭을 했을때 해당 위치에 몬스터가 있으면 몬스터를 타깃으로 이동한다. 몬스터를 타깃으로 이동할때는 계속 몬스터 위치를 모니터 한다. 일단 해당 위치로 이동한다.At
     //일단 움직이는데 타깃 몬스터가 어택범위 안에 들어오면 움직이는걸 멈추고 마지막으로 방향 지정해 준다음에 공격시작
@@ -31,6 +32,7 @@ public class MeleeWeapon : Weapon
         {
             if (sc_player.State == PLAYERSTATE.ATTACK)
             {
+                sc_player.playeranimator.SetTrigger("Attacktrigger");
                 sc_monster.CurHP -= damage;
                 //플레이어가 움직이거나 할때의 멈춤은 다른곳에서 처리
                 if (sc_monster.CurHP <= 0)

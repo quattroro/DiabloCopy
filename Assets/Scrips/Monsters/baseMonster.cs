@@ -3,13 +3,13 @@ using System.Collections.Generic;
 using UnityEngine;
 
 
-public enum MONSTERSTATE { IDLE, WALKING, ATTACK, HIT, DEAD, STATEMAX };
+public enum MONSTERSTATE { Idle, Move, Attack, Hit, Die, STATEMAX };
 
 public class baseMonster : Status
 {
     public Vector2[] WAYS;
     [Header("=====BaseMonster=====")]
-    public bool Attack;
+    public bool NowAttacking;
     public DIRECTION Direction;
 
 
@@ -21,16 +21,32 @@ public class baseMonster : Status
     public float DetectTimeVal;
     private float LastDetectTime;
 
+
     public Vector3 test1;
     public float testradi;
 
-    public CircleCollider2D testCircle;
 
+    public CircleCollider2D testCircle;
     public Player sc_player = null;
     public MONSTERSTATE state;
     public Animator MonsterAnimator;
+
+
+
     [Header("연결필요")]
-    public MonsterMove MoveScript;
+    public MonsterMove moveScript;
+    public MonsterAttack attackScript;
+    //처음에 시작할때 몬스터 기본 정보에 따라 자신의 FSM을 불러온다.
+    public ZombieFSM FSM;
+
+
+
+    //처음에 시작할때 몬스터 기본 정보에 따라 자신의 공격정보들을 불러온다.
+    public List<AreaOfEffectAttack> AOEAttacks = new List<AreaOfEffectAttack>();
+    public List<ProjectileAttack> projectileAttacks = new List<ProjectileAttack>();
+    public List<TargettingAttack> targettineAttacks = new List<TargettingAttack>();
+    public List<MeleeAttack> meleeAttacks = new List<MeleeAttack>();
+
 
     [Header("탐지옵션")]
     public float DetectRadius;//탐지 거리
@@ -47,8 +63,11 @@ public class baseMonster : Status
 
     public void Init()
     {
-        MoveScript = GetComponent<MonsterMove>();
+        FSM = GetComponent<ZombieFSM>();
+        moveScript = GetComponent<MonsterMove>();
+        attackScript = GetComponent<MonsterAttack>();
         MonsterAnimator = GetComponentInChildren<Animator>();
+
         WAYS = new Vector2[(int)DIRECTION.DIRECTIONMAX];
         WAYS[(int)DIRECTION.D1] = new Vector2(0, -1).normalized;
         WAYS[(int)DIRECTION.D2] = new Vector2(-1, -1).normalized;
@@ -63,7 +82,9 @@ public class baseMonster : Status
         //{ { -1, 0 }, { 1, 0 }, { 0, -1 }, { 0, 1 }, { -1, 1 }, { -1, -1 }, { 1, -1 }, { 1, 1 } }
     }
 
-    public MONSTERSTATE State
+    
+
+    public MONSTERSTATE AnimationState
     {
         get
         {
@@ -71,7 +92,15 @@ public class baseMonster : Status
         }
         set
         {
-            for (MONSTERSTATE i = MONSTERSTATE.IDLE; i < MONSTERSTATE.STATEMAX; i++)
+            state = value;
+
+            if (value == MONSTERSTATE.Attack)
+            {
+                MonsterAnimator.SetTrigger("Attacktrigger");
+                return;
+            }
+
+            for (MONSTERSTATE i = MONSTERSTATE.Idle; i < MONSTERSTATE.STATEMAX; i++)
             {
                 if (value == i)
                 {
@@ -82,10 +111,15 @@ public class baseMonster : Status
                     MonsterAnimator.SetBool(i.ToString(), false);
                 }
             }
-            state = value;
+            
         }
     }
 
+    
+    //public AttackInfo GetAttackInfo()
+    //{
+
+    //}
 
 
     public void SetDirection(Vector3 normalidir)//방향 단위벡터를 구해주면 향하는 각도를 구해서 현재 움직이는 방향을 구해준다.
@@ -140,11 +174,7 @@ public class baseMonster : Status
         }
         MonsterAnimator.SetInteger("direction", (int)Direction);
     }
-    public void Move(Vector3 strat, Vector3 target)
-    {
-        //MoveScript.StartMove(strat, target);
-        MoveScript.MoveStart(strat, target);
-    }
+    
 
     public GameObject DropItem()
     {
@@ -181,41 +211,103 @@ public class baseMonster : Status
     //    }
     //}
 
+
+    public virtual void Dead()
+    {
+        // fsm
+        FSM.ChangeState(FSM.dieState);
+    }
+
+    //public virtual void Attack(GameObject target)
+    //{
+    //    AttackInfo temp = null;
+
+    //    attackScript.StartAttack(DetectedPlayer, temp);
+    //}
+
+    public void Move(Vector3 target)
+    {
+        moveScript.MoveStart(target);
+    }
+
+
+    public bool CkeckPlayer()
+    {
+        GameObject obj = null;
+        Vector2 direction;
+
+        //탐지범위에 플레이어가 있는지 판단
+        RaycastHit2D hit = Physics2D.CircleCast(transform.position, DetectRadius, new Vector2(0, 0), 0, PlayerLayer);
+
+        if (hit.collider != null)
+        {
+            //플레이어가 판단되면 정면벡터와의 내적으로 각도를 구해서 정면이면 탐지
+            direction = hit.transform.position - this.transform.position;
+            direction.Normalize();
+
+            DetectedAngle = Mathf.Acos(Vector3.Dot(WAYS[(int)Direction], direction)) * 180.0f / 3.14f;
+            if (DetectedAngle <= DetectAngle)
+            {
+                obj = hit.transform.gameObject;
+                sc_player = obj.GetComponentInChildren<Player>();
+                DetectedPlayer = obj.GetComponentInChildren<Player>();
+                NowDetected = true;
+                return true;
+            }
+        }
+
+        sc_player = null;
+        DetectedPlayer = null;
+        NowDetected = false;
+        return false;
+    }
+
     //일정 시간에 한번씩 주변의 플레이어를 감지한다
     public GameObject DetectPlayer()
     {
         GameObject obj = null;
         Vector2 direction;
-        //RaycastHit2D hit = null;
+
+
         if (Time.time - LastDetestTime >= DetectTime)
         {
             LastDetestTime = Time.time;
 
-            //탐지범위에 플레이어가 있는지 판단
-            RaycastHit2D hit = Physics2D.CircleCast(transform.position, DetectRadius, new Vector2(0, 0), 0, PlayerLayer);
+            ////탐지범위에 플레이어가 있는지 판단
+            //RaycastHit2D hit = Physics2D.CircleCast(transform.position, DetectRadius, new Vector2(0, 0), 0, PlayerLayer);
 
-            if (hit.collider != null)
+            //if (hit.collider != null)
+            //{
+            //    //플레이어가 판단되면 정면벡터와의 내적으로 각도를 구해서 정면이면 탐지
+            //    direction = hit.transform.position - this.transform.position;
+            //    direction.Normalize();
+
+            //    DetectedAngle = Mathf.Acos(Vector3.Dot(WAYS[(int)Direction], direction)) * 180.0f / 3.14f;
+            //    if (DetectedAngle <= DetectAngle)
+            //    {
+            //        obj = hit.transform.gameObject;
+            //    }
+            //    Debug.Log("플레이어 감지");
+            //}
+
+            //범위에 감지된 플레이어가 있으면 
+            if (CkeckPlayer())
             {
-                //플레이어가 판단되면 정면벡터와의 내적으로 각도를 구해서 정면이면 탐지
-                direction = hit.transform.position - this.transform.position;
-                direction.Normalize();
+                //sc_player = obj.GetComponentInChildren<Player>();
+                
 
-                DetectedAngle = Mathf.Acos(Vector3.Dot(WAYS[(int)Direction], direction)) * 180.0f / 3.14f;
-                if (DetectedAngle <= DetectAngle)
+                //Idle 또는 Move 때는 탐지한 쪽으로 움직임을 시작한다.
+                if (FSM.GetCurstate == MONSTERSTATE.Idle.ToString() || FSM.GetCurstate == MONSTERSTATE.Move.ToString())
                 {
-                    obj = hit.transform.gameObject;
+                    moveScript.MoveStart(sc_player.transform.position);
                 }
-                Debug.Log("플레이어 감지");
-            }
 
-            if (obj != null)
-            {
-                if (state != MONSTERSTATE.ATTACK || state != MONSTERSTATE.WALKING)
-                {
-                    sc_player = obj.GetComponentInChildren<Player>();
-                    NowDetected = true;
-                    MoveScript.MoveStart(transform.position, sc_player.transform.position);
-                }
+                //if (state != MONSTERSTATE.Attack || state != MONSTERSTATE.Move)
+                //{
+                //    sc_player = obj.GetComponentInChildren<Player>();
+                //    NowDetected = true;
+                //    moveScript.MoveStart(sc_player.transform.position);
+                //}
 
             }
             else
@@ -223,12 +315,108 @@ public class baseMonster : Status
                 sc_player = null;
                 NowDetected = false;
             }
+
+
+            ////탐지범위에 플레이어가 있는지 판단
+            //RaycastHit2D hit = Physics2D.CircleCast(transform.position, DetectRadius, new Vector2(0, 0), 0, PlayerLayer);
+
+            //if (hit.collider != null)
+            //{
+            //    //플레이어가 판단되면 정면벡터와의 내적으로 각도를 구해서 정면이면 탐지
+            //    direction = hit.transform.position - this.transform.position;
+            //    direction.Normalize();
+
+            //    DetectedAngle = Mathf.Acos(Vector3.Dot(WAYS[(int)Direction], direction)) * 180.0f / 3.14f;
+            //    if (DetectedAngle <= DetectAngle)
+            //    {
+            //        obj = hit.transform.gameObject;
+            //    }
+            //    Debug.Log("플레이어 감지");
+            //}
+
+            ////범위에 감지된 플레이어가 있으면 
+            //if (obj != null)
+            //{
+            //    sc_player = obj.GetComponentInChildren<Player>();
+            //    NowDetected = true;
+
+            //    //Idle 또는 Move 때는 탐지한 쪽으로 움직임을 시작한다.
+            //    if (FSM.GetCurstate == MONSTERSTATE.Idle.ToString() || FSM.GetCurstate == MONSTERSTATE.Move.ToString())
+            //    {
+            //        moveScript.MoveStart(sc_player.transform.position);
+            //    }
+
+            //    //if (state != MONSTERSTATE.Attack || state != MONSTERSTATE.Move)
+            //    //{
+            //    //    sc_player = obj.GetComponentInChildren<Player>();
+            //    //    NowDetected = true;
+            //    //    moveScript.MoveStart(sc_player.transform.position);
+            //    //}
+
+            //}
+            //else
+            //{
+            //    sc_player = null;
+            //    NowDetected = false;
+            //}
         }
-
-
-
         return obj;
     }
+
+    ////일정 시간에 한번씩 주변의 플레이어를 감지한다
+    //public GameObject DetectPlayer()
+    //{
+    //    GameObject obj = null;
+    //    Vector2 direction;
+    //    //RaycastHit2D hit = null;
+    //    if (Time.time - LastDetestTime >= DetectTime)
+    //    {
+    //        LastDetestTime = Time.time;
+
+    //        //탐지범위에 플레이어가 있는지 판단
+    //        RaycastHit2D hit = Physics2D.CircleCast(transform.position, DetectRadius, new Vector2(0, 0), 0, PlayerLayer);
+
+    //        if (hit.collider != null)
+    //        {
+    //            //플레이어가 판단되면 정면벡터와의 내적으로 각도를 구해서 정면이면 탐지
+    //            direction = hit.transform.position - this.transform.position;
+    //            direction.Normalize();
+
+    //            DetectedAngle = Mathf.Acos(Vector3.Dot(WAYS[(int)Direction], direction)) * 180.0f / 3.14f;
+    //            if (DetectedAngle <= DetectAngle)
+    //            {
+    //                obj = hit.transform.gameObject;
+    //            }
+    //            Debug.Log("플레이어 감지");
+    //        }
+
+    //        //범위에 감지된 플레이어가 있으면 
+    //        if (obj != null)
+    //        {
+    //            //공격중 또는 움직이는중일 때는
+    //            if(FSM.GetCurstate == MONSTERSTATE.Idle.ToString() || FSM.GetCurstate == MONSTERSTATE.Move.ToString())
+    //            {
+    //                sc_player = obj.GetComponentInChildren<Player>();
+    //                NowDetected = true;
+    //                moveScript.MoveStart(sc_player.transform.position);
+    //            }
+
+    //            //if (state != MONSTERSTATE.Attack || state != MONSTERSTATE.Move)
+    //            //{
+    //            //    sc_player = obj.GetComponentInChildren<Player>();
+    //            //    NowDetected = true;
+    //            //    moveScript.MoveStart(sc_player.transform.position);
+    //            //}
+
+    //        }
+    //        else
+    //        {
+    //            sc_player = null;
+    //            NowDetected = false;
+    //        }
+    //    }
+    //    return obj;
+    //}
 
     // Start is called before the first frame update
     //void Start()
