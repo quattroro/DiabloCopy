@@ -123,11 +123,11 @@ public class MonsterMove : MonoBehaviour
             StopCoroutine(movecor);
             movecor = null;
             //sc_monster.State = MONSTERSTATE.IDLE;
-            sc_monster.FSM.ChangeState(sc_monster.FSM.idleStste);
+            sc_monster.FSM.ChangeState(sc_monster.zFSM.idleStste);
         }
 
         sc_monster.AnimationState = MONSTERSTATE.Move;
-        sc_monster.FSM.ChangeState(sc_monster.FSM.moveState);
+        sc_monster.FSM.ChangeState(sc_monster.zFSM.moveState);
 
         movecor = nav();
         StartCoroutine(movecor);

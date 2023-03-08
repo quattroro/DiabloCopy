@@ -64,7 +64,6 @@ public class Idle : BaseState
             }
         }
 
-        //Debug.Log("Idle Update ½ÇÇà");
 
     }
 }

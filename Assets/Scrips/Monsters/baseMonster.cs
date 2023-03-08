@@ -36,8 +36,10 @@ public class baseMonster : Status
     [Header("연결필요")]
     public MonsterMove moveScript;
     public MonsterAttack attackScript;
+
+    public StateMachine FSM;
     //처음에 시작할때 몬스터 기본 정보에 따라 자신의 FSM을 불러온다.
-    public ZombieFSM FSM;
+    public ZombieFSM zFSM;
 
 
 
@@ -61,9 +63,11 @@ public class baseMonster : Status
     public Player DetectedPlayer = null;
 
 
-    public void Init()
+    public virtual void Init(StateMachine fsm)
     {
-        FSM = GetComponent<ZombieFSM>();
+        FSM = fsm;
+        zFSM = FSM as ZombieFSM;
+
         moveScript = GetComponent<MonsterMove>();
         attackScript = GetComponent<MonsterAttack>();
         MonsterAnimator = GetComponentInChildren<Animator>();
@@ -215,7 +219,7 @@ public class baseMonster : Status
     public virtual void Dead()
     {
         // fsm
-        FSM.ChangeState(FSM.dieState);
+        zFSM.ChangeState(zFSM.dieState);
     }
 
     //public virtual void Attack(GameObject target)
@@ -430,6 +434,6 @@ public class baseMonster : Status
         base.StartVirtual();
 
         sc_player = GameObject.FindObjectOfType<Player>();
-        Init();
+        //Init();
     }
 }
