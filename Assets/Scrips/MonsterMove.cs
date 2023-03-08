@@ -126,7 +126,7 @@ public class MonsterMove : MonoBehaviour
             sc_monster.FSM.ChangeState(sc_monster.zFSM.idleStste);
         }
 
-        sc_monster.AnimationState = MONSTERSTATE.Move;
+        sc_monster.AnimationState = MONSTERANISTATE.WALKING;
         sc_monster.FSM.ChangeState(sc_monster.zFSM.moveState);
 
         movecor = nav();

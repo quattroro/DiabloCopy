@@ -10,6 +10,7 @@ public class ZombieFSM : StateMachine
     public Move moveState;
     public Attack attackState;
     public Die dieState;
+    public Attacked attackedState;
 
     public MonsterAttack zombieAttack;
     public MonsterMove zombieMove;
@@ -24,6 +25,8 @@ public class ZombieFSM : StateMachine
         moveState = new Move(this);
         attackState = new Attack(this);
         dieState = new Die(this);
+        attackedState = new Attacked(this);
+
 
         zombieAttack = GetComponent<MonsterAttack>();
         zombieMove = GetComponent<MonsterMove>();

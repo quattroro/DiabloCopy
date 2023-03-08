@@ -3,7 +3,9 @@ using System.Collections.Generic;
 using UnityEngine;
 
 
-public enum MONSTERSTATE { Idle, Move, Attack, Hit, Die, STATEMAX };
+public enum MONSTERSTATE { Idle, Move, Attack, Attacked, Hit, Die, STATEMAX };
+
+public enum MONSTERANISTATE { IDLE, WALKING, ATTACK, HIT, DEAD, ANISTATEMAX};
 
 public class baseMonster : Status
 {
@@ -29,6 +31,7 @@ public class baseMonster : Status
     public CircleCollider2D testCircle;
     public Player sc_player = null;
     public MONSTERSTATE state;
+    public MONSTERANISTATE anistate;
     public Animator MonsterAnimator;
 
 
@@ -88,23 +91,23 @@ public class baseMonster : Status
 
     
 
-    public MONSTERSTATE AnimationState
+    public MONSTERANISTATE AnimationState
     {
         get
         {
-            return state;
+            return anistate;
         }
         set
         {
-            state = value;
+            anistate = value;
 
-            if (value == MONSTERSTATE.Attack)
+            if (value == MONSTERANISTATE.ATTACK)
             {
                 MonsterAnimator.SetTrigger("Attacktrigger");
                 return;
             }
 
-            for (MONSTERSTATE i = MONSTERSTATE.Idle; i < MONSTERSTATE.STATEMAX; i++)
+            for (MONSTERANISTATE i = MONSTERANISTATE.IDLE; i < MONSTERANISTATE.ANISTATEMAX; i++)
             {
                 if (value == i)
                 {
@@ -264,6 +267,37 @@ public class baseMonster : Status
         DetectedPlayer = null;
         NowDetected = false;
         return false;
+    }
+
+    public bool BeAttacked(int Damege)
+    {
+        zFSM.ChangeState(zFSM.attackedState);
+
+        CurHP -= damage;
+
+        //플레이어가 움직이거나 할때의 멈춤은 다른곳에서 처리
+        if (CurHP <= 0)
+        {
+            //아이템 드롭 관련
+
+            //GameObject dropitem = GameObject.Instantiate(GameManager.GetI.DropItem);
+            //dropitem.GetComponent<DropItem>().SetItemType(Random.Range(0, (int)Item.ITEMS.ItemMax));
+            //dropitem.transform.position = sc_player.targetmonster.transform.position;
+
+            ////캐릭터
+            //sc_player.GetExp(100);
+            ////공격멈춤
+            //sc_player.TargetMonster = null;
+            //sc_player.State = PLAYERSTATE.IDLE;
+
+            //GameObject.Destroy(this.gameObject);
+            return false;
+        }
+
+
+
+        return true;
+
     }
 
     //일정 시간에 한번씩 주변의 플레이어를 감지한다

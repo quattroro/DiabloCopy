@@ -212,6 +212,7 @@ GameObject:
   - component: {fileID: 910993192684438565}
   - component: {fileID: 910993192684438562}
   - component: {fileID: 2118080953}
+  - component: {fileID: 727036024}
   m_Layer: 8
   m_Name: Zombie
   m_TagString: Enemy
@@ -316,6 +317,26 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ba4ea70fb10aa64a824df2aa31ad87c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &727036024
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 910993192684438567}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5180f403efc6a264591ff000ab938570, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  animator: {fileID: 0}
+  m_clipsnum: 0
+  currentplayclipname: 
+  prespeed: 0
+  currentSpeed: 0
+  currnetPlayTime: 0
+  currentBlending: 0
+  m_tempclips: []
 --- !u!1 &910993192996530691
 GameObject:
   m_ObjectHideFlags: 0
@@ -331,6 +352,7 @@ GameObject:
   - component: {fileID: 910993192996530718}
   - component: {fileID: 910993192996530689}
   - component: {fileID: 488800882}
+  - component: {fileID: 67426939}
   m_Layer: 8
   m_Name: ZombieMonster
   m_TagString: Enemy
@@ -425,9 +447,10 @@ MonoBehaviour:
   resistmagic: 0
   resisfire: 0
   resislightning: 0
+  stunTime: 1
   uimanager: {fileID: 0}
   WAYS: []
-  Attack: 0
+  NowAttacking: 0
   Direction: 1
   degree: 0
   collcircle: {fileID: 910993192583468381}
@@ -440,7 +463,23 @@ MonoBehaviour:
   sc_player: {fileID: 0}
   state: 0
   MonsterAnimator: {fileID: 0}
-  MoveScript: {fileID: 910993192996530718}
+  moveScript: {fileID: 0}
+  attackScript: {fileID: 0}
+  FSM: {fileID: 0}
+  zFSM: {fileID: 0}
+  AOEAttacks: []
+  projectileAttacks: []
+  targettineAttacks: []
+  meleeAttacks:
+  - attackType: 0
+    targetObject: {fileID: 0}
+    attackInterval: 3
+    startDelay: 0
+    recorverDelay: 0
+    attackDamage: 0
+    attackObject: {fileID: 0}
+    attackEffect: {fileID: 0}
+    attackAni: {fileID: 0}
   DetectRadius: 1.5
   DetectAngle: 60
   PlayerLayer:
@@ -452,6 +491,7 @@ MonoBehaviour:
   DetectedPlayer: {fileID: 0}
   Foword: {x: 0, y: 0}
   Right: {x: 0, y: 0}
+  zfsm: {fileID: 0}
 --- !u!114 &910993192996530718
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -464,7 +504,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0ea43ec13dbf1db428636c9046304749, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  patrolDis: 0.5
   sc_player: {fileID: 0}
+  MoveNodeList: []
   direction: {x: 0, y: 0, z: 0}
   movespeed: 0.3
   startpos: {x: 0, y: 0, z: 0}
@@ -490,8 +532,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   sc_monster: {fileID: 0}
   sc_player: {fileID: 0}
-  AttackTime: 2
   eventsystem: {fileID: 0}
+  NowAttacking: 0
+  animator: {fileID: 0}
 --- !u!114 &488800882
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -505,4 +548,52 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 1
-  stoppingDistance: 0
+  stoppingDistance: 0.01
+--- !u!114 &67426939
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 910993192996530691}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 766d8af6f0db7d149b4f9fd4bf29b91d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  curStateName: 
+  curState:
+    stateMachine: {fileID: 0}
+    hasEnterRoutine: 0
+    hasExitRoutine: 0
+  nextState:
+    stateMachine: {fileID: 0}
+    hasEnterRoutine: 0
+    hasExitRoutine: 0
+  queuedState:
+    stateMachine: {fileID: 0}
+    hasEnterRoutine: 0
+    hasExitRoutine: 0
+  destState:
+    stateMachine: {fileID: 0}
+    hasEnterRoutine: 0
+    hasExitRoutine: 0
+  lastState:
+    stateMachine: {fileID: 0}
+    hasEnterRoutine: 0
+    hasExitRoutine: 0
+  basemonster: {fileID: 0}
+  idleStste:
+    stateMachine: {fileID: 0}
+    hasEnterRoutine: 0
+    hasExitRoutine: 0
+  moveState:
+    stateMachine: {fileID: 0}
+    hasEnterRoutine: 0
+    hasExitRoutine: 0
+  attackState:
+    stateMachine: {fileID: 0}
+    hasEnterRoutine: 0
+    hasExitRoutine: 0
+  zombieAttack: {fileID: 0}
+  zombieMove: {fileID: 0}

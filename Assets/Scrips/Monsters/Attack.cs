@@ -25,7 +25,7 @@ public class Attack : BaseState
 
     public void Enter()
     {
-        monster.AnimationState = MONSTERSTATE.Attack;
+        monster.AnimationState = MONSTERANISTATE.ATTACK;
     }
 
     //각 상황에 따라서 공격 정보를 설정한다.

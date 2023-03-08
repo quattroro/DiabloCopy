@@ -2,12 +2,12 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Die : BaseState
+public class Attacked : BaseState
 {
     ZombieFSM zombieFSM;
     baseMonster monster;
 
-    public Die(StateMachine _stateMachine) : base(_stateMachine)
+    public Attacked(StateMachine _stateMachine) : base(_stateMachine)
     {
         zombieFSM = this.stateMachine as ZombieFSM;
         monster = zombieFSM.basemonster;
@@ -20,13 +20,17 @@ public class Die : BaseState
 
     public IEnumerator Enter()
     {
-        monster.AnimationState = MONSTERANISTATE.DEAD;
-        yield return new WaitForSeconds(5.0f);
-        GameObject.Destroy(monster.gameObject);
+        //monster.AnimationState = MONSTERSTATE.Die;
+        Debug.Log("Attacked Enter 실행");
+        monster.MonsterAnimator.speed = 0.0f;
+        yield return new WaitForSeconds(monster.StunTime);
+        monster.MonsterAnimator.speed = 1.0f;
+        zombieFSM.ChangeState(zombieFSM.lastState);
     }
 
     //public void Update()
     //{
     //    Debug.Log("Move Update 실행");
     //}
+
 }

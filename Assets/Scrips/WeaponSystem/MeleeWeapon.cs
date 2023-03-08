@@ -33,21 +33,42 @@ public class MeleeWeapon : Weapon
             if (sc_player.State == PLAYERSTATE.ATTACK)
             {
                 sc_player.playeranimator.SetTrigger("Attacktrigger");
-                sc_monster.CurHP -= damage;
-                //플레이어가 움직이거나 할때의 멈춤은 다른곳에서 처리
-                if (sc_monster.CurHP <= 0)
+                //sc_monster.CurHP -= damage;
+
+                if(!sc_monster.BeAttacked(damage))
                 {
+                    //아이템 드랍
                     //GameObject dropitem = GameObject.Instantiate(GameManager.GetI.DropItem);
                     //dropitem.GetComponent<DropItem>().SetItemType(Random.Range(0, (int)Item.ITEMS.ItemMax));
                     //dropitem.transform.position = sc_player.targetmonster.transform.position;
 
+                    //몬스터가 죽었을때
+
+                    //캐릭터 경험치 얻음
                     sc_player.GetExp(100);
+
                     //공격멈춤
                     sc_player.TargetMonster = null;
                     sc_player.State = PLAYERSTATE.IDLE;
-                    GameObject.Destroy(sc_monster.gameObject);
-                    yield break;
+
+                    //해당 몬스터 파괴
+                    sc_monster.Dead();
                 }
+
+                ////플레이어가 움직이거나 할때의 멈춤은 다른곳에서 처리
+                //if (sc_monster.CurHP <= 0)
+                //{
+                //    //GameObject dropitem = GameObject.Instantiate(GameManager.GetI.DropItem);
+                //    //dropitem.GetComponent<DropItem>().SetItemType(Random.Range(0, (int)Item.ITEMS.ItemMax));
+                //    //dropitem.transform.position = sc_player.targetmonster.transform.position;
+
+                //    sc_player.GetExp(100);
+                //    //공격멈춤
+                //    sc_player.TargetMonster = null;
+                //    sc_player.State = PLAYERSTATE.IDLE;
+                //    GameObject.Destroy(sc_monster.gameObject);
+                //    yield break;
+                //}
             }
             else
             {

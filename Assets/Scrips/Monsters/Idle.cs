@@ -32,7 +32,7 @@ public class Idle : BaseState
         lastTime = Time.time;
         if (monster == null)
             monster = zombieFSM.basemonster;
-        monster.AnimationState = MONSTERSTATE.Idle;
+        monster.AnimationState = MONSTERANISTATE.IDLE;
 
     }
 

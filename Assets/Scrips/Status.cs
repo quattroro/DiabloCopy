@@ -31,8 +31,18 @@ public class Status : MonoBehaviour
     public int resisfire;
     public int resislightning;
 
+    public float stunTime;
 
     public UIManager uimanager;
+
+
+    public float StunTime
+    {
+        get
+        {
+            return stunTime;
+        }
+    }
 
     //[Header("==========")]
     public string ClassName

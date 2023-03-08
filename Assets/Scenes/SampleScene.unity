@@ -342,59 +342,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 63067434}
   m_CullTransparentMesh: 1
---- !u!1 &67426931 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 910993192996530691, guid: 590e94129ac3a6d439a7350864d7c743, type: 3}
-  m_PrefabInstance: {fileID: 910993191211549806}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &67426939
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 67426931}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 766d8af6f0db7d149b4f9fd4bf29b91d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  curStateName: 
-  curState:
-    stateMachine: {fileID: 0}
-    hasEnterRoutine: 0
-    hasExitRoutine: 0
-  nextState:
-    stateMachine: {fileID: 0}
-    hasEnterRoutine: 0
-    hasExitRoutine: 0
-  queuedState:
-    stateMachine: {fileID: 0}
-    hasEnterRoutine: 0
-    hasExitRoutine: 0
-  destState:
-    stateMachine: {fileID: 0}
-    hasEnterRoutine: 0
-    hasExitRoutine: 0
-  lastState:
-    stateMachine: {fileID: 0}
-    hasEnterRoutine: 0
-    hasExitRoutine: 0
-  basemonster: {fileID: 0}
-  idleStste:
-    stateMachine: {fileID: 0}
-    hasEnterRoutine: 0
-    hasExitRoutine: 0
-  moveState:
-    stateMachine: {fileID: 0}
-    hasEnterRoutine: 0
-    hasExitRoutine: 0
-  attackState:
-    stateMachine: {fileID: 0}
-    hasEnterRoutine: 0
-    hasExitRoutine: 0
-  zombieAttack: {fileID: 0}
-  zombieMove: {fileID: 0}
 --- !u!1001 &221898704
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1852,31 +1799,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 28567710b2fd1d64699b2f617cd210f6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!1 &727036019 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 910993192684438567, guid: 590e94129ac3a6d439a7350864d7c743, type: 3}
-  m_PrefabInstance: {fileID: 910993191211549806}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &727036024
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 727036019}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5180f403efc6a264591ff000ab938570, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  animator: {fileID: 0}
-  m_clipsnum: 0
-  currentplayclipname: 
-  prespeed: 0
-  currentSpeed: 0
-  currnetPlayTime: 0
-  currentBlending: 0
-  m_tempclips: []
 --- !u!1 &728063621
 GameObject:
   m_ObjectHideFlags: 0
@@ -6162,18 +6084,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 488800881, guid: 590e94129ac3a6d439a7350864d7c743, type: 3}
-      propertyPath: meleeAttacks.Array.size
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 488800881, guid: 590e94129ac3a6d439a7350864d7c743, type: 3}
-      propertyPath: meleeAttacks.Array.data[0].attackInterval
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 488800882, guid: 590e94129ac3a6d439a7350864d7c743, type: 3}
-      propertyPath: stoppingDistance
-      value: 0.01
-      objectReference: {fileID: 0}
     - target: {fileID: 910993192996530688, guid: 590e94129ac3a6d439a7350864d7c743, type: 3}
       propertyPath: m_RootOrder
       value: 20
@@ -6221,10 +6131,6 @@ PrefabInstance:
     - target: {fileID: 910993192996530691, guid: 590e94129ac3a6d439a7350864d7c743, type: 3}
       propertyPath: m_Name
       value: ZombieMonster
-      objectReference: {fileID: 0}
-    - target: {fileID: 910993192996530718, guid: 590e94129ac3a6d439a7350864d7c743, type: 3}
-      propertyPath: patrolDis
-      value: 0.5
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 590e94129ac3a6d439a7350864d7c743, type: 3}
