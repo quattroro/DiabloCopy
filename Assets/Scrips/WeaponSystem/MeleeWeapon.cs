@@ -53,6 +53,7 @@ public class MeleeWeapon : Weapon
 
                     //해당 몬스터 파괴
                     sc_monster.Dead();
+                    yield break;
                 }
 
                 ////플레이어가 움직이거나 할때의 멈춤은 다른곳에서 처리

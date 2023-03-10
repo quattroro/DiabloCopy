@@ -1174,7 +1174,7 @@ AnimatorStateTransition:
   m_Name: 
   m_Conditions:
   - m_ConditionMode: 1
-    m_ConditionEvent: DAED
+    m_ConditionEvent: DEAD
     m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: 375307887124362646}
@@ -1688,37 +1688,37 @@ AnimatorStateMachine:
   m_ChildStates:
   - serializedVersion: 1
     m_State: {fileID: 493836561880348909}
-    m_Position: {x: 350, y: -150, z: 0}
+    m_Position: {x: 550, y: -160, z: 0}
   - serializedVersion: 1
     m_State: {fileID: -5374053508922167449}
-    m_Position: {x: 490, y: 120, z: 0}
+    m_Position: {x: 800, y: -160, z: 0}
   - serializedVersion: 1
     m_State: {fileID: 1328450032064897909}
-    m_Position: {x: 560, y: -150, z: 0}
+    m_Position: {x: 1080, y: -110, z: 0}
   - serializedVersion: 1
     m_State: {fileID: -612644641672970003}
-    m_Position: {x: 90, y: -160, z: 0}
+    m_Position: {x: 1110, y: 10, z: 0}
   - serializedVersion: 1
     m_State: {fileID: -9121741363350085326}
-    m_Position: {x: 90, y: -120, z: 0}
+    m_Position: {x: 870, y: 150, z: 0}
   - serializedVersion: 1
     m_State: {fileID: 1066564830001883768}
-    m_Position: {x: 90, y: -70, z: 0}
+    m_Position: {x: 550, y: 140, z: 0}
   - serializedVersion: 1
     m_State: {fileID: -3677468673184221451}
-    m_Position: {x: 480, y: 70, z: 0}
+    m_Position: {x: 270, y: -80, z: 0}
   - serializedVersion: 1
     m_State: {fileID: 7752113045861882841}
-    m_Position: {x: 110, y: -10, z: 0}
+    m_Position: {x: 300, y: 50, z: 0}
   m_ChildStateMachines: []
   m_AnyStateTransitions: []
   m_EntryTransitions: []
   m_StateMachineTransitions: {}
   m_StateMachineBehaviours: []
-  m_AnyStatePosition: {x: 270, y: 100, z: 0}
+  m_AnyStatePosition: {x: 50, y: 160, z: 0}
   m_EntryPosition: {x: 50, y: 120, z: 0}
-  m_ExitPosition: {x: 800, y: 120, z: 0}
-  m_ParentStateMachinePosition: {x: 800, y: 20, z: 0}
+  m_ExitPosition: {x: 50, y: 200, z: 0}
+  m_ParentStateMachinePosition: {x: 690, y: -10, z: 0}
   m_DefaultState: {fileID: 493836561880348909}
 --- !u!1101 &-1254514361845955002
 AnimatorStateTransition:
@@ -2139,7 +2139,7 @@ AnimatorController:
     m_DefaultInt: 0
     m_DefaultBool: 0
     m_Controller: {fileID: 9100000}
-  - m_Name: DAED
+  - m_Name: DEAD
     m_Type: 9
     m_DefaultFloat: 0
     m_DefaultInt: 0

@@ -107,6 +107,12 @@ public class baseMonster : Status
                 return;
             }
 
+            if(value == MONSTERANISTATE.DEAD)
+            {
+                MonsterAnimator.SetTrigger("DEAD");
+                return;
+            }
+
             for (MONSTERANISTATE i = MONSTERANISTATE.IDLE; i < MONSTERANISTATE.ANISTATEMAX; i++)
             {
                 if (value == i)
@@ -259,6 +265,7 @@ public class baseMonster : Status
                 sc_player = obj.GetComponentInChildren<Player>();
                 DetectedPlayer = obj.GetComponentInChildren<Player>();
                 NowDetected = true;
+                SetDirection(direction);
                 return true;
             }
         }

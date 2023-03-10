@@ -6196,6 +6196,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 33d7936482c2e4a4cba5657317a5557a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _rectTransform: {fileID: 0}
+  _type: 0
+  _isoverlay: 0
   equipslotarr: []
 --- !u!1 &1108242896
 GameObject:
@@ -6302,27 +6305,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b547299a6dfd03a47b578727ee365e01, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _tilemap: {fileID: 0}
-  _MainCamera: {fileID: 0}
-  Camerasize: 0
-  screenheight: 0
-  screenwidth: 0
-  screenratio: 0
-  _clickpos: {x: 0, y: 0, z: 0}
-  _tilemapcell: {x: 0, y: 0, z: 0}
-  Pointer: {fileID: 0}
-  CS_Palyer: {fileID: 0}
-  PlayerObj: {fileID: 0}
-  DropItem: {fileID: 0}
-  astar: {fileID: 0}
-  testmonster: {fileID: 0}
-  CameraSpeed: 0
-  CameraVal: 0
-  Camerapos: {x: 0, y: 0, z: 0}
-  targetpos: {x: 0, y: 0, z: 0}
-  direction: {x: 0, y: 0, z: 0}
-  val: 1.7777778
-  temp2: 0
 --- !u!114 &1126663792
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6842,13 +6824,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ed9e921f55b4c0b44816d36644f93737, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sc_player: {fileID: 0}
-  HPbar: {fileID: 0}
-  MPbar: {fileID: 0}
-  QuickSlotInfo: 
-  Itemlist: []
-  QuickSlotButton: []
-  objpanels: {fileID: 1272071484}
 --- !u!114 &1550677339
 MonoBehaviour:
   m_ObjectHideFlags: 0

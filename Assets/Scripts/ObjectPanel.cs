@@ -6,7 +6,7 @@ using UnityEngine.UI;
 //uipanel은 ui 상에 존재한다.
 //uipanel은 생성을해서 월드상의 객체와 LinkObjectPanel 함수를 이용해서 링킹을 해주면 ui상의 panel이 월드상의 해당 객체를 따라다닌다.
 //그러다 uipanel 이 클릭되면 같이 등록해준 함수를 실행 시켜 준다.
-public class ObjectPanel : MonoBehaviour,IPointerOverLay
+public class ObjectPanel : MonoBehaviour, IPointerOverLay
 {
     public GameObject LinkedObj;
     public delegate void ClickedEvent();

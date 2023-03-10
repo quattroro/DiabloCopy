@@ -54,13 +54,13 @@ public class Zombie : baseMonster
     //}
 
 
-    void Update()
-    {
-        if(FSM.GetCurstate == MONSTERSTATE.Move.ToString()|| FSM.GetCurstate == MONSTERSTATE.Idle.ToString())
-        {
-            GameObject obj = DetectPlayer();
-        }
+    //void Update()
+    //{
+    //    //if(FSM.GetCurstate == MONSTERSTATE.Move.ToString()|| FSM.GetCurstate == MONSTERSTATE.Idle.ToString())
+    //    //{
+    //    //    GameObject obj = DetectPlayer();
+    //    //}
         
 
-    }
+    //}
 }

@@ -23,7 +23,7 @@ public class Player : Status
     public CircleCollider2D AttackRange;
     public Weapon weapon = null;
 
-
+    public LayerMask MonsterLayer;
 
     [SerializeField]
     protected PLAYERSTATE state;

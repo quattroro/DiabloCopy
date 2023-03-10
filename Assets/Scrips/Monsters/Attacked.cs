@@ -18,13 +18,18 @@ public class Attacked : BaseState
     //    Debug.Log("Move Exit 실행");
     //}
 
-    public IEnumerator Enter()
+    public void Enter()
     {
         //monster.AnimationState = MONSTERSTATE.Die;
         Debug.Log("Attacked Enter 실행");
-        monster.MonsterAnimator.speed = 0.0f;
-        yield return new WaitForSeconds(monster.StunTime);
-        monster.MonsterAnimator.speed = 1.0f;
+        //monster.MonsterAnimator.speed = 0.0f;
+        //yield return new WaitForSeconds(monster.StunTime);
+        //monster.MonsterAnimator.speed = 1.0f;
+
+
+
+
+
         zombieFSM.ChangeState(zombieFSM.lastState);
     }
 

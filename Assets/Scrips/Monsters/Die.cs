@@ -21,7 +21,7 @@ public class Die : BaseState
     public IEnumerator Enter()
     {
         monster.AnimationState = MONSTERANISTATE.DEAD;
-        yield return new WaitForSeconds(5.0f);
+        yield return new WaitForSeconds(4.0f);
         GameObject.Destroy(monster.gameObject);
     }
 

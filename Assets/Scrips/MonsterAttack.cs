@@ -67,6 +67,7 @@ public class MonsterAttack : MonoBehaviour
         if (sc_monster.FSM.GetCurstate != MONSTERSTATE.Attack.ToString())
         {
             //sc_monster.State = MONSTERSTATE.ATTACK;
+            sc_monster.AnimationState = MONSTERANISTATE.IDLE;
             NowAttackInfo = attackinfo;
             zombieFSM.ChangeState(zombieFSM.attackState);
 

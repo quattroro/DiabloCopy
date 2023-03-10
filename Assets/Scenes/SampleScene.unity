@@ -2083,6 +2083,7 @@ GameObject:
   - component: {fileID: 980302026}
   - component: {fileID: 980302025}
   - component: {fileID: 980302029}
+  - component: {fileID: 980302030}
   m_Layer: 5
   m_Name: UI
   m_TagString: Untagged
@@ -2197,6 +2198,20 @@ MonoBehaviour:
   - {fileID: 0}
   - {fileID: 0}
   objpanels: {fileID: 0}
+--- !u!114 &980302030
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 980302024}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b5950ac46375b5f4eb08a4e98cd48d80, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ClickedObj: {fileID: 0}
+  lasttime: 0
 --- !u!1001 &1002686545
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4201,8 +4216,6 @@ MonoBehaviour:
   Camerapos: {x: 0, y: 0, z: 0}
   targetpos: {x: 0, y: 0, z: 0}
   direction: {x: 0, y: 0, z: 0}
-  val: 1.7777778
-  temp2: 0.55
 --- !u!4 &1684028482
 Transform:
   m_ObjectHideFlags: 0
@@ -4857,11 +4870,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5474148543053823531, guid: b591385a8459e2c42b7b14354f141645, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: -143
+      value: -1228
       objectReference: {fileID: 0}
     - target: {fileID: 5474148543053823531, guid: b591385a8459e2c42b7b14354f141645, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 275
+      value: 46.208
       objectReference: {fileID: 0}
     - target: {fileID: 5474148543053823531, guid: b591385a8459e2c42b7b14354f141645, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -6222,6 +6235,10 @@ PrefabInstance:
       propertyPath: itemBag
       value: 
       objectReference: {fileID: 974919631}
+    - target: {fileID: 1384433291959799494, guid: fc61951dcab881c4b97c51ed4e4bf489, type: 3}
+      propertyPath: MonsterLayer.m_Bits
+      value: 256
+      objectReference: {fileID: 0}
     - target: {fileID: 1384433291959799495, guid: fc61951dcab881c4b97c51ed4e4bf489, type: 3}
       propertyPath: movespeed
       value: 1

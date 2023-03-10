@@ -30,18 +30,22 @@ public class CharacterMove : MonoBehaviour
         //일단 공격범위 안에 몬스터가 있는지 확인 한다. 몬스터가 있으면 움직이지 않고 공격을 실행
         if (sc_player.targetmonster != null)
         {
-            RaycastHit2D[] hitarr = Physics2D.CircleCastAll(sc_player.AttackRange.transform.position, sc_player.AttackRange.radius, new Vector2(0, 0), 0);
+            RaycastHit2D[] hitarr = Physics2D.CircleCastAll(sc_player.AttackRange.transform.position, sc_player.AttackRange.radius, new Vector2(0, 0), 0,sc_player.MonsterLayer);
             foreach (RaycastHit2D a in hitarr)
             {
-                if (sc_player.targetmonster == a.transform)
+                //if (a.transform.gameObject.layer == sc_player.MonsterLayer)
                 {
-                    direction = a.point - (Vector2)this.transform.position;
-                    sc_player.SetDirection(direction);//공격하기 전에 마지막으로 방향을 정해준다.
-                    Moving = false;
-                    sc_player.weapon.Attack();
-                    Debug.Log("플레이어 공격 시작");
-                    return;
+                    if (sc_player.targetmonster == a.transform)
+                    {
+                        direction = a.point - (Vector2)this.transform.position;
+                        sc_player.SetDirection(direction);//공격하기 전에 마지막으로 방향을 정해준다.
+                        Moving = false;
+                        sc_player.weapon.Attack();
+                        Debug.Log("플레이어 공격 시작");
+                        return;
+                    }
                 }
+                
 
             }
         }
@@ -135,20 +139,23 @@ public class CharacterMove : MonoBehaviour
             if (sc_player.targetmonster != null)
             {
                 //StartMove(this.transform.position, sc_player.sc_targetmonster.transform.position);
-                RaycastHit2D[] hit = Physics2D.CircleCastAll(sc_player.AttackRange.transform.position, sc_player.AttackRange.radius, new Vector2(0, 0), 0);
+                RaycastHit2D[] hit = Physics2D.CircleCastAll(sc_player.AttackRange.transform.position, sc_player.AttackRange.radius, new Vector2(0, 0), 0, sc_player.MonsterLayer);
                 foreach (RaycastHit2D a in hit)
                 {
-                    if (sc_player.targetmonster == a.transform)
+                    //if (a.transform.gameObject.layer == sc_player.MonsterLayer)
                     {
-                        direction = a.point - (Vector2)this.transform.position;
-                        sc_player.SetDirection(direction);//공격하기 전에 마지막으로 방향을 정해준다.
-                        Moving = false;
-                        //sc_player.State = PLAYERSTATE.ATTACK;
-                        sc_player.weapon.Attack();
-                        //sc_player.weapon.Att
-                        Debug.Log("플레이어 공격 시작");
-                        MoveCor = null;
-                        yield break;
+                        if (sc_player.targetmonster == a.transform)
+                        {
+                            direction = a.point - (Vector2)this.transform.position;
+                            sc_player.SetDirection(direction);//공격하기 전에 마지막으로 방향을 정해준다.
+                            Moving = false;
+                            //sc_player.State = PLAYERSTATE.ATTACK;
+                            sc_player.weapon.Attack();
+                            //sc_player.weapon.Att
+                            Debug.Log("플레이어 공격 시작");
+                            MoveCor = null;
+                            yield break;
+                        }
                     }
                 }
 
