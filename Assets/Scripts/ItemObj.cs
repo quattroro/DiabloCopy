@@ -33,7 +33,11 @@ public class ItemObj : MonoBehaviour
     {
         BaseNode copynode = ItemNodeManager.Instance.InstantiateNode(itemcode, this.transform);//해당 코드에 해당하는 아이템을 아이템 가방에 넣어준다.
         //UIManager.Instance.DeleteUIPanel(uipanel);
-        ItemBag.Instance.InsertItem(copynode);
+
+        EquipmentWindow quwindow = UIManager.Instance.GetUIInstance(UIManager.UITYPES.INV) as EquipmentWindow;
+
+        quwindow.itembag.InsertItem(copynode);
+
         Destroy(this.gameObject);
         Destroy(uipanel.gameObject);
     }

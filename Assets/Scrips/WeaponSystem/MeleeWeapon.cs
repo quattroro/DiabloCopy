@@ -30,6 +30,8 @@ public class MeleeWeapon : Weapon
     {
         while(true)
         {
+            sc_player.SetDirection(sc_monster.transform.position - sc_player.transform.position);
+
             if (sc_player.State == PLAYERSTATE.ATTACK)
             {
                 sc_player.playeranimator.SetTrigger("Attacktrigger");

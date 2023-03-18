@@ -25,6 +25,7 @@ public class ItemBox : MonoBehaviour
         string temponame = ItemNodeManager.Instance.GetItemName(itemlist[rnd]);//아이템 매니저에 해당 아이템 코드를 넘겨주고 아이템 이름을 받아온다.
 
         Vector3 temp = Random.insideUnitCircle;//스폰 범위 지정
+
         float rndradius = Random.Range(0.0f, spawnrange.radius);
 
         ItemNodeManager.Instance.InstantiateItemObj(itemlist[rnd], temponame, this.transform.position + (temp * rndradius));//해당 아이템의 정보를 이용해서 역시 게임 월드상에 아이템 객체를 생성해준다.

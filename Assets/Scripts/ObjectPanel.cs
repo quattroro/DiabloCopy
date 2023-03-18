@@ -24,6 +24,8 @@ public class ObjectPanel : MonoBehaviour, IPointerOverLay
 
     public Canvas canvas;
 
+    public GameObject Container;
+
     //현재 마우스가 오버레이 되어있는지
     public bool IsOverlay
     {
@@ -59,6 +61,8 @@ public class ObjectPanel : MonoBehaviour, IPointerOverLay
         IsOverlay = false;
         canvas = FindObjectOfType<Canvas>(); 
         transform.parent = canvas.transform;
+        Container = GameObject.Find("InGameUI");
+        transform.parent = Container.transform;
     }
 
     //월드상의 객체와 링킹을 해준다.
@@ -66,6 +70,7 @@ public class ObjectPanel : MonoBehaviour, IPointerOverLay
     {
         //if (transform.parent != canvas.transform)
             
+
         LinkedObj = obj;
         clickedevent += cevent;
         intervalpos = pos;

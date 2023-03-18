@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 
 //아이템 가방은 장비 테이블과 독립적으로 동작한다.
-public class ItemBag : Singleton<ItemBag>
+public class ItemBag :MonoBehaviour
 {
     [SerializeField]
     private Vector2Int InventorySlotSize = new Vector2Int(10, 4);//인벤토리 개수

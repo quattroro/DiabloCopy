@@ -134,7 +134,14 @@ public class baseMonster : Status
 
     //}
 
-
+    public bool IsDead()
+    {
+        if(CurHP<=0)
+        {
+            return true;
+        }
+        return false;
+    }
     public void SetDirection(Vector3 normalidir)//방향 단위벡터를 구해주면 향하는 각도를 구해서 현재 움직이는 방향을 구해준다.
     {
         float radian = Mathf.Atan2(normalidir.y, normalidir.x);

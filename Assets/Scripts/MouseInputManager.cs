@@ -58,6 +58,7 @@ public class MouseInputManager : MonoBehaviour
             {
                 foreach (var a in result)
                 {
+                    // 클릭된 것이 아이템 노드일때.
                     if (a.gameObject.tag == "Node")
                     {
                         node = a.gameObject.GetComponent<BaseNode>();
@@ -105,14 +106,18 @@ public class MouseInputManager : MonoBehaviour
 
                     if (a.transform.tag == "Enemy")
                     {
-                        player.AttackMove(player.transform.position, a.point, a.transform);
-                        Debug.Log("Attackmove");
-                        //this.AttackMove(this.transform.position, a.point, a.transform);
-                        return;
+                        if(!a.transform.GetComponent<baseMonster>().IsDead())
+                        {
+                            player.AttackMove(player.transform.position, a.point, a.transform);
+                            Debug.Log("Attackmove");
+                            //this.AttackMove(this.transform.position, a.point, a.transform);
+                            return;
+                        }
                     }
 
 
                 }
+
                 player.Move(player.transform.position, hit[0].point);
                 Debug.Log("nomalmove");
                 //this.Move(this.transform.position, hit[0].point);
@@ -126,6 +131,8 @@ public class MouseInputManager : MonoBehaviour
 
     public void LeftMouseUp(Vector2 pos)
     {
+        UIManager uimanager = UIManager.Instance;
+        EquipmentWindow eqWindow = uimanager.GetUIInstance(UIManager.UITYPES.INV) as EquipmentWindow;
         //canvas에 있는 graphicraycast를 이용해 클릭된 위치에 있는 객체들의 정보들을 받아온다.
         PointerEventData ped = new PointerEventData(null);
         ped.position = pos;
@@ -193,7 +200,9 @@ public class MouseInputManager : MonoBehaviour
 
                 if (resultslot[0].GetSlotTypes() != EnumTypes.SlotTypes.Equip)//장비 슬롯이 아니라 다른 슬롯에 아이템을 넣을때
                 {
-                    if (!ItemBag.Instance.SlotIsEmpty(resultslot[0].GetSlotTypes(), resultslot[0].SlotIndex, ClickedObj.GetSize()))//아이템 가방에 해당 크기만큼 비어있는지 확인하고
+                    //if (!ItemBag.Instance.SlotIsEmpty(resultslot[0].GetSlotTypes(), resultslot[0].SlotIndex, ClickedObj.GetSize()))//아이템 가방에 해당 크기만큼 비어있는지 확인하고
+                    if (!eqWindow.itembag.SlotIsEmpty(resultslot[0].GetSlotTypes(), resultslot[0].SlotIndex, ClickedObj.GetSize()))//아이템 가방에 해당 크기만큼 비어있는지 확인하고
+
                     {
                         flag = false;
                     }
@@ -203,7 +212,10 @@ public class MouseInputManager : MonoBehaviour
                         Debug.Log("슬롯에 집어넣음");
 
 
-                        if (ItemBag.Instance.SetItem(ClickedObj, resultslot[0]))
+                        //if (ItemBag.Instance.SetItem(ClickedObj, resultslot[0]))
+                        //    ClickedObj = null;
+
+                        if (eqWindow.itembag.SetItem(ClickedObj, resultslot[0]))
                             ClickedObj = null;
 
                     }
@@ -212,8 +224,8 @@ public class MouseInputManager : MonoBehaviour
                 {
                     if(flag)
                     {
-                        //if (EquipmentWindow.Instance.EquipEquipments(ClickedObj, resultslot[0]))//장비 슬롯에 넣어주고 넣어주기 실패했을때는 clickedobj를 그대로 둬서 이전 위치로 돌아가도록 해준다.
-                        //    ClickedObj = null;
+                        if (eqWindow.EquipEquipments(ClickedObj, resultslot[0]))//장비 슬롯에 넣어주고 넣어주기 실패했을때는 clickedobj를 그대로 둬서 이전 위치로 돌아가도록 해준다.
+                            ClickedObj = null;
                     }
                     
                 }
@@ -229,9 +241,9 @@ public class MouseInputManager : MonoBehaviour
             Debug.Log("다시돌아감");
 
             if (ClickedObj.PreSlot.GetSlotTypes() != EnumTypes.SlotTypes.Equip)
-                ItemBag.Instance.SetItem(ClickedObj, ClickedObj.PreSlot);
-            //else
-            //    EquipmentWindow.Instance.EquipEquipments(ClickedObj, ClickedObj.PreSlot);
+                eqWindow.itembag.SetItem(ClickedObj, ClickedObj.PreSlot);
+            else
+                eqWindow.EquipEquipments(ClickedObj, ClickedObj.PreSlot);
 
             //ItemBag.Instance.SetItem(ClickedObj, ClickedObj.PreSlot);
             //ClickedObj.PreSlot.SetNode(ClickedObj);
@@ -413,8 +425,17 @@ public class MouseInputManager : MonoBehaviour
             LeftMouseUp(Input.mousePosition);
         }
 
+        if (Input.GetMouseButtonDown(1))
+        {
+            RightMouseDown(Input.mousePosition);
+        }
 
-        if(ClickedObj!=null)
+        if (Input.GetMouseButtonUp(1))
+        {
+            RightMouseUp(Input.mousePosition);
+        }
+
+        if (ClickedObj!=null)
         {
             //DraggingItem(Input.mousePosition);
         }

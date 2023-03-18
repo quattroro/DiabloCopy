@@ -6,6 +6,8 @@ using UnityEngine;
 //장비 슬롯들을 관리할 장비창
 public class EquipmentWindow : BaseUI,IPointerOverLay
 {
+    public ItemBag itembag;
+
     public override void Init()
     {
         base.Init();
@@ -109,6 +111,15 @@ public class EquipmentWindow : BaseUI,IPointerOverLay
 
     }
 
+    public void InsertItem(BaseNode node)
+    {
+        if(!itembag.gameObject.activeSelf)
+        {
+            itembag.gameObject.SetActive(true);
+            InsertItem(node);
+            itembag.gameObject.SetActive(false);
+        }
+    }
 
     private void Awake()
     {
@@ -129,6 +140,7 @@ public class EquipmentWindow : BaseUI,IPointerOverLay
                 equipslotarr[i].PickUpEvent(UnEquipEvent);
             }
         }
+        itembag = GetComponentInChildren<ItemBag>();
     }
 
     // Update is called once per frame
