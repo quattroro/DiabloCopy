@@ -84,7 +84,6 @@ public class AstarModule :MonoBehaviour/*: Singleton<AstarModule>*/
             //testlist.Contains
             //NodeArray.
 
-
         }
 
         //
@@ -182,6 +181,22 @@ public class AstarModule :MonoBehaviour/*: Singleton<AstarModule>*/
         }
 
     }
+
+    //로컬리전은 일정하지 않은 다각형 모양이기 때문에 각각의 vertex정보를 가지고 있는다.
+    class LocalRegion
+    {
+        List<Vector2> vertex;
+        List<KeyValuePair<LocalRegion,int>> neighberRegions;
+        Region prentRegion;
+        // 부모와 똑같은 크기의 노드를 가지고 있지만 자신의 노드가 아닌것은 
+        public Node[,] NodeArray;
+
+
+
+
+    }
+
+
     #endregion
 
     #region RegionSettings
