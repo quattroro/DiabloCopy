@@ -7,7 +7,7 @@ using UnityEngine;
 public class GrapheNode : IComparable
 {
     public int Weight;
-    public AstarModule.Region region;
+    public AstarModule.LocalRegion region;
     public int Nodeindex;
     public GrapheNode ParentNode;
 
@@ -22,7 +22,7 @@ public class GrapheNode : IComparable
 
     }
 
-    public GrapheNode(AstarModule.Region region, int weight,int nodeIndex)
+    public GrapheNode(AstarModule.LocalRegion region, int weight,int nodeIndex)
     {
         this.region = region;
         this.Weight = weight;

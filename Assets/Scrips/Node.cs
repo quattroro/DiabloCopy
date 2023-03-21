@@ -6,11 +6,13 @@ using UnityEngine;
 [System.Serializable]
 public class Node:IComparable
 {
-    public Node(bool _isWall, int _x, int _y) 
+    public AstarModule.LocalRegion localregion;
+    public Node(bool _isWall, int _x, int _y, AstarModule.LocalRegion localregion = null) 
     { 
         isWall = _isWall; 
         x = _x; 
-        y = _y; 
+        y = _y;
+        this.localregion = localregion;
     }
 
     public bool isWall;

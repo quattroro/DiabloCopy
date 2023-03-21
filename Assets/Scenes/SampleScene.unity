@@ -638,7 +638,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 290780214}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 2.43, y: 12.61, z: -2.4134085}
+  m_LocalPosition: {x: -2.95, y: 18.88, z: -2.4134085}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -2379,30 +2379,6 @@ MonoBehaviour:
   test: 0
   GrapheSize: 0
   NodeGraphe: []
-  StartRegion:
-    Weight: 0
-    Nodeindex: 0
-    x: 0
-    y: 0
-    G: 0
-    H: 0
-  TargetRegion:
-    Weight: 0
-    Nodeindex: 0
-    x: 0
-    y: 0
-    G: 0
-    H: 0
-  CurRegion:
-    Weight: 0
-    Nodeindex: 0
-    x: 0
-    y: 0
-    G: 0
-    H: 0
-  OpenRegionList: []
-  ClosedRegionList: []
-  FinalRegionList: []
   teststartpos: {fileID: 290780214}
   testtargetpos: {fileID: 1935714477}
 --- !u!4 &1006589906
@@ -5467,7 +5443,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1935714477}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -5.17, y: 17.15, z: -2.4134085}
+  m_LocalPosition: {x: 2.64, y: 9.62, z: -2.4134085}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
