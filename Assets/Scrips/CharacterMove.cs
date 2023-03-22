@@ -208,10 +208,10 @@ public class CharacterMove : MonoBehaviour
 
     private void OnDrawGizmos()
     {
-        Gizmos.color = Color.red;
-        Gizmos.DrawLine(startpos, targetpos);
-        Gizmos.color = Color.blue;
-        if (sc_player != null)
-            Gizmos.DrawLine(transform.position, (Vector2)transform.position + sc_player.WAYS[(int)sc_player.Direction]);
+        //Gizmos.color = Color.red;
+        //Gizmos.DrawLine(startpos, targetpos);
+        //Gizmos.color = Color.blue;
+        //if (sc_player != null)
+        //    Gizmos.DrawLine(transform.position, (Vector2)transform.position + sc_player.WAYS[(int)sc_player.Direction]);
     }
 }

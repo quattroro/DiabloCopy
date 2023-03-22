@@ -4,12 +4,70 @@ using System.Collections.Generic;
 using UnityEngine;
 
 
-public class AstarModule :MonoBehaviour/*: Singleton<AstarModule>*/
+public class AstarModule : MonoBehaviour/*: Singleton<AstarModule>*/
 {
     //public List<Vector3> regioninputpos = new List<Vector3>();
     public Vector2Int RegionSize;
 
     #region RegionClass
+
+    [System.Serializable]
+    public class testregion
+    {
+
+        public List<testlocalregion> LocalRegion = new List<testlocalregion>();
+
+        //월드 타일맵에서 해당 리전의 위치
+        public Vector3Int BottomRight = new Vector3Int(-1, -1, -1);
+        public Vector3Int TopLeft = new Vector3Int(-1, -1, -1);
+        public Vector3Int TopRight = new Vector3Int(-1, -1, -1);
+        public Vector3Int BottomLeft = new Vector3Int(-1, -1, -1);
+
+        public Vector2Int regionIndex;
+        //하나의 큰 리전의 크기
+        public Vector2Int RegionSize = new Vector2Int(-1, -1);
+
+        public Node StartNode;
+
+        
+        public testregion(Vector3Int _bottomRight, Vector2Int _size)
+        {
+
+            TopLeft = new Vector3Int(_bottomRight.x + _size.x - 1, _bottomRight.y + _size.y - 1, 0);
+            BottomRight = _bottomRight;
+
+            BottomLeft = new Vector3Int(TopLeft.x, BottomRight.y, 0);
+            TopRight = new Vector3Int(BottomRight.x, TopLeft.y, 0);
+
+            RegionSize = _size;
+
+            //NodeArray = new Node[_size.x, _size.y];
+            //LocalRegion = new List<LocalRegion>();
+
+            //for (int i = 0; i < (int)EnumTypes.Dir.DirMax; i++)
+            //{
+            //    Check[i] = false;
+            //}
+
+            //testlist.Contains
+            //NodeArray.
+
+        }
+
+    }
+
+    [System.Serializable]
+    public class testlocalregion
+    {
+        //public List<KeyValuePair<testlocalregion, int>> neighbor = new List<KeyValuePair<testlocalregion, int>>();
+        public List<Node> neighborstartnode = new List<Node>();
+        public List<int> neighbordis = new List<int>();
+        public Node StartNode;
+    }
+
+    [SerializeField]
+    public testregion[] testRegions;
+
     //맵을 넘어가지 않는 한 무조건 8*8 지역의 정보를 가지고 있는다.
     //그 중에서도 움직일 수 있는 지역을 하위 지역으로 가지고 있는다.
     //[System.Serializable]
@@ -255,7 +313,7 @@ public class AstarModule :MonoBehaviour/*: Singleton<AstarModule>*/
 
         RegionsSize = new Vector2Int(((MapSize.x / RegionSize.x) + 1),((MapSize.y / RegionSize.y) + 1));
         Regions = new Region[RegionsSize.x * RegionsSize.y];
-
+        testRegions = new testregion[RegionsSize.x * RegionsSize.y];
 
         //리전들을 만들어 주고 
         for (int y = MapBottomRight.y; y < MapTopLeft.y; y = y + RegionSize.y)
@@ -329,7 +387,7 @@ public class AstarModule :MonoBehaviour/*: Singleton<AstarModule>*/
             for(x = 0; x < RegionsSize.x; x++)
             {
                 //testlistdir = new List<bool>();
-                bool[] check = { false, false, false, false, false, false, false, false };
+                //bool[] check = { false, false, false, false, false, false, false, false };
 
                 for (int dir = 0; dir < 8; dir++)
                 {
@@ -412,11 +470,20 @@ public class AstarModule :MonoBehaviour/*: Singleton<AstarModule>*/
 
                         Region startRegion = Regions[x + (y * RegionsSize.x)];
                         Region destRegion = Regions[destx + (desty * RegionsSize.x)];
+
+                        testregion teststartRegion = testRegions[x + (y * RegionsSize.x)];
+                        testregion deststartRegion = testRegions[destx + (desty * RegionsSize.x)];
+
+
                         int startCount = startRegion.LocalRegion.Count;
                         int destCount = destRegion.LocalRegion.Count;
 
                         LocalRegion startLocalRegion;
                         LocalRegion destLocalRegion;
+
+                        testlocalregion teststartLocalRegion;
+                        testlocalregion testdestLocalRegion;
+
 
                         Vector3 startPos;
                         Vector3 destPos;
@@ -431,6 +498,11 @@ public class AstarModule :MonoBehaviour/*: Singleton<AstarModule>*/
                             {
                                 startLocalRegion = startRegion.LocalRegion[start];
                                 destLocalRegion = destRegion.LocalRegion[dest];
+
+                                teststartLocalRegion = teststartRegion.LocalRegion[start];
+                                testdestLocalRegion = deststartRegion.LocalRegion[dest];
+
+
                                 //Debug.Log($"{x + (y * RegionsSize.x)} 번째 리전 {start} 번째 로컬리전 [{startRegion.LocalRegion[start].NodeArray[0, 0].x},{startRegion.LocalRegion[start].NodeArray[0, 0].y} ]벽 검사 시작");
 
                                 //시작지점이 벽인지 확인하고
@@ -442,78 +514,83 @@ public class AstarModule :MonoBehaviour/*: Singleton<AstarModule>*/
                                     destPos = MapManager.Instance.MyGetCellCenterWorld(destRegion.LocalRegion[dest].StartNode.x, destRegion.LocalRegion[dest].StartNode.y);
 
                                     //경로 탐색
-                                    destList = PathFinding(bottomLeft, topRight, startPos, destPos);
+                                    destList = PathFinding(bottomLeft, topRight, startPos, destPos, false);
 
                                     //경로 존재
                                     if (destList != null)
                                     {
+                                        if(destList.Count<16)
+                                        {
+                                            //startRegion.NeighborRegion[dir] = destRegion;
+                                            //startRegion.NeighborDistance[dir] = destList.Count;
+                                            //startRegion.IsMoveable[dir] = 1;
 
-                                        //startRegion.NeighborRegion[dir] = destRegion;
-                                        //startRegion.NeighborDistance[dir] = destList.Count;
-                                        //startRegion.IsMoveable[dir] = 1;
+                                            //startLocalRegion.NeighborRegion[dir] = destLocalRegion;
+                                            //startLocalRegion.NeighborDistance[dir] = destList.Count;
+                                            //startLocalRegion.IsMoveable[dir] = 1;
 
-                                        //startLocalRegion.NeighborRegion[dir] = destLocalRegion;
-                                        //startLocalRegion.NeighborDistance[dir] = destList.Count;
-                                        //startLocalRegion.IsMoveable[dir] = 1;
+                                            startLocalRegion.neighberRegions.Add(new KeyValuePair<LocalRegion, int>(destLocalRegion, destList.Count));
+                                            teststartLocalRegion.neighborstartnode.Add(destLocalRegion.StartNode);
+                                            teststartLocalRegion.neighbordis.Add(destList.Count);
 
-                                        startLocalRegion.neighberRegions.Add(new KeyValuePair<LocalRegion, int>(destLocalRegion, destList.Count));
+                                            //destRegion.NeighborRegion[EnumTypes.R_Dir(dir)] = startRegion;
+                                            //destRegion.NeighborDistance[EnumTypes.R_Dir(dir)] = destList.Count;
+                                            //destRegion.IsMoveable[EnumTypes.R_Dir(dir)] = 1;
 
+                                            //destLocalRegion.NeighborRegion[EnumTypes.R_Dir(dir)] = startLocalRegion;
+                                            //destLocalRegion.NeighborDistance[EnumTypes.R_Dir(dir)] = destList.Count;
+                                            //destLocalRegion.IsMoveable[EnumTypes.R_Dir(dir)] = 1;
 
-                                        //destRegion.NeighborRegion[EnumTypes.R_Dir(dir)] = startRegion;
-                                        //destRegion.NeighborDistance[EnumTypes.R_Dir(dir)] = destList.Count;
-                                        //destRegion.IsMoveable[EnumTypes.R_Dir(dir)] = 1;
+                                            destLocalRegion.neighberRegions.Add(new KeyValuePair<LocalRegion, int>(startLocalRegion, destList.Count));
+                                            testdestLocalRegion.neighborstartnode.Add(startLocalRegion.StartNode);
+                                            testdestLocalRegion.neighbordis.Add(destList.Count);
 
-                                        //destLocalRegion.NeighborRegion[EnumTypes.R_Dir(dir)] = startLocalRegion;
-                                        //destLocalRegion.NeighborDistance[EnumTypes.R_Dir(dir)] = destList.Count;
-                                        //destLocalRegion.IsMoveable[EnumTypes.R_Dir(dir)] = 1;
+                                            /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+                                            ////중복된 노드인지도 확인을 할 필요가 있다.
+                                            //GrapheNode startnode = new GrapheNode(startLocalRegion, destList.Count, NodeGraphe.Count);
 
-                                        destLocalRegion.neighberRegions.Add(new KeyValuePair<LocalRegion, int>(startLocalRegion, destList.Count));
+                                            //startnode.x = startLocalRegion.StartNode.x;
+                                            //startnode.y = startLocalRegion.StartNode.y;
 
+                                            //if (NodeGraphe.Exists(a => a.IsEqual(startnode)))
+                                            //{
+                                            //    startnode = NodeGraphe.Find(a => a.IsEqual(startnode));
+                                            //}
+                                            //else
+                                            //{
+                                            //    NodeGraphe.Add(startnode);
+                                            //    startLocalRegion.grapheNode = startnode;
+                                            //}
 
-                                        /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-                                        ////중복된 노드인지도 확인을 할 필요가 있다.
-                                        //GrapheNode startnode = new GrapheNode(startLocalRegion, destList.Count, NodeGraphe.Count);
+                                            //GrapheNode destnode = new GrapheNode(destLocalRegion, destList.Count, NodeGraphe.Count);
+                                            //destnode.x = destLocalRegion.StartNode.x;
+                                            //destnode.y = destLocalRegion.StartNode.y;
 
-                                        //startnode.x = startLocalRegion.StartNode.x;
-                                        //startnode.y = startLocalRegion.StartNode.y;
-
-                                        //if (NodeGraphe.Exists(a => a.IsEqual(startnode)))
-                                        //{
-                                        //    startnode = NodeGraphe.Find(a => a.IsEqual(startnode));
-                                        //}
-                                        //else
-                                        //{
-                                        //    NodeGraphe.Add(startnode);
-                                        //    startLocalRegion.grapheNode = startnode;
-                                        //}
-
-                                        //GrapheNode destnode = new GrapheNode(destLocalRegion, destList.Count, NodeGraphe.Count);
-                                        //destnode.x = destLocalRegion.StartNode.x;
-                                        //destnode.y = destLocalRegion.StartNode.y;
-
-                                        //if (NodeGraphe.Exists(a => a.IsEqual(destnode)))
-                                        //{
-                                        //    destnode = NodeGraphe.Find(a => a.IsEqual(destnode));
-                                        //}
-                                        //else
-                                        //{
-                                        //    NodeGraphe.Add(destnode);
-                                        //    destLocalRegion.grapheNode = destnode;
-                                        //}
-
-
-                                        //GrapheWeight[startnode.Nodeindex, destnode.Nodeindex] = destList.Count;
-                                        //GrapheWeight[destnode.Nodeindex, startnode.Nodeindex] = destList.Count;
-                                        /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-                                        ///
+                                            //if (NodeGraphe.Exists(a => a.IsEqual(destnode)))
+                                            //{
+                                            //    destnode = NodeGraphe.Find(a => a.IsEqual(destnode));
+                                            //}
+                                            //else
+                                            //{
+                                            //    NodeGraphe.Add(destnode);
+                                            //    destLocalRegion.grapheNode = destnode;
+                                            //}
 
 
+                                            //GrapheWeight[startnode.Nodeindex, destnode.Nodeindex] = destList.Count;
+                                            //GrapheWeight[destnode.Nodeindex, startnode.Nodeindex] = destList.Count;
+                                            /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+                                            ///
 
-                                        //Debug.Log($"{x + (y * RegionsSize.x)} 번째 리전의 {start} 번째 로컬리전과 {destx + (desty * RegionsSize.x)}번째 리전의 {dest} 번째 로컬리전 검사" +
-                                        //   $"  [{startRegion.LocalRegion[start].StartNode.x},{startRegion.LocalRegion[start].StartNode.y} ] 경로 감지");
 
 
-                                        //testlistdir.Add(true);
+                                            //Debug.Log($"{x + (y * RegionsSize.x)} 번째 리전의 {start} 번째 로컬리전과 {destx + (desty * RegionsSize.x)}번째 리전의 {dest} 번째 로컬리전 검사" +
+                                            //   $"  [{startRegion.LocalRegion[start].StartNode.x},{startRegion.LocalRegion[start].StartNode.y} ] 경로 감지");
+
+
+                                            //testlistdir.Add(true);
+                                        }
+
                                     }
                                     //경로 존재 X
                                     else
@@ -532,8 +609,8 @@ public class AstarModule :MonoBehaviour/*: Singleton<AstarModule>*/
                             }
                         }
 
-                        Regions[x + (y * RegionsSize.x)].Check[dir] = true;
-                        Regions[x + (y * RegionsSize.x)].Check[EnumTypes.R_Dir(dir)] = true;
+                        startRegion.Check[dir] = true;
+                        destRegion.Check[EnumTypes.R_Dir(dir)] = true;
 
                     }//if(Regions[x + (y * RegionsSize.x)].Check[dir] == false)
 
@@ -615,11 +692,17 @@ public class AstarModule :MonoBehaviour/*: Singleton<AstarModule>*/
 
 
             Region region = new Region(bottomright, size);
+            testregion testRegion = new testregion(bottomright, size);
+
 
             region.regionIndex = new Vector2Int(bottomright.x, bottomright.y);
+            testRegion.regionIndex = new Vector2Int(bottomright.x, bottomright.y);
+
 
             //Regions.Add(region);
             Regions[(_bottomRight.x / RegionSize.x) + ((_bottomRight.y / RegionSize.y) * RegionsSize.x)] = region;
+            testRegions[(_bottomRight.x / RegionSize.x) + ((_bottomRight.y / RegionSize.y) * RegionsSize.x)] = testRegion;
+
 
             for (int y = bottomright.y; y < maxsize.y; y++)
             {
@@ -631,12 +714,13 @@ public class AstarModule :MonoBehaviour/*: Singleton<AstarModule>*/
 
                         //해당 리전이 하위 리전이 된다.
                         LocalRegion region2 = new LocalRegion(region);
-
+                        testlocalregion testregion2 = new testlocalregion();
 
                         //벽이 아니면
                         if (!MapManager.Instance.IsWall(new Vector3Int(x, y, 0)))
                         {
                             region2.StartNode = new Node(false, x, y);
+                            testregion2.StartNode = new Node(false, x, y);
 
                             //이어져있는 길들을 탐색해서 리젼을 만들어 준다.
                             CheckRoad(region2, x, y, bottomright.x + size.x, bottomright.y + size.y);
@@ -645,6 +729,8 @@ public class AstarModule :MonoBehaviour/*: Singleton<AstarModule>*/
                         else
                         {
                             region2.StartNode = new Node(true, x, y);
+                            testregion2.StartNode = new Node(true, x, y);
+
 
                             region2.color = new Color(1.0f, 1.0f, 1.0f);
                             CheckWall(region2, x, y, bottomright.x + size.x, bottomright.y + size.y);
@@ -652,6 +738,7 @@ public class AstarModule :MonoBehaviour/*: Singleton<AstarModule>*/
                         }
 
                         region.LocalRegion.Add(region2);
+                        testRegion.LocalRegion.Add(testregion2);
                     }
 
                 }
@@ -1024,7 +1111,7 @@ public class AstarModule :MonoBehaviour/*: Singleton<AstarModule>*/
 
     //강제로 사용 영역을 제한해주는 길찾기
     //3차원 공간의 좌표들을 넣어준다.
-    public List<Node> PathFinding(Vector2Int bottomLeft, Vector2Int topRight, Vector3 start, Vector3 target)
+    public List<Node> PathFinding(Vector2Int bottomLeft, Vector2Int topRight, Vector3 start, Vector3 target, bool allowDiagonal = true)
     {
         //초기 세팅 (시작점, 끝점, TopRight, BottomLeft 지정 리스트들 초기화 등등을 수행한다.)
         //PathSetting(start, target);
@@ -1327,7 +1414,7 @@ public class AstarModule :MonoBehaviour/*: Singleton<AstarModule>*/
 
             Debug.Log($"[길찾기] {limit} 번째 실행");
 
-            if (limit > 10)
+            if (limit > 100)
                 break;
 
             CurNode = OpenList[0];
@@ -1345,9 +1432,10 @@ public class AstarModule :MonoBehaviour/*: Singleton<AstarModule>*/
             ClosedList.Add(CurNode);
 
             // 마지막
-            if (CurNode == TargetNode)
+            if (CurNode.x == TargetNode.x && CurNode.y == TargetNode.y)
             {
-                Node TargetCurNode = TargetNode;
+                Node TargetCurNode = CurNode;
+
                 while (TargetCurNode != StartNode)
                 {
                     FinalNodeList.Add(TargetCurNode);
@@ -1371,21 +1459,26 @@ public class AstarModule :MonoBehaviour/*: Singleton<AstarModule>*/
                 MoveCost = neighborRegions[i].Value;
 
                 //닫힌 리스트에 해당 노드가 없고
-                if (!ClosedList.Contains(nextNode))
+                if (!ClosedList.Exists(a=>a.x==nextNode.x && a.y == nextNode.y))
                 {
                     // 이동비용이 이웃노드G보다 작거나 또는 열린리스트에 이웃노드가 없다면 G, H, ParentNode를 설정 후 열린리스트에 추가
-                    if (MoveCost < nextNode.G || !OpenList.Contains(nextNode))
+                    if (MoveCost < nextNode.G || !OpenList.Exists(a => a.x == nextNode.x && a.y == nextNode.y))
                     {
                         nextNode.G = MoveCost;
                         //NeighborNode.H = (Mathf.Abs(NeighborNode.x - TargetRegion.x) + Mathf.Abs(NeighborNode.y - TargetRegion.y)) * 10;
                         Vector3 nextPos = MapManager.Instance.MyGetCellCenterWorld(nextNode.x, nextNode.y);
                         Vector3 targetpos = MapManager.Instance.MyGetCellCenterWorld(TargetNode.x, TargetNode.y);
-                        nextNode.H = (int)Mathf.Abs(nextPos.x - targetpos.x) + (int)Mathf.Abs(nextPos.y - targetpos.y);
+
+                        nextNode.H = Mathf.Abs(nextNode.x - TargetNode.x) + Mathf.Abs(nextNode.y - TargetNode.y);
                         nextNode.ParentNode = CurNode;
 
                         OpenList.Add(nextNode);
                         //Debug.Log($"[길찾기] 다음 오픈 리스트에 {NeighborNode.Nodeindex} 번째 노드 추가");
                     }
+                }
+                else
+                {
+                    int a = 0;
                 }
             }
 
@@ -1534,6 +1627,7 @@ public class AstarModule :MonoBehaviour/*: Singleton<AstarModule>*/
                 }
             }
         }
+
         //if (FinalRegionList != null)
         //{
         //    if (FinalRegionList.Count != 0)
@@ -1548,54 +1642,72 @@ public class AstarModule :MonoBehaviour/*: Singleton<AstarModule>*/
         //    }
         //}
 
-        Gizmos.color = Color.white;
 
-        
+        //일반 길찾기 결과 보여줌
+        //Gizmos.color = Color.white;
 
-        if(TestFinalNodeListList!=null)
-        {
-            if (testColorList == null && TestFinalNodeListList.Count > 0)
-            {
-                testColorList = new List<Color>();
 
-                for (int i = 0; i < TestFinalNodeListList.Count; i++)
-                {
-                    testColorList.Add(new Color(Random.Range(0, 1.0f), Random.Range(0, 1.0f), Random.Range(0, 1.0f)));
-                }
-            }
+        //if (FinalNodeList.Count > 0)
+        //{
+        //    for (int i = 0; i < FinalNodeList.Count - 1; i++)
+        //    {
 
-            for (int j = 0; j < TestFinalNodeListList.Count; j++)
-            {
-                if (TestFinalNodeListList[j] != null)
-                {
-                    if (TestFinalNodeListList[j].Count != 0)
-                    {
-                        Gizmos.color = testColorList[j];
-                        for (int i = 0; i < TestFinalNodeListList[j].Count - 1; i++)
-                        {
-                            //Gizmos.DrawLine(new Vector2(FinalNodeList[i].x, FinalNodeList[i].y), new Vector2(FinalNodeList[i + 1].x, FinalNodeList[i + 1].y));
-                            Gizmos.DrawLine(MapManager.Instance.MyGetCellCenterWorld(TestFinalNodeListList[j][i].x, TestFinalNodeListList[j][i].y), MapManager.Instance.MyGetCellCenterWorld(TestFinalNodeListList[j][i + 1].x, TestFinalNodeListList[j][i + 1].y));
-                        }
+        //        //Gizmos.DrawLine(new Vector2(FinalNodeList[i].x, FinalNodeList[i].y), new Vector2(FinalNodeList[i + 1].x, FinalNodeList[i + 1].y));
+        //        Gizmos.DrawLine(MapManager.Instance.MyGetCellCenterWorld(FinalNodeList[i].x, FinalNodeList[i].y), MapManager.Instance.MyGetCellCenterWorld(FinalNodeList[i + 1].x, FinalNodeList[i + 1].y));
+        //    }
 
-                    }
-                }
-            }
-        }
-        
+        //}
+
+        //리전 초기화 보여줌
+        //if (!testStart)
+        //{
+        //    if (TestFinalNodeListList != null)
+        //    {
+        //        if (testColorList == null && TestFinalNodeListList.Count > 0)
+        //        {
+        //            testColorList = new List<Color>();
+
+        //            for (int i = 0; i < TestFinalNodeListList.Count; i++)
+        //            {
+        //                testColorList.Add(new Color(Random.Range(0, 1.0f), Random.Range(0, 1.0f), Random.Range(0, 1.0f)));
+        //            }
+        //        }
+
+        //        for (int j = 0; j < TestFinalNodeListList.Count; j++)
+        //        {
+        //            if (TestFinalNodeListList[j] != null)
+        //            {
+        //                if (TestFinalNodeListList[j].Count != 0)
+        //                {
+        //                    Gizmos.color = testColorList[j];
+        //                    for (int i = 0; i < TestFinalNodeListList[j].Count - 1; i++)
+        //                    {
+        //                        //Gizmos.DrawLine(new Vector2(FinalNodeList[i].x, FinalNodeList[i].y), new Vector2(FinalNodeList[i + 1].x, FinalNodeList[i + 1].y));
+        //                        Gizmos.DrawLine(MapManager.Instance.MyGetCellCenterWorld(TestFinalNodeListList[j][i].x, TestFinalNodeListList[j][i].y), MapManager.Instance.MyGetCellCenterWorld(TestFinalNodeListList[j][i + 1].x, TestFinalNodeListList[j][i + 1].y));
+        //                    }
+
+        //                }
+        //            }
+        //        }
+        //    }
+        //}
+
+
         //foreach (List<Node> FinalNodeList in TestFinalNodeListList)
         //{
-            
-            
+
+
         //}
-        
 
-        Vector3 _topright = MapManager.Instance.MyGetCellCenterWorld(topRight.x, topRight.y);
-        Vector3 _bottomleft = MapManager.Instance.MyGetCellCenterWorld(bottomLeft.x, bottomLeft.y);
 
-        Gizmos.color = Color.cyan;
-        Gizmos.DrawCube(_topright, new Vector3(0.4f, 0.4f, 0.4f));
-        Gizmos.color = Color.red;
-        Gizmos.DrawCube(_bottomleft, new Vector3(0.4f, 0.4f, 0.4f));
+        //클릭된 리전 보여줌
+        //Vector3 _topright = MapManager.Instance.MyGetCellCenterWorld(topRight.x, topRight.y);
+        //Vector3 _bottomleft = MapManager.Instance.MyGetCellCenterWorld(bottomLeft.x, bottomLeft.y);
+
+        //Gizmos.color = Color.cyan;
+        //Gizmos.DrawCube(_topright, new Vector3(0.4f, 0.4f, 0.4f));
+        //Gizmos.color = Color.red;
+        //Gizmos.DrawCube(_bottomleft, new Vector3(0.4f, 0.4f, 0.4f));
 
 
         DrawRegion();
@@ -1611,20 +1723,40 @@ public class AstarModule :MonoBehaviour/*: Singleton<AstarModule>*/
             for (int i = 0; i < Regions.Length; i++)
             {
 
-                Vector3 _topright = MapManager.Instance.MyGetCellCenterWorld(Regions[i].TopLeft.x, Regions[i].TopLeft.y);
-                Vector3 _bottomleft = MapManager.Instance.MyGetCellCenterWorld(Regions[i].BottomRight.x, Regions[i].BottomRight.y);
+                //Vector3 _topright = MapManager.Instance.MyGetCellCenterWorld(Regions[i].TopLeft.x, Regions[i].TopLeft.y);
+                //Vector3 _bottomleft = MapManager.Instance.MyGetCellCenterWorld(Regions[i].BottomRight.x, Regions[i].BottomRight.y);
 
-                Gizmos.color = Color.cyan;
-                Gizmos.DrawCube(_topright, new Vector3(0.4f, 0.4f, 0.4f));
-                Gizmos.color = Color.red;
-                Gizmos.DrawCube(_bottomleft, new Vector3(0.4f, 0.4f, 0.4f));
-                //Gizmos.DrawCube()
+                //Gizmos.color = Color.cyan;
+                //Gizmos.DrawCube(_topright, new Vector3(0.4f, 0.4f, 0.4f));
+                //Gizmos.color = Color.red;
+                //Gizmos.DrawCube(_bottomleft, new Vector3(0.4f, 0.4f, 0.4f));
+
+                //Gizmos.color = Regions[i].color;
+                //foreach (Node a in Regions[i].NodeArray)
+                //{
+                //    //Gizmos.color = Regions[i].color;
+
+                //    if (a != null)
+                //    {
+                //        //if(a.isWall)
+                //        //{
+                //        //    Gizmos.color = Color.white;
+                //        //}
+
+                //        Vector3 temp = MapManager.Instance.MyGetCellCenterWorld(a.x, a.y);
+
+                //        Gizmos.DrawCube(temp, new Vector3(0.2f, 0.2f, 0.2f));
+
+                //    }
+
+                //}
+
 
                 foreach (LocalRegion region in Regions[i].LocalRegion)
                 {
-                    Gizmos.color = Color.blue;
-                    Vector3 temp2 = MapManager.Instance.MyGetCellCenterWorld(region.StartNode.x, region.StartNode.y);
-                    Gizmos.DrawCube(temp2, new Vector3(0.4f, 0.4f, 0.4f));
+                    //Gizmos.color = Color.blue;
+                    //Vector3 temp2 = MapManager.Instance.MyGetCellCenterWorld(region.StartNode.x, region.StartNode.y);
+                    //Gizmos.DrawCube(temp2, new Vector3(0.4f, 0.4f, 0.4f));
 
                     Gizmos.color = region.color;
                     foreach (Node a in region.NodeArray)
@@ -1635,13 +1767,11 @@ public class AstarModule :MonoBehaviour/*: Singleton<AstarModule>*/
 
                             Gizmos.DrawCube(temp, new Vector3(0.2f, 0.2f, 0.2f));
 
-                            //for(int i=0;i<)
-
                         }
 
                     }
 
-                    
+
                 }
             }
         }
