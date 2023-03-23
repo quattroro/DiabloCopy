@@ -350,15 +350,15 @@ public class AstarModule : MonoBehaviour/*: Singleton<AstarModule>*/
     //각 인접 리전들끼리 이동이 가능한지, 이동이 가능하다면 거리가 얼마인지를 확인한다.
     public void RegionInitSetting()
     {
-        GrapheWeight = new int[GrapheMax, GrapheMax];
+        //GrapheWeight = new int[GrapheMax, GrapheMax];
 
-        for(int i=0;i< GrapheMax; i++)
-        {
-            for(int j=0;j< GrapheMax; j++)
-            {
-                GrapheWeight[j, i] = 0;
-            }
-        }
+        //for(int i=0;i< GrapheMax; i++)
+        //{
+        //    for(int j=0;j< GrapheMax; j++)
+        //    {
+        //        GrapheWeight[j, i] = 0;
+        //    }
+        //}
 
         if (Regions.Length <= 0 || Regions == null)
         {
@@ -623,6 +623,10 @@ public class AstarModule : MonoBehaviour/*: Singleton<AstarModule>*/
     }
 
 
+    public void LocalRegionSetting(LocalRegion localRegion)
+    {
+
+    }
 
     //환인을 한 루트인지 아닌지 확인을 한 뒤에 들어온다.
     public bool CkechMoveable(Region region1, Region region2, int dir)
